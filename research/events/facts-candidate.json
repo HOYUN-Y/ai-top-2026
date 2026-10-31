@@ -1,0 +1,151 @@
+{
+  "status": "2026-10-31 13:23 KST 후보. root가 knowledge 담당에게 인계한 체험 운영 기준 판독 결과다. runtime 미반영이며 root→review 검수 대기.",
+  "schema": "new_facts는 interviews/knowledge.json facts와 같은 필드(category, fact, source, conditions, uncertainty, id). updates는 기존 runtime id별 수정안이며 직접 반영하지 않는다.",
+  "source_document": "research/events/extracted/B55-01.png·B55-02.png 「교동마을 체험 운영 기준」(기준일 2037-06-30), 김청년 R5Q1 첨부(interviews/sources/round5-transcript.json, 응답 2026-10-31 13:12)",
+  "not_in_document": [
+    "프로그램명",
+    "요금·정산 기준",
+    "예약 마감",
+    "인원 하한",
+    "담당자 이름",
+    "가예약 유지 기간·결제 방법(팜플렛 참조)",
+    "시즌별 가능 시기(시즌 캘린더 참조)",
+    "사고 대응 절차",
+    "문서 §1"
+  ],
+  "new_facts": [
+    {
+      "id": "event-no-individual-roster",
+      "category": "policy",
+      "fact": "체험 프로그램은 문의 접수·가예약·최종 확정 어느 단계에서도 참가자 개별 명단(성명·나이·성별)을 받지 않는다. 미성년 등 제3자 정보를 대리인 진술로 수집·확정하지 않으며, 확정 뒤에도 조합이 참가자 개별 신원이나 동의서 원본을 추가로 수집하지 않는다.",
+      "source": "research/events/extracted/B55-01.png §2·§3 표 '참가자 개별 명단' 행; research/events/extracted/B55-02.png §5 미성년 행 '(§2)'",
+      "conditions": "「개인정보 처리방침」 제5조②의 확정 후 별도 동의 수집은 필요한 범위가 있는 경우의 일반 기준이다. 그 일반 기준을 근거로 이 프로그램에서 개별 명단을 요구하지 않는다. 고객 안내: 참가자 명단·개별 나이·동의서 사본을 보내 달라고 요청하지 않는다.",
+      "uncertainty": "「개인정보 처리방침」 원문과 제5조② 전문은 미확보."
+    },
+    {
+      "id": "event-past-records-not-basis",
+      "category": "policy",
+      "fact": "과거 행사에서 실제로 어떤 정보를 받았는지와 그 명단의 보유 상태는 「과거 행사 목록」에 기록한다. 과거의 접수 방식은 현재의 수집 근거가 되지 않는다.",
+      "source": "research/events/extracted/B55-01.png §2 첫 문단",
+      "conditions": "고객 안내: 예전 행사에서 명단을 받았다는 사실을 들어 지금 명단을 요구하지 않는다.",
+      "uncertainty": "「과거 행사 목록」은 미확보이며, 과거에 실제로 무엇을 받았는지는 알 수 없다."
+    },
+    {
+      "id": "event-provisional-reply-flow",
+      "category": "policy",
+      "fact": "가예약 단계에서는 시설·활동·안전을 확인한 뒤 문의한 같은 채팅으로 회신하고, 고객이 선택하면 예약 일정을 확보한다. 가예약 단계에서는 정보를 추가로 받지 않는다.",
+      "source": "research/events/extracted/B55-02.png §4 표 ② 가예약 행",
+      "conditions": "가예약 일정 확보는 최종 확정이 아니다. 최종 확정은 안전·보험·시설 확인이 끝난 뒤에만 한다(§4 ③). 고객용 예약 안내·확인 후 회신 절차의 세부는 「체험 프로그램 안내 팜플렛」을 따른다고 적혀 있다.",
+      "uncertainty": "가예약 유지 기간·결제·조합 승인 안내는 팜플렛에 있다고만 적혀 있고 팜플렛은 미확보다. 회신 기한은 문서에 없다."
+    },
+    {
+      "id": "event-capacity-duration",
+      "category": "policy",
+      "fact": "체험은 단체 1회 최대 30명, 개방일 총 약 40명까지 수용하며 활동 소요 시간은 2시간~2시간 30분이다. 활동별 운영 가능 시기는 다르다.",
+      "source": "research/events/extracted/B55-02.png §5 표; interviews/sources/round5-transcript.json 김청년 R5Q1(응답 13:12) 발언과 일치",
+      "conditions": "시즌별 가능 시기는 「교동마을 농산 시즌 캘린더」를 따른다고만 적혀 있다(미확보). 프로그램명·요금은 문서에 없으므로 안내하지 않는다.",
+      "uncertainty": "인원 하한, 개방일의 날짜, 시즌별 가능 시기는 미확인."
+    },
+    {
+      "id": "event-capacity-not-confirmation",
+      "category": "policy",
+      "fact": "수용 인원·소요 시간·계절·우천·미성년 요건은 회신 전에 확인해야 하는 항목이며, 이 항목만으로 예약 가능 여부를 확정하지 않는다. 인원 요건에 맞더라도 특정 날짜의 시설·활동·일정이 가능한지 확인해야 한다.",
+      "source": "research/events/extracted/B55-02.png §5 머리말; interviews/sources/round5-transcript.json 김청년 R5Q1(특정 날짜는 시설·일정 확인 뒤 회신)",
+      "conditions": "고객 안내: '30명 이하라서 가능합니다'처럼 인원만으로 특정일 가능을 말하지 않는다. 김청년이 시설·일정을 확인한 뒤 회신한다고 안내한다.",
+      "uncertainty": "특정일 확인을 누가 최종 판단하는지는 문서에 없다."
+    },
+    {
+      "id": "event-confirmation-extra-info",
+      "category": "policy",
+      "fact": "최종 확정 단계에서 추가로 받는 최소 정보는 인솔 책임자에 관한 정보와 동의 취합 완료 사실까지이며, 참가자 개별 신원은 아니다.",
+      "source": "research/events/extracted/B55-02.png §4 표 ③ 최종 확정 행과 표 아래 문단",
+      "conditions": "기존 event-intake-data의 '이후 단계 추가 정보는 원문에 없다'를 해소하는 사실이다. updates의 event-intake-data 수정안과 함께 반영하거나, 둘 중 하나만 반영한다.",
+      "uncertainty": "'인솔 책임자에 관한 정보'의 구체 항목은 문서에 없다."
+    }
+  ],
+  "updates": [
+    {
+      "id": "event-intake-data",
+      "field": "conditions·uncertainty",
+      "current": "conditions: 이후 단계(가예약·확정)에서 추가로 받는 정보는 원문에 없다. / uncertainty: 인원 상·하한과 접수 경로는 미확인.",
+      "proposed": {
+        "conditions": "범위: 접수 단계의 수집 항목이다. 가예약 단계에서는 추가 수집이 없다. 최종 확정 단계에서는 인솔 책임자에 관한 정보와 동의 취합 완료 사실까지만 추가로 받고 참가자 개별 신원은 받지 않는다. 참가자 개별 명단(성명·나이·성별)은 어느 단계에서도 받지 않는다.",
+        "uncertainty": "상한은 단체 1회 30명·개방일 약 40명으로 확인됐다(event-capacity-duration). 인원 하한과 가예약 회신 채팅 외의 접수 경로는 미확인. '인솔 책임자에 관한 정보'의 구체 항목도 미확인."
+      },
+      "add_source": "research/events/extracted/B55-01.png §3; research/events/extracted/B55-02.png §4·§5",
+      "reason": "확정 추가정보·상한 불확실 중 문서로 해결된 부분만 좁힌다."
+    },
+    {
+      "id": "event-reservation-stages",
+      "field": "conditions·uncertainty",
+      "current": "uncertainty: 최종 확정의 구체 기준과 '담당'이 누구인지는 미확인.",
+      "proposed": {
+        "conditions_append": "문서 기준: 최종 확정은 안전·보험·시설 확인이 끝난 뒤에만 한다. 가예약은 시설·활동·안전 확인 후 같은 채팅으로 회신 → 고객 선택 → 예약 일정 확보 순이다(event-provisional-reply-flow).",
+        "uncertainty": "확인 항목(안전·보험·시설)은 문서로 확인됐으나 각 확인의 세부 기준과 '담당'이 누구인지는 미확인. 문서에 담당자 이름이 없다."
+      },
+      "add_source": "research/events/extracted/B55-02.png §4",
+      "reason": "확정 조건은 문서로 좁혀지고, 담당자는 여전히 미확인."
+    },
+    {
+      "id": "event-minor-supervision-consent",
+      "field": "source·conditions",
+      "current": "source: 김청년 R4Q2만.",
+      "proposed": {
+        "conditions_append": "문서 기준: 동의서 원본과 참가자 개별 명단은 받지 않는다(§2·§5)."
+      },
+      "add_source": "research/events/extracted/B55-02.png §5 미성년 단체 추가 요건 행; research/events/extracted/B55-01.png §2",
+      "reason": "문서로 교차 확인. 미충족 시 처리는 문서에도 없어 미확인 유지."
+    },
+    {
+      "id": "event-minor-group-insurance",
+      "field": "source·uncertainty",
+      "current": "적용 문맥은 미성년 참가자가 있는 단체(E1로 한정).",
+      "proposed": {
+        "uncertainty_append": "운영 기준 문서 §5는 단체 상해보험을 '미성년 단체 추가 요건' 행에 둔다. §2에는 미성년 언급 없이 '인솔 단체가 보험 가입…을 맡고'라는 일반 문장이 있으나, 이것만으로 성인 단체까지 같은 가입 의무로 넓히지 않는다."
+      },
+      "add_source": "research/events/extracted/B55-02.png §5 미성년 행; research/events/extracted/B55-01.png §2",
+      "reason": "범위는 기존 E1 한정을 유지하고 문서 근거만 추가한다."
+    },
+    {
+      "id": "event-reservation-cutoff-unknown",
+      "field": "uncertainty",
+      "current": "마감 기준을 누가 아는지 미확인(고길동 경로는 미질문).",
+      "proposed": {
+        "uncertainty": "운영 기준 문서에도 예약 마감이 없다. 팜플렛의 '가예약 유지 기간'은 마감과 다른 항목이며 팜플렛은 미확보다. 마감 기준을 누가 아는지는 미확인."
+      },
+      "add_source": "research/events/extracted/B55-02.png §4 표 아래 문단",
+      "reason": "문서에도 없음을 기록하고, 가예약 유지 기간과 혼동하지 않게 한다."
+    },
+    {
+      "id": "event-headcount-fee-boundary",
+      "field": "source·uncertainty",
+      "current": "uncertainty: 인원 감소분 요금 기준 자체와 고길동이 그 기준을 아는지는 미확인.",
+      "proposed": {
+        "uncertainty": "고길동도 예약 인원과 실제 참석 인원 중 무엇으로 정산하는지 확실히 정할 기준이 없다고 했다(R5Q1). 고길동은 김청년과 기준을 맞춰 보라고 했고 정산 실무자로 이민준을 지목했다. 이민준이 그 기준을 아는지는 미확인. 운영 기준 문서에도 요금·정산 항목은 없다(결제 안내는 미확보 팜플렛 참조). 김청년·고길동에게 같은 질문을 다시 하지 않는다."
+      },
+      "add_source": "interviews/sources/round5-transcript.json 고길동 R5Q1(응답 13:09)",
+      "reason": "고길동 경로의 미확인을 해소(기준 없음)하고 다음 후보만 남긴다. 금액·기준은 추정하지 않는다."
+    },
+    {
+      "id": "event-accident-authority-boundary",
+      "field": "uncertainty",
+      "current": "사고 시 현장 조치·보고 순서 자체, '담당'이 누구인지, 조합 측 보험의 존재·범위는 미확인.",
+      "proposed": {
+        "uncertainty_append": "운영 기준 문서에도 사고 대응 절차는 없다. 건강 정보는 '필요 시 안전·보험 절차에서 별도 근거로' 받는다고만 적혀 있고 그 절차 문서는 미확보다."
+      },
+      "add_source": "research/events/extracted/B55-01.png §3 건강 정보 행",
+      "reason": "문서 확인 결과를 반영하되 미확인은 그대로 둔다. 선택 사항."
+    },
+    {
+      "id": "event-weather-cancellation",
+      "field": "conditions",
+      "note": "root 7건 밖의 기존 runtime fact다(김청년 R2Q1 출처).",
+      "current": "진행 여부는 행사 전날 17:00에 기상을 확인해 책임자에게 알리는 순서로 정한다.",
+      "proposed": {
+        "conditions_append": "문서 기준: 우천 시 일정 연기는 대체 일자 1회 조정이고, 연기가 어려우면 취소·전액환불이다. 17:00 기상 확인 결과는 인솔 책임자(고객 측)에게 통보한다. 조합 내부에서 진행·취소를 누가 정하는지는 문서에 없다."
+      },
+      "add_source": "research/events/extracted/B55-02.png §5 우천 대안 행",
+      "reason": "'책임자'의 통보 대상이 인솔 책임자로 특정됐다. 내부 결정자는 여전히 미확인."
+    }
+  ]
+}

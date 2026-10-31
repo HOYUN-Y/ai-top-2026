@@ -1,0 +1,115 @@
+{
+  "run_at": "2026-10-31T14:31:39.769850+09:00",
+  "model": "google/gemini-2.5-flash",
+  "messages_sha256": "a0da992fbab11895903b254a70d7b77438a6e42c9018fddff9c3947b1debbaf2",
+  "knowledge_same_as_s9": {
+    "interviews/knowledge.json": true,
+    "knowledge/interview-progress.json": true
+  },
+  "single_sample_each": true,
+  "actual_actions": 0,
+  "actual_callbacks": 0,
+  "variants": {
+    "A_all40_nested_S9": {
+      "started_at": "2026-10-31T14:31:39.797522+09:00",
+      "tools": 40,
+      "tools_sha256": "7d9ba1009a2ec8049740d92876f7355264973d93af3b8825fa0ceafbf6fa27f1",
+      "http": 200,
+      "latency_ms": 2340,
+      "finish_reason": "error",
+      "native_finish_reason": "MALFORMED_FUNCTION_CALL",
+      "usage": null,
+      "tool_calls": [],
+      "text": null,
+      "provider_error_code": null
+    },
+    "B_all40_flat_current": {
+      "started_at": "2026-10-31T14:31:42.138812+09:00",
+      "tools": 40,
+      "tools_sha256": "6d1cb36654c339445b724bbe63943779b662f08f25ccb14955571b8f615eca12",
+      "http": 200,
+      "latency_ms": 1614,
+      "finish_reason": "tool_calls",
+      "native_finish_reason": "STOP",
+      "usage": {
+        "prompt_tokens": 58000,
+        "completion_tokens": 58,
+        "total_tokens": 58058,
+        "cost": 0.00272416,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 54892,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.00272416,
+          "upstream_inference_prompt_cost": 0.00257916,
+          "upstream_inference_completions_cost": 0.000145
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "tool_calls": [
+        {
+          "name": "API-24",
+          "arguments": "{\"order_no\":\"100100003\",\"new_address\":\"경기 성남시 분당구 정자일로 95, 101동 1203호\"}"
+        }
+      ],
+      "text": null,
+      "provider_error_code": null
+    }
+  },
+  "manifest": {
+    "bot.py": {
+      "mtime": "2026-10-31T14:25:33.881510+09:00",
+      "sha256": "e0dce620ce45ed9cb31149bd10c1294f59b5c4257e656ef4c4047e974e43f22a"
+    },
+    "test_bot.py": {
+      "mtime": "2026-10-31T14:25:33.882101+09:00",
+      "sha256": "0491897ee31c02f897a495cdebba07e0ae5b9da492080d26708365f43728816a"
+    },
+    "media.py": {
+      "mtime": "2026-10-31T13:56:24.056831+09:00",
+      "sha256": "b4af7ac17f1889e73dd5a1f786d168bb6a9ab2ab85527c4c79ba199bae370af0"
+    },
+    "test_media.py": {
+      "mtime": "2026-10-31T13:56:24.082022+09:00",
+      "sha256": "56bedc586058160de1e0a1acfa52c3e5513949531d5c1fde8271f15761bbd862"
+    },
+    "README.md": {
+      "mtime": "2026-10-31T14:26:21.758776+09:00",
+      "sha256": "253c05a20afaf9672616cabcd892ded5ca0a2e88f782f99f1a99d248f416d394"
+    },
+    "docs/action-api/openapi.json": {
+      "mtime": "2026-10-31T13:20:11.238882+09:00",
+      "sha256": "20082b8f76e41f5d6f8e2a66be927f80e12540883e36198587ff93f64278911e"
+    },
+    "interviews/knowledge.json": {
+      "mtime": "2026-10-31T14:02:33.613190+09:00",
+      "sha256": "28c3bfb672e91f0110537ed16621ed9239f0ba3a1e301e421e57cd2e62180d5d"
+    },
+    "knowledge/interview-progress.json": {
+      "mtime": "2026-10-31T11:19:33.145534+09:00",
+      "sha256": "734af7702f0b9e016372f1210e25889951b5057233581df9c99a17d4bae5243d"
+    },
+    "coordination/action-readonly-check.json": {
+      "mtime": "2026-10-31T14:07:25.887146+09:00",
+      "sha256": "32c8f6bd6dbf9db635a9c9b9efc698b727428b1dc97d4bbbfc75aef5ccb7c9f0"
+    },
+    "coordination/reviewer-model-check-s9.json": {
+      "mtime": "2026-10-31T14:23:09.401410+09:00",
+      "sha256": "ad32cddbfe736333d4d323eae3c0fa96fc68707ab5c20f9606ca52ee6e242417"
+    },
+    "coordination/reviewer-model-fixture-s9.json": {
+      "mtime": "2026-10-31T14:24:28.216550+09:00",
+      "sha256": "ec76cd3aa1e006a50b0fd1df03870da0cb58e1f09776bd394fe6aa431b5ddbfb"
+    },
+    "captured": "2026-10-31T14:29:31.143435+09:00",
+    "comparison_note": "S10 code, frozen S9 knowledge for controlled A/B; messages digest a0da992f...bbaf2"
+  }
+}

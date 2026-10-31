@@ -1,0 +1,15 @@
+{
+  "updated_at": "2026-10-31T14:41:00+09:00",
+  "kakao_operator": "interview",
+  "bot_test_owner": "review",
+  "debrief_owner": "debrief",
+  "rule": "review는 실제 카카오 UI 테스트 전 root 인계를 요청. interview와 동시 조작 금지. 자료/모의/실모델검사는 UI 없이 병렬 진행.",
+  "bot_runtime": "root tool exec session 53696, temporary actions disabled; gateway READY14:11:40, callback success14:13:08 latency2185ms",
+  "last_test": "coordination/kakao-roundtrip.md; sent once, received once, no resend",
+  "debrief_pane": "wZ:pB; same-tab right below review; actual fork of root 01a18fbd-f165-73c2-a177-816d7c6a8c45 --no-daemon",
+  "owner": "review",
+  "status": "interview UI stopped after Hongbogirl final response; review final bot general inquiry authorized",
+  "bot": "멍멍이",
+  "channel": "http://pf.kakao.com/_xmaNWX",
+  "scope": "1 synthetic general inquiry; no actual action POST/reset"
+}

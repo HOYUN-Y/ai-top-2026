@@ -1,0 +1,118 @@
+{
+  "run_at": "2026-10-31 14:11:53 KST",
+  "model": "google/gemini-2.5-flash",
+  "knowledge_snapshot": [
+    {
+      "path": "knowledge/interview-progress.json",
+      "sha256": "734af7702f0b9e016372f1210e25889951b5057233581df9c99a17d4bae5243d"
+    },
+    {
+      "path": "interviews/knowledge.json",
+      "sha256": "28c3bfb672e91f0110537ed16621ed9239f0ba3a1e301e421e57cd2e62180d5d"
+    }
+  ],
+  "action_server": "MockTransport (synthetic L-03-like data)",
+  "turns": [
+    {
+      "customer": "case metadata\n- id: L-03\n- 상담 인입 일시: 2037-06-30(화) 15:16\n- 인입창구: 조합몰 1:1 채팅\n- 인입 계정: 회원 로그인 · 서지호 · 019-****-5231\n\n주소 잘못 넣었어요. 경기 성남시로 바꿔주세요.",
+      "latency_ms": 2341,
+      "reply": "주문번호를 알려주시면 배송지 변경 가능 여부를 확인해 드릴 수 있습니다.",
+      "action_requests": [],
+      "llm_meta": [
+        {
+          "http": 200,
+          "finish_reason": "stop",
+          "native_finish_reason": "STOP",
+          "error_code": null,
+          "error_message": "",
+          "tool_calls": 0,
+          "completion_tokens": 20,
+          "reasoning_tokens": 0,
+          "max_tokens": 512
+        }
+      ]
+    },
+    {
+      "customer": "100100003번 주문이에요. 이 주문 맞아요.",
+      "latency_ms": 3247,
+      "reply": "100100003번 주문은 아직 배송이 시작되지 않아 배송지 변경이 가능합니다. 경기 성남시의 상세 주소를 알려주시면 배송지 변경을 접수해 드리겠습니다.",
+      "action_requests": [
+        {
+          "method": "GET",
+          "path": "/api/orders/100100003",
+          "query": "",
+          "body": null,
+          "tc": "L-03"
+        },
+        {
+          "method": "GET",
+          "path": "/api/members/MB-SYN-1",
+          "query": "",
+          "body": null,
+          "tc": "L-03"
+        },
+        {
+          "method": "GET",
+          "path": "/api/shipments",
+          "query": "order_no=100100003",
+          "body": null,
+          "tc": "L-03"
+        }
+      ],
+      "llm_meta": [
+        {
+          "http": 200,
+          "finish_reason": "tool_calls",
+          "native_finish_reason": "STOP",
+          "error_code": null,
+          "error_message": "",
+          "tool_calls": 1,
+          "completion_tokens": 26,
+          "reasoning_tokens": 0,
+          "max_tokens": 512
+        },
+        {
+          "http": 200,
+          "finish_reason": "stop",
+          "native_finish_reason": "STOP",
+          "error_code": null,
+          "error_message": "",
+          "tool_calls": 0,
+          "completion_tokens": 49,
+          "reasoning_tokens": 0,
+          "max_tokens": 512
+        }
+      ]
+    },
+    {
+      "customer": "경기 성남시 분당구 정자일로 95, 101동 1203호예요.",
+      "latency_ms": 3683,
+      "reply": "지금은 답변을 처리할 수 없습니다. 잠시 후 다시 요청해 주세요.",
+      "action_requests": [],
+      "llm_meta": [
+        {
+          "http": 200,
+          "finish_reason": "error",
+          "native_finish_reason": "MALFORMED_FUNCTION_CALL",
+          "error_code": null,
+          "error_message": "",
+          "tool_calls": 0,
+          "completion_tokens": null,
+          "reasoning_tokens": null,
+          "max_tokens": 512
+        },
+        {
+          "http": 200,
+          "finish_reason": "error",
+          "native_finish_reason": "MALFORMED_FUNCTION_CALL",
+          "error_code": null,
+          "error_message": "",
+          "tool_calls": 0,
+          "completion_tokens": null,
+          "reasoning_tokens": null,
+          "max_tokens": 512
+        }
+      ]
+    }
+  ]
+}

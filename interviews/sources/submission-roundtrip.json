@@ -1,0 +1,19 @@
+{
+  "channel_name": "멍멍이",
+  "url": "http://pf.kakao.com/_xmaNWX",
+  "sent_at_observed": "2026-10-31T14:13:05.767+09:00",
+  "sent_ui_time": "14:13",
+  "message": "교동마을 산지직송에서는 농산물과 수산물을 모두 살 수 있나요?",
+  "outgoing_bubbles": 1,
+  "response_status": "수신 완료",
+  "responses": [
+    "네, 교동마을 산지직송에서는 농산물과 수산물을 모두 구매할 수 있습니다. 농산물은 교동마을에서 직판하고, 수산물은 갯마을에서 위탁 판매합니다."
+  ],
+  "retries": 0,
+  "npc_interview_counted": false,
+  "mode_reported_by_root": "액션API OFF 테스트모드, gateway14:11:40 READY",
+  "response_ui_time": "14:13",
+  "response_observed_at": "2026-10-31T14:13:45.656+09:00",
+  "incoming_response_bubbles": 1,
+  "additional_tests_stopped": true
+}

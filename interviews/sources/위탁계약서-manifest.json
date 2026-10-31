@@ -1,0 +1,16 @@
+{
+  "title": "수산물 위탁 판매 계약서",
+  "source_url": "https://t1.kakaocdn.net/aitop100/aitop100/dist/VPaqTY6ACayEeUct0aT6aw.pdf",
+  "provided_by": "홍이장 질문1, 응답2026-10-31 11:43 KST",
+  "path": "interviews/sources/VPaqTY6ACayEeUct0aT6aw.pdf",
+  "sha256": "b9b4ad7ef4a3a80822240a991e77940f2ea6007be3c8dd410a3df7de8fd403ab",
+  "bytes": 155880,
+  "pages": 5,
+  "reference_date": "2037-06-30",
+  "effective_date": "2037-03-02",
+  "review": "pdftotext 전체추출 + pdftoppm PNG5쪽 직접시각검토",
+  "safety": "PDF1.4, 암호화 없음, pdfinfo JavaScript:no. 파일 실행·API 호출 없이 문서 파싱·렌더만 수행. ZIP아님.",
+  "download_note": "일반 샌드박스 DNS실패 후 승인된 네트워크 실행으로 다운로드 성공",
+  "extracted_text": "interviews/sources/위탁계약서-추출.txt",
+  "render_dir": "interviews/sources/위탁계약서-render"
+}

@@ -1,0 +1,28 @@
+{
+  "checked_at": "2026-10-31T14:47:00+09:00",
+  "runtime": "/Users/lyuhoyun/.local/share/ai-top-2026",
+  "service": "gui/501/local.ai-top-2026.bot",
+  "gateway_ready": [
+    "2026-10-31 14:38:25.706",
+    "2026-10-31 14:39:26.984"
+  ],
+  "forced_termination": "SIGKILL once",
+  "launchd_state": "running",
+  "launchd_runs": 2,
+  "pid_after_restart": 62940,
+  "operations": 40,
+  "mock_tests": 55,
+  "actual_action_post": 0,
+  "final_kakao_test": {
+    "status": "callback success; user-provided reply matched log length",
+    "at": "2026-10-31 14:46:39.720 KST",
+    "latency_ms": 3015,
+    "bubbles": 1,
+    "characters": 234,
+    "quality_limit": "Unsupported mandatory in-person visit wording",
+    "record": "coordination/kakao-roundtrip-final.md"
+  },
+  "bot_sha256": "e0dce620ce45ed9cb31149bd10c1294f59b5c4257e656ef4c4047e974e43f22a",
+  "knowledge_facts": 255,
+  "initial_facts": 11
+}

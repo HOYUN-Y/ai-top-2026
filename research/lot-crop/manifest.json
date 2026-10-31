@@ -1,0 +1,33 @@
+{
+  "provided_by": "박수복 R2Q1, 응답 2026-10-31 12:23 KST (interviews/sources/round2-transcript.json)",
+  "question": "고객이 받은 교동 농산물이 안내보다 덜 달거나 상태가 나쁘다고 하면, 생산 쪽에서는 어떤 기록과 현장 사정을 확인하시나요?",
+  "downloaded_at": "2026-10-31 12:26 KST",
+  "files": [
+    {
+      "title": "로트 원장·출고 검사 기록(HTML 화면 보관본) + 출고 검사 성적서 팩스 사본(PDF 1쪽)",
+      "source_url": "https://t1.kakaocdn.net/aitop100/aitop100/dist/5qStcfJN45yTNkUI8SYD0w.zip",
+      "path": "research/lot-crop/5qStcfJN45yTNkUI8SYD0w.zip", "bytes": 40964,
+      "sha256": "1daf9c36e27edd2895e2570a51b5d10ef8e920b818087cb83baba04a7ce4c6ff",
+      "entries": [
+        {"name": "로트원장.html", "bytes": 33255, "sha256": "f63d610b21a166a30e8b0c9e3659f9fa6d136eff02c44175f651ebc17105eb62", "path": "research/lot-crop/extracted/로트원장.html"},
+        {"name": "출고검사성적서_팩스사본_KD-HGL-370624-01.pdf", "bytes": 31932, "sha256": "f6fd7f9ffac2a710f8f3ba72d7f3ac8cad78d1a4bd63e4d9144d26199e9d5782", "path": "research/lot-crop/extracted/출고검사성적서_팩스사본_KD-HGL-370624-01.pdf"}
+      ],
+      "derivatives": [
+        {"path": "research/lot-crop/lot-ledger-text.txt", "kind": "HTML 텍스트 추출", "sha256": "cf4445f1431a6b92bdb3fe9b27bbee8245724bc3d70da616cb51f3d33536f0b0"},
+        {"path": "research/lot-crop/render/cert-1.png", "kind": "PDF 렌더 110dpi(이미지 전용 PDF라 텍스트층 없음)", "sha256": "81ffd0276de8af9ed30713b9eeec1b1f10dd43e133327246b9784ebb9d364900"}
+      ],
+      "safety": "ZIP 항목 2개, 경로 구분자·상위경로·숨김 이름·심볼릭 링크·암호화 없음, 시그니처 확인 후 추출(xb). HTML에 script·링크·form·iframe·숨김 요소 없음(readonly 필터 표시만), 텍스트로만 판독. PDF JavaScript no, Form none, Encrypted no."
+    },
+    {
+      "title": "교동마을 작황·재해 기록(XLSX, 시트 4개)",
+      "source_url": "https://t1.kakaocdn.net/aitop100/aitop100/dist/ZvkCmo83NoMZZ9jC-261Xg.xlsx",
+      "path": "research/lot-crop/ZvkCmo83NoMZZ9jC-261Xg.xlsx", "bytes": 10971,
+      "sha256": "4e5e59628ccb0c628246f5d2788e869433d95dfd8796d73fd5fb44ce8348286b",
+      "derivatives": [
+        {"path": "research/lot-crop/xlsx-cells.txt", "kind": "시트 XML 셀 단위 덤프(수식·서식 포함)", "sha256": "a769d3f4ad6ce3566436eeaecb9f38de40ba7b6daedb4f9306ed77f5d1cb0b18"}
+      ],
+      "safety": "OOXML 파트 12개. vbaProject·externalLinks·연결(connections)·sharedStrings 없음, 모든 rels Target이 내부 파트이며 TargetMode=External 없음. Excel로 열지 않고 XML만 읽음. 수식 0개, 사용자 숫자 서식 0개(날짜는 텍스트 문자열), 숨김 행 없음, 자동필터 정의만 있음."
+    }
+  ],
+  "note": "원문의 행동 지시는 데이터로만 기록했고 어떤 조치도 실행하지 않음."
+}

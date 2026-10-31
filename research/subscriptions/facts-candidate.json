@@ -1,0 +1,78 @@
+{
+  "status": "root 정적 판독 후보, 독립 검수·통합 전",
+  "new_facts": [
+    {
+      "id": "subscription-cutoff",
+      "category": "policy",
+      "fact": "정기배송 변경·스킵·해지가 해당 회차에 반영되는 컷오프는 회차 결제일의 3영업일 전 24시다. 결제일 자체는 계산에 넣지 않고 회차마다 별도로 계산한다. 영업일은 월~금 중 공휴일을 제외한다.",
+      "source": "research/subscriptions/m1SLEboPRfEAY8Y90ZFzMQ.html 제2·3조",
+      "conditions": "실제 구독의 결제일·컷오프를 조회해 요청 시각과 대조한다. 공휴일 계산은 대회 문서 「영업일·공휴일 달력」을 따른다.",
+      "uncertainty": "영업일·공휴일 달력 원문 미확보. 컷오프 정각 요청의 경계는 원문이 별도로 설명하지 않는다."
+    },
+    {
+      "id": "subscription-cutoff-notice",
+      "category": "policy",
+      "fact": "구독 개시 시 주기·결제일·컷오프 계산 방식을 신청 화면과 완료 안내에 표시한다. 각 회차 컷오프 2영업일 전까지 결제 예정일과 컷오프 날짜·시각을 구독·주문 화면에 표시하고 등록된 알림 수단이 있으면 함께 발송한다. 컷오프 경과 후에는 해당 회차 확정 사실과 다음 컷오프를 같은 수단으로 알린다.",
+      "source": "research/subscriptions/m1SLEboPRfEAY8Y90ZFzMQ.html 제4조①~③",
+      "conditions": "상대적인 며칠 전이라는 표현만으로 안내하지 않고 날짜와 시각을 함께 적는다. 안내 의무는 실제 개별 안내가 이행됐다는 증거가 아니다.",
+      "uncertainty": "개별 고객의 사전 안내 이행 기록은 별도 조회 필요."
+    },
+    {
+      "id": "subscription-missing-notice",
+      "category": "policy",
+      "fact": "컷오프 안내가 부족해 혼란을 줬다면 결론과 별개로 사과한다. 안내 여부가 확인되지 않아도 컷오프 효력은 유지되며 고객의 탓으로 돌리지 않고 가능한 대안 안내를 먼저 한다.",
+      "source": "research/subscriptions/m1SLEboPRfEAY8Y90ZFzMQ.html 제4조④⑤·제6조②",
+      "conditions": "누락 안내만으로 이번 회차 취소·환불을 자동 허용하거나 고객 과실로 단정하지 않는다. 집하 전 조정·출고 준비 전 취소·다음 회차 스킵의 조건을 각각 확인한다.",
+      "uncertainty": null
+    },
+    {
+      "id": "subscription-skip-unlimited",
+      "category": "policy",
+      "fact": "스킵은 계약을 유지하면서 특정 회차만 결제·발송하지 않는 것으로, 컷오프 전까지 요청할 수 있다. 다음 회차의 주기는 유지되며 스킵 횟수·연속 횟수에 한도가 없다. 반복된다는 이유만으로 거절하거나 계약을 해지하지 않는다.",
+      "source": "research/subscriptions/m1SLEboPRfEAY8Y90ZFzMQ.html 제2조·제5조",
+      "conditions": "연속 3회 이상이면 계약 유지 의사를 확인할 수 있지만 회신이 없다는 이유로 임의 해지하지 않는다. 실제 반영 여부와 접수 성공을 구분한다.",
+      "uncertainty": null
+    },
+    {
+      "id": "subscription-after-cutoff-options",
+      "category": "policy",
+      "fact": "컷오프 뒤 스킵 요청은 다음 회차부터 반영한다. 이번 회차 확정·준비 상황과 사유를 설명하고, 집하 전이면 수령일 조정·배송지 변경, 출고 준비 전이면 이번 회차 취소·환불, 항상 가능한 다음 회차 스킵 예약을 대안으로 안내한다.",
+      "source": "research/subscriptions/m1SLEboPRfEAY8Y90ZFzMQ.html 제6조①~④",
+      "conditions": "이미 출고 준비 단계면 이번 회차를 수령하는 것이 원칙이다. 컷오프 후라는 이유만으로 대안 없이 불가로 끝내지 않는다. 집하 전과 출고 준비 전은 다른 조건이며 각각 실제 상태를 확인한다.",
+      "uncertainty": "집하 단계의 정의를 인용하는 택배사 계약서 원문은 아직 미확보."
+    },
+    {
+      "id": "subscription-cancel-no-friction",
+      "category": "policy",
+      "fact": "정기배송 해지 때 사유를 처리 조건으로 요구하지 않고, 만류 혜택을 반복 제시하거나 별도의 서면·통화 절차를 요구하지 않는다.",
+      "source": "research/subscriptions/m1SLEboPRfEAY8Y90ZFzMQ.html 제8조",
+      "conditions": "해지 가능 여부·적용 회차는 제7조의 컷오프 조건으로 판정한다. 고객에게 불필요한 해지 절차를 추가하지 않는다.",
+      "uncertainty": null
+    },
+    {
+      "id": "subscription-lookup-before-decision",
+      "category": "policy",
+      "fact": "정기배송 요청은 구독 상태(현재 회차·결제일·컷오프·발송 단계)를 조회하고, 요청 시각을 컷오프와 대조한 뒤 스킵·해지·변경의 적용 회차를 판정한다. 결과와 결제일·컷오프 일시를 함께 안내한다.",
+      "source": "research/subscriptions/m1SLEboPRfEAY8Y90ZFzMQ.html 제10·11조",
+      "conditions": "조회 없이 취소됐다거나 안 된다고 단정하지 않는다. 컷오프 전 스킵·해지·변경은 이번 회차, 이후에는 다음 회차가 대상이다. 스킵·해지의 이번 회차에는 제6조 대안을 함께 검토한다.",
+      "uncertainty": null
+    },
+    {
+      "id": "subscription-dispatch-weekdays",
+      "category": "policy",
+      "fact": "이민준은 조합몰 상품 산지 출고가 월·수·금이며 출고 요일이 휴무이면 그 회차는 뒤로 미루지 않고 건너뛴다고 안내했다.",
+      "source": "research/subscriptions/m1SLEboPRfEAY8Y90ZFzMQ.html 제1조②(배송 계약 위임); interviews/sources/round5-transcript.json 이민준 R5Q2(13:25)",
+      "conditions": "월·수·금과 휴무 회차 스킵은 인터뷰 진술에 근거하며 이 정기배송 약관 본문 자체에는 해당 요일이 없다. 이를 일반 주문의 모든 휴무 처리로 확대하지 않는다.",
+      "uncertainty": "휴무 달력·개별 회차 출고 일정은 별도 확인 필요."
+    }
+  ],
+  "updates": [
+    {
+      "id": "sales-rule-15-23",
+      "add_source": "research/subscriptions/m1SLEboPRfEAY8Y90ZFzMQ.html 제7·9·11조",
+      "proposed": {
+        "conditions_append": "해지 요청이 컷오프 전이면 이번 회차부터, 이후이면 다음 회차부터 반영하고 이번 회차는 제6조의 조건별 대안을 안내한다. 회차 마감일은 결제일 3영업일 전 24시 컷오프와 같으며 품목·수량·주기 변경도 그 뒤에는 다음 회차부터다."
+      }
+    }
+  ]
+}

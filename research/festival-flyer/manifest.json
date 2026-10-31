@@ -1,0 +1,27 @@
+{
+  "source_url": "https://t1.kakaocdn.net/aitop100/aitop100/dist/man1JtPrzVwhNvrBQ15ZsQ.zip",
+  "provider": "고길동",
+  "question": "R8Q2",
+  "response_ui_time": "2026-10-31 14:23 KST",
+  "retrieved_at": "2026-10-31T14:28:20",
+  "archive_path": "research/festival-flyer/raw/man1JtPrzVwhNvrBQ15ZsQ.zip",
+  "archive_bytes": 4296246,
+  "archive_sha256": "6f1e070018884155e9f71eabaea44f384af289d83cd7bdcb219fb7ce50ea56df",
+  "files": [
+    {
+      "name": "D42_front-photo.png",
+      "path": "research/festival-flyer/extracted/D42_front-photo.png",
+      "bytes": 2257280,
+      "sha256": "ffdfc5360c2af76c903dcdfa0a1ad7e0751a431d3171df89bbb438d710297c36"
+    },
+    {
+      "name": "D42_back-photo.png",
+      "path": "research/festival-flyer/extracted/D42_back-photo.png",
+      "bytes": 2066180,
+      "sha256": "779fe898ec26805cb896ec317630b123878590f654574c0cb41ce64a78d3fe3b"
+    }
+  ],
+  "safety": "HTTPS·크기 상한. ZIP 항목 2개 이름·경로 검증, PNG 서명 확인. 이미지를 직접 읽음.",
+  "owner": "knowledge(R8 신규 자료 단독 수집)",
+  "status": "판독 완료. notes: research/festival-flyer-notes.md, 후보: research/festival-flyer/facts-candidate.json"
+}

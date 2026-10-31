@@ -1,0 +1,57 @@
+{
+ "title": "시원배송 결항·집하 기록(xlsx) + 기기 촬영 화면 5장",
+ "source_url": "https://t1.kakaocdn.net/aitop100/aitop100/dist/hlI1ZFiRXl4sgzAw6HF52Q.zip",
+ "provided_by": "구방만 4차 질문2, 응답 UI 2026-10-31 13:03 KST (interviews/sources/round4-transcript.json)",
+ "question": "결항 때문에 배송이 늦어졌는데 특보가 풀렸으니 바로 받을 수 있느냐고 묻습니다. 집하·간선 재개와 실제 배송 가능 시점은 어떤 기록으로 확인하시나요?",
+ "downloaded_at": "2026-10-31 13:05 KST",
+ "zip": {
+  "path": "research/transport/raw/hlI1ZFiRXl4sgzAw6HF52Q.zip",
+  "bytes": 7259735,
+  "sha256": "4fda862d5da27d33c7296e9c747240f9b146c1c0107cdab44ccb05c83da4fe12"
+ },
+ "entries": [
+  {
+   "name": "결항집하기록.xlsx",
+   "bytes": 12698,
+   "sha256": "bcff6e21ce3737c6c113c91006464269fe0c8685bb58b3c5aa050ec95acc4960",
+   "path": "research/transport/extracted/결항집하기록.xlsx"
+  },
+  {
+   "name": "기기촬영/C54_01.png",
+   "bytes": 1448613,
+   "sha256": "43adfe7605b258f70774512593204d53768cfbb74b9ce0be40909d6392daf2b1",
+   "path": "research/transport/extracted/기기촬영/C54_01.png",
+   "pixels": "1512x1040"
+  },
+  {
+   "name": "기기촬영/C54_02.png",
+   "bytes": 1454096,
+   "sha256": "a7b0eac56264047359e55002d4968d8d6001f9478cc85aeae56f8a7b79988a64",
+   "path": "research/transport/extracted/기기촬영/C54_02.png",
+   "pixels": "1512x1040"
+  },
+  {
+   "name": "기기촬영/C54_03.png",
+   "bytes": 1445586,
+   "sha256": "74909645bfa72d140c610ae1e857082f295b444f49bce544dddd14e5dbd2ec71",
+   "path": "research/transport/extracted/기기촬영/C54_03.png",
+   "pixels": "1512x1040"
+  },
+  {
+   "name": "기기촬영/C54_04.png",
+   "bytes": 1470941,
+   "sha256": "923dea87afda585d8c3a51640b473d8c933d299c1b39af70e7825f006163e728",
+   "path": "research/transport/extracted/기기촬영/C54_04.png",
+   "pixels": "1513x1040"
+  },
+  {
+   "name": "기기촬영/C54_05.png",
+   "bytes": 1492039,
+   "sha256": "eccea5f43d053564b4ad23a41cf51cba1f0e855dee8be384f939701cdbde02bf",
+   "path": "research/transport/extracted/기기촬영/C54_05.png",
+   "pixels": "1512x1040"
+  }
+ ],
+ "safety": "ZIP 항목 6개(xlsx 1, png 5, 하위 폴더 기기촬영/ 1개). 주석·암호화·심볼릭 링크 없음, 압축비 약 1.0. 절대경로·상위경로 없음을 확인하고 파일명을 한글·영숫자·_-만 허용하는 패턴으로 검증했다. PNG 시그니처와 xlsx PK 시그니처를 확인했고 xlsx 내부에 vba·bin·exe 항목이 없음을 확인했다. Python zipfile로 이 항목들만 extracted/에 썼다. 아무것도 실행하지 않았다.",
+ "review": "xlsx는 셀 XML만 정적으로 읽어 xlsx-cells.txt에 전체를 옮겼다(수식 없음). PNG 5장은 원본으로 직접 시각 판독해 셀 원문과 대조했다(OCR 미사용)."
+}

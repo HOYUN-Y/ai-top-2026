@@ -1,0 +1,17 @@
+{
+  "title": "규정·대응방안 개정 이력(DOCX) + 「판매·환불 규정집」 제정판 종이 사본 사진(PNG)",
+  "source_url": "https://t1.kakaocdn.net/aitop100/aitop100/dist/7pwiM8P_JmEfMSbzvIuwuQ.zip",
+  "provided_by": "고길동 R2Q4, 응답 2026-10-31 12:19 KST (interviews/sources/round2-transcript.json)",
+  "question": "고객이 예전에 안내받은 조건과 현재 조합 규정이 다르다고 하면, 규정이 바뀐 시점과 적용 대상을 확인해 줄 조합 운영·제도 담당자와 카카오톡 연락창구를 알려주시겠습니까?",
+  "downloaded_at": "2026-10-31 12:21 KST",
+  "zip": {"path": "research/revisions/7pwiM8P_JmEfMSbzvIuwuQ.zip", "bytes": 1889042, "sha256": "2f0631c43808a277d9c81f012c4510012e921be033f09e017c790bba2fa32910"},
+  "entries": [
+    {"name": "B09_revision-history.docx", "bytes": 43398, "sha256": "5bba3bc69450eeafd3a49f7a127f1652c31bf8ae329c9e3e11b510c91748cc58", "path": "research/revisions/extracted/B09_revision-history.docx"},
+    {"name": "B09_old-paper-photo.png", "bytes": 2013227, "sha256": "8df97df9497dc43b73b55dc1afd8cf03f51b618b1d6e609cbf5b89be98ce4855", "path": "research/revisions/extracted/B09_old-paper-photo.png", "pixels": "1024x1536"}
+  ],
+  "derivatives": [
+    {"path": "research/revisions/revision-history-text.txt", "kind": "DOCX word/document.xml 문단·표 텍스트 추출(표는 행 단위)", "bytes": 13778, "sha256": "935b69b9fc338f8baabc5df968e926074243818043eb03108c4175e49b9c4e2c"}
+  ],
+  "safety": "ZIP 항목 2개, 주석·암호화·심볼릭 링크 없음. 파일명을 [A-Za-z0-9_-]+.(png|docx)로 검증하고 PNG/PK 시그니처 확인 후 추출(xb). DOCX 내부 17개 파트에 매크로(vba/.bin) 없음, 외부 링크(TargetMode=External) 없음. DOCX는 열지 않고 XML 텍스트만 읽음. 아무것도 실행하지 않음.",
+  "review": "DOCX 전체 문단·표를 텍스트로 판독. PNG는 원본 해상도로 직접 시각 판독(손글씨 아님, 인쇄물 사진)."
+}

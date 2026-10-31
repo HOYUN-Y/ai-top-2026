@@ -1,0 +1,20 @@
+{
+  "checked_at": "2026-10-31T14:07:25",
+  "scope": "One read-only practice request for public TC L-47. No filing/reset.",
+  "operation": "API-20",
+  "code": "CARE5000",
+  "status": 200,
+  "body": {
+    "code": "CARE5000",
+    "name": "2차 불편 — 파손 오염·재배송 등 보상 쿠폰",
+    "benefit_type": "AMOUNT",
+    "benefit_value": 5000,
+    "valid_from": "2037-03-02",
+    "valid_until": null,
+    "target_skus": null,
+    "stackable_with": [
+      "DISCOUNT_CODE",
+      "POINTS"
+    ]
+  }
+}

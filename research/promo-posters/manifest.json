@@ -1,0 +1,64 @@
+{
+ "title": "홍보 게시물 대조 기준 + 게시물 이미지 5장 + 게시물 상태 기록",
+ "source_url": "https://t1.kakaocdn.net/aitop100/aitop100/dist/TLV6tPKcBzRIuVib6Mj6cw.zip",
+ "provided_by": "홍보라 2차 질문1, 응답 2026-10-31 12:11 KST (interviews/sources/round2-transcript.json)",
+ "question": "고객이 홍보물에서 본 할인이 결제 때 적용되지 않았다고 하면, 홍보라님은 무엇을 확인하시고 그 결과를 누구에게 알려주시나요?",
+ "downloaded_at": "2026-10-31 12:13 KST",
+ "zip": {
+  "path": "research/promo-posters/raw/TLV6tPKcBzRIuVib6Mj6cw.zip",
+  "bytes": 7876963,
+  "sha256": "8e3c3f0175e77ee243d82e860ee632fe2b898903b666f7279e6fd8749f240050"
+ },
+ "entries": [
+  {
+   "name": "A07_post-status.docx",
+   "bytes": 37926,
+   "sha256": "47ef5d20cec29f2acc247bfc4e3c8e7516afb7d516099f17d38d1b49c9531463",
+   "path": "research/promo-posters/extracted/A07_post-status.docx"
+  },
+  {
+   "name": "A07_post_01.png",
+   "bytes": 1681098,
+   "sha256": "0745d6a475d2ec5177278f0a7c022524e6b3067c3277d5856fc065b812592715",
+   "path": "research/promo-posters/extracted/A07_post_01.png",
+   "pixels": "1080x1920"
+  },
+  {
+   "name": "A07_post_02.png",
+   "bytes": 1613763,
+   "sha256": "d79689db121e39d8b314fccda7d14cc41ebe74b77b94d77bad9541c812e6095d",
+   "path": "research/promo-posters/extracted/A07_post_02.png",
+   "pixels": "1080x1920"
+  },
+  {
+   "name": "A07_post_03.png",
+   "bytes": 1339222,
+   "sha256": "e95a35222966563c0d45e47bc3de1105353d965da5502c4d0638c506f3709326",
+   "path": "research/promo-posters/extracted/A07_post_03.png",
+   "pixels": "1080x1664"
+  },
+  {
+   "name": "A07_post_04.png",
+   "bytes": 1687312,
+   "sha256": "8c48871758c69dd5a4258c799a68dacbc1e43429b413f4b3db31fd992464a392",
+   "path": "research/promo-posters/extracted/A07_post_04.png",
+   "pixels": "1080x1920"
+  },
+  {
+   "name": "A07_post_05.png",
+   "bytes": 1490981,
+   "sha256": "8878e4677cf63e7f7a26d3a29b1bdb41c4c53ab281777fef42033c8128f71a98",
+   "path": "research/promo-posters/extracted/A07_post_05.png",
+   "pixels": "1080x1920"
+  },
+  {
+   "name": "A07_promotion-rules.docx",
+   "bytes": 37248,
+   "sha256": "cf848ec7fec322335a21ec20fff1b0005c7bec26f02f66eaa6747e9187674fcd",
+   "path": "research/promo-posters/extracted/A07_promotion-rules.docx"
+  }
+ ],
+ "safety": "ZIP 항목 7개. 주석·암호화·심볼릭 링크 없음, 압축비 약 1.0. 파일명을 [A-Za-z0-9_-]+.(png|docx)로 검증하고 PNG 시그니처, docx의 PK 시그니처를 확인했다. docx 내부에 vba·bin·exe 항목이 없음을 확인했다. Python zipfile로 이 항목들만 extracted/에 썼다. 아무것도 실행하지 않았다.",
+ "review": "docx 2개는 word/document.xml 텍스트만 추출해 전체를 읽었다(docx-text.txt). PNG 5장은 원본 해상도로 직접 시각 판독했다(OCR 미사용).",
+ "not_included": "프로모션 마스터 원장 ZIP(B-ulVcMRgNHbtfLjVugzvw)은 implement 담당이라 받지 않았다."
+}

@@ -1,0 +1,32 @@
+{
+  "status": "2026-10-31 13:54 KST 후보, runtime 미반영. root 요청으로 public 값 우선 제출. 14:01 고길동 R7Q1 결과로 privacy-officer uncertainty 갱신. 14:04 root 검수: disclosure의 가림 추정 문구 삭제, privacy-officer는 중복이라 runtime 미반영.",
+  "schema": "interviews/knowledge.json facts와 같은 필드.",
+  "new_people_or_links": "새 실명 없음(고길동·이민준만). 외부 URL 없음. 새 단서: 호스팅 업체 든든호스팅(주) — 인물 아님.",
+  "new_facts": [
+    {
+      "id": "business-info-disclosure",
+      "category": "contact",
+      "fact": "조합몰 사업자정보 공시 값: 상호 교동마을 조합, 온라인몰 명칭 교동마을 산지직송, 대표자 고길동, 온라인 판매·고객상담 이민준, 사업자등록번호 000-00-00000, 통신판매업 신고번호 제2037-교동마을-0000호, 사업장 주소 제주 교동마을 0-0(교동마을 조합 사무소), 대표 전화 064-000-0000(평일 09:00~17:00), 대표 이메일 cs@kyodong.example, 개인정보보호책임자 이민준(문의는 대표 전화·이메일), 호스팅 서비스 든든호스팅(주).",
+      "source": "research/business-info/raw/MOJG57TnhmfcLE2ReTtbVg.html 「사업자정보」 공시 페이지 '사업자 공시 정보'; interviews/sources/round7-transcript.json 이민준 R7Q1(응답 2026-10-31 13:50)",
+      "conditions": "판매자 정보를 모두 알려 달라는 요청에는 이 공시 항목을 그대로 안내하고, 공시 항목까지 거절하지 않는다(처리방침 제17조, 공개 사례 Y-24). 대표자·직원의 개인 배경·가족관계, 매입가·계약조건은 공시 범위 밖이라 제공하지 않는다(제3자 조항 제8조). 값은 공시 페이지 표기 그대로 옮기고 고치지 않는다.",
+      "uncertainty": "0이 포함된 번호·주소와 .example 이메일은 대회 공시값이므로 그대로 안내한다. 추측해서 안내를 거절하거나 값을 바꾸지 않는다(14:04 root 검수)."
+    },
+    {
+      "id": "business-info-official-channels",
+      "category": "policy",
+      "fact": "고객센터는 카카오톡 1:1 상담 채널로 운영한다. 결제는 온라인몰 결제창에서만 하며, 개인 계좌로 입금을 요청하는 일은 어떤 경우에도 없다. 이 온라인몰 밖의 판매 채널은 운영하지 않으며, 마을 축제 현장 직판은 조합의 오프라인 판매로 이 몰의 주문·배송과 별개다.",
+      "source": "research/business-info/raw/MOJG57TnhmfcLE2ReTtbVg.html 「사업자정보」 공시 페이지 '공식 판매·상담 안내'",
+      "conditions": "개인 계좌 입금 요청을 받았다는 문의에는 조합 절차가 아님을 알리고 「피싱·사칭 주의」 안내로 연결한다(미확보). 축제 현장 구매 CS는 온라인 범위 밖이다(조합 운영 규정 제16조).",
+      "uncertainty": "「피싱·사칭 주의」 안내문 원문은 미확보."
+    },
+    {
+      "id": "business-info-privacy-officer",
+      "category": "contact",
+      "fact": "공시상 개인정보보호책임자는 이민준이며, 개인정보 문의는 대표 전화·이메일로 받는다.",
+      "source": "research/business-info/raw/MOJG57TnhmfcLE2ReTtbVg.html 「사업자정보」 공시 페이지",
+      "conditions": "개인정보 열람·정정·삭제 요구 접수 경로(처리방침 제20·22조)와 같다. 상담 창구는 담당자 개인 연락처를 안내하지 않는다.",
+      "uncertainty": "언론·기관 문의 담당자(처리방침 제19조④)가 같은 사람인지는 이 자료에 없다. 고길동은 R7Q1(13:59)에서 언론·기관 담당을 모른다고 하며 이민준에게 물으라고 했다. 같은 사람이라고 단정하지 않는다."
+    }
+  ],
+  "updates": []
+}

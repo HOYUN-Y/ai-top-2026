@@ -1,0 +1,30 @@
+{
+  "model": "google/gemini-2.5-flash",
+  "latency_ms": 8886,
+  "finish_reason": "stop",
+  "characters": 3858,
+  "usage": {
+    "prompt_tokens": 2593,
+    "completion_tokens": 1975,
+    "total_tokens": 4568,
+    "cost": 0.0057154,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0057154,
+      "upstream_inference_prompt_cost": 0.0007779,
+      "upstream_inference_completions_cost": 0.0049375
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "scope": "User-authorized stylistic rewrite of contest debrief; key used only for authentication; no actual customer conversations/actions"
+}

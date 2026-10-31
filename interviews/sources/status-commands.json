@@ -1,0 +1,84 @@
+[
+  {
+    "recipient": "고길동",
+    "command": "./status",
+    "sent_at": "2026-10-31T11:32:44.581+09:00",
+    "response": "[SYSTEM] 질문수 2/100, 지식발굴율 9%",
+    "response_ui_time": "2026-10-31 11:32 KST",
+    "used": 2,
+    "limit": 100,
+    "discovery_percent": 9,
+    "authorization": "사용자 재승인 및 감독 후속 승인",
+    "general_question": false
+  },
+  {
+    "recipient": "이민준",
+    "command": "./status",
+    "sent_at": "2026-10-31T11:34:35.559+09:00",
+    "response": "[SYSTEM] 질문수 4/100, 지식발굴율 4%",
+    "response_ui_time": "2026-10-31 11:34 KST",
+    "used": 4,
+    "limit": 100,
+    "discovery_percent": 4,
+    "authorization": "사용자 재승인 및 감독 후속 승인",
+    "general_question": false
+  },
+  {
+    "recipient": "홍이장",
+    "command": "./status",
+    "sent_at": "2026-10-31T11:41:29.450+09:00",
+    "response": "[SYSTEM] 질문수 0/100, 지식발굴율 0%",
+    "response_ui_time": "2026-10-31 11:41 KST",
+    "used": 0,
+    "limit": 100,
+    "discovery_percent": 0,
+    "authorization": "감독 승인 후 신규 대상 예산 확인; 일반 질문은 이후 승인 보류로 미전송",
+    "general_question": false
+  },
+  {
+    "recipient": "구방만",
+    "command": "./status",
+    "sent_at": "2026-10-31T11:47:57.427+09:00",
+    "response": "[SYSTEM] 질문수 0/100, 지식발굴율 0%",
+    "response_ui_time": "2026-10-31 11:47 KST",
+    "used": 0,
+    "limit": 100,
+    "discovery_percent": 0,
+    "authorization": "신규 대상 상태명령 승인; 비즈니스 질문59자 승인 전 예산 확인",
+    "general_question": false
+  },
+  {
+    "recipient": "홍보라",
+    "command": "./status",
+    "sent_at": "2026-10-31T12:10:47.122+09:00",
+    "response": "[SYSTEM] 질문수 0/100, 지식발굴율 0%",
+    "used": 0,
+    "limit": 100,
+    "discovery_percent": 0,
+    "general_question": false,
+    "round": 2
+  },
+  {
+    "round": 2,
+    "recipient": "김청년",
+    "command": "./status",
+    "sent_at": "2026-10-31T12:14:10.851+09:00",
+    "response": "[SYSTEM] 질문수 0/100, 지식발굴율 0%",
+    "used": 0,
+    "limit": 100,
+    "discovery_percent": 0,
+    "general_question": false
+  },
+  {
+    "round": 2,
+    "recipient": "박수복",
+    "command": "./status",
+    "sent_at": "2026-10-31T12:23:07.703+09:00",
+    "response": "[SYSTEM] 질문수 0/100, 지식발굴율 0%",
+    "used": 0,
+    "limit": 100,
+    "discovery_percent": 0,
+    "general_question": false,
+    "authorization": "승인된 신규대상 예산확인"
+  }
+]

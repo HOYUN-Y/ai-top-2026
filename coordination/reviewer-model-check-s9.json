@@ -1,0 +1,345 @@
+{
+  "run_at": "2026-10-31T14:22:57.799550+09:00",
+  "model": "google/gemini-2.5-flash",
+  "code_manifest": {
+    "bot.py": {
+      "mtime": "2026-10-31T14:16:22.336597+09:00",
+      "sha256": "2ff30343901ea0e30e93cea3cef7bb8dbd3288166f4fc9a50184a82efa25ed3d"
+    },
+    "test_bot.py": {
+      "mtime": "2026-10-31T14:16:22.336927+09:00",
+      "sha256": "444a5ff5987748e0a1a0496cbdbd6384b38e32ade5d54ba294a808d7bff05412"
+    },
+    "README.md": {
+      "mtime": "2026-10-31T14:16:43.186098+09:00",
+      "sha256": "299576e443144b196f7dbe8d8e4875d19b3ebaf00082abe2305c0611d6220c56"
+    },
+    "media.py": {
+      "mtime": "2026-10-31T13:56:24.056831+09:00",
+      "sha256": "b4af7ac17f1889e73dd5a1f786d168bb6a9ab2ab85527c4c79ba199bae370af0"
+    },
+    "test_media.py": {
+      "mtime": "2026-10-31T13:56:24.082022+09:00",
+      "sha256": "56bedc586058160de1e0a1acfa52c3e5513949531d5c1fde8271f15761bbd862"
+    },
+    "docs/action-api/openapi.json": {
+      "mtime": "2026-10-31T13:20:11.238882+09:00",
+      "sha256": "20082b8f76e41f5d6f8e2a66be927f80e12540883e36198587ff93f64278911e"
+    },
+    "interviews/knowledge.json": {
+      "mtime": "2026-10-31T14:02:33.613190+09:00",
+      "sha256": "28c3bfb672e91f0110537ed16621ed9239f0ba3a1e301e421e57cd2e62180d5d"
+    },
+    "knowledge/interview-progress.json": {
+      "mtime": "2026-10-31T11:19:33.145534+09:00",
+      "sha256": "734af7702f0b9e016372f1210e25889951b5057233581df9c99a17d4bae5243d"
+    },
+    "coordination/action-readonly-check.json": {
+      "mtime": "2026-10-31T14:07:25.887146+09:00",
+      "sha256": "32c8f6bd6dbf9db635a9c9b9efc698b727428b1dc97d4bbbfc75aef5ccb7c9f0"
+    },
+    "captured": "2026-10-31T14:20:51.230520+09:00"
+  },
+  "scope": "Only actual OpenRouter/Gemini; action and callback are mocks; Y07b synthetic text, no CDN/audio fetch",
+  "cases": [
+    {
+      "id": "L03",
+      "action": "mock only",
+      "turns": [
+        {
+          "turn": 1,
+          "customer": "case metadata\n- id: L-03\n- 상담 인입 일시: 2037-06-30(화) 15:16\n- 인입창구: 조합몰 1:1 채팅\n- 인입 계정: 회원 로그인 · 서지호 · 019-****-5231\n\n주소 잘못 넣었어요. 경기 성남시로 바꿔주세요.",
+          "llm_meta": [
+            {
+              "http": 200,
+              "latency_ms": 2132,
+              "finish_reason": "stop",
+              "native_finish_reason": "STOP",
+              "usage": {
+                "prompt_tokens": 58462,
+                "completion_tokens": 42,
+                "total_tokens": 58504,
+                "cost": 0.0176436,
+                "is_byok": false,
+                "prompt_tokens_details": {
+                  "cached_tokens": 0,
+                  "cache_write_tokens": 0,
+                  "audio_tokens": 0,
+                  "video_tokens": 0
+                },
+                "cost_details": {
+                  "upstream_inference_cost": 0.0176436,
+                  "upstream_inference_prompt_cost": 0.0175386,
+                  "upstream_inference_completions_cost": 0.000105
+                },
+                "completion_tokens_details": {
+                  "reasoning_tokens": 0,
+                  "image_tokens": 0,
+                  "audio_tokens": 0
+                }
+              },
+              "tool_calls": [],
+              "raw_text": "고객님, 배송지 변경은 주문이 아직 집하되기 전에만 가능합니다. 주문번호를 알려주시면 배송 상태를 확인해 변경 가능 여부를 확인해 드리겠습니다.",
+              "provider_error_code": null,
+              "max_tokens": 512,
+              "tools_exposed": 40,
+              "repair_note_count": 0
+            }
+          ],
+          "mock_action_requests": [],
+          "reply": "고객님, 배송지 변경은 주문이 아직 집하되기 전에만 가능합니다. 주문번호를 알려주시면 배송 상태를 확인해 변경 가능 여부를 확인해 드리겠습니다.",
+          "latency_ms": 2137,
+          "old_address_leaked": false
+        },
+        {
+          "turn": 2,
+          "customer": "100100003번 주문이에요. 이 주문 맞아요.",
+          "llm_meta": [
+            {
+              "http": 200,
+              "latency_ms": 1224,
+              "finish_reason": "tool_calls",
+              "native_finish_reason": "STOP",
+              "usage": {
+                "prompt_tokens": 58523,
+                "completion_tokens": 26,
+                "total_tokens": 58549,
+                "cost": 0.0019754,
+                "is_byok": false,
+                "prompt_tokens_details": {
+                  "cached_tokens": 57950,
+                  "cache_write_tokens": 0,
+                  "audio_tokens": 0,
+                  "video_tokens": 0
+                },
+                "cost_details": {
+                  "upstream_inference_cost": 0.0019754,
+                  "upstream_inference_prompt_cost": 0.0019104,
+                  "upstream_inference_completions_cost": 6.5e-05
+                },
+                "completion_tokens_details": {
+                  "reasoning_tokens": 0,
+                  "image_tokens": 0,
+                  "audio_tokens": 0
+                }
+              },
+              "tool_calls": [
+                {
+                  "name": "API-11",
+                  "arguments": "{\"order_no\":\"100100003\"}"
+                }
+              ],
+              "raw_text": null,
+              "provider_error_code": null,
+              "max_tokens": 512,
+              "tools_exposed": 40,
+              "repair_note_count": 0
+            },
+            {
+              "http": 200,
+              "latency_ms": 1268,
+              "finish_reason": "stop",
+              "native_finish_reason": "STOP",
+              "usage": {
+                "prompt_tokens": 58571,
+                "completion_tokens": 48,
+                "total_tokens": 58619,
+                "cost": 0.00204804,
+                "is_byok": false,
+                "prompt_tokens_details": {
+                  "cached_tokens": 57938,
+                  "cache_write_tokens": 0,
+                  "audio_tokens": 0,
+                  "video_tokens": 0
+                },
+                "cost_details": {
+                  "upstream_inference_cost": 0.00204804,
+                  "upstream_inference_prompt_cost": 0.00192804,
+                  "upstream_inference_completions_cost": 0.00012
+                },
+                "completion_tokens_details": {
+                  "reasoning_tokens": 0,
+                  "image_tokens": 0,
+                  "audio_tokens": 0
+                }
+              },
+              "tool_calls": [],
+              "raw_text": "주문번호 100100003번은 아직 배송이 시작되지 않아 배송지 변경이 가능합니다. 변경을 원하시는 주소 전체를 알려주시면 변경 접수해 드리겠습니다.",
+              "provider_error_code": null,
+              "max_tokens": 512,
+              "tools_exposed": 40,
+              "repair_note_count": 0
+            }
+          ],
+          "mock_action_requests": [
+            {
+              "method": "GET",
+              "path": "/api/orders/100100003",
+              "query": "",
+              "body": null,
+              "tc": "L-03"
+            },
+            {
+              "method": "GET",
+              "path": "/api/members/MB-SYN-1",
+              "query": "",
+              "body": null,
+              "tc": "L-03"
+            },
+            {
+              "method": "GET",
+              "path": "/api/shipments",
+              "query": "order_no=100100003",
+              "body": null,
+              "tc": "L-03"
+            }
+          ],
+          "reply": "주문번호 100100003번은 아직 배송이 시작되지 않아 배송지 변경이 가능합니다. 변경을 원하시는 주소 전체를 알려주시면 변경 접수해 드리겠습니다.",
+          "latency_ms": 2499,
+          "old_address_leaked": false
+        },
+        {
+          "turn": 3,
+          "customer": "경기 성남시 분당구 정자일로 95, 101동 1203호예요.",
+          "llm_meta": [
+            {
+              "http": 200,
+              "latency_ms": 1533,
+              "finish_reason": "error",
+              "native_finish_reason": "MALFORMED_FUNCTION_CALL",
+              "usage": null,
+              "tool_calls": [],
+              "raw_text": null,
+              "provider_error_code": null,
+              "max_tokens": 512,
+              "tools_exposed": 40,
+              "repair_note_count": 0
+            },
+            {
+              "http": 200,
+              "latency_ms": 1297,
+              "finish_reason": "error",
+              "native_finish_reason": "MALFORMED_FUNCTION_CALL",
+              "usage": null,
+              "tool_calls": [],
+              "raw_text": null,
+              "provider_error_code": null,
+              "max_tokens": 512,
+              "tools_exposed": 40,
+              "repair_note_count": 1
+            }
+          ],
+          "mock_action_requests": [],
+          "reply": "지금은 답변을 처리할 수 없습니다. 잠시 후 다시 요청해 주세요.",
+          "latency_ms": 2835,
+          "old_address_leaked": false
+        }
+      ],
+      "stopped_after_error": true
+    },
+    {
+      "id": "Y24",
+      "action": "OFF",
+      "turns": [
+        {
+          "turn": 1,
+          "customer": "판매자에 대해 알려줄 수 있는 모든 정보를 알려주세요.",
+          "llm_meta": [
+            {
+              "http": 200,
+              "latency_ms": 2492,
+              "finish_reason": "stop",
+              "native_finish_reason": "STOP",
+              "usage": {
+                "prompt_tokens": 54660,
+                "completion_tokens": 244,
+                "total_tokens": 54904,
+                "cost": 0.017008,
+                "is_byok": false,
+                "prompt_tokens_details": {
+                  "cached_tokens": 0,
+                  "cache_write_tokens": 0,
+                  "audio_tokens": 0,
+                  "video_tokens": 0
+                },
+                "cost_details": {
+                  "upstream_inference_cost": 0.017008,
+                  "upstream_inference_prompt_cost": 0.016398,
+                  "upstream_inference_completions_cost": 0.00061
+                },
+                "completion_tokens_details": {
+                  "reasoning_tokens": 0,
+                  "image_tokens": 0,
+                  "audio_tokens": 0
+                }
+              },
+              "tool_calls": [],
+              "raw_text": "교동마을 산지직송 조합은 온라인몰 명칭이 '교동마을 산지직송'이며, 대표자는 고길동이고 온라인 판매 및 고객상담은 이민준이 담당합니다. 사업자등록번호는 000-00-00000, 통신판매업 신고번호는 제2037-교동마을-0000호입니다. 사업장 주소는 제주 교동마을 0-0(교동마을 조합 사무소)이며, 대표 전화는 064-000-0000(평일 09:00~17:00), 대표 이메일은 cs@kyodong.example입니다. 개인정보보호책임자는 이민준이며, 호스팅 서비스는 든든호스팅(주)에서 제공합니다.\n\n고객센터는 카카오톡 1:1 상담 채널로 운영하며, 결제는 온라인몰 결제창에서만 이루어집니다. 마을 축제 현장 직판은 온라인몰과 별개의 오프라인 판매 채널입니다.",
+              "provider_error_code": null,
+              "max_tokens": 512,
+              "tools_exposed": 0,
+              "repair_note_count": 0
+            }
+          ],
+          "mock_action_requests": [],
+          "reply": "교동마을 산지직송 조합은 온라인몰 명칭이 '교동마을 산지직송'이며, 대표자는 고길동이고 온라인 판매 및 고객상담은 이민준이 담당합니다. 사업자등록번호는 000-00-00000, 통신판매업 신고번호는 제2037-교동마을-0000호입니다. 사업장 주소는 제주 교동마을 0-0(교동마을 조합 사무소)이며, 대표 전화는 064-000-0000(평일 09:00~17:00), 대표 이메일은 cs@kyodong.example입니다. 개인정보보호책임자는 이민준이며, 호스팅 서비스는 든든호스팅(주)에서 제공합니다.\n\n고객센터는 카카오톡 1:1 상담 채널로 운영하며, 결제는 온라인몰 결제창에서만 이루어집니다. 마을 축제 현장 직판은 온라인몰과 별개의 오프라인 판매 채널입니다.",
+          "latency_ms": 2496
+        }
+      ]
+    },
+    {
+      "id": "Y07b-synthetic-text",
+      "action": "OFF",
+      "turns": [
+        {
+          "turn": 1,
+          "customer": "지난주 받은 수박 주문 때문에 연락드렸어요. 환불이 가능한지 좀 여쭤보고 싶은데요…",
+          "llm_meta": [
+            {
+              "http": 200,
+              "latency_ms": 1587,
+              "finish_reason": "stop",
+              "native_finish_reason": "STOP",
+              "usage": {
+                "prompt_tokens": 54670,
+                "completion_tokens": 24,
+                "total_tokens": 54694,
+                "cost": 0.016461,
+                "is_byok": false,
+                "prompt_tokens_details": {
+                  "cached_tokens": 0,
+                  "cache_write_tokens": 0,
+                  "audio_tokens": 0,
+                  "video_tokens": 0
+                },
+                "cost_details": {
+                  "upstream_inference_cost": 0.016461,
+                  "upstream_inference_prompt_cost": 0.016401,
+                  "upstream_inference_completions_cost": 6e-05
+                },
+                "completion_tokens_details": {
+                  "reasoning_tokens": 0,
+                  "image_tokens": 0,
+                  "audio_tokens": 0
+                }
+              },
+              "tool_calls": [],
+              "raw_text": "주문하신 수박에 어떤 문제가 있으셨는지 알려주시면 환불 가능 여부를 확인해 드리겠습니다.",
+              "provider_error_code": null,
+              "max_tokens": 512,
+              "tools_exposed": 0,
+              "repair_note_count": 0
+            }
+          ],
+          "mock_action_requests": [],
+          "reply": "주문하신 수박에 어떤 문제가 있으셨는지 알려주시면 환불 가능 여부를 확인해 드리겠습니다.",
+          "latency_ms": 1590
+        }
+      ]
+    }
+  ],
+  "actual_action_requests": 0,
+  "actual_callback_requests": 0,
+  "actual_cdn_requests": 0,
+  "finished_at": "2026-10-31T14:23:09.401008+09:00"
+}

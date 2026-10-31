@@ -1,0 +1,57 @@
+{
+  "retrieved_at": "2026-10-31T12:25:42.773433+09:00",
+  "files": [
+    {
+      "url": "https://t1.kakaocdn.net/aitop100/aitop100/dist/YpevY-GWzxt65De9PFNL4w.html",
+      "path": "research/sales-evidence/YpevY-GWzxt65De9PFNL4w.html",
+      "sha256": "f1457de34501559d9972ff628aa657d40edb783f8ccccf5e658a088840683293",
+      "bytes": 506443,
+      "type": "html",
+      "provided_by": "이민준 R2Q1",
+      "source": "interviews/sources/round2-transcript.json"
+    },
+    {
+      "url": "https://t1.kakaocdn.net/aitop100/aitop100/dist/p3fMCqFSsgGXunwjQpwUJg.pdf",
+      "path": "research/sales-evidence/p3fMCqFSsgGXunwjQpwUJg.pdf",
+      "sha256": "38fba2a3afa8d4e4920a347e684d682e3058747407a0ddcd3540d1b2ead1cc9a",
+      "bytes": 150652,
+      "type": "pdf",
+      "provided_by": "이민준 R2Q1",
+      "source": "interviews/sources/round2-transcript.json"
+    }
+  ],
+  "status": "원본·전체 텍스트 보관, HTML 정적 파싱·PDF4쪽 시각 대조 완료. HTML/스크립트 실행 없음.",
+  "notes": "research/sales-evidence-notes.md",
+  "derivatives": [
+    {
+      "path": "research/sales-evidence/sales-text.txt",
+      "sha256": "fcd736ad7d429a09ad8fa4b958ddf4bf8b44fadda63143687c7f4edb53f9b396",
+      "bytes": 9721
+    },
+    {
+      "path": "research/sales-evidence/evidence-text.txt",
+      "sha256": "823bd4cc5d9600eb1bcb20a7a5599b69f70e7e17da4e8ded95016eb54784ad9e",
+      "bytes": 9653
+    },
+    {
+      "path": "research/sales-evidence/render/evidence-1.png",
+      "sha256": "6c063b631919f48089b21e7ebc3b22a070dd3df00c91133cff877a4489b75cb0",
+      "bytes": 164727
+    },
+    {
+      "path": "research/sales-evidence/render/evidence-2.png",
+      "sha256": "062ac2e0e96902be5bd348f5fbc9eaee334463c7f7e6b1f215e17f64f92721bd",
+      "bytes": 176413
+    },
+    {
+      "path": "research/sales-evidence/render/evidence-3.png",
+      "sha256": "23b5c2e6890c3cc3c21acafff8c17676e951c016c697f0b22dd1c04278a5941e",
+      "bytes": 238893
+    },
+    {
+      "path": "research/sales-evidence/render/evidence-4.png",
+      "sha256": "c3cfd069d6f71bb716b2f0faf657f349d8500f1ea01c77a5c9c4ff04834136a6",
+      "bytes": 197466
+    }
+  ]
+}

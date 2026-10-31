@@ -1,0 +1,78 @@
+{
+  "status": "root 원문 §1~7 정적 판독 후보, 독립 검수·통합 전",
+  "facts": [
+    {
+      "id": "billing-method-amount",
+      "category": "policy",
+      "fact": "현금·계좌이체·무통장입금은 현금영수증 대상이고, 카드는 매출전표가 있으므로 별도 증빙을 중복 발행하지 않는다. 사업자 도매 거래는 세금계산서 대상이다. 분할 결제는 수단별로 나눠 현금분만 현금영수증으로 처리한다. 발행 기준액은 실결제액이며 적립금·쿠폰 차감분은 제외한다.",
+      "source": "research/billing/Keze5-ihBAYJhBQV_i-aEw.html §1",
+      "conditions": "먼저 주문·결제수단·실결제액을 조회한다. 카드·현금·적립금 등을 한데 묶어 전액 현금영수증을 발행하지 않는다.",
+      "uncertainty": null
+    },
+    {
+      "id": "billing-cash-receipt-input",
+      "category": "policy",
+      "fact": "현금영수증은 고객에게 소득공제용/지출증빙용 유형을 확인하고, 고객이 지정번호(휴대폰번호·현금영수증카드·사업자등록번호 중 하나)를 제시하게 한다. 고객이 제시하기 전에 상담원이 기존 등록 번호를 먼저 읽어 주지 않는다. 개인은 지출증빙용으로 요청할 수 있지만 사업자는 소득공제용으로 요청할 수 없다.",
+      "source": "research/billing/Keze5-ihBAYJhBQV_i-aEw.html §2",
+      "conditions": "상담 채널·마이페이지로 요청 가능. 주문 조회→결제수단·실결제액 확인→발행 처리→안내 순이다. API-32 성공은 발행 요청 접수이므로 발행 완료라고 안내하지 않는다(공식 액션 명세 접수 규약).",
+      "uncertainty": null
+    },
+    {
+      "id": "billing-cash-receipt-deadline",
+      "category": "policy",
+      "fact": "현금영수증 요청 기한은 거래일이 속한 달의 다음 달 10일까지다. 기한이 지나면 조합 발행은 불가하며 국세청 자율 발급 절차를 안내한다.",
+      "source": "research/billing/Keze5-ihBAYJhBQV_i-aEw.html §2·§6",
+      "conditions": "기한을 넘긴 건을 소급 발행하지 않는다. 정당한 요청도 실제 발행 여부가 확인되기 전 완료라고 안내하지 않는다.",
+      "uncertainty": "국세청 절차의 구체 단계는 대회 문서에 없다."
+    },
+    {
+      "id": "billing-tax-invoice-identity",
+      "category": "policy",
+      "fact": "문서상 세금계산서는 실제 결제하고 공급받은 사업자 명의로 발행하며, 사업자등록증과 결제 명의의 일치를 대조한다. 확인 항목은 상호·사업자등록번호·대표자명·업태/종목·수취 이메일이다. 채팅에서 우리 회사 명의로 해 달라는 진술만으로 명의를 확정하지 않는다.",
+      "source": "research/billing/Keze5-ihBAYJhBQV_i-aEw.html §3",
+      "conditions": "대회 문서의 조합몰 거래 기준이다. 실제 결제자와 다른 사업자, 가공 사업자, 개인 결제분을 다른 사업자 명의로 요청하는 것은 거절한다.",
+      "uncertainty": "사업자 도매 거래 안내와 거래처 등록 세부는 미확보."
+    },
+    {
+      "id": "billing-tax-invoice-timing",
+      "category": "policy",
+      "fact": "세금계산서는 월 마감분을 익월 10일까지 발행한다. 건별 또는 정기 공급 거래처의 월 합계 방식이며 정정·재발행에는 1~2영업일이 걸린다.",
+      "source": "research/billing/Keze5-ihBAYJhBQV_i-aEw.html §3",
+      "conditions": "안내된 기간은 실제 발행·정정의 완료 확인을 대신하지 않는다. 공급가액·명의와 처리 상태를 먼저 확인한다.",
+      "uncertainty": null
+    },
+    {
+      "id": "billing-tax-item-separation",
+      "category": "policy",
+      "fact": "이 대회 문서는 취급 상품을 모두 미가공 농·수산물로 보아 상품분은 면세·세액0원·공급가액만 기재한다고 정한다. 세액 공란 자체는 오류가 아니다. 배송·운송비 등 용역분은 과세로 구분해 해당 항목에만 세액을 계산한다.",
+      "source": "research/billing/Keze5-ihBAYJhBQV_i-aEw.html §3",
+      "conditions": "면세 상품과 과세 용역을 한 항목으로 합치지 않는다. 실제 상품·용역 금액을 조회하지 않고 세액을 만들지 않는다.",
+      "uncertainty": "과세 용역의 세율 자체는 이 문서에 숫자로 명시되지 않는다."
+    },
+    {
+      "id": "billing-corrections",
+      "category": "policy",
+      "fact": "증빙 정정 코드는 TX-01 기재사항 착오(수정), TX-02 공급가액 변동·부분환불(차액 수정), TX-03 전액환불·계약해제(전액 취소), TX-04 중복(후행분 취소), TX-05 명의 오류(기존 취소 후 정당 명의로 재발행), TX-06 필수 기재 누락(재발행)이다.",
+      "source": "research/billing/Keze5-ihBAYJhBQV_i-aEw.html §4",
+      "conditions": "TX-02/03은 사유 발생일 기준, 나머지는 확인 즉시 처리한다. TX-05를 단순 명의 정정이나 거절 대상의 우회 발행으로 쓰지 않으며 선발행 후 정정도 허용하지 않는다.",
+      "uncertainty": null
+    },
+    {
+      "id": "billing-refund-adjustment",
+      "category": "policy",
+      "fact": "발행 전 환불이면 증빙을 발행하지 않는다. 전액환불은 현금영수증 취소 또는 TX-03 전액 취소, 부분환불은 원본을 취소하지 않고 TX-02 차액 수정이다. 발행월 마감 후 환불의 취소·수정 발행일은 환불 승인일이고, 재차 부분환불이면 잔액 기준으로 수정한다. 적립금 환불은 현금 환급이 아니므로 증빙 정정이 없다.",
+      "source": "research/billing/Keze5-ihBAYJhBQV_i-aEw.html §5",
+      "conditions": "이 문서는 이미 확정된 환불액을 증빙에 반영하는 규칙이다. 부분환불 금액·박스 하자비율 산식은 별도 문서 소관이므로 이 규칙으로 계산하지 않는다.",
+      "uncertainty": null
+    },
+    {
+      "id": "billing-reject-and-alternative",
+      "category": "policy",
+      "fact": "실제 결제자와 다른/가공 사업자 명의, 개인 결제분의 사업자 명의 전환, 실결제액 초과 금액, 실제와 다른 품목, 기한 경과 소급 발행, 취소된 거래의 증빙 유지 요구는 거절한다. 적용 원칙과 사유를 설명하고 정상 발행 절차를 안내한다.",
+      "source": "research/billing/Keze5-ihBAYJhBQV_i-aEw.html §6",
+      "conditions": "대안은 실제 결제자 명의 발행 후 당사자 간 정산, 향후 사업자 명의 거래를 위한 거래처 등록이다. 조합이 당사자 간 정산을 대신 실행하거나 타인 명의 선발행 후 정정하지 않는다.",
+      "uncertainty": "사업자 도매 거래 안내의 거래처 등록 절차는 미확보."
+    }
+  ],
+  "cross_source_note": "접수 완료와 발행 완료의 구분은 docs/action-api/openapi.json info.description 및 API-32 기준이다. 원문 §7 발행 완료 예시는 실제 발행을 마친 뒤의 예시이며 접수 API 성공만으로 그대로 출력하지 않는다."
+}

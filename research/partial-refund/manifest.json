@@ -1,0 +1,27 @@
+{
+  "source_url": "https://t1.kakaocdn.net/aitop100/aitop100/dist/xmm99WH91aVDFasnWXueaA.zip",
+  "provider": "고길동",
+  "question": "R8Q1",
+  "response_ui_time": "2026-10-31 14:22 KST",
+  "retrieved_at": "2026-10-31T14:25:31",
+  "archive_path": "research/partial-refund/raw/xmm99WH91aVDFasnWXueaA.zip",
+  "archive_bytes": 54475,
+  "archive_sha256": "c2d651e8a3759d16b49aa07ec0d7cfc8e8aea5abb6b0307d8d5ceca82bfbde5b",
+  "files": [
+    {
+      "name": "부분환불산식_박스비율임계표.pdf",
+      "path": "research/partial-refund/extracted/부분환불산식_박스비율임계표.pdf",
+      "bytes": 46362,
+      "sha256": "b6eccddae6fd51654f9bf1b430bef0084445bc2df256b106d7eeb2927a795bee"
+    },
+    {
+      "name": "부분환불산식_별표.xlsx",
+      "path": "research/partial-refund/extracted/부분환불산식_별표.xlsx",
+      "bytes": 13470,
+      "sha256": "17ecccf489b218780cead283e7494c19e1efaa5ed5ba612b25d31fbfbecd2b8d"
+    }
+  ],
+  "safety": "HTTPS·크기 상한. ZIP 항목 2개, 이름·경로 검증. PDF: %PDF 서명, 암호화 없음, 삽입 이미지 0, JavaScript/Launch/OpenAction/EmbeddedFile 0. XLSX: PK 서명, 매크로·외부링크·메모·그림 없음, 수식 0, 숨김 0, 하이퍼링크 0. 실행 없이 정적 판독.",
+  "owner": "knowledge(R8 신규 자료 단독 수집)",
+  "status": "판독 완료. 텍스트: research/partial-refund/pdf-text.txt·xlsx-cells.txt, notes: research/partial-refund-notes.md, 후보: research/partial-refund/facts-candidate.json"
+}

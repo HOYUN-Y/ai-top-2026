@@ -1,0 +1,79 @@
+{
+  "status": "2026-10-31 13:45 KST. root 요청: privacy/facts-candidate.json(19건, root 검수 중)에 넣지 않은 조합 운영 규정 조문 중 기존 runtime에 없거나 일부만 있는 것. runtime 미반영.",
+  "schema": "interviews/knowledge.json facts와 같은 필드.",
+  "coverage_note": "조합 운영 규정 조문별 위치: 제2조2·제8~15조 → privacy/facts-candidate.json. 제16·28·28의2·29조 → 같은 파일 rules-channel-and-authority-claims·privacy-logging-and-internal-docs. 제3조 → runtime promo-stacking·membership-benefits와 같음. 제6조·부칙③ → runtime revision-price-cut-*. 제17·18조 → runtime 위탁 계약 사실과 같음. 제24·25조 → research/catalog/facts-candidate.json catalog-producer-not-designated·catalog-grades. 제27조 → billing 검수 P2-3에서 billing-tax-invoice-identity 보조 근거로 제안. 부칙② → privacy 후보 rules-channel-and-authority-claims conditions.",
+  "new_facts": [
+    {
+      "id": "rules-points-expiry",
+      "category": "policy",
+      "fact": "적립금·포인트의 유효기간은 적립일부터 12개월이다. 소멸 예정은 소멸 예정일 30일 전에 앱 알림과 이메일로 미리 안내하며, 소멸한 뒤에는 소급 복원하지 않는다. 유효기간을 연장하는 수단은 없어서 소멸 예정을 이유로 한 기간 연장·재적립 요청은 처리하지 않고 소멸 전 사용 방법을 안내한다.",
+      "source": "research/privacy/raw/pysSXW5mY9eWWv6tMsrihA.pdf 「조합 운영 규정」(기준일 2037-06-30, 시행 2037-03-02) 제7조①~④",
+      "conditions": "기존 runtime membership-benefits(12개월·30일 전 안내·연장 불가)를 보강한다: 안내 수단(앱 알림·이메일)과 '소멸 후 소급 복원 안 함'이 새 내용이다. 적립금 원장 조회 없이 소멸 여부를 단정하지 않는다.",
+      "uncertainty": "액션 API에는 적립금 복원 접수 경로가 없다(API-22는 '주문 복구 접수'). 시스템 오류로 잘못 소멸된 경우의 처리는 원문에 없다."
+    },
+    {
+      "id": "rules-points-legacy-transfer",
+      "category": "policy",
+      "fact": "조합몰 개장(2037-03-02) 전 오프라인 조합 이용분에서 이관된 승계 적립금은 이관 때 기록된 원 적립일을 기준으로 12개월 유효기간을 계산한다. 그래서 소멸 예정일이 개장일부터 12개월 안에 올 수 있으며, 30일 전 사전 안내와 연장 불가도 승계 적립금에 같이 적용한다.",
+      "source": "research/privacy/raw/pysSXW5mY9eWWv6tMsrihA.pdf 「조합 운영 규정」(기준일 2037-06-30, 시행 2037-03-02) 제7조⑤",
+      "conditions": "승계 적립금의 잔액과 원 적립일은 적립금 원장 조회로만 확인한다. 이는 과거 상담 이력의 조회 범위(개장일 이후 — 「과거 상담 이력 조회 기준」 제1조)와 별도로 적용한다.",
+      "uncertainty": "「과거 상담 이력 조회 기준」은 미확보."
+    },
+    {
+      "id": "rules-price-error-orders",
+      "category": "policy",
+      "fact": "0원 등 명백한 가격 오표기에 따른 주문은 계약이 성립하지 않으며 정정·취소를 안내한다. 오류를 악용한 대량 주문은 처리하지 않는다.",
+      "source": "research/privacy/raw/pysSXW5mY9eWWv6tMsrihA.pdf 「조합 운영 규정」(기준일 2037-06-30, 시행 2037-03-02) 제5조",
+      "conditions": "'명백한' 오표기 여부는 카탈로그 정상가·가격 정책 시트와 대조한다(research/catalog-notes.md §4 #16).",
+      "uncertainty": "명백함의 판정 기준·승인자는 원문에 없다."
+    },
+    {
+      "id": "rules-coupon-abuse-hold",
+      "category": "promotion",
+      "fact": "신규가입 등 1인 1회 쿠폰을 다계정·반복 수령하려는 정황이 있으면 발급을 보류하고 정책을 안내한다.",
+      "source": "research/privacy/raw/pysSXW5mY9eWWv6tMsrihA.pdf 「조합 운영 규정」(기준일 2037-06-30, 시행 2037-03-02) 제4조",
+      "conditions": "기존 promo-person-limit(1인 한도는 사람 단위)과 함께 쓴다. 정황만으로 고객을 부정 사용자로 단정하지 않는다.",
+      "uncertainty": "중복 가능. root가 promo-person-limit의 source 추가로 처리해도 된다."
+    },
+    {
+      "id": "rules-wholesale-resale",
+      "category": "policy",
+      "fact": "사업자 도매 거래는 물량별 할인 단가와 전자세금계산서·정기 공급 계약으로 처리하며 사업자등록증으로 거래처를 등록한다. 개인 소매 계정에서 도매급 반복 구매·재판매 정황이 있으면 소매 혜택 적용을 제한하고 사업자 도매 절차로 안내한다.",
+      "source": "research/privacy/raw/pysSXW5mY9eWWv6tMsrihA.pdf 「조합 운영 규정」(기준일 2037-06-30, 시행 2037-03-02) 제19·20조",
+      "conditions": "정황만으로 재판매로 단정하지 않는다. 도매 단가·계약 조건은 「사업자 도매 거래 안내」 소관이다.",
+      "uncertainty": "「사업자 도매 거래 안내」는 미확보. 도매 단가를 지어내지 않는다."
+    },
+    {
+      "id": "rules-farm-pickup",
+      "category": "policy",
+      "fact": "제주 현지 수령(산지 픽업)은 지정 장소·시간에 한하여 사전 예약으로만 가능하다.",
+      "source": "research/privacy/raw/pysSXW5mY9eWWv6tMsrihA.pdf 「조합 운영 규정」(기준일 2037-06-30, 시행 2037-03-02) 제21조",
+      "conditions": "예약 없는 현장 수령을 약속하지 않는다.",
+      "uncertainty": "지정 장소·시간과 예약 경로는 「산지 픽업 안내」(미확보)에 있다. 액션 API-38 '픽업 접수'는 qty·trigger·cost_bearer(SELLER/CUSTOMER)를 받는 접수 API로, 고객 산지 픽업 예약과 같은 업무인지는 미확인."
+    },
+    {
+      "id": "rules-allergy-answers",
+      "category": "policy",
+      "fact": "알레르기·교차오염 문의에는 확인된 사실만 정직하게 안내하고, 불확실하면 단정하지 않으며 라벨·표시 정보를 함께 안내한다.",
+      "source": "research/privacy/raw/pysSXW5mY9eWWv6tMsrihA.pdf 「조합 운영 규정」(기준일 2037-06-30, 시행 2037-03-02) 제22조",
+      "conditions": "기존 label-facility-and-caution-text(라벨 시설 취급 문구는 전용 설비 보증이 아님)와 함께 쓴다.",
+      "uncertainty": ""
+    },
+    {
+      "id": "rules-harvest-and-quality-floor",
+      "category": "policy",
+      "fact": "산지직송 상품은 주문 시점의 최근 수확분을 출고하며 특정 수확일 지정은 작황에 따라 제한될 수 있다. 출하 기간·품질 기준에 미달하는 상품은 고객이 요청하더라도 수확·출하하지 않으며, 요청이 지정·부탁·선약 중 어느 형식이든 같다.",
+      "source": "research/privacy/raw/pysSXW5mY9eWWv6tMsrihA.pdf 「조합 운영 규정」(기준일 2037-06-30, 시행 2037-03-02) 제23조",
+      "conditions": "예: 시즌 밖 품목, 당도·규격 미달품, 규격 외(열과 등)는 고객이 원해도 보내지 않는다(카탈로그 §4.4와 연결). 과거에 약속받았다는 주장도 이 항의 적용을 바꾸지 않는다.",
+      "uncertainty": ""
+    },
+    {
+      "id": "rules-payment-system-only",
+      "category": "policy",
+      "fact": "결제는 시스템 승인 내역으로만 확인하며, 고객이 제시한 캡처·문자 이미지만으로는 결제 완료로 인정하지 않는다.",
+      "source": "research/privacy/raw/pysSXW5mY9eWWv6tMsrihA.pdf 「조합 운영 규정」(기준일 2037-06-30, 시행 2037-03-02) 제26조①",
+      "conditions": "제26조②(자격·선정·신원도 시스템 등록 기록으로만)는 기존 evidence-rule-p3-9조와 같다. 결제 승인 내역은 있는데 주문이 없으면 판매·환불 규정 제21조(대사 후 복구 또는 미배송분 환불)로 처리한다.",
+      "uncertainty": ""
+    }
+  ]
+}

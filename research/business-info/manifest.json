@@ -1,0 +1,14 @@
+{
+  "source_url": "https://t1.kakaocdn.net/aitop100/aitop100/dist/MOJG57TnhmfcLE2ReTtbVg.html",
+  "provider": "이민준",
+  "question": "R7Q1",
+  "response_ui_time": "2026-10-31 13:50 KST",
+  "retrieved_at": "2026-10-31T13:54:08",
+  "path": "research/business-info/raw/MOJG57TnhmfcLE2ReTtbVg.html",
+  "bytes": 494294,
+  "sha256": "906d71483f667b5ed36652a7590c7f59029398ca7638a826d50ec29182376b12",
+  "content_type": "text/html",
+  "safety": "HTTPS·크기 상한으로 받음. 실행하지 않고 정적으로만 읽음. 스크립트 1개는 처리방침 HTML과 같은 목차 처리 코드(3221자, 외부 요청 없음), onclick은 인쇄 버튼, 외부 URL 0. 배경 사진은 처리방침 HTML과 같은 이미지(디코드 SHA 앞 12자리 78bbfcff0119).",
+  "owner": "knowledge(R7 신규 자료 단독 수집)",
+  "status": "정적 판독 완료. 텍스트: research/business-info/text.txt, 후보: research/business-info/facts-candidate.json, notes: research/business-info-notes.md"
+}

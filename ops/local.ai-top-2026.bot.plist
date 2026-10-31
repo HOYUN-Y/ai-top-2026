@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnvironmentVariables</key>
+	<dict>
+		<key>PYTHONUNBUFFERED</key>
+		<string>1</string>
+	</dict>
+	<key>KeepAlive</key>
+	<dict>
+		<key>SuccessfulExit</key>
+		<false/>
+	</dict>
+	<key>Label</key>
+	<string>local.ai-top-2026.bot</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/usr/bin/caffeinate</string>
+		<string>-i</string>
+		<string>-s</string>
+		<string>/Users/lyuhoyun/.local/bin/uv</string>
+		<string>run</string>
+		<string>--locked</string>
+		<string>--env-file</string>
+		<string>/Users/lyuhoyun/.local/share/ai-top-2026/.env</string>
+		<string>/Users/lyuhoyun/.local/share/ai-top-2026/bot.py</string>
+	</array>
+	<key>RunAtLoad</key>
+	<true/>
+	<key>StandardErrorPath</key>
+	<string>/Users/lyuhoyun/.local/share/ai-top-2026/bot-service.log</string>
+	<key>StandardOutPath</key>
+	<string>/Users/lyuhoyun/.local/share/ai-top-2026/bot-service.log</string>
+	<key>ThrottleInterval</key>
+	<integer>30</integer>
+	<key>WorkingDirectory</key>
+	<string>/Users/lyuhoyun/.local/share/ai-top-2026</string>
+</dict>
+</plist>

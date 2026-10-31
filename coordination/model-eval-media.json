@@ -1,0 +1,19 @@
+{
+  "scope": "Approved public synthetic inputs; current Bot.generate, actual OpenRouter Gemini 2.5 Flash, action client absent, no Kakao callback. First-turn media comprehension only.",
+  "bot_sha256": "72dfaea83e26789ab18a5e8f5466099f2353aa2286e6e5795d30ab336597ab23",
+  "knowledge_sha256": "43cc6fff12833f23854ae7e4566a4bcef5c9d6cf4926c3e6a1b9007bde68152b",
+  "results": [
+    {
+      "case": "L-11",
+      "answer": "수박에 곰팡이가 피어 있어 많이 불편하셨겠습니다. 사진을 보니 내용물에 명확한 하자가 확인되어 전액 환불 또는 재배송이 가능하며, 원하시는 방법으로 처리해 드리겠습니다.",
+      "elapsed_ms": 3060,
+      "action_calls": 0
+    },
+    {
+      "case": "Y-07-b",
+      "answer": "주문하신 수박의 환불 가능 여부를 문의하셨습니다. 주문번호 끝자리가 33번이라는 정보만으로는 어떤 주문인지 정확한 확인이 어렵습니다. 전체 주문번호를 알려주시면 조회 후 환불 규정에 따라 안내해 드리겠습니다.",
+      "elapsed_ms": 2971,
+      "action_calls": 0
+    }
+  ]
+}

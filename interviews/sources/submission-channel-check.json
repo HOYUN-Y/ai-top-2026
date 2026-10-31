@@ -1,0 +1,28 @@
+{
+  "observed_at": "2026-10-31T14:10:33+09:00",
+  "provided_url": "http://pf.kakao.com/_xmaNWX",
+  "public_profile_url_observed": "https://pf.kakao.com/_xmaNWX",
+  "actual_name": "멍멍이",
+  "public_name_verified": true,
+  "desktop_chat_title": "멍멍이",
+  "desktop_input_present": true,
+  "desktop_send_enabled_with_empty_input": false,
+  "desktop_identity_evidence": "채팅방 Business information 경고의 Report 링크 pf.kakao.com/_xmaNWX/spam_report가 사용자 제공 채널ID와 일치",
+  "observed_messages": [
+    {
+      "ui_time": "10:51",
+      "direction": "outgoing",
+      "text": ".",
+      "sent_by": "기존 발신·이 작업에서 보내지 않음"
+    },
+    {
+      "ui_time": "14:08",
+      "direction": "incoming",
+      "text": "안녕하세요. 무엇을 도와드릴까요?",
+      "cause": "미확인·화면 관측만 기록"
+    }
+  ],
+  "test_messages_sent_by_agent": 0,
+  "settings_modified": false,
+  "note": "공개 프로필 채팅 버튼 접근과 기존 데스크톱 채팅방 읽기만 수행. 입력창 존재 확인은 서비스 왕복 검증과 다름. 인터뷰 관계자 연락처에 추가하지 않음."
+}

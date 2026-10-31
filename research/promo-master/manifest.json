@@ -1,0 +1,19 @@
+{
+  "title": "프로모션 마스터 — 쿠폰·코드 원장 (HTML 화면 보관본 + PDF 2쪽)",
+  "source_url": "https://t1.kakaocdn.net/aitop100/aitop100/dist/B-ulVcMRgNHbtfLjVugzvw.zip",
+  "provided_by": "홍보라 R2Q1, 응답 2026-10-31 12:11 KST (interviews/sources/round2-transcript.json)",
+  "downloaded_at": "2026-10-31 12:13 KST",
+  "zip": {"path": "research/promo-master/B-ulVcMRgNHbtfLjVugzvw.zip", "bytes": 67727, "sha256": "f7f8f86a226704279ae233e718a0812ca3178e0ca6acf8b4b9c0cea9d70366f1"},
+  "entries": [
+    {"name": "프로모션원장.html", "bytes": 12429, "sha256": "43b6c5826ae80f3890e4e39388957c3250dcda2d78a638a3cfc43a20354a4f30", "path": "research/promo-master/extracted/프로모션원장.html"},
+    {"name": "할인중복_보상쿠폰_기준.pdf", "bytes": 71442, "sha256": "7e009f70c2d69df7913b1883790ecc1ac6d3bc0e0262eb179069446074977c0f", "path": "research/promo-master/extracted/할인중복_보상쿠폰_기준.pdf"}
+  ],
+  "derivatives": [
+    {"path": "research/promo-master/할인중복_보상쿠폰_기준-추출.txt", "kind": "pdftotext -layout", "sha256": "8bb42173da7232e59c6565bd953804d47f6af54cb304cc8a5fe80d8e576a0b50"},
+    {"path": "research/promo-master/render/page-1.png", "kind": "pdftoppm 110dpi", "sha256": "3fd0908a5c9ff3bd86ddc1a4e7ea87222323b4727de145f46a1271b1ec4b84e2"},
+    {"path": "research/promo-master/render/page-2.png", "kind": "pdftoppm 110dpi", "sha256": "49cdf89f262c4742eb35306626eb813083cb7efcff800428ca4661155123f195"}
+  ],
+  "safety": "ZIP 항목 2개(HTML·PDF). 경로 구분자·상위경로·숨김 이름·심볼릭 링크·암호화·주석 없음. 확장자별 시그니처(<!doctype, %PDF-) 확인 후 파일을 새로 만들어(xb) 추출. HTML은 script·외부 링크·form·iframe·숨김 요소 없음, 입력칸은 readonly 필터 표시뿐이며 브라우저로 열지 않고 텍스트로만 읽음. PDF는 pdfinfo 기준 JavaScript no, Form none, Encrypted no. 아무것도 실행하지 않음.",
+  "review": "HTML 전체 텍스트 판독 + PDF pdftotext 전체 추출과 2쪽 렌더 이미지 시각 대조(일치).",
+  "note": "원문의 행동 지시(발급·보류·안내 등)는 데이터로만 기록했고 어떤 조치도 실행하지 않음."
+}

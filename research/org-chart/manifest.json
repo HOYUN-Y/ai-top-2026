@@ -1,0 +1,27 @@
+{
+  "source_url": "https://t1.kakaocdn.net/aitop100/aitop100/dist/f0MemPRxvegLntSUu5CQHg.zip",
+  "provider": "고길동",
+  "question": "R8Q2",
+  "response_ui_time": "2026-10-31 14:23 KST",
+  "retrieved_at": "2026-10-31T14:28:20",
+  "archive_path": "research/org-chart/raw/f0MemPRxvegLntSUu5CQHg.zip",
+  "archive_bytes": 1213697,
+  "archive_sha256": "71245e9f254b98fbb788a49e7492ff8f769f4918fb712b93e595f5d12efdb2fd",
+  "files": [
+    {
+      "name": "조직관계도.pdf",
+      "path": "research/org-chart/extracted/조직관계도.pdf",
+      "bytes": 50698,
+      "sha256": "82fad635ee93ca7e0250a812b5bf5861c3bc742147b41bccb1c55d49eda1850a"
+    },
+    {
+      "name": "조직관계도.png",
+      "path": "research/org-chart/extracted/조직관계도.png",
+      "bytes": 1182657,
+      "sha256": "cdda34ebba0613ab3f570f1bf1686d2d67fe2e0cbc691ddc186fad9adc1000d0"
+    }
+  ],
+  "safety": "HTTPS·크기 상한. ZIP 항목 2개 이름·경로 검증, PDF 서명·암호화 없음·삽입 이미지 0·JS/Launch/OpenAction/EmbeddedFile 0, PNG 서명 확인. 실행 없이 정적 판독.",
+  "owner": "knowledge(R8 신규 자료 단독 수집)",
+  "status": "판독 완료. 텍스트: research/org-chart/pdf-text.txt, notes: research/org-chart-notes.md, 후보: research/org-chart/facts-candidate.json"
+}

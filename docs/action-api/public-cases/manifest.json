@@ -1,0 +1,95 @@
+{
+  "source": "https://aitop100.org/contest/docs/test-cases",
+  "files": [
+    {
+      "id": "L-03",
+      "path": "docs/action-api/public-cases/L-03.md",
+      "sha256": "55d3fa138705ae6cd124d2761e19be7071500b05ca5aae6b5d144215c49885db",
+      "download": "로그인 Chrome 공개 테스트 페이지 원문 다운로드 버튼"
+    },
+    {
+      "id": "L-05",
+      "path": "docs/action-api/public-cases/L-05.md",
+      "sha256": "48095af3f9d1d4545fb144b8d78c7ca86bf13cf95ae6d66bf176c203fcaa05a2",
+      "download": "로그인 Chrome 공개 테스트 페이지 원문 다운로드 버튼"
+    },
+    {
+      "id": "L-11",
+      "path": "docs/action-api/public-cases/L-11.md",
+      "sha256": "9a52bdb0d6f7810e8e5318756280ceac9eab7620b2eaa5fd745b0dbf6056ebe0",
+      "download": "로그인 Chrome 공개 테스트 페이지 원문 다운로드 버튼"
+    },
+    {
+      "id": "L-20",
+      "path": "docs/action-api/public-cases/L-20.md",
+      "sha256": "d17d3a8dffdd97e38beae2ab9ecd1ba17352b6b6b9e0bf54783f1e4ab3009605",
+      "download": "로그인 Chrome 공개 테스트 페이지 원문 다운로드 버튼"
+    },
+    {
+      "id": "L-23",
+      "path": "docs/action-api/public-cases/L-23.md",
+      "sha256": "0ca798c45687274c364268ac21a0235fab84a20ddf02042ffb01e5e66f2009ef",
+      "download": "로그인 Chrome 공개 테스트 페이지 원문 다운로드 버튼"
+    },
+    {
+      "id": "L-32",
+      "path": "docs/action-api/public-cases/L-32.md",
+      "sha256": "aa8d4ad06381eeca3583a9a4aaf5a830ddc23d911a77bb7232045a8447e41721",
+      "download": "로그인 Chrome 공개 테스트 페이지 원문 다운로드 버튼"
+    },
+    {
+      "id": "L-33",
+      "path": "docs/action-api/public-cases/L-33.md",
+      "sha256": "45dae8783dc1327f2e7c149e933e55e847e252615ef1d93f7234091ebdd67700",
+      "download": "로그인 Chrome 공개 테스트 페이지 원문 다운로드 버튼"
+    },
+    {
+      "id": "L-34",
+      "path": "docs/action-api/public-cases/L-34.md",
+      "sha256": "d3c8fb5564b77186d0a80eb06b1e7003aef12dc98e6f64fcc945482cebe4dfc3",
+      "download": "로그인 Chrome 공개 테스트 페이지 원문 다운로드 버튼"
+    },
+    {
+      "id": "L-40",
+      "path": "docs/action-api/public-cases/L-40.md",
+      "sha256": "23a8f7d0bf0ba469c8c72d9c921f6e22226157f4bcf6b67df8b4b4f03bb368c3",
+      "download": "로그인 Chrome 공개 테스트 페이지 원문 다운로드 버튼"
+    },
+    {
+      "id": "L-47",
+      "path": "docs/action-api/public-cases/L-47.md",
+      "sha256": "8194bbbcb06dbc52d8dad2dea9889d0d78305a9d6a7ba954cd3ba0153b15ec32",
+      "download": "로그인 Chrome 공개 테스트 페이지 원문 다운로드 버튼"
+    },
+    {
+      "id": "L-60",
+      "path": "docs/action-api/public-cases/L-60.md",
+      "sha256": "8a59d6b1582d126842be6f398801f8b64eda94d86ea12d80f0eda28a63a43d19",
+      "download": "로그인 Chrome 공개 테스트 페이지 원문 다운로드 버튼"
+    },
+    {
+      "id": "R-05-a",
+      "path": "docs/action-api/public-cases/R-05-a.md",
+      "sha256": "1487b5550d8d60d75e3e2c9b86a2453e25be8a0b4e32a4d45c3d7a3dd1b7f87f",
+      "download": "로그인 Chrome 공개 테스트 페이지 원문 다운로드 버튼"
+    },
+    {
+      "id": "Y-07-b",
+      "path": "docs/action-api/public-cases/Y-07-b.md",
+      "sha256": "779e16da067166dca9b9228554c8891ddd4f1b791a7375eaf47ad60df5b07cde",
+      "download": "로그인 Chrome 공개 테스트 페이지 원문 다운로드 버튼"
+    },
+    {
+      "id": "Y-16",
+      "path": "docs/action-api/public-cases/Y-16.md",
+      "sha256": "740351df2e1bfccd7e8598df10f1ded12b6d916e23c43992665d55306202a1c6",
+      "download": "로그인 Chrome 공개 테스트 페이지 원문 다운로드 버튼"
+    },
+    {
+      "id": "Y-24",
+      "path": "docs/action-api/public-cases/Y-24.md",
+      "sha256": "781745b5a56d4ff3b8b78c74c17ff4fc2198a8bba90ea70357a89889036cf1bf",
+      "download": "로그인 Chrome 공개 테스트 페이지 원문 다운로드 버튼"
+    }
+  ]
+}

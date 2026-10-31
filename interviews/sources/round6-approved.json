@@ -1,0 +1,30 @@
+[
+  {
+    "recipient": "김청년",
+    "characters": 79,
+    "question": "단체 체험을 가예약한 고객이 며칠 안에 결정하고 언제 결제해야 하는지 묻습니다. 가예약 유지 기간과 결제, 최종 확정 안내는 어떻게 하시나요?",
+    "authorization": "coordination/contact-expansion.md 6차 시작 승인",
+    "status": "수신 완료"
+  },
+  {
+    "recipient": "김청년",
+    "characters": 88,
+    "question": "이전에 왔던 단체가 다시 예약하면서 지난번 운영 내용을 참고해 달라고 합니다. 이전 행사 날짜·단체·진행 내용과 당시 접수 방식을 어떤 기록으로 확인하시나요?",
+    "authorization": "coordination/contact-expansion.md 6차 시작 승인",
+    "status": "수신 완료"
+  },
+  {
+    "recipient": "이민준",
+    "characters": 84,
+    "question": "고길동님이 단체 체험 정산 실무를 민준님이 맡는다고 하셨습니다. 당일 참가 인원이 예약보다 줄면 무엇을 기준으로 정산하고 고객에게 어떻게 안내하시나요?",
+    "authorization": "coordination/contact-expansion.md 6차 시작 승인",
+    "status": "수신 완료"
+  },
+  {
+    "recipient": "이민준",
+    "characters": 94,
+    "question": "단골 기준을 충족한 고객에게 현재 단골가를 어떻게 확인해 안내하시나요? 조합장님은 할인 수준과 3월 안내의 현행 여부는 판매 실무를 맡은 민준님께 확인하라고 하셨습니다.",
+    "authorization": "coordination/contact-expansion.md 6차 시작 승인",
+    "status": "수신 완료"
+  }
+]

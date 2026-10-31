@@ -1,0 +1,13 @@
+{
+  "id": "CATALOG",
+  "source_url": "https://t1.kakaocdn.net/aitop100/aitop100/dist/Yku9ZG2eH3PsliWC0108RA.html",
+  "provider": "박수복",
+  "question": "R5Q1",
+  "response_ui_time": "2026-10-31 13:23 KST",
+  "path": "research/catalog/Yku9ZG2eH3PsliWC0108RA.html",
+  "bytes": 45004,
+  "sha256": "e9783f5ec544dd498ebf77cf3709d63bfb871b0481e23e2b4e55b9abc22b8462",
+  "retrieved_at": "2026-10-31T13:26:02",
+  "owner": "knowledge",
+  "status": "원본 보관·SHA-256 재확인 일치·정적 판독 완료(HTML 실행 안 함, script·링크·외부 참조 0). notes: research/catalog-notes.md, 표 원문: research/catalog/records.json, 후보: research/catalog/facts-candidate.json"
+}

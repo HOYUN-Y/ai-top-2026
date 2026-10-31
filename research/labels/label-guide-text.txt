@@ -1,0 +1,22 @@
+#ENTRY D39_cabbage-photo.png 2183533 8de91f55772a991a41627d1dab72268d4e132777475a8e390323f3c4eddeed86
+#ENTRY D39_hairtail-photo.png 2517610 e39988968490c014f3eb9a422e58d251523908acfca5d72e62d686e8502bdaf4
+#ENTRY D39_label-guide.docx 37733 62b64118c8e2b86fda5e62fa285b0e438a7804cb7ceee6351049943cb1413d19
+#ENTRY D39_old-citrus-photo.png 2368464 facb91709f8366ad685978ac1d846ded43db03225114e67d0425e029b2f34a1f
+#ENTRY D39_potato-photo.png 2297730 da6fe89351f95f11c2872a8189d340fd165b33405a937be28226e8886bbcfb29
+#ENTRY D39_watermelon-photo.png 2650025 4fae5823f34a44b11cd8b86789a96bb32f8124126d024853f5681256a6ece98d
+#PARTS ['[Content_Types].xml', '_rels/.rels', 'docProps/core.xml', 'docProps/app.xml', 'word/document.xml', 'word/_rels/document.xml.rels', 'word/styles.xml', 'word/stylesWithEffects.xml', 'word/settings.xml', 'word/webSettings.xml', 'word/fontTable.xml', 'word/theme/theme1.xml', 'customXml/item1.xml', 'customXml/_rels/item1.xml.rels', 'customXml/itemProps1.xml', 'word/numbering.xml', 'docProps/thumbnail.jpeg']
+#MACRO False
+### word/document.xml
+교동마을 산지직송  |  업무 참고
+상품 라벨 확인 안내
+라벨 사진을 주문 정보와 출고 기록에 대조할 때 참고합니다. 라벨에 없는 사항을 사진만으로 확정하지 않습니다.
+주문 당시 표기와 대조합니다
+상표와 판 번호, 품목·품종, 로트번호, 출하일, 중량·구성을 확인합니다. 로트번호가 주문의 출고 기록에 등재된 번호인지도 대조합니다. 번호나 출고일이 맞지 않으면 우리 출고분으로 확정하지 않습니다.
+표기값은 현재 화면이 아니라 주문 당시의 표기와 맞춰 봅니다. 시즌이나 상품 구성 변경으로 표기가 달라졌다는 이유만으로 고객의 라벨을 오표기로 보지 않습니다. 우리 라벨로 확인되면 추가 증빙을 요구하지 않습니다.
+섭취기한과 보관기간을 구분합니다
+라벨의 권장 섭취기한은 출하일부터 농산 과일 14일, 감자·고구마 60일, 절임배추 7일(냉장), 냉동 수산물 90일(-18℃)입니다. 참다래는 경도를 유지하며 냉장하면 30일, 후숙을 시작한 뒤에는 3~5일입니다. 적힌 보관 조건을 지켰을 때의 값입니다.
+상세페이지의 통수박 상온 보관 2~3주와 라벨의 14일은 기준이 다릅니다. 라벨은 출하일 기준으로 보수적으로 적은 권장 상한입니다. 두 값을 함께 묻는 경우에는 짧은 라벨 기한을 권장하되, 기한이 지났다는 이유만으로 하자 여부를 판단하지 않습니다.
+판 번호와 실제 문구를 확인합니다
+LBL-2037-06은 현행판, LBL-2037-03은 구판입니다. 함께 제공하는 감귤 사진은 표기가 빠진 구판 예시입니다. 현행 과일 라벨은 수박 예시와 같은 항목 구성을 따르며 품목별 값은 다릅니다.
+판 번호가 가려졌으면 알레르기 문구 유무를 확인합니다. 출고일만으로 판을 확정하지 않습니다. 구판에 없는 문구를 있다고 안내하지 않습니다. 라벨의 시설 취급 문구만으로 전용 설비나 라인 분리, 세척 주기를 보증하지 않습니다.
+감자 라벨의 섭취주의 문구는 예방 안내입니다. 그 문구가 있다는 이유로 변색 책임을 고객에게 돌리지 않습니다. 생산자 표기는 추적용이며 고객이 직접 연락하는 창구가 아닙니다.

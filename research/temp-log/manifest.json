@@ -1,0 +1,27 @@
+{
+  "source_url": "https://t1.kakaocdn.net/aitop100/aitop100/dist/tHHClVffN4f8jvA_vuOtuQ.zip",
+  "provider": "박민아",
+  "question": "R7Q2",
+  "response_ui_time": "2026-10-31 13:55 KST",
+  "retrieved_at": "2026-10-31T13:57:27",
+  "archive_path": "research/temp-log/raw/tHHClVffN4f8jvA_vuOtuQ.zip",
+  "archive_bytes": 19011,
+  "archive_sha256": "fc21e0d7eff66e5dbf3912010d1ca018e989af5757e754351af2e4c433cefe67",
+  "files": [
+    {
+      "name": "온도기록계_관측기록.xlsx",
+      "path": "research/temp-log/extracted/온도기록계_관측기록.xlsx",
+      "bytes": 14921,
+      "sha256": "bf263ea0c72209b8cdd4299719ffb82dd72d65d784fdf527d27bfb91458f9f38"
+    },
+    {
+      "name": "온도기록계_조회.html",
+      "path": "research/temp-log/extracted/온도기록계_조회.html",
+      "bytes": 14873,
+      "sha256": "a1e5949b82c849c507cf60882e5fefe99afd62e491c039cdbd848ff06f9c680e"
+    }
+  ],
+  "safety": "HTTPS·크기 상한. ZIP 항목 2개, 경로·이름 검증, xlsx PK 서명·매크로 없음·수식 0·숨김 0, html은 script·form·외부 URL 0(readonly input 3개). 실행 없이 정적 판독.",
+  "owner": "knowledge(R7 신규 자료 단독 수집)",
+  "status": "판독 완료. 텍스트: research/temp-log/html-text.txt·xlsx-cells.txt, notes: research/temp-log-notes.md, 후보: research/temp-log/facts-candidate.json"
+}

@@ -1,0 +1,50 @@
+{
+  "run_at": "2026-10-31 13:37:43 KST",
+  "model": "google/gemini-2.5-flash",
+  "knowledge_snapshot": [
+    {
+      "path": "knowledge/interview-progress.json",
+      "facts": 11,
+      "sha256": "734af7702f0b9e016372f1210e25889951b5057233581df9c99a17d4bae5243d"
+    },
+    {
+      "path": "interviews/knowledge.json",
+      "facts": 154,
+      "sha256": "089e7b8f3ad1c690589c6fdc7032afbc5a6a1b75e64d71810656bb353996822d"
+    }
+  ],
+  "prompt_chars": 54443,
+  "tools": 40,
+  "action_server": "MockTransport (synthetic responses only)",
+  "results": [
+    {
+      "id": "L03M",
+      "requests": [
+        {
+          "method": "POST",
+          "name": "API-24"
+        }
+      ],
+      "latency_ms": 3434,
+      "chars": 80,
+      "error": null,
+      "reply": "배송지 변경 접수 전에 현재 주문 상태를 확인해야 합니다. 100100003번 주문의 현재 배송지 정보를 조회한 후 변경을 진행할 수 있습니다.",
+      "actions": [
+        {
+          "name": "API-24",
+          "method": "POST",
+          "args": {
+            "order_no": "100100003",
+            "body": {
+              "new_address": "경기 성남시 분당구 정자일로 95, 101동 1203호"
+            }
+          },
+          "result": {
+            "error": "LOOKUP_REQUIRED_FIRST",
+            "message": "아직 접수하지 않았습니다. 이 대상의 현재 상태를 알맞은 조회 도구로 지금 먼저 호출해 확인하고, 정책상 가능하면 같은 응답 안에서 접수 도구를 다시 호출하세요. 필요한 정보가 이미 확인됐다면 고객에게 다시 묻지 마세요."
+          }
+        }
+      ]
+    }
+  ]
+}

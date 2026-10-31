@@ -1,0 +1,19 @@
+{
+  "recipient": "박민아",
+  "channel": "https://pf.kakao.com/_xcfIxaX",
+  "channel_title": "박민아",
+  "channel_added_at_ui": "2026-10-31 13:43",
+  "observed_message": "'박민아' 채널을 추가해 주셔서 감사합니다.\n앞으로 다양한 소식과 혜택/정보를 메시지로 받으실 수 있습니다.\n\n채널 추가 일시(한국시간 기준): 2026년 10월 31일 13:43 \n수신거부: 홈>채널 차단",
+  "chat_state": "Chat not available.",
+  "input_available": false,
+  "send_enabled": false,
+  "general_questions_sent_by_agent": 0,
+  "existing_business_messages": [],
+  "note": "채널 확보/사용자 추가/제목 접근 확인과 실제 대화 가능 여부를 분리. status 미발송. 사용량0/100으로 측정한 것은 아님.",
+  "subsequent_observation": {
+    "chat_state": "박민아 제목·활성 입력창 확인, 13:48 승인 질문 발신 말풍선 확인",
+    "general_questions_sent_by_agent": 1,
+    "response_status": "대기",
+    "note": "최초 대화 불가 관측은 역사로 보존. 사용량 명령 미발송."
+  }
+}

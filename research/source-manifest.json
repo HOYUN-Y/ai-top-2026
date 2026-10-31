@@ -1,0 +1,1383 @@
+{
+  "generated_at": "2026-10-31T14:44:00",
+  "generated_by": "root — 구현 담당 전환 후 원장 인수",
+  "scope": [
+    "interviews/sources/** 전체(원문 JSON·캡처·첨부·파생물)",
+    "interviews/*.md 첨부 링크 절, knowledge/interview-progress.json sources",
+    "round1-transcript.json·round2-transcript.json의 responses·attachment_links",
+    "대화자료/** (사용자 저장본)",
+    "research/**",
+    "~/Downloads 원본 캡처 2개, /tmp/ai-top-delegation B10 사본(해시 대조만, 저장소 밖이라 링크하지 않음)"
+  ],
+  "rules": [
+    "같은 파일은 sha256으로 연결하고 사본을 새로 만들지 않는다.",
+    "사용자 파일(대화자료/**, interviews/**, ~/Downloads)은 이동·삭제·수정하지 않았다.",
+    "가상 업무 날짜(2037)와 현실 수집 시각(2026-10-31 KST)을 구분한다.",
+    "audience: customer_ok=고객 안내 가능 범위가 문서에 정해짐, internal=판단에는 활용하되 원문·승인 구조·정산·분담을 고객에게 공개하지 않음, personal=개인정보 포함·고객 비공개."
+  ],
+  "hash_snapshot_note": "첨부 원본 해시는 개별 manifest의 확보 시점 기준이며 원본은 변경하지 않았다. raw_records·runtime_snapshot 해시는 각 목록 갱신 시점 스냅샷이다. 인터뷰 원문은 진행 중 계속 바뀌므로 이후 값과 다를 수 있다.",
+  "attachments": [
+    {
+      "id": "B10",
+      "title": "권한 위임표 (5쪽 이미지)",
+      "type": "zip(png×5)",
+      "url": "https://t1.kakaocdn.net/aitop100/aitop100/dist/6iTYICPyXjcgE67V6KauZQ.zip",
+      "provided_by": "고길동",
+      "received_ui_time": "2026-10-31 11:05 KST",
+      "question": "1차 판단은 이민준이 한다면 그 이상의 재량을 넘어가는 경우 고길동 조합장이 한다면, 어떤 것들을 판단하나요 ?",
+      "question_evidence": {
+        "path": "interviews/sources/고길동-기존캡처.png",
+        "sha256": "f2021d96dfe5e906a286768118cc6f8c369d1d6f220c2e3aea4673ee52fd87cb",
+        "bytes": 252604,
+        "kind": "user_capture"
+      },
+      "original": {
+        "path": "research/b10-zip/6iTYICPyXjcgE67V6KauZQ.zip",
+        "sha256": "9a9466a546516effc8a2d7d15851ba45cc79aa01b975d9c3b9bcecb2bce0041e",
+        "bytes": 30799776,
+        "downloaded_at": "2026-10-31 12:08 KST",
+        "note": "원본 ZIP 미보관이라 초기 지식 JSON·캡처의 URL로 다시 받음"
+      },
+      "entries": [
+        {
+          "name": "B10-01.png",
+          "bytes": 6152598,
+          "sha256": "8d286b56fc4d415315f82f81f2925a84892b6e8c59df227272093a8bfd77349d",
+          "png_signature": true,
+          "copies_same_hash": [
+            "interviews/sources/B10-01.png",
+            "대화자료/6iTYICPyXjcgE67V6KauZQ/B10-01.png"
+          ],
+          "extracted_in_research": false
+        },
+        {
+          "name": "B10-02.png",
+          "bytes": 6223942,
+          "sha256": "0710bff6ccd2fbb2996acaa51342785bf9c724179a59cb0a41dc9f5a8ad4a75e",
+          "png_signature": true,
+          "copies_same_hash": [
+            "interviews/sources/B10-02.png",
+            "대화자료/6iTYICPyXjcgE67V6KauZQ/B10-02.png"
+          ],
+          "extracted_in_research": false
+        },
+        {
+          "name": "B10-03.png",
+          "bytes": 6219408,
+          "sha256": "37282ce9a458c9abaa4775241a97d814891dcd7bd0204761bc5ba34ded65caf3",
+          "png_signature": true,
+          "copies_same_hash": [
+            "interviews/sources/B10-03.png",
+            "대화자료/6iTYICPyXjcgE67V6KauZQ/B10-03.png"
+          ],
+          "extracted_in_research": false
+        },
+        {
+          "name": "B10-04.png",
+          "bytes": 6235513,
+          "sha256": "af359c5ddd43a22ee8e8e83e4322fe670b96c2a24b4603271f72ddd820348d7d",
+          "png_signature": true,
+          "copies_same_hash": [
+            "interviews/sources/B10-04.png",
+            "대화자료/6iTYICPyXjcgE67V6KauZQ/B10-04.png"
+          ],
+          "extracted_in_research": false
+        },
+        {
+          "name": "B10-05.png",
+          "bytes": 5959841,
+          "sha256": "d2b382b645fa00860dc5965bb781de2851f03869d1f9ce0043c285e52f4d4cc8",
+          "png_signature": true,
+          "copies_same_hash": [
+            "interviews/sources/B10-05.png",
+            "대화자료/6iTYICPyXjcgE67V6KauZQ/B10-05.png"
+          ],
+          "extracted_in_research": false
+        }
+      ],
+      "safety": "항목 5개 모두 평범한 파일명 PNG, 경로 이탈·심볼릭 링크·암호화 없음. 기존 사본과 해시가 같아 풀지 않음.",
+      "readings": [
+        "knowledge/interview-progress.json",
+        "interviews/knowledge.json",
+        "coordination/document-analysis.md",
+        "coordination/review.md#R7"
+      ],
+      "status": "확보·전체 판독",
+      "audience": "internal (운영상 분류이며 위임표 원문에 공개 금지 조항은 없음. 판단에는 활용. 승인 대기 시 대기·회신 예정 시점 안내 의무: 제6조④)",
+      "review": "coordination/review.md R7·archive-review.md",
+      "runtime": "초기 지식·위임표 기반 사실 런타임 반영"
+    },
+    {
+      "id": "VPA",
+      "title": "수산물 위탁 판매 계약서 (5쪽 PDF)",
+      "type": "pdf",
+      "url": "https://t1.kakaocdn.net/aitop100/aitop100/dist/VPaqTY6ACayEeUct0aT6aw.pdf",
+      "provided_by": "홍이장",
+      "received_ui_time": "2026-10-31 11:43 KST",
+      "question": "고객이 받은 수산물이 상했다고 하면, 갯마을에서는 무엇을 확인하고 교동마을과 책임을 어떻게 나누나요?",
+      "question_evidence": {
+        "path": "interviews/sources/round1-transcript.json",
+        "recipient": "홍이장",
+        "round_question": 1
+      },
+      "original": {
+        "path": "interviews/sources/VPaqTY6ACayEeUct0aT6aw.pdf",
+        "sha256": "b9b4ad7ef4a3a80822240a991e77940f2ea6007be3c8dd410a3df7de8fd403ab",
+        "bytes": 155880
+      },
+      "derivatives": [
+        {
+          "path": "interviews/sources/위탁계약서-추출.txt",
+          "sha256": "aee35e6a64eaa5df88cde9c95b24d534e2fc3f35b65ec343706fffe779e60555",
+          "bytes": 11140,
+          "kind": "pdftotext"
+        },
+        {
+          "path": "interviews/sources/위탁계약서-render/page-1.png",
+          "sha256": "43cbce2d5c66a8a2747a2bfcdf75f2f849ece4c15d33ef0f97cdf59d7ea4136e",
+          "bytes": 238006,
+          "kind": "render"
+        },
+        {
+          "path": "interviews/sources/위탁계약서-render/page-2.png",
+          "sha256": "0c5ecda8ab3578e7674e5c5af3b97104ffa03ae7d9378ebd53dd1e3f4080337a",
+          "bytes": 309353,
+          "kind": "render"
+        },
+        {
+          "path": "interviews/sources/위탁계약서-render/page-3.png",
+          "sha256": "91891048a61236414930396540098d789a8089e3db6173f12f032b470f0ea4b4",
+          "bytes": 288389,
+          "kind": "render"
+        },
+        {
+          "path": "interviews/sources/위탁계약서-render/page-4.png",
+          "sha256": "ab0e90b14b2d28d231831b24242fdb7919296ca1643068f17f2cd268e222adc5",
+          "bytes": 277194,
+          "kind": "render"
+        },
+        {
+          "path": "interviews/sources/위탁계약서-render/page-5.png",
+          "sha256": "39aa703036f0b6821ef3813e0d2d28de1010254b3781e7334c376bad9e6bee6f",
+          "bytes": 62055,
+          "kind": "render"
+        }
+      ],
+      "readings": [
+        "interviews/sources/위탁계약서-판독.md",
+        "interviews/sources/위탁계약서-manifest.json",
+        "coordination/document-analysis.md"
+      ],
+      "status": "확보·전체 판독(interview 담당)",
+      "audience": "mixed — 계약 제17조: 위탁 사실·교동 단일 창구는 customer_ok, 품질 책임 경계는 원인 설명에만, 수수료·정산·선지급 차감·분담 비율은 internal(고객 설명·거절 사유 사용 금지)",
+      "review": "coordination/knowledge-review.md(위탁계약서 추출문 대조)",
+      "runtime": "위탁계약 사실 런타임 반영"
+    },
+    {
+      "id": "C31",
+      "title": "출하장 업무 인계 대장 + 박민아 개인 수첩 사진",
+      "type": "zip(png×2)",
+      "url": "https://t1.kakaocdn.net/aitop100/aitop100/dist/Q4owkAQyT-xhxfMKTJ2wUw.zip",
+      "provided_by": "구방만",
+      "received_ui_time": "2026-10-31 12:03 KST",
+      "question": "기사님이 부재중이거나 업무를 인계한 뒤의 배송 건은 현장 사실을 누구에게 확인하면 되나요? 그분의 담당 업무와 카카오톡 채널을 알려주세요.",
+      "question_evidence": {
+        "path": "interviews/sources/round1-transcript.json",
+        "recipient": "구방만",
+        "round_question": 2
+      },
+      "original": {
+        "path": "research/handover-zip/Q4owkAQyT-xhxfMKTJ2wUw.zip",
+        "sha256": "b4e413fee7b8ed12ebc9d694fa146d4a1862fc09ef69e238678d97723e8d46be",
+        "bytes": 3039669,
+        "downloaded_at": "2026-10-31 12:05 KST"
+      },
+      "entries": [
+        {
+          "name": "C31_driver-notebook.png",
+          "bytes": 1386891,
+          "sha256": "56179414a5d30d1d02e01008baf66f98d61c697372e5453a0c9f064ccc7e373b",
+          "png_signature": true,
+          "copies_same_hash": [
+            "대화자료/Q4owkAQyT-xhxfMKTJ2wUw/C31_driver-notebook.png"
+          ],
+          "extracted_in_research": false
+        },
+        {
+          "name": "C31_handover-ledger.png",
+          "bytes": 1677200,
+          "sha256": "ed7a66a5edebc10743cf680baeee9ff107bcfcb85ff61d9518e37bca00e5e566",
+          "png_signature": true,
+          "copies_same_hash": [
+            "대화자료/Q4owkAQyT-xhxfMKTJ2wUw/C31_handover-ledger.png"
+          ],
+          "extracted_in_research": false
+        }
+      ],
+      "safety": "항목 2개 PNG, 경로 이탈·심볼릭 링크·암호화 없음. research 추출본은 사용자 사본과 해시가 같아 12:09 KST에 삭제하고 사용자 사본을 연결.",
+      "readings": [
+        "research/handover-notes.md",
+        "research/handover-zip/manifest.json"
+      ],
+      "status": "확보·전체 판독",
+      "audience": "personal+internal (부재 사유·개인 수첩·로트/차량 식별자 포함. 고객에게 원문·개인 사정·내부 분담을 말하지 않음)",
+      "review": "coordination/archive-review.md 추가 검수 적합",
+      "runtime": "인계 대장·수첩 사실 런타임 반영"
+    },
+    {
+      "id": "PROMO-MASTER",
+      "title": "프로모션 마스터 — 쿠폰·코드 원장 (HTML 보관본 + PDF 2쪽)",
+      "type": "zip(html, pdf)",
+      "url": "https://t1.kakaocdn.net/aitop100/aitop100/dist/B-ulVcMRgNHbtfLjVugzvw.zip",
+      "provided_by": "홍보라",
+      "received_ui_time": "2026-10-31 12:11 KST",
+      "question": "고객이 홍보물에서 본 할인이 결제 때 적용되지 않았다고 하면, 홍보라님은 무엇을 확인하시고 그 결과를 누구에게 알려주시나요?",
+      "question_evidence": {
+        "path": "interviews/sources/round2-transcript.json",
+        "recipient": "홍보라",
+        "round_question": 1
+      },
+      "original": {
+        "path": "research/promo-master/B-ulVcMRgNHbtfLjVugzvw.zip",
+        "sha256": "f7f8f86a226704279ae233e718a0812ca3178e0ca6acf8b4b9c0cea9d70366f1",
+        "bytes": 67727,
+        "downloaded_at": "2026-10-31 12:13 KST"
+      },
+      "entries": [
+        {
+          "path": "research/promo-master/extracted/프로모션원장.html",
+          "sha256": "43b6c5826ae80f3890e4e39388957c3250dcda2d78a638a3cfc43a20354a4f30",
+          "bytes": 12429,
+          "kind": "html(텍스트로만 판독, 브라우저 열지 않음)"
+        },
+        {
+          "path": "research/promo-master/extracted/할인중복_보상쿠폰_기준.pdf",
+          "sha256": "7e009f70c2d69df7913b1883790ecc1ac6d3bc0e0262eb179069446074977c0f",
+          "bytes": 71442,
+          "kind": "pdf"
+        }
+      ],
+      "derivatives": [
+        {
+          "path": "research/promo-master/할인중복_보상쿠폰_기준-추출.txt",
+          "sha256": "8bb42173da7232e59c6565bd953804d47f6af54cb304cc8a5fe80d8e576a0b50",
+          "bytes": 8464,
+          "kind": "pdftotext"
+        },
+        {
+          "path": "research/promo-master/render/page-1.png",
+          "sha256": "3fd0908a5c9ff3bd86ddc1a4e7ea87222323b4727de145f46a1271b1ec4b84e2",
+          "bytes": 215049,
+          "kind": "render"
+        },
+        {
+          "path": "research/promo-master/render/page-2.png",
+          "sha256": "49cdf89f262c4742eb35306626eb813083cb7efcff800428ca4661155123f195",
+          "bytes": 213605,
+          "kind": "render"
+        }
+      ],
+      "safety": "항목 2개, 경로·심볼릭 링크·암호화 문제 없음, 시그니처 확인 후 추출. HTML에 script·링크·form 없음. PDF JavaScript no.",
+      "readings": [
+        "research/promo-master-notes.md",
+        "research/promo-master/manifest.json"
+      ],
+      "status": "확보·전체 판독",
+      "audience": "mixed — 코드 명칭·율·기간·중복 결론은 customer_ok, 원인 판정 절차·등록/승인 구조는 internal, 발급 이력의 동일인 신호·다른 계정 정보는 고객 비공개",
+      "review": "coordination/promotion-review.md 최종 적합",
+      "runtime": "promotion-facts-draft 17건 중 원장 근거분 런타임 반영"
+    },
+    {
+      "id": "REVISIONS",
+      "title": "규정·대응방안 개정 이력(DOCX) + 「판매·환불 규정집」 제정판 종이 사본 사진",
+      "type": "zip(docx, png)",
+      "url": "https://t1.kakaocdn.net/aitop100/aitop100/dist/7pwiM8P_JmEfMSbzvIuwuQ.zip",
+      "provided_by": "고길동",
+      "received_ui_time": "2026-10-31 12:19 KST",
+      "question": "고객이 예전에 안내받은 조건과 현재 조합 규정이 다르다고 하면, 규정이 바뀐 시점과 적용 대상을 확인해 줄 조합 운영·제도 담당자와 카카오톡 연락창구를 알려주시겠습니까?",
+      "question_evidence": {
+        "path": "interviews/sources/round2-transcript.json",
+        "recipient": "고길동",
+        "round_question": 4
+      },
+      "original": {
+        "path": "research/revisions/7pwiM8P_JmEfMSbzvIuwuQ.zip",
+        "sha256": "2f0631c43808a277d9c81f012c4510012e921be033f09e017c790bba2fa32910",
+        "bytes": 1889042,
+        "downloaded_at": "2026-10-31 12:21 KST"
+      },
+      "entries": [
+        {
+          "path": "research/revisions/extracted/B09_revision-history.docx",
+          "sha256": "5bba3bc69450eeafd3a49f7a127f1652c31bf8ae329c9e3e11b510c91748cc58",
+          "bytes": 43398,
+          "kind": "docx(XML 텍스트로만 판독)"
+        },
+        {
+          "path": "research/revisions/extracted/B09_old-paper-photo.png",
+          "sha256": "8df97df9497dc43b73b55dc1afd8cf03f51b618b1d6e609cbf5b89be98ce4855",
+          "bytes": 2013227,
+          "kind": "png(구판 인쇄본 사진)"
+        }
+      ],
+      "derivatives": [
+        {
+          "path": "research/revisions/revision-history-text.txt",
+          "sha256": "935b69b9fc338f8baabc5df968e926074243818043eb03108c4175e49b9c4e2c",
+          "bytes": 13778,
+          "kind": "docx 텍스트 추출"
+        }
+      ],
+      "safety": "항목 2개, 경로·심볼릭 링크·암호화 없음, 시그니처 확인 후 추출. DOCX 매크로·외부 링크 없음.",
+      "readings": [
+        "research/revision-notes.md",
+        "research/revisions/manifest.json"
+      ],
+      "status": "확보·전체 판독",
+      "audience": "mixed — 시행일·기한·적용 기준 시점·현장 구판 취급 결론은 customer_ok, 두 원장 조회 절차는 internal. 사진은 구판(제20조 3일은 현행 아님)",
+      "date_basis": "문서 기준일 2037-06-30, 문서 시행일 2037-06-01. 하자 기한 개정 2037-06-28(신고 시점 기준), 가격 인하 차액 개정 2037-06-15(주문 시점 기준). 상담 날짜로 판을 정하지 않음",
+      "review": "coordination/revision-weight-review.md 최종 적합(P1/P2 해결)",
+      "runtime": "revision-weight-facts-draft 11건 런타임 반영"
+    },
+    {
+      "id": "LOT-LEDGER",
+      "title": "로트 원장·출고 검사 기록(HTML 보관본) + 출고 검사 성적서 팩스 사본(PDF)",
+      "type": "zip(html, pdf)",
+      "url": "https://t1.kakaocdn.net/aitop100/aitop100/dist/5qStcfJN45yTNkUI8SYD0w.zip",
+      "provided_by": "박수복",
+      "received_ui_time": "2026-10-31 12:23 KST",
+      "question": "고객이 받은 교동 농산물이 안내보다 덜 달거나 상태가 나쁘다고 하면, 생산 쪽에서는 어떤 기록과 현장 사정을 확인하시나요?",
+      "question_evidence": {
+        "path": "interviews/sources/round2-transcript.json",
+        "recipient": "박수복",
+        "round_question": 1
+      },
+      "original": {
+        "path": "research/lot-crop/5qStcfJN45yTNkUI8SYD0w.zip",
+        "sha256": "1daf9c36e27edd2895e2570a51b5d10ef8e920b818087cb83baba04a7ce4c6ff",
+        "bytes": 40964,
+        "downloaded_at": "2026-10-31 12:26 KST"
+      },
+      "entries": [
+        {
+          "path": "research/lot-crop/extracted/로트원장.html",
+          "sha256": "f63d610b21a166a30e8b0c9e3659f9fa6d136eff02c44175f651ebc17105eb62",
+          "bytes": 33255,
+          "kind": "html(텍스트로만 판독)"
+        },
+        {
+          "path": "research/lot-crop/extracted/출고검사성적서_팩스사본_KD-HGL-370624-01.pdf",
+          "sha256": "f6fd7f9ffac2a710f8f3ba72d7f3ac8cad78d1a4bd63e4d9144d26199e9d5782",
+          "bytes": 31932,
+          "kind": "pdf(이미지 전용 팩스)"
+        }
+      ],
+      "derivatives": [
+        {
+          "path": "research/lot-crop/lot-ledger-text.txt",
+          "sha256": "cf4445f1431a6b92bdb3fe9b27bbee8245724bc3d70da616cb51f3d33536f0b0",
+          "bytes": 23881,
+          "kind": "html 텍스트"
+        },
+        {
+          "path": "research/lot-crop/render/cert-1.png",
+          "sha256": "81ffd0276de8af9ed30713b9eeec1b1f10dd43e133327246b9784ebb9d364900",
+          "bytes": 47422,
+          "kind": "pdf 렌더"
+        },
+        {
+          "path": "research/lot-crop/records.json",
+          "sha256": "2698bfbbf97f9d6808ed7ebe59039c8e98cf34f725d7e00bccae24f8d797666c",
+          "bytes": 43570,
+          "kind": "원장·작황 표 원문 셀 구조화"
+        },
+        {
+          "path": "research/lot-crop/facts-candidate.json",
+          "sha256": "bf5221fb7ce891f9a9be6b02f88d61e14888d64fb16b91dd6677c4fd44cfef3a",
+          "bytes": 13791,
+          "kind": "지식 후보 13건(미반영)"
+        }
+      ],
+      "safety": "항목 2개, 경로·심볼릭 링크·암호화 없음, 시그니처 확인 후 추출. HTML script·링크·form 없음. PDF JavaScript no.",
+      "readings": [
+        "research/lot-crop-notes.md",
+        "research/lot-crop/manifest.json"
+      ],
+      "status": "확보·전체 판독",
+      "audience": "mixed — 당도 판정 기준·로트번호 확인·송장 반영 지연은 customer_ok, 조사 기록·측정자 실명·주문번호는 internal",
+      "review": "coordination/lot-crop-review.md 최종 적합",
+      "runtime": "lot-crop facts-candidate 13건 런타임 반영(작황 포함)"
+    },
+    {
+      "id": "CROP-DISASTER",
+      "title": "교동마을 작황·재해 기록(XLSX 4시트)",
+      "type": "xlsx",
+      "url": "https://t1.kakaocdn.net/aitop100/aitop100/dist/ZvkCmo83NoMZZ9jC-261Xg.xlsx",
+      "provided_by": "박수복",
+      "received_ui_time": "2026-10-31 12:23 KST",
+      "question": "고객이 받은 교동 농산물이 안내보다 덜 달거나 상태가 나쁘다고 하면, 생산 쪽에서는 어떤 기록과 현장 사정을 확인하시나요?",
+      "question_evidence": {
+        "path": "interviews/sources/round2-transcript.json",
+        "recipient": "박수복",
+        "round_question": 1
+      },
+      "original": {
+        "path": "research/lot-crop/ZvkCmo83NoMZZ9jC-261Xg.xlsx",
+        "sha256": "4e5e59628ccb0c628246f5d2788e869433d95dfd8796d73fd5fb44ce8348286b",
+        "bytes": 10971,
+        "downloaded_at": "2026-10-31 12:26 KST"
+      },
+      "derivatives": [
+        {
+          "path": "research/lot-crop/xlsx-cells.txt",
+          "sha256": "a769d3f4ad6ce3566436eeaecb9f38de40ba7b6daedb4f9306ed77f5d1cb0b18",
+          "bytes": 7215,
+          "kind": "셀 XML 덤프"
+        }
+      ],
+      "safety": "매크로·외부 링크·연결 없음, Excel로 열지 않고 XML만 판독. 수식 0개, 날짜는 텍스트.",
+      "readings": [
+        "research/lot-crop-notes.md",
+        "research/lot-crop/manifest.json"
+      ],
+      "status": "확보·전체 판독",
+      "audience": "internal(판단용). 출고 재개 미확정·지연 사실은 확정 일정 없이 고객 안내",
+      "review": "coordination/lot-crop-review.md 최종 적합",
+      "runtime": "lot-crop facts-candidate 13건에 포함·런타임 반영"
+    },
+    {
+      "id": "MEMBERSHIP",
+      "title": "조합원 가입 안내 리플렛(DOCX·3쪽 PDF·웹 HTML·표지 사진)",
+      "type": "zip(docx, pdf, html, jpg)",
+      "url": "https://t1.kakaocdn.net/aitop100/aitop100/dist/AQ_znwGwujW6X3lemUNJxw.zip",
+      "provided_by": "고길동",
+      "received_ui_time": "2026-10-31 12:35 KST",
+      "question": "고객이 조합원으로 가입해 단골 혜택을 받고 싶다고 하면, 가입·출자·탈퇴 조건은 누구에게 확인해야 하나요? 그분께 직접 문의할 카카오톡 채널도 알려주세요.",
+      "question_evidence": {
+        "path": "interviews/sources/round3-transcript.json",
+        "recipient": "고길동",
+        "round_question": 1
+      },
+      "original": {
+        "path": "research/membership/AQ_znwGwujW6X3lemUNJxw.zip",
+        "sha256": "9a342d571895ee6c7ff2100e0f40e4e1df5d92b22f381c7f5d20b5ea01770bcc",
+        "bytes": 18217817,
+        "downloaded_at": "2026-10-31 12:37 KST"
+      },
+      "entries": [
+        {
+          "path": "research/membership/extracted/D37_leaflet.docx",
+          "sha256": "1af11867dd247380c39633b9095076bfa6db43c6ba7c649ac0fdd2d45ca45fa6",
+          "bytes": 8563925,
+          "kind": "docx(XML 텍스트로만)"
+        },
+        {
+          "path": "research/membership/extracted/D37_leaflet.pdf",
+          "sha256": "94810663f432ffa92e0c349bfda7e767f4b87d409c3ae6c481788bc74da82122",
+          "bytes": 1172534,
+          "kind": "pdf 3쪽"
+        },
+        {
+          "path": "research/membership/extracted/D37_membership.html",
+          "sha256": "6d9bb77c5aa7fa047debfd14af8eb16755bffe51ebf61f8a5b370b96d350eaba",
+          "bytes": 9990,
+          "kind": "html(텍스트로만)"
+        },
+        {
+          "path": "research/membership/extracted/PH-D37-cover.jpg",
+          "sha256": "0bfcf95a56c15c02586c36b852562261b41328d9695bcf655a8d0feb8cdce260",
+          "bytes": 8559609,
+          "kind": "jpg(DOCX 내장 이미지와 동일 해시)"
+        }
+      ],
+      "derivatives": [
+        {
+          "path": "research/membership/docx-text.txt",
+          "sha256": "628ef66d549f8d9bf540ec42129718abee9baeb04af7fb067d196e0ad6d7c111",
+          "bytes": 3788,
+          "kind": "docx 텍스트"
+        },
+        {
+          "path": "research/membership/pdf-text.txt",
+          "sha256": "29cf28e0ba3f1602d1d1621ebea4ec72f5c5169b1ddbfb4e88c59670e663a487",
+          "bytes": 3844,
+          "kind": "pdftotext"
+        },
+        {
+          "path": "research/membership/html-text.txt",
+          "sha256": "3f9a90d34a7642419a5c3b4cc0a069b736dd086287997d3ea88fed49fbbc10ef",
+          "bytes": 4128,
+          "kind": "html 텍스트"
+        },
+        {
+          "path": "research/membership/render/leaflet-1.png",
+          "sha256": "f8b24bd7a7a34a14c76f7a92a35c44d07b18aa2c95b4ae3af637fd9df81867b3",
+          "bytes": 577931,
+          "kind": "pdf 렌더"
+        },
+        {
+          "path": "research/membership/render/leaflet-2.png",
+          "sha256": "7f9224d400c34506393587a263182622f2ce6fb4874d661d36746b88dbf43c44",
+          "bytes": 100260,
+          "kind": "pdf 렌더"
+        },
+        {
+          "path": "research/membership/render/leaflet-3.png",
+          "sha256": "3a01d8cdb8bfe46eb9b37c10b67d19f8050afd827881030dcb4624869b83c91a",
+          "bytes": 82587,
+          "kind": "pdf 렌더"
+        },
+        {
+          "path": "research/membership/facts-candidate.json",
+          "sha256": "4bfdae2073cdd1e0eef6d4259d814cbfa63e2760e371c2c3a19a5692658cca1b",
+          "bytes": 6965,
+          "kind": "지식 후보 5건(미반영)"
+        }
+      ],
+      "safety": "항목 4개, 경로·심볼릭 링크·암호화 없음, 시그니처 확인 후 추출. DOCX 매크로·외부 링크 없음. HTML 스크립트·외부 URL 없음. PDF JavaScript no.",
+      "readings": [
+        "research/membership-notes.md",
+        "research/membership/manifest.json"
+      ],
+      "status": "확보·전체 판독",
+      "audience": "customer_ok(리플렛은 고객용 안내물). 단, 2037-03 인쇄본이라 약관 개정 시 약관 우선. HTML 하단 사업자 연락값은 자리표시라 사용 금지",
+      "review": "coordination/membership-review.md 적합",
+      "runtime": "membership facts-candidate 5건 런타임 반영"
+    },
+    {
+      "id": "FISHING-INTAKE",
+      "title": "갯마을 조업·입고 기록(XLSX 4시트)",
+      "type": "xlsx",
+      "url": "https://t1.kakaocdn.net/aitop100/aitop100/dist/MatemuULfW2nG1dnufufsA.xlsx",
+      "provided_by": "홍이장",
+      "received_ui_time": "2026-10-31 12:42 KST",
+      "question": "고객이 결항 뒤 예약한 갈치를 언제 받을 수 있느냐고 묻습니다. 갯마을의 조업 재개와 실제 입고를 확인할 분이 따로 있나요? 있다면 이름과 카카오톡 연락창구를 알려주세요.",
+      "question_evidence": {
+        "path": "interviews/sources/round3-transcript.json",
+        "recipient": "홍이장",
+        "round_question": 1
+      },
+      "original": {
+        "path": "research/fishing-intake/MatemuULfW2nG1dnufufsA.xlsx",
+        "sha256": "e17a3093c14193fb0b0f29eae6a5e55f4b01549ef77e2cb5ceb8b312dc1c9694",
+        "bytes": 9704,
+        "downloaded_at": "2026-10-31 12:43 KST"
+      },
+      "derivatives": [
+        {
+          "path": "research/fishing-intake/xlsx-cells.txt",
+          "sha256": "6ca3bd8133377fbd695aaeaf628068084bcb4b89a12afc24481dc298cc2dc301",
+          "bytes": 4201,
+          "kind": "셀 XML 덤프"
+        },
+        {
+          "path": "research/fishing-intake/facts-candidate.json",
+          "sha256": "94664f0e3f4b4b23d957e45f99bba7bbe04a1d82fc91e0679c850ea90860f1de",
+          "bytes": 4806,
+          "kind": "지식 후보 4건(미반영)"
+        }
+      ],
+      "safety": "매크로·외부 링크·연결·숨김 시트 없음, Excel로 열지 않고 XML만 판독. 수식 0개, 날짜는 텍스트.",
+      "readings": [
+        "research/fishing-intake-notes.md",
+        "research/fishing-intake/manifest.json"
+      ],
+      "status": "확보·전체 판독",
+      "audience": "결론(품절 사유 구분·옥돔 정상)은 customer_ok. 조업 재개·입고·예약 순 발송을 배송일 확정으로 안내하지 않음",
+      "review": "coordination/fishing-intake-review.md 적합",
+      "runtime": "fishing-intake facts-candidate 4건 런타임 반영"
+    },
+    {
+      "id": "LABELS",
+      "title": "상품 라벨 실물 사진 5장 + 라벨 확인 안내(DOCX)",
+      "type": "zip(png×5, docx)",
+      "url": "https://t1.kakaocdn.net/aitop100/aitop100/dist/MJUWHYnwsJsywd-tLNkhSA.zip",
+      "provided_by": "박수복",
+      "received_ui_time": "2026-10-31 13:01 KST",
+      "question": "고객이 받은 수박을 며칠 두었다가 잘랐더니 속이 물렀다고 하면, 생산 쪽에서는 출고 때 상태와 받은 뒤 보관 문제를 어떻게 구분해 보시나요?",
+      "question_evidence": {
+        "path": "interviews/sources/round4-transcript.json",
+        "recipient": "박수복",
+        "round_question": 1
+      },
+      "original": {
+        "path": "research/labels/MJUWHYnwsJsywd-tLNkhSA.zip",
+        "sha256": "cb45da1a00476980ca8aafca4cd21b0de8bf69e1d272c3bf828a447f759f466f",
+        "bytes": 11983024,
+        "downloaded_at": "2026-10-31 13:03 KST"
+      },
+      "entries": [
+        {
+          "path": "research/labels/extracted/D39_label-guide.docx",
+          "sha256": "62b64118c8e2b86fda5e62fa285b0e438a7804cb7ceee6351049943cb1413d19",
+          "bytes": 37733,
+          "kind": "docx(XML 텍스트로만)"
+        },
+        {
+          "path": "research/labels/extracted/D39_watermelon-photo.png",
+          "sha256": "4fae5823f34a44b11cd8b86789a96bb32f8124126d024853f5681256a6ece98d",
+          "bytes": 2650025,
+          "kind": "라벨 사진"
+        },
+        {
+          "path": "research/labels/extracted/D39_potato-photo.png",
+          "sha256": "da6fe89351f95f11c2872a8189d340fd165b33405a937be28226e8886bbcfb29",
+          "bytes": 2297730,
+          "kind": "라벨 사진"
+        },
+        {
+          "path": "research/labels/extracted/D39_cabbage-photo.png",
+          "sha256": "8de91f55772a991a41627d1dab72268d4e132777475a8e390323f3c4eddeed86",
+          "bytes": 2183533,
+          "kind": "라벨 사진(날짜 2037-11-18, 기준일 이후)"
+        },
+        {
+          "path": "research/labels/extracted/D39_hairtail-photo.png",
+          "sha256": "e39988968490c014f3eb9a422e58d251523908acfca5d72e62d686e8502bdaf4",
+          "bytes": 2517610,
+          "kind": "라벨 사진"
+        },
+        {
+          "path": "research/labels/extracted/D39_old-citrus-photo.png",
+          "sha256": "facb91709f8366ad685978ac1d846ded43db03225114e67d0425e029b2f34a1f",
+          "bytes": 2368464,
+          "kind": "구판 라벨 사진(LBL-2037-03)"
+        }
+      ],
+      "derivatives": [
+        {
+          "path": "research/labels/label-guide-text.txt",
+          "sha256": "239800cf9f39a86c44d81037cb92b257a438b5e18be3115685b3925ade6b71a8",
+          "bytes": 3443,
+          "kind": "docx 텍스트"
+        },
+        {
+          "path": "research/labels/facts-candidate.json",
+          "sha256": "c5e4ca3ad99a38ca7d41910e8c88af4a6eae4c5769e7355d658327b0bf4e282a",
+          "bytes": 11322,
+          "kind": "지식 후보 9건(미반영, labels-review L1~L3 반영)"
+        }
+      ],
+      "safety": "항목 6개, 경로·심볼릭 링크·암호화 없음, 시그니처 확인 후 추출. DOCX 매크로·외부 링크 없음. 사진은 직접 시각 판독.",
+      "readings": [
+        "research/labels-notes.md",
+        "research/labels/manifest.json"
+      ],
+      "status": "확보·판독·검수·통합 완료",
+      "audience": "판 번호·권장섭취·보관방법·중량 표기 결론은 customer_ok. 생산자 표기는 추적용(연락 창구 아님)",
+      "review": "coordination/labels-review.md L1~L3 보완 최종 적합",
+      "runtime": "9건 런타임 반영"
+    }
+  ],
+  "linked_attachments": [
+    {
+      "id": "PROMO-POSTERS",
+      "title": "홍보 게시물 대조 기준 + 게시물 이미지 5장 + 상태 기록",
+      "type": "zip(docx×2, png×5)",
+      "url": "https://t1.kakaocdn.net/aitop100/aitop100/dist/TLV6tPKcBzRIuVib6Mj6cw.zip",
+      "provided_by": "홍보라",
+      "received_ui_time": "2026-10-31 12:11 KST",
+      "question": "고객이 홍보물에서 본 할인이 결제 때 적용되지 않았다고 하면, 홍보라님은 무엇을 확인하시고 그 결과를 누구에게 알려주시나요?",
+      "owner": "knowledge 담당 (research/promo-posters/**, research/promo-posters-notes.md). 이 원장은 항목을 복제하지 않고 로컬 manifest를 연결한다.",
+      "local_manifest": {
+        "path": "research/promo-posters/manifest.json",
+        "sha256": "f70d16e5a6ef3e1ca8762513d2b8434ee3e53b09cb1d55cc89247c5e08aa6958",
+        "bytes": 2976
+      },
+      "original": {
+        "path": "research/promo-posters/raw/TLV6tPKcBzRIuVib6Mj6cw.zip",
+        "sha256": "8e3c3f0175e77ee243d82e860ee632fe2b898903b666f7279e6fd8749f240050",
+        "bytes": 7876963
+      },
+      "readings": [
+        "research/promo-posters-notes.md"
+      ],
+      "status": "원본 보관·판독 완료(담당 notes)·독립 검수 적합",
+      "audience": "knowledge 담당 notes 참고",
+      "review": "coordination/promotion-review.md 최종 적합",
+      "runtime": "promotion-facts-draft 17건 중 게시물 근거분 런타임 반영"
+    },
+    {
+      "id": "SEAFOOD-WEIGHT",
+      "title": "수산물 중량·자연감량 허용치·기준 계량·증빙·표준 재촬영·금지행위",
+      "type": "zip",
+      "url": "https://t1.kakaocdn.net/aitop100/aitop100/dist/z2NxycW6tXpuTLaXUW9GsA.zip",
+      "provided_by": "홍이장 R2Q1 12:20",
+      "owner": "knowledge 담당",
+      "local_manifest_path": "research/seafood-weight/manifest.json",
+      "readings": [
+        "research/seafood-weight-notes.md"
+      ],
+      "local_manifest": {
+        "path": "research/seafood-weight/manifest.json",
+        "sha256": "8280bea3a258fbdb60a645a30a182dcf785b859c4613ca69f65497074cf0f4a2",
+        "bytes": 1750
+      },
+      "original": {
+        "path": "research/seafood-weight/raw/z2NxycW6tXpuTLaXUW9GsA.zip",
+        "sha256": "b568b2c48aa247c7e4a333135e7fcaf3e1eb0fcb160b2abfcfa7dc2a0ece45b1",
+        "bytes": 2766986,
+        "matches_local_manifest_sha256": true
+      },
+      "entries_verified": true,
+      "status": "원본 보관·판독 완료(담당 notes)·독립 검수 적합",
+      "review": "coordination/revision-weight-review.md 최종 적합",
+      "runtime": "revision-weight-facts-draft 11건 중 중량 근거분 런타임 반영"
+    },
+    {
+      "id": "SALES-RULES-HTML",
+      "title": "조합몰 판매·환불 규정집",
+      "type": "html",
+      "url": "https://t1.kakaocdn.net/aitop100/aitop100/dist/YpevY-GWzxt65De9PFNL4w.html",
+      "provided_by": "이민준 R2Q1 12:21",
+      "owner": "supervisor",
+      "local_manifest_path": "research/sales-evidence/manifest.json",
+      "readings": [
+        "research/sales-evidence-notes.md"
+      ],
+      "local_manifest": {
+        "path": "research/sales-evidence/manifest.json",
+        "sha256": "02fc06ecaef16307e438689116abc8c6552227bdd23996f58dccc754443085d7",
+        "bytes": 2151
+      },
+      "original": {
+        "path": "research/sales-evidence/YpevY-GWzxt65De9PFNL4w.html",
+        "sha256": "f1457de34501559d9972ff628aa657d40edb783f8ccccf5e658a088840683293",
+        "bytes": 506443,
+        "matches_local_manifest_sha256": true
+      },
+      "status": "원본 보관·판독 완료(담당 notes)·독립 검수 적합",
+      "review": "coordination/sales-evidence-review.md 최종 적합(P1/P2 해결)",
+      "runtime": "sales-evidence-facts-draft 30건 런타임 반영"
+    },
+    {
+      "id": "TRANSPORT",
+      "title": "구방만 R4Q2 운송 자료(ZIP)",
+      "type": "zip",
+      "url": "https://t1.kakaocdn.net/aitop100/aitop100/dist/hlI1ZFiRXl4sgzAw6HF52Q.zip",
+      "provided_by": "구방만 R4Q2",
+      "owner": "knowledge 담당(research/transport/**, research/transport-notes.md)",
+      "local_manifest_path": "research/transport/manifest.json",
+      "readings": [
+        "research/transport-notes.md"
+      ],
+      "local_manifest": {
+        "path": "research/transport/manifest.json",
+        "sha256": "54332b215a95cafc0bd6161f153aa2c597360fa16a5d0d31fefb5c4e235508f6",
+        "bytes": 2854
+      },
+      "original": {
+        "path": "research/transport/raw/hlI1ZFiRXl4sgzAw6HF52Q.zip",
+        "sha256": "4fda862d5da27d33c7296e9c747240f9b146c1c0107cdab44ccb05c83da4fe12",
+        "bytes": 7259735,
+        "matches_local_manifest_sha256": true
+      },
+      "entries_verified": true,
+      "status": "원본 보관·판독·독립 검수·통합 완료",
+      "review": "coordination/transport-review.md",
+      "runtime": "8건 반영"
+    },
+    {
+      "id": "EVENTS",
+      "title": "김청년 R5Q1 체험 운영 기준(ZIP)",
+      "type": "zip",
+      "url": "https://t1.kakaocdn.net/aitop100/aitop100/dist/mD9Z9ob30jaT111iWMF4fg.zip",
+      "provided_by": "김청년 R5Q1 13:12",
+      "owner": "knowledge(원본 root 인계)",
+      "local_manifest_path": "research/events/manifest.json",
+      "readings": [
+        "research/events-notes.md"
+      ],
+      "local_manifest": {
+        "path": "research/events/manifest.json",
+        "sha256": "947eecc40f76c9a451247a1375908ca069053aad68c9736658f1a02503513105",
+        "bytes": 880
+      },
+      "original": {
+        "path": "research/events/raw/mD9Z9ob30jaT111iWMF4fg.zip",
+        "sha256": "2559b422f63b9a5f6d2f8d1e51e5169bc301fd7a8b1d5c59634bdaf8e1f655d0",
+        "bytes": 12902588,
+        "matches_local_manifest_sha256": true
+      },
+      "entries_verified": true,
+      "local_manifest_status": "원본 보관·검증 후 판독 중",
+      "status": "원본 보관·판독·root 독립 대조 완료",
+      "review": "coordination/events-catalog-privacy-review.md",
+      "runtime": "관련 신규39건 및 기존 항목 수정에 포함"
+    },
+    {
+      "id": "EVIDENCE-RANK-PDF",
+      "title": "증빙 권위 서열·정합대조·구술 주장 취급",
+      "type": "pdf",
+      "url": "https://t1.kakaocdn.net/aitop100/aitop100/dist/p3fMCqFSsgGXunwjQpwUJg.pdf",
+      "provided_by": "이민준 R2Q1 12:21",
+      "owner": "supervisor",
+      "local_manifest_path": "research/sales-evidence/manifest.json",
+      "readings": [
+        "research/sales-evidence-notes.md"
+      ],
+      "local_manifest": {
+        "path": "research/sales-evidence/manifest.json",
+        "sha256": "02fc06ecaef16307e438689116abc8c6552227bdd23996f58dccc754443085d7",
+        "bytes": 2151
+      },
+      "original": {
+        "path": "research/sales-evidence/p3fMCqFSsgGXunwjQpwUJg.pdf",
+        "sha256": "38fba2a3afa8d4e4920a347e684d682e3058747407a0ddcd3540d1b2ead1cc9a",
+        "bytes": 150652,
+        "matches_local_manifest_sha256": true
+      },
+      "status": "원본 보관·판독 완료(담당 notes)·독립 검수 적합",
+      "review": "coordination/sales-evidence-review.md 최종 적합(P1/P2 해결)",
+      "runtime": "sales-evidence-facts-draft 30건에 포함·런타임 반영"
+    },
+    {
+      "id": "CATALOG-HTML",
+      "title": "상품 카탈로그",
+      "type": "html",
+      "url": "https://t1.kakaocdn.net/aitop100/aitop100/dist/Yku9ZG2eH3PsliWC0108RA.html",
+      "provided_by": "박수복",
+      "received_ui_time": "2026-10-31 13:23 KST",
+      "question": "R5Q1",
+      "owner": "knowledge",
+      "local_manifest_path": "research/catalog/manifest.json",
+      "readings": [
+        "research/catalog-notes.md"
+      ],
+      "original": {
+        "url": "https://t1.kakaocdn.net/aitop100/aitop100/dist/Yku9ZG2eH3PsliWC0108RA.html",
+        "path": "research/catalog/Yku9ZG2eH3PsliWC0108RA.html",
+        "sha256": "e9783f5ec544dd498ebf77cf3709d63bfb871b0481e23e2b4e55b9abc22b8462",
+        "bytes": 45004
+      },
+      "status": "원본 보관·판독·root 독립 대조 완료",
+      "runtime": "관련 신규39건 및 기존 항목 수정에 포함",
+      "review": "coordination/events-catalog-privacy-review.md"
+    },
+    {
+      "id": "SUBSCRIPTIONS-HTML",
+      "title": "정기배송 약관",
+      "type": "html",
+      "url": "https://t1.kakaocdn.net/aitop100/aitop100/dist/m1SLEboPRfEAY8Y90ZFzMQ.html",
+      "provided_by": "이민준",
+      "received_ui_time": "2026-10-31 13:25 KST",
+      "question": "R5Q2",
+      "owner": "root",
+      "local_manifest_path": "research/subscriptions/manifest.json",
+      "readings": [
+        "research/subscriptions-notes.md"
+      ],
+      "original": {
+        "url": "https://t1.kakaocdn.net/aitop100/aitop100/dist/m1SLEboPRfEAY8Y90ZFzMQ.html",
+        "path": "research/subscriptions/m1SLEboPRfEAY8Y90ZFzMQ.html",
+        "sha256": "7c0cdc90009756d34572f2c7797613c892963367fed755f2c34b723098ef604e",
+        "bytes": 501492
+      },
+      "status": "원문 보관·판독·독립 검수 보완·통합 완료",
+      "runtime": "구독8·증빙9 신규17건에 포함",
+      "review": "coordination/subscriptions-billing-review.md"
+    },
+    {
+      "id": "BILLING-HTML",
+      "title": "세금계산서·현금영수증 기준",
+      "type": "html",
+      "url": "https://t1.kakaocdn.net/aitop100/aitop100/dist/Keze5-ihBAYJhBQV_i-aEw.html",
+      "provided_by": "이민준",
+      "received_ui_time": "2026-10-31 13:27 KST",
+      "question": "R5Q3",
+      "owner": "root",
+      "local_manifest_path": "research/billing/manifest.json",
+      "readings": [
+        "research/billing-notes.md"
+      ],
+      "original": {
+        "url": "https://t1.kakaocdn.net/aitop100/aitop100/dist/Keze5-ihBAYJhBQV_i-aEw.html",
+        "path": "research/billing/Keze5-ihBAYJhBQV_i-aEw.html",
+        "sha256": "166ac00daac34b4fdcc7eee1bff112783f1647d6a55406109e7d06462219b799",
+        "bytes": 503810
+      },
+      "status": "원문 보관·판독·독립 검수 보완·통합 완료",
+      "runtime": "구독8·증빙9 신규17건에 포함",
+      "review": "coordination/subscriptions-billing-review.md"
+    },
+    {
+      "id": "EVENT-HISTORY-XLSX",
+      "title": "과거 행사 목록",
+      "type": "xlsx",
+      "url": "https://t1.kakaocdn.net/aitop100/aitop100/dist/L9jWZnudmLmB93svQTbnEw.xlsx",
+      "provided_by": "김청년",
+      "received_ui_time": "2026-10-31 13:34 KST",
+      "question": "R6Q2",
+      "owner": "knowledge",
+      "local_manifest_path": "research/event-history/manifest.json",
+      "readings": [
+        "research/event-history-notes.md"
+      ],
+      "original": {
+        "url": "https://t1.kakaocdn.net/aitop100/aitop100/dist/L9jWZnudmLmB93svQTbnEw.xlsx",
+        "path": "research/event-history/raw/L9jWZnudmLmB93svQTbnEw.xlsx",
+        "sha256": "c73daeaecc243664ad320f409e863836da60cd0b55d33eb32b890598e8427a6a",
+        "bytes": 11210
+      },
+      "status": "원본 보관·판독·감독 대조 완료",
+      "runtime": "운영 규정 추가7건·과거 행사4건 및 기존 항목 수정 반영",
+      "review": "coordination/rules-events-additions-review.md"
+    },
+    {
+      "id": "PRIVACY-PDF",
+      "title": "조합 운영 규정",
+      "type": "pdf",
+      "url": "https://t1.kakaocdn.net/aitop100/aitop100/dist/pysSXW5mY9eWWv6tMsrihA.pdf",
+      "provided_by": "이민준",
+      "received_ui_time": "2026-10-31 13:28 KST",
+      "question": "R5Q4",
+      "owner": "knowledge",
+      "local_manifest_path": "research/privacy/manifest.json",
+      "readings": [
+        "research/privacy-notes.md"
+      ],
+      "original": {
+        "path": "research/privacy/raw/pysSXW5mY9eWWv6tMsrihA.pdf",
+        "url": "https://t1.kakaocdn.net/aitop100/aitop100/dist/pysSXW5mY9eWWv6tMsrihA.pdf",
+        "bytes": 161407,
+        "sha256": "c445015e740d17367a4bfa5775826d2c11b734c906122de27c87c7a1069b0584"
+      },
+      "status": "원본 보관·판독·감독 대조 완료",
+      "runtime": "운영 규정 추가7건·과거 행사4건 및 기존 항목 수정 반영",
+      "review": "coordination/rules-events-additions-review.md"
+    },
+    {
+      "id": "PRIVACY-HTML",
+      "title": "개인정보 처리방침",
+      "type": "html",
+      "url": "https://t1.kakaocdn.net/aitop100/aitop100/dist/LpLUt34eYoT64SKCMlBpvg.html",
+      "provided_by": "이민준",
+      "received_ui_time": "2026-10-31 13:28 KST",
+      "question": "R5Q4",
+      "owner": "knowledge",
+      "local_manifest_path": "research/privacy/manifest.json",
+      "readings": [
+        "research/privacy-notes.md"
+      ],
+      "original": {
+        "path": "research/privacy/raw/LpLUt34eYoT64SKCMlBpvg.html",
+        "url": "https://t1.kakaocdn.net/aitop100/aitop100/dist/LpLUt34eYoT64SKCMlBpvg.html",
+        "bytes": 510472,
+        "sha256": "3594c55cedaef9fafa4e343d5f635884312e3370730dea39c6b6febde59fc221"
+      },
+      "status": "원본 보관·판독·root 독립 대조 완료",
+      "runtime": "관련 신규39건 및 기존 항목 수정에 포함",
+      "review": "coordination/events-catalog-privacy-review.md"
+    },
+    {
+      "id": "PRIVACY-ZIP",
+      "title": "제3자 정보 보호 조항",
+      "type": "zip",
+      "url": "https://t1.kakaocdn.net/aitop100/aitop100/dist/tolZHL9uNi7cnWLeZ7F6ag.zip",
+      "provided_by": "이민준",
+      "received_ui_time": "2026-10-31 13:28 KST",
+      "question": "R5Q4",
+      "owner": "knowledge",
+      "local_manifest_path": "research/privacy/manifest.json",
+      "readings": [
+        "research/privacy-notes.md"
+      ],
+      "original": {
+        "path": "research/privacy/raw/tolZHL9uNi7cnWLeZ7F6ag.zip",
+        "url": "https://t1.kakaocdn.net/aitop100/aitop100/dist/tolZHL9uNi7cnWLeZ7F6ag.zip",
+        "bytes": 20347112,
+        "sha256": "e1f0aeb5ed85d4adeefd983e3abccbb42fcccd026e1126a1decb5b1297ab74bb"
+      },
+      "status": "원본 보관·판독·root 독립 대조 완료",
+      "runtime": "관련 신규39건 및 기존 항목 수정에 포함",
+      "review": "coordination/events-catalog-privacy-review.md"
+    },
+    {
+      "id": "BUSINESS-INFO",
+      "title": "사업자정보 공시",
+      "type": "html",
+      "url": "https://t1.kakaocdn.net/aitop100/aitop100/dist/MOJG57TnhmfcLE2ReTtbVg.html",
+      "provided_by": "이민준",
+      "received_ui_time": "2026-10-31 13:50 KST",
+      "question": "R7Q1",
+      "owner": "knowledge",
+      "local_manifest_path": "research/business-info/manifest.json",
+      "readings": [
+        "research/business-info-notes.md"
+      ],
+      "original": {
+        "path": "research/business-info/raw/MOJG57TnhmfcLE2ReTtbVg.html",
+        "bytes": 494294,
+        "sha256": "906d71483f667b5ed36652a7590c7f59029398ca7638a826d50ec29182376b12"
+      },
+      "status": "원본 보관·판독·감독 대조 완료",
+      "runtime": "coordination/r7-knowledge-merge.json 신규17건에 포함",
+      "review": "coordination/r7-sources-review.md"
+    },
+    {
+      "id": "COURIER-CONTRACT",
+      "title": "택배 운송 위탁 계약서",
+      "type": "pdf",
+      "url": "https://t1.kakaocdn.net/aitop100/aitop100/dist/l2R00nTdGBHA3FP2QVxKfg.pdf",
+      "provided_by": "이민준",
+      "received_ui_time": "2026-10-31 13:51 KST",
+      "question": "R7Q2",
+      "owner": "knowledge",
+      "local_manifest_path": "research/courier-contract/manifest.json",
+      "readings": [
+        "research/courier-contract-notes.md"
+      ],
+      "original": {
+        "path": "research/courier-contract/raw/l2R00nTdGBHA3FP2QVxKfg.pdf",
+        "bytes": 40569,
+        "sha256": "08a7719147be71b5031456c9565fc58f350e2152216274a04b1c4e585fe7dd6c"
+      },
+      "status": "원본 보관·판독·감독 대조 완료",
+      "runtime": "coordination/r7-knowledge-merge.json 신규17건에 포함",
+      "review": "coordination/r7-sources-review.md"
+    },
+    {
+      "id": "TEMP-LOG",
+      "title": "콜드체인 온도 로그",
+      "type": "zip",
+      "url": "https://t1.kakaocdn.net/aitop100/aitop100/dist/tHHClVffN4f8jvA_vuOtuQ.zip",
+      "provided_by": "박민아",
+      "received_ui_time": "2026-10-31 13:55 KST",
+      "question": "R7Q2",
+      "owner": "knowledge",
+      "local_manifest_path": "research/temp-log/manifest.json",
+      "readings": [
+        "research/temp-log-notes.md"
+      ],
+      "original": {
+        "path": "research/temp-log/raw/tHHClVffN4f8jvA_vuOtuQ.zip",
+        "bytes": 19011,
+        "sha256": "fc21e0d7eff66e5dbf3912010d1ca018e989af5757e754351af2e4c433cefe67"
+      },
+      "status": "원본 보관·판독·감독 대조 완료",
+      "runtime": "coordination/r7-knowledge-merge.json 신규17건에 포함",
+      "review": "coordination/r7-sources-review.md"
+    },
+    {
+      "id": "PARTIAL-REFUND",
+      "title": "부분환불 산식·박스 비율 임계표",
+      "type": "zip(pdf+xlsx)",
+      "url": "https://t1.kakaocdn.net/aitop100/aitop100/dist/xmm99WH91aVDFasnWXueaA.zip",
+      "provided_by": "고길동",
+      "received_ui_time": "2026-10-31 14:22 KST",
+      "question": "R8Q1",
+      "owner": "knowledge",
+      "local_manifest_path": "research/partial-refund/manifest.json",
+      "readings": [
+        "research/partial-refund-notes.md"
+      ],
+      "original": {
+        "path": "research/partial-refund/raw/xmm99WH91aVDFasnWXueaA.zip",
+        "bytes": 54475,
+        "sha256": "c2d651e8a3759d16b49aa07ec0d7cfc8e8aea5abb6b0307d8d5ceca82bfbde5b"
+      },
+      "status": "원본 보관·판독·감독 대조 완료",
+      "runtime": "부분환불6건 통합, 총244건",
+      "review": "coordination/r8-sources-review.md"
+    },
+    {
+      "id": "ORG-CHART",
+      "title": "조직 관계도",
+      "type": "zip",
+      "url": "https://t1.kakaocdn.net/aitop100/aitop100/dist/f0MemPRxvegLntSUu5CQHg.zip",
+      "provided_by": "고길동",
+      "received_ui_time": "2026-10-31 14:23 KST",
+      "question": "R8Q2",
+      "owner": "knowledge",
+      "local_manifest_path": "research/org-chart/manifest.json",
+      "readings": [
+        "research/org-chart-notes.md"
+      ],
+      "original": {
+        "path": "research/org-chart/raw/f0MemPRxvegLntSUu5CQHg.zip",
+        "bytes": 1213697,
+        "sha256": "71245e9f254b98fbb788a49e7492ff8f769f4918fb712b93e595f5d12efdb2fd"
+      },
+      "status": "원본 보관·판독·감독 대조 완료",
+      "runtime": "R8 통합11건 중 9건",
+      "review": "coordination/r8-sources-review.md"
+    },
+    {
+      "id": "FESTIVAL-FLYER",
+      "title": "축제 매대 전단",
+      "type": "zip",
+      "url": "https://t1.kakaocdn.net/aitop100/aitop100/dist/man1JtPrzVwhNvrBQ15ZsQ.zip",
+      "provided_by": "고길동",
+      "received_ui_time": "2026-10-31 14:23 KST",
+      "question": "R8Q2",
+      "owner": "knowledge",
+      "local_manifest_path": "research/festival-flyer/manifest.json",
+      "readings": [
+        "research/festival-flyer-notes.md"
+      ],
+      "original": {
+        "path": "research/festival-flyer/raw/man1JtPrzVwhNvrBQ15ZsQ.zip",
+        "bytes": 4296246,
+        "sha256": "6f1e070018884155e9f71eabaea44f384af289d83cd7bdcb219fb7ce50ea56df"
+      },
+      "status": "원본 보관·판독·감독 대조 완료",
+      "runtime": "R8 통합11건 중 2건",
+      "review": "coordination/r8-sources-review.md"
+    }
+  ],
+  "intake_unassigned_resolved": "박수복 첨부 2개는 12:26 KST에 LOT-LEDGER·CROP-DISASTER로 확보·판독(감독 지시).",
+  "captures": [
+    {
+      "id": "CAP-LEE",
+      "title": "이민준 채팅 캡처(사용자 제공)",
+      "copies_same_hash": [
+        "interviews/sources/이민준-기존캡처.png"
+      ],
+      "original_outside_repo": "~/Downloads/KakaoTalk_Snapshot_20261031_111754.png",
+      "sha256": "aa2b9d6be44b9c582e66777950727b2ee716b679f8b84fd1e675dce5d2285a9e",
+      "status": "확보·판독(일반 질문 3회)",
+      "audience": "internal"
+    },
+    {
+      "id": "CAP-KO",
+      "title": "고길동 채팅 캡처(사용자 제공)",
+      "copies_same_hash": [
+        "interviews/sources/고길동-기존캡처.png"
+      ],
+      "original_outside_repo": "~/Downloads/KakaoTalk_Snapshot_20261031_111801.png",
+      "sha256": "f2021d96dfe5e906a286768118cc6f8c369d1d6f220c2e3aea4673ee52fd87cb",
+      "status": "확보·판독(일반 질문 1회, B10 URL 출처)",
+      "audience": "internal"
+    }
+  ],
+  "raw_records": [
+    {
+      "path": "interviews/sources/round1-transcript.json",
+      "sha256": "5df0bd3333f1213f8fb974d668f4a8dfdfcb586a6ef2cceea5faae286f7e17b7",
+      "bytes": 14665,
+      "kind": "interview_raw"
+    },
+    {
+      "path": "interviews/sources/round2-transcript.json",
+      "sha256": "d5c6c0ffae8181903a210b07212eb3976482abc19731d25d8e805413b7baf0fd",
+      "bytes": 20619,
+      "kind": "interview_raw"
+    },
+    {
+      "path": "interviews/sources/round2-approved.json",
+      "sha256": "a1e61b51933ab3f51c96caac88300991bcac94f8582c486616d7e1aa2e4e835d",
+      "bytes": 3630,
+      "kind": "interview_raw"
+    },
+    {
+      "path": "interviews/sources/round3-transcript.json",
+      "sha256": "ffd1a94f95854629579764534fade0e440d9095fb4855c70420ce96cc39615b3",
+      "bytes": 15442,
+      "kind": "interview_raw"
+    },
+    {
+      "path": "interviews/sources/round4-transcript.json",
+      "sha256": "3811feedf400c07201a9ee48d82d946aaf4a315f456ba7a2306079c0d61ddec7",
+      "bytes": 19741,
+      "kind": "interview_raw"
+    },
+    {
+      "path": "interviews/sources/round5-transcript.json",
+      "sha256": "b1f4b80621af92a19f51415e3d4bf3dcdaca8cb3b26d9393b35f6288d3b36660",
+      "bytes": 18244,
+      "kind": "interview_raw"
+    },
+    {
+      "path": "interviews/sources/status-commands.json",
+      "sha256": "7bf3bbc4e0c8dbd472c2e444632119ac97b4e742766bce941d95d6c09a2c54ec",
+      "bytes": 2555,
+      "kind": "interview_raw"
+    },
+    {
+      "path": "interviews/sources/contacts.json",
+      "sha256": "70e8ff042d6fa5b94a5facddbb02d3cdb44e6aae46429d64c0f5fbf697958d18",
+      "bytes": 7478,
+      "kind": "interview_raw"
+    },
+    {
+      "path": "interviews/sources/attachment-intake.json",
+      "sha256": "aa26761f0ab7577615790dfa78c8fd22a550d9b5cd8e80e674ce29f3b128d10f",
+      "bytes": 9818,
+      "kind": "interview_raw"
+    },
+    {
+      "path": "knowledge/interview-progress.json",
+      "sha256": "734af7702f0b9e016372f1210e25889951b5057233581df9c99a17d4bae5243d",
+      "bytes": 7129,
+      "kind": "interview_raw"
+    }
+  ],
+  "channel_links": [
+    {
+      "url": "https://pf.kakao.com/_ifIxaX",
+      "person": "고길동",
+      "provided_by": "이민준(사용자 캡처 11:00 답변)",
+      "audience": "internal"
+    },
+    {
+      "url": "https://pf.kakao.com/_xgfIxaX",
+      "person": "홍이장",
+      "provided_by": "고길동 R1Q2 11:33",
+      "audience": "internal"
+    },
+    {
+      "url": "https://pf.kakao.com/_xefIxaX",
+      "person": "구방만",
+      "provided_by": "이민준 R1Q2 11:35",
+      "audience": "internal"
+    },
+    {
+      "url": "https://pf.kakao.com/_KfIxaX",
+      "person": "홍보라",
+      "provided_by": "이민준 Q4 11:58",
+      "audience": "internal"
+    },
+    {
+      "url": "https://pf.kakao.com/_xffIxaX",
+      "person": "김청년",
+      "provided_by": "이민준 Q5 12:00",
+      "audience": "internal"
+    },
+    {
+      "url": "https://pf.kakao.com/_xkPIxaX",
+      "person": "이민준",
+      "provided_by": "구방만 R1Q2 12:03",
+      "audience": "internal",
+      "note": "박민아 채널 아님(혼동 금지)"
+    },
+    {
+      "url": "https://pf.kakao.com/_afIxaX",
+      "person": "박수복",
+      "provided_by": "고길동 R2Q1 12:06",
+      "audience": "internal"
+    },
+    {
+      "url": "https://pf.kakao.com/_xcfIxaX",
+      "person": "박민아",
+      "provided_by": "홍이장 → 사용자 직접 질문 2026-10-31 13:42",
+      "audience": "internal",
+      "note": "사용자 추가·재개방 후 R7 업무응답 확인"
+    }
+  ],
+  "external_docs": [
+    {
+      "url": "https://developers.kakao.com/docs/ko/bot/gateway",
+      "title": "카카오 봇 게이트웨이",
+      "status": "공개 URL로 본문 미확인(로그인 필요). 감독이 인증 UI로 확인"
+    },
+    {
+      "url": "https://developers.kakao.com/docs/ko/bot/rest-api",
+      "title": "카카오 봇 콜백 API",
+      "status": "본문 미확인(로그인 필요)"
+    },
+    {
+      "title": "대회 액션 API OpenAPI 원문",
+      "url": "https://aitop100.org/contest/docs",
+      "path": "docs/action-api/openapi.json",
+      "sha256": "20082b8f76e41f5d6f8e2a66be927f80e12540883e36198587ff93f64278911e",
+      "status": "로그인 Chrome에서 다운로드·JSON/로컬참조 확인",
+      "download_method": "Download OpenAPI Document json",
+      "guide": "docs/action-api/README.md"
+    }
+  ],
+  "missing_originals": [
+    {
+      "item": "박민아 → 구방만 6/24 19:52 문자 원문",
+      "evidence": "C31 수첩에 요약 메모만 있음"
+    },
+    {
+      "item": "6/24 운행의 공식 배송 기록·집하 등록",
+      "evidence": "C31 인계 대장: 공식 기록 미반영"
+    },
+    {
+      "item": "6/24 갯마을 출하장 적재 완료 시점의 별도 심부온도 측정 원본",
+      "evidence": "온도 로그 확보(적재함 센서), 별도 심부온도 기록과 동일시하지 않음"
+    },
+    {
+      "item": "옥돔 주문100400001의 현재 고객·처리 결과",
+      "evidence": "온도 로그에서 주문번호·로트 연결은 확보, 현재 상태는 실제 조회 필요"
+    },
+    {
+      "item": "「외부 조합원 규정집」 원문, 단골가 할인율, 조합원 가입 실무 담당·채널",
+      "evidence": "MEMBERSHIP 리플렛·고길동 R3Q1"
+    },
+    {
+      "item": "프로모션 마스터 §1",
+      "evidence": "HTML·PDF 어디에도 §1 없음"
+    },
+    {
+      "item": "전체 관계자 10명 명부",
+      "evidence": "고길동 R1Q1·이민준 R1Q1: 일괄 제공 대신 업무별 안내"
+    }
+  ],
+  "referenced_unobtained_documents": "미확보: 인플루언서 계약서·라이브 원스크립트/캡처, 체험 프로그램 안내 팜플렛, 에스컬레이션 절차서 원문, 가격 정책 시트, 방제일지·PHI 안전사용기간, 재배 농가 공개 마케팅 카피, 달력/날씨 이력, 피싱·사칭 주의 안내. 이미 확보한 부분환불 산식·규정·프로모션·계약·개인정보 자료는 본 목록에서 제외.",
+  "resolved_missing": [
+    {
+      "item": "「판매·환불 규정집」 현행 전문",
+      "resolved_by": "SALES-RULES-HTML(이민준 R2Q1 12:21) — research/sales-evidence/ 보관, 제1~25조·부칙 확보",
+      "review": "coordination/sales-evidence-review.md 최종 적합",
+      "runtime": "coordination/sales-evidence-facts-draft.json 30건 런타임 반영"
+    },
+    {
+      "item": "「프로모션 마스터」 원문",
+      "resolved_by": "PROMO-MASTER(홍보라 R2Q1 12:11)",
+      "review": "coordination/promotion-review.md 최종 적합",
+      "runtime": "coordination/promotion-facts-draft.json 17건 런타임 반영"
+    },
+    {
+      "item": "「규정·대응방안 개정 이력」 원문",
+      "resolved_by": "REVISIONS(고길동 R2Q4 12:19)",
+      "review": "coordination/revision-weight-review.md 최종 적합",
+      "runtime": "coordination/revision-weight-facts-draft.json 11건 런타임 반영"
+    },
+    {
+      "item": "「수산물 중량·자연감량 허용치」 세칙",
+      "resolved_by": "SEAFOOD-WEIGHT(홍이장 R2Q1 12:20)",
+      "review": "coordination/revision-weight-review.md 최종 적합",
+      "runtime": "같은 초안 11건에 포함"
+    },
+    {
+      "item": "「로트·출고 검사 기록」, 작황·재해 기록",
+      "resolved_by": "LOT-LEDGER·CROP-DISASTER(박수복 R2Q1 12:23)",
+      "review": "coordination/lot-crop-review.md 최종 적합",
+      "runtime": "research/lot-crop/facts-candidate.json 13건 런타임 반영"
+    },
+    {
+      "item": "「조합원 가입 안내 리플렛」",
+      "resolved_by": "MEMBERSHIP(고길동 R3Q1 12:35)",
+      "review": "coordination/membership-review.md 적합",
+      "runtime": "research/membership/facts-candidate.json 5건 런타임 반영"
+    },
+    {
+      "item": "「갯마을 조업·입고 기록」",
+      "resolved_by": "FISHING-INTAKE(홍이장 R3Q1 12:42)",
+      "review": "coordination/fishing-intake-review.md 적합",
+      "runtime": "research/fishing-intake/facts-candidate.json 4건 런타임 반영"
+    },
+    {
+      "item": "주문 조회 등 액션 API 명세 원문",
+      "evidence": "이민준 R1Q3 11:40: 이 채널에서는 원문 제공 불가",
+      "resolution": "사용자 제공 대회페이지의 로그인 Chrome 다운로드로 확보",
+      "resolved_at": "2026-10-31 13:23 KST",
+      "path": "docs/action-api/openapi.json"
+    }
+  ],
+  "runtime_snapshot": {
+    "path": "interviews/knowledge.json",
+    "facts": 255,
+    "sha256": "459ec834969e967b0d51b099767167057b39931cf30cd02527cab65c500aab4d"
+  },
+  "counts": {
+    "attachments": 10,
+    "linked_attachments": 19,
+    "total": 29,
+    "interview_intake_urls": 28,
+    "initial_user_attachment_not_in_intake": 1,
+    "unique_urls": 29
+  }
+}

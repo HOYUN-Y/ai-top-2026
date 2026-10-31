@@ -1,0 +1,143 @@
+[
+  {
+    "name": "홍보라",
+    "role": "청년회 홍보·프로모션: 코드·이벤트·협찬·홍보물 제작등록·인플루언서 계약 실무",
+    "channel": "https://pf.kakao.com/_KfIxaX",
+    "provided_by": "이민준 Q4 11:58",
+    "access_status": "채널URL·제목·활성입력·직접응답 확인, 현재 승인분 모두 수신·추가탐색 종료.",
+    "general_questions_sent": 5,
+    "cumulative_usage_calculated": 5,
+    "external_general_questions_observed": 0
+  },
+  {
+    "name": "김청년",
+    "role": "청년회 농촌 체험·견학·단체행사 접수와 운영 조율, 일정·조건 확인판단",
+    "channel": "https://pf.kakao.com/_xffIxaX",
+    "provided_by": "이민준 Q5 12:00",
+    "access_status": "채널URL·제목·활성입력·직접응답 확인, 현재 승인분 모두 수신·추가탐색 종료.",
+    "general_questions_sent": 9,
+    "cumulative_usage_calculated": 10,
+    "external_general_questions_observed": 1
+  },
+  {
+    "name": "박민아",
+    "role": "홍이장 직접 소개: 갯마을 배정 시원배송 기사, 냉동 상품 집하·운송·인계·현장 확인 담당. 조합 직원 아님.",
+    "channel": "https://pf.kakao.com/_xcfIxaX",
+    "provided_by": "홍이장 사용자 직접 질문 2026-10-31 13:42",
+    "access_status": "채널URL·제목·활성입력·직접응답 확인, 현재 승인분 모두 수신·추가탐색 종료.",
+    "general_questions_sent": 4,
+    "additional_evidence": "R7Q1: 06/24 TR-GM-02 직접 운송, 05:30~06:30 집하·18:00 간선 인계 입회 검침·06/25 고객 전달 진술. 온도 수치는 로그 확인 필요·URL 미제공. 경고음 경험과 기록계 무경보 설명은 각각 원문 보존, 경고음 발생원을 추정하지 않음.",
+    "provenance": {
+      "source_file": "interviews/sources/external-observed-messages.json",
+      "source_question": "갯마을에서 교동마을로 인도 하는 담당자가 있나요?",
+      "source_responses": [
+        "갯마을에서 냉동 상품을 집하하고 운송하고 인계하는 일은 박민아 기사가 해요. 갯마을에 배정된 시원배송 기사이고, 현장 확인도 같이 해요. 조합 직원은 아니에요. 매일 마주쳐서 안면이 있고, 꼼꼼한 사람이라 믿어요.",
+        "박민아 기사 연락처는 카카오톡 프로필 주소예요.\nhttps://pf.kakao.com/_xcfIxaX",
+        "직접 이 주소로 말을 걸어 보시면 돼요. 제가 대신 연락해서 답을 받아 드리는 건 아니에요."
+      ],
+      "relationship": "홍이장 진술: 매일 마주침·안면 있음. 꼼꼼하다는 평가는 소개자의 평가."
+    },
+    "previous_route_note": "기존 고길동/박수복/구방만 채널 모름 진술은 보존. 새 홍이장 직접 경로로 URL 확보, 과거 경로 재요청 아님.",
+    "cumulative_usage_calculated": 4,
+    "external_general_questions_observed": 0,
+    "r7q3_note": "적재 인계자 모름. 날짜별 메모가 있으면 확인할 수 있다는 본인 진술, 메모 실재·내용·제공 여부 미확인. 새 실명/URL 없음."
+  },
+  {
+    "name": "이민준",
+    "role": "온라인 운영·상담·주문",
+    "channel": "https://pf.kakao.com/_xkPIxaX",
+    "provided_by": "구방만 Q2 12:03",
+    "access_status": "채널URL·제목·활성입력·직접응답 확인, 현재 승인분 모두 수신·추가탐색 종료.",
+    "general_questions_sent": 20,
+    "cumulative_usage_calculated": 26,
+    "external_general_questions_observed": 3
+  },
+  {
+    "name": "박수복",
+    "role": "농산물 공급자대표·생산상태/현장기록 확인, 다른생산자 확인창구;환불보상 승인권없음",
+    "channel": "https://pf.kakao.com/_afIxaX",
+    "provided_by": "고길동 R2Q1 12:06",
+    "access_status": "채널URL·제목·활성입력·직접응답 확인, 현재 승인분 모두 수신·추가탐색 종료.",
+    "general_questions_sent": 7,
+    "cumulative_usage_calculated": 7,
+    "external_general_questions_observed": 0
+  },
+  {
+    "name": "홍보걸",
+    "role": "외부 홍보계약에 따른 콘텐츠 제작·송출. 배너캡처/라이브스크립트 기준설명, 코드조건은 조합원장. 판매조건/보상약속 권한없음(본인진술).",
+    "channel": "https://pf.kakao.com/_wfIxaX",
+    "provided_by": "홍이장 R8Q1 14:33, 조직 관계도 §8 홍보 목적 소개 경로",
+    "access_status": "채널URL·제목·활성입력·직접응답 확인, 현재 승인분 모두 수신·추가탐색 종료.",
+    "general_questions_sent": 2,
+    "provenance": {
+      "source_file": "interviews/sources/round8-transcript.json",
+      "source_recipient": "홍이장",
+      "source_round": 8,
+      "source_question": 1,
+      "purpose": "갯마을 수산물 라이브/게시물 상품 소개·안내 문구 사실 확인",
+      "exact_url": "https://pf.kakao.com/_wfIxaX",
+      "limits": "응답·홍보 협업·대신 연락 보장 없음. 사적 관계는 고객 공개 정보 아님."
+    },
+    "previous_route_note": "홍보라R2Q2는 메일 교류만 알고 채널 모름. 새 홍이장 직접 경로로 URL확보, 막힌 경로 반복 아님.",
+    "cumulative_usage_calculated": 2,
+    "external_general_questions_observed": 0,
+    "last_response_limit": "R8Q2: 스크립트/캡처/자료위치 제공불가, 기록보유 말만으로 대조기준 삼기 어렵다고 한정. 기억범위 설명만 가능. 새자료없음."
+  },
+  {
+    "name": "문귀남",
+    "role": "하우스감귤·노지감귤·만감류 담당, 하우스감귤측정자",
+    "channel": null,
+    "provided_by": "로트원장 원문검증 감독보고·박수복 R3Q2 12:39",
+    "access_status": "박수복 채널모름·직접접근없음·10명인터뷰대상여부미확정",
+    "general_questions_sent": 0,
+    "additional_evidence": "고길동 R4Q1 12:46: 세사람채널모름·생산자인지도본인은확인불가. 기존박수복URL재제공. 박수복의품목확인과개인별지식차이보존. 동일이름연락처재요청종료."
+  },
+  {
+    "name": "최덕만",
+    "role": "감자·고구마·절임배추 담당, 봄감자측정자",
+    "channel": null,
+    "provided_by": "박수복 R3Q3 12:40 및 원장측정자",
+    "access_status": "박수복 채널모름. 직접관찰아닌타생산자말 전달가능제안. 직접인터뷰가능여부미확정.",
+    "general_questions_sent": 0,
+    "additional_evidence": "고길동 R4Q1 12:46: 세사람채널모름·생산자인지도본인은확인불가. 기존박수복URL재제공. 박수복의품목확인과개인별지식차이보존. 동일이름연락처재요청종료."
+  },
+  {
+    "name": "하동철",
+    "role": "애플망고·참다래 담당, 박수복과아침마다통화",
+    "channel": null,
+    "provided_by": "박수복 R3Q3 12:40 및 원장측정자",
+    "access_status": "박수복R3Q4: 채널모름. 매일통화하며전언가능제안, 직접본사실아님을구분. 직접채팅/10명포함여부미확정.",
+    "general_questions_sent": 0,
+    "additional_evidence": "고길동 R4Q1 12:46: 세사람채널모름·생산자인지도본인은확인불가. 기존박수복URL재제공. 박수복의품목확인과개인별지식차이보존. 동일이름연락처재요청종료."
+  },
+  {
+    "name": "고길동",
+    "role": "조합 운영·제도·최종 승인",
+    "channel": "https://pf.kakao.com/_ifIxaX",
+    "provided_by": "기존 이민준 소개·고길동 직접 채팅",
+    "access_status": "채널URL·제목·활성입력·직접응답 확인, 현재 승인분 모두 수신·추가탐색 종료.",
+    "general_questions_sent": 14,
+    "cumulative_usage_calculated": 15,
+    "external_general_questions_observed": 0
+  },
+  {
+    "name": "홍이장",
+    "role": "갯마을 수산 공급·조업·입고·인도 경계",
+    "channel": "https://pf.kakao.com/_xgfIxaX",
+    "provided_by": "고길동 R1Q2 및 직접 채팅",
+    "access_status": "채널URL·제목·활성입력·직접응답 확인, 현재 승인분 모두 수신·추가탐색 종료.",
+    "general_questions_sent": 5,
+    "cumulative_usage_calculated": 10,
+    "external_general_questions_observed": 5
+  },
+  {
+    "name": "구방만",
+    "role": "시원배송 교동마을 집하·출고·배송·간선 인계",
+    "channel": "https://pf.kakao.com/_xefIxaX",
+    "provided_by": "이민준 R1Q2 및 직접 채팅",
+    "access_status": "채널URL·제목·활성입력·직접응답 확인, 현재 승인분 모두 수신·추가탐색 종료.",
+    "general_questions_sent": 6,
+    "cumulative_usage_calculated": 6,
+    "external_general_questions_observed": 0
+  }
+]

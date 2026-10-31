@@ -1,0 +1,82 @@
+{
+  "at": "2026-10-31T13:46:04",
+  "before": 154,
+  "after": 193,
+  "merged": {
+    "events": {
+      "added": [
+        "event-no-individual-roster",
+        "event-past-records-not-basis",
+        "event-provisional-reply-flow",
+        "event-capacity-duration",
+        "event-capacity-not-confirmation"
+      ],
+      "updated": [
+        "event-intake-data",
+        "event-reservation-stages",
+        "event-minor-supervision-consent",
+        "event-minor-group-insurance",
+        "event-reservation-cutoff-unknown",
+        "event-headcount-fee-boundary",
+        "event-accident-authority-boundary",
+        "event-weather-cancellation"
+      ]
+    },
+    "catalog": {
+      "added": [
+        "catalog-internal-vs-customer-display",
+        "catalog-sku-code-rule",
+        "catalog-item-codes",
+        "catalog-disclosure-levels",
+        "catalog-origin-answer",
+        "catalog-box-count-denominator",
+        "catalog-grades",
+        "catalog-sale-status-2037-06-30",
+        "catalog-watermelon-melon-specs",
+        "catalog-ripening-storage",
+        "catalog-normal-traits-not-defect",
+        "catalog-special-skus",
+        "catalog-producer-not-designated",
+        "catalog-supply-confirmation-windows",
+        "catalog-price-source",
+        "catalog-status-history-2037"
+      ],
+      "updated": [
+        "sweetness-judgement-line",
+        "sales-rule-7",
+        "weight-judgement-lines",
+        "label-sample-lots-crosscheck",
+        "crop-2037-06-watermelon-crack",
+        "fishing-gal-status-2037-06",
+        "fishing-okd-normal-with-stock",
+        "revision-price-cut-ledgers"
+      ]
+    },
+    "privacy": {
+      "added": [
+        "privacy-verify-direction",
+        "privacy-known-info-not-auth",
+        "privacy-cumulative-confirmation-stop",
+        "privacy-order-scope",
+        "privacy-credentials",
+        "privacy-proxy-requests",
+        "privacy-group-buy-leader",
+        "privacy-withhold-not-missing",
+        "privacy-relay-procedure",
+        "privacy-delivery-contact-requests",
+        "privacy-recipient-info",
+        "privacy-farmer-staff-owner-scope",
+        "privacy-no-exceptions",
+        "privacy-legal-external-requests",
+        "privacy-third-party-sharing",
+        "privacy-retention-and-rights",
+        "privacy-logging-and-internal-docs",
+        "rules-channel-and-authority-claims"
+      ],
+      "updated": [
+        "sales-rule-12",
+        "event-intake-data"
+      ]
+    }
+  }
+}

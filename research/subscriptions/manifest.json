@@ -1,0 +1,27 @@
+{
+  "id": "SUBSCRIPTIONS",
+  "source_url": "https://t1.kakaocdn.net/aitop100/aitop100/dist/m1SLEboPRfEAY8Y90ZFzMQ.html",
+  "provider": "이민준",
+  "question": "R5Q2",
+  "response_ui_time": "2026-10-31 13:25 KST",
+  "path": "research/subscriptions/m1SLEboPRfEAY8Y90ZFzMQ.html",
+  "sha256": "7c0cdc90009756d34572f2c7797613c892963367fed755f2c34b723098ef604e",
+  "bytes": 501492,
+  "retrieved_at": "2026-10-31T13:27:38",
+  "owner": "root",
+  "status": "정적 텍스트 추출·판독 중, HTML 실행 없음",
+  "observed_links": [
+    "#main",
+    "#top",
+    "#artifact-nav",
+    "#main",
+    "#section-1",
+    "#section-2",
+    "#section-3",
+    "#section-4",
+    "#section-5",
+    "#section-6",
+    "#top",
+    "#top"
+  ]
+}

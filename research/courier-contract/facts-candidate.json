@@ -1,0 +1,96 @@
+{
+  "status": "2026-10-31 13:54 KST 후보, runtime 미반영. root→review 검수 대기. 14:01 R7Q4 결과로 courier-transit-time uncertainty 갱신.",
+  "schema": "interviews/knowledge.json facts와 같은 필드.",
+  "new_people_or_links": "새 실명 없음. 역할: 교동 배정 기사, 갯마을 배정 기사, 시원배송 간선(기사 비통지). 차량 TR-KD-01·TR-GM-02.",
+  "new_facts": [
+    {
+      "id": "courier-delivery-stages",
+      "category": "shipping",
+      "fact": "배송은 물품 준비 → 송장 등록 → 집하(출고) → 배송 중 → 배송 완료 → 구매 확정 단계로 진행한다. 집하 전에는 배송지 변경·취소가 가능하고, 집하 후에는 변경할 수 없으며 수취 거부 시 자동 반송된다. 집하 시각은 시원배송의 집하 스캔 기록 시각이고, 스캔과 출고지 인계 진술이 다르면 스캔 기록으로 변경·취소 가부를 판정한다.",
+      "source": "research/courier-contract/raw/l2R00nTdGBHA3FP2QVxKfg.pdf 「택배 운송 위탁 계약서」(교동마을 산지직송 조합 ↔ 주식회사 시원배송, 시행 2037-03-02) 제2조1·제3조①③",
+      "conditions": "배송지·일정 변경 접수(API-24·25) 전에 집하 여부를 배송 조회로 확인한다. 구방만 R4Q2 진술(스캔 우선)과 일치한다.",
+      "uncertainty": ""
+    },
+    {
+      "id": "courier-tracking-lag",
+      "category": "shipping",
+      "fact": "송장 등록 후 시원배송 조회 시스템에 반영되기까지 통상 3~5시간이 걸릴 수 있으며, 그 사이 송장 조회가 되지 않는 것은 정상이고 배송 지연이나 사고로 보지 않는다.",
+      "source": "research/courier-contract/raw/l2R00nTdGBHA3FP2QVxKfg.pdf 「택배 운송 위탁 계약서」(교동마을 산지직송 조합 ↔ 주식회사 시원배송, 시행 2037-03-02) 제3조②",
+      "conditions": "3~5시간이 지나도 조회되지 않으면 그때 확인을 진행한다.",
+      "uncertainty": "3~5시간 경과 후의 처리 절차는 원문에 없다."
+    },
+    {
+      "id": "courier-transit-time",
+      "category": "shipping",
+      "fact": "산지직송 상품은 당일배송이 불가하며 통상 익일 내지 모레 도착한다. 긴급 출고의 경우에도 지역·배송기사 사정, 기상특보·항공·선박 결항, 도로 통제에 따라 지연될 수 있다.",
+      "source": "research/courier-contract/raw/l2R00nTdGBHA3FP2QVxKfg.pdf 「택배 운송 위탁 계약서」(교동마을 산지직송 조합 ↔ 주식회사 시원배송, 시행 2037-03-02) 제4조",
+      "conditions": "도착일은 보장하지 않는다(공개 사례 L-34). 긴급 출고 접수(API-27)가 도착일 보장을 뜻하지 않는다.",
+      "uncertainty": "긴급 출고의 허용 조건은 정해진 기준이 없다(이민준 R7Q4 13:57). 결정 구조는 이민준 1차 → 재량 초과 시 고길동 최종 승인, 실제 출고·배송 가능 여부는 구방만 확인이다. 조합장 상신 대상인지도 이민준이 단정하지 못했다."
+    },
+    {
+      "id": "courier-bulk-split-dispatch",
+      "category": "shipping",
+      "fact": "대량 주문은 분할 배차될 수 있고, 지정일 납기에 위험이 있으면 우선배송·대체 배송으로 조치한다. 분할 배차가 확정되면 시원배송은 조합에, 조합은 고객에게 잔여 회차의 예상 도착 시점을 미리 알린다.",
+      "source": "research/courier-contract/raw/l2R00nTdGBHA3FP2QVxKfg.pdf 「택배 운송 위탁 계약서」(교동마을 산지직송 조합 ↔ 주식회사 시원배송, 시행 2037-03-02) 제5조",
+      "conditions": "",
+      "uncertainty": ""
+    },
+    {
+      "id": "courier-combined-shipping",
+      "category": "shipping",
+      "fact": "상온(농산물)과 냉장·냉동(수산물) 등 보관 조건이 다른 품목은 합배송이 제한되며 별도 포장·배송비가 생길 수 있다. 동일 수령지의 출고 전 복수 주문은 합포장할 수 있고, 합포장으로 절감된 초과 배송비는 환불 또는 정산한다.",
+      "source": "research/courier-contract/raw/l2R00nTdGBHA3FP2QVxKfg.pdf 「택배 운송 위탁 계약서」(교동마을 산지직송 조합 ↔ 주식회사 시원배송, 시행 2037-03-02) 제6·7조",
+      "conditions": "위탁계약 제12조③(보관 조건이 다른 품목 합배송 제한)과 같은 방향이다.",
+      "uncertainty": "별도 배송비 금액은 원문에 없다."
+    },
+    {
+      "id": "courier-split-delivery",
+      "category": "shipping",
+      "fact": "고객 요청에 의한 분할(부분) 배송은 회차별 배송비가 생길 수 있고, 신선도 유지를 위해 최초 출고일부터 7일 이내, 최대 3회차까지만 가능하다. 이를 넘는 요청은 별건 주문으로 안내한다.",
+      "source": "research/courier-contract/raw/l2R00nTdGBHA3FP2QVxKfg.pdf 「택배 운송 위탁 계약서」(교동마을 산지직송 조합 ↔ 주식회사 시원배송, 시행 2037-03-02) 제8조",
+      "conditions": "",
+      "uncertainty": "회차별 배송비 금액은 원문에 없다."
+    },
+    {
+      "id": "courier-location-memo",
+      "category": "shipping",
+      "fact": "문 앞·경비실·무인함 등 수령 위치 메모는 가능하지만 분실·훼손 위험을 미리 알린다.",
+      "source": "research/courier-contract/raw/l2R00nTdGBHA3FP2QVxKfg.pdf 「택배 운송 위탁 계약서」(교동마을 산지직송 조합 ↔ 주식회사 시원배송, 시행 2037-03-02) 제9조",
+      "conditions": "기사 연락처 대신 메모로 전달한다(제3자 조항 제5조②, API-26).",
+      "uncertainty": ""
+    },
+    {
+      "id": "courier-reship-fee",
+      "category": "policy",
+      "fact": "고객 귀책(수취인 부재, 주소 오입력 등)으로 반송된 상품의 재배송비는 고객 부담이 원칙이지만, 사안에 따라 일부(절반 등)를 조합이 분담할 수 있다. 분담 여부와 비율은 조합의 상담 권한 위임·재량 한도 안에서 정하고 판단 사유를 상담 기록에 남긴다.",
+      "source": "research/courier-contract/raw/l2R00nTdGBHA3FP2QVxKfg.pdf 「택배 운송 위탁 계약서」(교동마을 산지직송 조합 ↔ 주식회사 시원배송, 시행 2037-03-02) 제2조2·제10조①②; interviews/sources/round7-transcript.json 이민준 R7Q2(13:51)",
+      "conditions": "반송 건을 재배송할 때의 배송지는 배송지 변경 요청으로 받으며, 이때는 집하 후 변경 제한을 적용하지 않는다(제10조③). 하자·오배송 재배송은 무료다(판매·환불 규정 제4조①·제8조).",
+      "uncertainty": "재배송비 금액은 원문에 없고 이민준도 모른다고 했다. 금액을 지어내지 않는다."
+    },
+    {
+      "id": "courier-damage-customer-first",
+      "category": "policy",
+      "fact": "배송 중 파손은 시원배송에 대한 파손 클레임으로 접수하고, 조합·시원배송 사이 정산은 고객 응대와 분리한다. 파손이 택배사 책임 구간에서 생겼다는 이유로 고객에 대한 재배송·환불을 지연하거나 고객에게 떠넘기지 않으며, 고객 처리를 먼저 한다.",
+      "source": "research/courier-contract/raw/l2R00nTdGBHA3FP2QVxKfg.pdf 「택배 운송 위탁 계약서」(교동마을 산지직송 조합 ↔ 주식회사 시원배송, 시행 2037-03-02) 제11조",
+      "conditions": "택배사 탓을 고객 안내의 거절 사유로 쓰지 않는다.",
+      "uncertainty": ""
+    },
+    {
+      "id": "courier-lost-after-delivered",
+      "category": "policy",
+      "fact": "배송 완료로 처리됐지만 고객이 받지 못한 분실은 시원배송 조사 접수로 처리하며, 고객 과실이 아니면 조합이 우선 재발송한다.",
+      "source": "research/courier-contract/raw/l2R00nTdGBHA3FP2QVxKfg.pdf 「택배 운송 위탁 계약서」(교동마을 산지직송 조합 ↔ 주식회사 시원배송, 시행 2037-03-02) 제12조",
+      "conditions": "고객 과실 여부를 단정하지 않고 배송 기록을 조회한다.",
+      "uncertainty": "고객 과실 판정 기준은 원문에 없다."
+    },
+    {
+      "id": "courier-assigned-drivers",
+      "category": "contact",
+      "fact": "시원배송은 조합 출고지마다 배정 기사를 상주시킨다. 교동마을 출하장 산지 집하(농산 10품목, 상온·예냉, 집하 차량 TR-KD-01)와 전 품목의 집하 등록·간선 인계(TR-KD-01)는 교동 배정 기사가, 갯마을 출하장 산지 집하(수산 2종 냉동, 냉동 탑차 TR-GM-02)는 갯마을 배정 기사가 맡는다. 간선 이후는 시원배송 간선이 맡는다.",
+      "source": "research/courier-contract/raw/l2R00nTdGBHA3FP2QVxKfg.pdf 「택배 운송 위탁 계약서」(교동마을 산지직송 조합 ↔ 주식회사 시원배송, 시행 2037-03-02) 제2조4·별표 2",
+      "conditions": "갯마을 냉동분은 교동마을 출하장을 거쳐 집하 등록 후 간선에 인계하므로, 냉동 품목의 집하 등록·간선 인계 담당도 교동 배정 기사다(별표 2①). 배정 기사가 부재하면 다른 배정 기사가 대행할 수 있고 대행 구간의 인계는 조합 출하장 인계 대장에 적는다(②). 시원배송은 배정 기사의 성명·담당 구간만 조합에 통지하고 개인 연락처와 간선 기사는 통지하지 않는다(③). 고객에게 기사 연락처를 안내하지 않는다.",
+      "uncertainty": "계약서에는 기사 실명이 없다. 구방만(교동 집하·등록·간선 인계 진술)과 박민아(갯마을 배정, TR-GM-02 운행 진술)가 각 배정 기사에 해당하는 것은 진술과 역할이 맞는다는 대응이며 계약서의 직접 기재는 아니다."
+    }
+  ],
+  "updates": []
+}

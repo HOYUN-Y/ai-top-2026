@@ -1,0 +1,23 @@
+[
+  {
+    "recipient": "이민준",
+    "question": "고객이 홍보물에서 본 할인 혜택이 적용되지 않았다고 하면 홍보라님께 당시 안내 내용을 확인하려고 합니다. 직접 연락할 수 있는 카카오톡 채널을 알려주세요.",
+    "characters": 86,
+    "status": "감독 승인·미전송",
+    "authorization": "coordination/contact-expansion.md 및 사용자 정확3건 전송지시"
+  },
+  {
+    "recipient": "이민준",
+    "question": "단체 체험을 예약하려는 고객에게 가능한 일정과 운영 조건을 정확히 안내하려고 합니다. 담당 김청년님께 문의할 수 있는 카카오톡 채널을 알려주세요.",
+    "characters": 81,
+    "status": "감독 승인·미전송",
+    "authorization": "coordination/contact-expansion.md 및 사용자 정확3건 전송지시"
+  },
+  {
+    "recipient": "구방만",
+    "question": "기사님이 부재중이거나 업무를 인계한 뒤의 배송 건은 현장 사실을 누구에게 확인하면 되나요? 그분의 담당 업무와 카카오톡 채널을 알려주세요.",
+    "characters": 77,
+    "status": "감독 승인·미전송",
+    "authorization": "coordination/contact-expansion.md 및 사용자 정확3건 전송지시"
+  }
+]

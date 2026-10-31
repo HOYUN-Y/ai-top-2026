@@ -1,0 +1,37 @@
+{
+ "title": "수산물 중량·자연감량 허용치 (업무 기준, 기준일 2037-06-30, 3쪽)",
+ "source_url": "https://t1.kakaocdn.net/aitop100/aitop100/dist/z2NxycW6tXpuTLaXUW9GsA.zip",
+ "provided_by": "홍이장 2차 질문1, 응답 2026-10-31 12:20 KST (interviews/sources/round2-transcript.json)",
+ "question": "고객이 받은 수산물이 표시 중량보다 적다고 하면, 갯마을에서는 무엇을 확인해 주고 얼음이나 물 빠짐은 어떻게 보나요?",
+ "downloaded_at": "2026-10-31 12:22 KST",
+ "zip": {
+  "path": "research/seafood-weight/raw/z2NxycW6tXpuTLaXUW9GsA.zip",
+  "bytes": 2766986,
+  "sha256": "b568b2c48aa247c7e4a333135e7fcaf3e1eb0fcb160b2abfcfa7dc2a0ece45b1"
+ },
+ "entries": [
+  {
+   "name": "B13-01.png",
+   "bytes": 944712,
+   "sha256": "2f4da65b9e202596233b1948efa2803269f56562b52a4581dacc98386713045d",
+   "path": "research/seafood-weight/extracted/B13-01.png",
+   "pixels": "1785x2526"
+  },
+  {
+   "name": "B13-02.png",
+   "bytes": 1030236,
+   "sha256": "afe3c2990422dc28bad84c83e5c9709a7642be3a82f1d7e657c7372ea38154f1",
+   "path": "research/seafood-weight/extracted/B13-02.png",
+   "pixels": "1785x2526"
+  },
+  {
+   "name": "B13-03.png",
+   "bytes": 857700,
+   "sha256": "c9dec060330229befa8af2b2ce7d42c03eb696c080367e8a0f762a418bb98d4d",
+   "path": "research/seafood-weight/extracted/B13-03.png",
+   "pixels": "1785x2526"
+  }
+ ],
+ "safety": "ZIP 항목 3개(PNG). 주석·암호화·심볼릭 링크 없음, 압축비 약 1.0. 파일명을 [A-Za-z0-9_-]+.png로 검증하고 PNG 시그니처를 확인한 뒤 Python zipfile로 이 항목들만 extracted/에 썼다. 아무것도 실행하지 않았다.",
+ "review": "3쪽 전체를 원본 이미지로 직접 시각 판독했다(OCR 미사용)."
+}

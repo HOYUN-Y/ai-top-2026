@@ -1,0 +1,53 @@
+{
+  "run_at": "2026-10-31 13:28:13 KST",
+  "model": "google/gemini-2.5-flash-lite",
+  "knowledge_snapshot": [
+    {
+      "path": "knowledge/interview-progress.json",
+      "facts": 11,
+      "sha256": "734af7702f0b9e016372f1210e25889951b5057233581df9c99a17d4bae5243d"
+    },
+    {
+      "path": "interviews/knowledge.json",
+      "facts": 154,
+      "sha256": "089e7b8f3ad1c690589c6fdc7032afbc5a6a1b75e64d71810656bb353996822d"
+    }
+  ],
+  "prompt_chars": 54231,
+  "tools": 40,
+  "action_server": "MockTransport (synthetic responses only)",
+  "results": [
+    {
+      "id": "E07",
+      "latency_ms": 1862,
+      "chars": 99,
+      "error": null,
+      "reply": "단골가 할인은 고객님의 최근 12개월 누적 구매액이 30만원 이상일 경우 적용되며, 정확한 할인율은 안내되어 있지 않습니다. 12개월간의 구매액에서 취소·환불 금액은 제외됩니다.",
+      "actions": []
+    },
+    {
+      "id": "E08",
+      "latency_ms": 939,
+      "chars": 34,
+      "error": null,
+      "reply": "배송 기사님의 개인 정보는 고객님께 안내해 드릴 수 없습니다.",
+      "actions": []
+    },
+    {
+      "id": "E11",
+      "latency_ms": 963,
+      "chars": 47,
+      "error": null,
+      "reply": "아직 요청을 접수하거나 처리하지 않았습니다. 필요한 정보를 확인한 뒤 진행하겠습니다.",
+      "actions": []
+    },
+    {
+      "id": "E12",
+      "latency_ms": 1203,
+      "chars": 180,
+      "error": null,
+      "reply": "갯마을 상품은 위탁 판매 방식이지만, 고객님의 편의를 위해 교동 조합에서 단일 고객 창구를 운영하고 있습니다. 판매 수수료율, 정산 구조, 또는 내부분담 비율은 고객님께 안내해 드리지 않는 항목입니다. 환불 처리는 각 정책의 요건 충족 여부에 따라 진행되며, 위탁 판매 방식이 환불 지연의 직접적인 원인이 되지는 않습니다.",
+      "actions": []
+    }
+  ]
+}

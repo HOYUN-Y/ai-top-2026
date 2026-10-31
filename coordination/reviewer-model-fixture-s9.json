@@ -1,0 +1,65 @@
+{
+  "MODEL": "google/gemini-2.5-flash",
+  "NEW_ADDRESS": "경기 성남시 분당구 정자일로 95, 101동 1203호",
+  "OLD_ADDRESS": "제주 제주시 비공개로 777, 2동 3호",
+  "MEMBER": {
+    "member_id": "MB-SYN-1",
+    "name": "서지호",
+    "phone": "019-1234-5231",
+    "birth_year": 1990,
+    "member_type": "INDIVIDUAL",
+    "grade": "MEMBER",
+    "status": "ACTIVE",
+    "address": "제주 제주시 비공개로 777, 2동 3호",
+    "joined_at": "2037-03-02",
+    "referred_by_member_id": null
+  },
+  "ORDER": {
+    "order_no": "100100003",
+    "member_id": "MB-SYN-1",
+    "status": "PAID",
+    "status_changed_at": null,
+    "ordered_at": "2037-06-29T10:00:00+09:00",
+    "amount": 42000,
+    "recipient_name": "서지호",
+    "shipping_address": "제주 제주시 비공개로 777, 2동 3호",
+    "inflow_tag": null,
+    "ship_scheduled_at": "2037-07-01",
+    "failure_code": null,
+    "payment_refs": [],
+    "refund_ids": [],
+    "change_request_ids": [],
+    "items": [
+      {
+        "sku": "REVIEW-SUBAK-1",
+        "name": "합성 수박",
+        "qty": 1,
+        "unit_price": 42000
+      }
+    ]
+  },
+  "L03_customer_turns": [
+    "case metadata\n- id: L-03\n- 상담 인입 일시: 2037-06-30(화) 15:16\n- 인입창구: 조합몰 1:1 채팅\n- 인입 계정: 회원 로그인 · 서지호 · 019-****-5231\n\n주소 잘못 넣었어요. 경기 성남시로 바꿔주세요.",
+    "100100003번 주문이에요. 이 주문 맞아요.",
+    "경기 성남시 분당구 정자일로 95, 101동 1203호예요."
+  ],
+  "shipments": [],
+  "address_receipt": {
+    "request_id": "MOCK-R1",
+    "order_no": "100100003",
+    "request_status": "SUBMITTED",
+    "requested_at": "2037-06-30T15:20:00+09:00",
+    "new_address": "경기 성남시 분당구 정자일로 95, 101동 1203호"
+  },
+  "knowledge_manifest": {
+    "interviews/knowledge.json": {
+      "mtime": "2026-10-31T14:02:33.613190+09:00",
+      "sha256": "28c3bfb672e91f0110537ed16621ed9239f0ba3a1e301e421e57cd2e62180d5d"
+    },
+    "knowledge/interview-progress.json": {
+      "mtime": "2026-10-31T11:19:33.145534+09:00",
+      "sha256": "734af7702f0b9e016372f1210e25889951b5057233581df9c99a17d4bae5243d"
+    }
+  },
+  "scope": "Synthetic; no actual action or callback; do not rerun real model without reporting cause/minimal alternative first"
+}

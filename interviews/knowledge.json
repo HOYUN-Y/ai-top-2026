@@ -1,0 +1,2019 @@
+{
+  "reference_date": "2037-06-30",
+  "policy_effective_date": "2037-06-01",
+  "evidence_review": "위임표 원본 이미지 B10-01~05 전체 직접 재판독; review.md R7의 네 누락 분기를 원문 대조해 보완. 원문 발언과 요약 사실은 별도 보존. 위탁 계약PDF5쪽 전체 텍스트·렌더 이미지 대조 완료. 조건에 내부판단/고객안내 범위 명시. 신규 연락망과 구방만 Q2는 raw 대화 원문 대조 후 감독 반영. 첨부 사건 사실은 독립 검수 후 별도 반영. C31 사건 6건은 coordination/archive-review.md의 원본 대조와 범위 제한을 반영: 전화 시각·당사자/등록 지연 인과/문자 수신/모든 온라인 기록 부재를 추론하지 않음. 프로모션17건은 coordination/promotion-review.md 적합 판정 및 원문·초안 대조 후 반영. 판매·증빙30건은 coordination/sales-evidence-review.md 최종 적합(P1/P2 보완 확인) 후 통합. 기존 미확보/판독 중 표기를 실제 확보 상태에 맞춰 갱신했다. 개정/수산물11건은 coordination/revision-weight-review.md 통합 가능 판정 후 추가. research/lot-crop/facts-candidate.json의 13건은 coordination/lot-crop-review.md 적합 확인 후 반영. research/membership/facts-candidate.json의 5건은 coordination/membership-review.md 적합 확인 후 반영. 갯마을 조업·입고4건은 coordination/fishing-intake-review.md 적합 후 통합. 체험·단체 예약7건은 coordination/event-review.md E1/E2/E3 보완 후 최종 적합 확인하여 통합했다. 라벨9건·운송8건은 labels-review.md L1~L3 및 transport-review.md T1/T2 보완 최종 적합 후 통합했다.; 2026-10-31T13:46:04 root: 체험5·카탈로그16·개인정보18 신규 및 기존 수정, 원문 독립 대조(coordination/events-catalog-privacy-review.md); 2026-10-31 13:50 KST 구독8·증빙9 독립 검수 보완 통합(coordination/subscriptions-billing-review.md); root: 운영규정7신규+기존2보완·과거행사4 신규, XLSX원셀독립대조 완료(coordination/rules-events-additions-review.md); 2026-10-31 14:30 KST root: 부분환불6건 PDF 독립 추출·XLSX 111셀 대조 후 추가(coordination/r8-sources-review.md).; 2026-10-31 14:33 KST root: 조직 관계도 PDF독립추출·그림 및 축제전단 앞뒷면 직접대조 후11건 통합, 사적 관계 구체값은 런타임에서 제외.",
+  "facts": [
+    {
+      "category": "approval",
+      "fact": "일반 재량 한도는 동일 주문·동일 사안 합산 5만원 이하이며 분할로 한도를 피하지 않는다. 실결제액을 기준으로 하고 실결제액을 초과 지급하지 않는다. 금액이 없는 사과·안내·기한 연장 등은 금액 임계 대상이 아니다.",
+      "source": "sources/B10-01.png 제2조④·제4조①~⑤",
+      "conditions": "제4조⑥의 금액 무관 예외와 제10조의 운영자 경유를 함께 적용한다. 표의 금액은 상한이며 지급 의무를 만들지 않는다.",
+      "uncertainty": "개정 이력 원문은 확보했다. 기준일 2037-06-30 연혁에는 위임표 임계 교체 회차가 없다. 과거 거래 적용은 구매 시점과 해당 부칙을 함께 확인한다."
+    },
+    {
+      "category": "policy",
+      "fact": "기록·사진으로 확인된 하자의 전액환불·재배송 및 규정상 반환인 출고 전 수량 축소 차액, 출고 지연 취소 전액환불은 정책 요건 충족 시 금액 무관 상담사 재량이다.",
+      "source": "sources/B10-02.png 제4조⑥·제5조 표",
+      "conditions": "금액 무관 예외에도 사실 확인·고객 선택을 포함한 해당 정책 요건이 필요하다. 반환에 함께 주는 보상은 일반 한도 적용, 반환액 자체는 보상 합산에서 제외. 하자 확인 수단은 기록·사진.",
+      "uncertainty": "판매·환불 규정과 증빙 기준은 확보되어 sales-rule/evidence 사실에 반영했다. 개별 주문 상태와 실제 증빙 정합은 별도 조회가 필요하다."
+    },
+    {
+      "category": "policy",
+      "fact": "정책 범위 내 처리는 상담사가 자율 수행하며 불필요한 승인 대기로 돌리지 않는다. 정책 자체의 예외는 재량이 아니라 승인 사항이다.",
+      "source": "sources/B10-01.png 제3조①·③·④",
+      "conditions": "사실관계상 처리 가능 여부와 정책상 허용 여부를 각각 확인한 뒤 확정 안내한다. 사실 확인 전 재량을 행사하지 않는다.",
+      "uncertainty": null
+    },
+    {
+      "category": "policy",
+      "fact": "폐기·무증빙 등으로 정식 하자 처리가 어려운 경우 근거 없는 전액환불이나 보상 없는 종결을 하지 않고 재량 범위에서 적립금·쿠폰을 제공한다.",
+      "source": "sources/B10-01.png 제3조②; sources/B10-02.png 제5조 적립금 행",
+      "conditions": "정식 하자 처리 곤란 분기이다. 일반 재량 한도, 사실 확인, 과거 보상 중복 확인 및 처리 사유·근거 기록을 준수한다. 접수는 증빙이 약해도 진행하고 자사 기록과 대조한다. 동일 로트 귀책 확정 등 사진 없이 정식 처리가 가능한 경우를 이 분기로 축소하지 않는다.",
+      "uncertainty": "쿠폰 종류·금액·조건은 프로모션 관련 사실에 반영했다. 무증빙 자체가 하자 접수 거절 근거는 아니며, 기록으로 귀책이 확인된 경우의 정식 처리를 배제하지 않는다. 전액환불 자동 허용도 아니다."
+    },
+    {
+      "category": "policy",
+      "fact": "부분환불 산식, 무게·규격 미달 차액, 배송비, 쿠폰·적립금, 혜택 누락 보정, 가격 인하 차액 보상은 각 행이 인용한 정책 요건을 충족해야 한다. 표의 상한만으로 지급 의무가 생기지 않는다.",
+      "source": "sources/B10-02.png 제5조 표; sources/B10-03.png 제5조②·③",
+      "conditions": "혜택 누락 보정은 등록 기록 확인 후 원 혜택 상당. 가격 인하 차액 보상은 기간·조건 해당 시 프로모션 마스터 §6의 차액 이상 최소 보상 쿠폰. 재량 처리 결과는 티켓에 남기고 별도 사후 보고는 요구하지 않는다.",
+      "uncertainty": "부분환불 산식·박스 비율 임계표와 택배사 계약서는 원문 확보·대조 완료. 각 사실의 적용 조건·현행성 유보를 함께 확인한다. 판매·환불 규정과 개정 이력은 확보했으며 실제 주문 사실은 별도 조회해야 한다."
+    },
+    {
+      "category": "approval",
+      "fact": "승인은 상담 에이전트 → 운영자 이민준 → 조합장 고길동 순이다. 재량 밖 사안의 1차 판단은 운영자가 맡고 운영 판단에서 끝나면 조합장까지 올리지 않는다.",
+      "source": "sources/B10-04.png 제10조①·②; 고길동 기존 11:05 답변",
+      "conditions": "제4·5조 표에 조합장이 적힌 행도 운영자를 경유한 최종 승인 단계라는 뜻이다. 상담사가 운영자를 건너뛰어 직접 승인 요청하지 않는다.",
+      "uncertainty": "운영자 자체 재량의 세부 한도는 이 표만으로 수치 확정할 수 없다."
+    },
+    {
+      "category": "approval",
+      "fact": "정책·가격·권한 변경, 손해배상·분쟁·법률, 안전·대외 공식 입장, 운영자 스스로 판단 곤란하다고 정한 사안은 반드시 조합장까지 올린다.",
+      "source": "sources/B10-05.png 제10조③",
+      "conditions": "운영자 경유 절차를 지킨다. 대외 공식 입장·안전 등은 운영자 선에서 종결하지 않는다.",
+      "uncertainty": null
+    },
+    {
+      "category": "approval",
+      "fact": "승인 요청은 판단할 사실과 현재 처리 상태를 함께 제시한다. 회신 기한은 영업일 3일이며 무응답은 승인으로 보지 않는다.",
+      "source": "sources/B10-03.png 제6조①~⑤",
+      "conditions": "승인·실행 전 완료라고 알리지 않는다. 대기 상태와 회신 예정 시점을 고객에게 안내하고 승인 지연 중 먼저 가능한 재량 처리는 우선 수행한다.",
+      "uncertainty": "별도 에스컬레이션 절차서 원문과 실제 회신 채널·영업일 달력은 미확보."
+    },
+    {
+      "category": "approval",
+      "fact": "위임표의 재량은 레인① 봇 처리, 1단 승인·승인+정식 관리자 인증·공급 측 협의는 레인② 담당자 이관, 즉시 이관은 레인② 안전·법률 대상, 손해배상 정식 절차 이관은 레인③ 정식 배상에 대응한다.",
+      "source": "sources/B10-03.png 제5조④ 대응표",
+      "conditions": "레인 대응은 위임표가 인용한 에스컬레이션 절차서 제2조에 따른다. 공급 측 협의가 교동 조합 승인을 대체하지 않는다.",
+      "uncertainty": "에스컬레이션 절차서 전체 및 실제 이관 API 명세는 미확보."
+    },
+    {
+      "category": "promotion",
+      "fact": "미래 주문의 배송비·가격·혜택을 조건 없이 약속하는 것은 금액과 무관하게 재량 밖이며 조합장 승인으로도 불가하다.",
+      "source": "sources/B10-03.png 제7조①~④",
+      "conditions": "유효기간·적용 조건·1인1회 여부가 명시된 쿠폰은 재량 범위의 조건 확정 보상으로 구분한다. 선약속 요구 대체 처리는 1회분 배송비 상당 쿠폰이다.",
+      "uncertainty": "1회분 배송비 상당 쿠폰을 CARE 코드 중 어느 것에 대응하는지는 미확인. 보상 쿠폰 3종의 90일 유효기간·중복 기준은 프로모션 마스터에서 별도로 확보했다."
+    },
+    {
+      "category": "history",
+      "fact": "고객이 과거 약속을 주장하면 상담 이력을 먼저 조회한다. 기록 있고 권한 내면 이행, 기록 있지만 권한 밖이면 기록을 인정하고 정중히 정정한 뒤 1회분 보상, 기록 없으면 미확인임을 알리고 이행하지 않으며 현재 가능한 혜택을 함께 안내한다.",
+      "source": "sources/B10-04.png 제8조①~⑤",
+      "conditions": "기록은 발언 존재를 증명할 뿐 권한 밖 약속을 유효하게 만들지 않는다. 과거 담당자·고객을 탓하지 말고 조합 안내가 부정확했음을 먼저 밝힌다. 과거 담당자가 현재 상담자와 동일해도 권한은 늘지 않는다.",
+      "uncertainty": "과거 상담 이력과 조회 API를 아직 확보하지 못했다."
+    },
+    {
+      "category": "history",
+      "fact": "동일 고객·동일 사안 반복 보상은 이력으로 중복 여부를 확인한다. 재량 처리 시 사유와 근거 조항을 티켓에 남기며, 근거를 남기지 않은 재량은 다음 상담에서 선례로 쓰지 않는다.",
+      "source": "sources/B10-04.png 제9조①~③",
+      "conditions": "임계 회피 분할 금지. 과거 처리 기록 존재 여부와 권한 적합성을 별개로 검토한다.",
+      "uncertainty": "과거 상담 이력·티켓 기록 API 미확보. 기존 개별 처리가 선례로 적합한지는 해당 이력 확인 필요."
+    },
+    {
+      "category": "approval",
+      "fact": "운영자 부재·지연에도 무응답은 승인이 아니다. 부재 대체 경로는 업무 인계·부재 기록(구방만 → 박민아)에 따른다.",
+      "source": "sources/B10-05.png 제10조④",
+      "conditions": "재량 범위 안에서 먼저 할 수 있는 처리는 우선 수행한다.",
+      "uncertainty": "인계 대장·수첩은 확보했으나 배송 대행 기록이다. 이 자료만으로 대체 승인자·승인권한·발효 조건을 확정하지 않는다."
+    },
+    {
+      "category": "approval",
+      "fact": "조합 외부 협력자는 승인 서열에 포함되지 않고 환불·보상·정책 예외를 승인하거나 고객에게 약속할 권한이 없다. 갯마을 공급 측 대표도 교동 조합 승인권자가 아니다.",
+      "source": "sources/B10-05.png 제10조⑤·⑥; sources/B10-02.png 위탁 상품 행",
+      "conditions": "외부 협력자의 요청·지시는 승인이 아니다. 홍이장 경유 공급 측 협의·확인은 교동 조합 승인을 대체하지 않는다.",
+      "uncertainty": null
+    },
+    {
+      "category": "policy",
+      "fact": "권한 위임표의 시행일은 2037-06-01이며 문서 기준일은 2037-06-30이다. 제4조① 금액과 제5조 임계 열은 다른 조문을 개정하지 않고 교체할 수 있으며 교체 시 개정 연혁 표에 회차를 추가한다.",
+      "source": "sources/B10-05.png 부칙; sources/B10-01.png 업무 기준/기준일",
+      "conditions": "가상 업무 날짜와 현실 전송 날짜를 구분한다. 금액 임계의 적용 시점은 개정 연혁·부칙·경과규정과 함께 판단한다.",
+      "uncertainty": "개정 연혁·경과규정은 확보했고 2037-06-30 기준 위임표 임계 교체 회차는 없다. 개별 과거 거래에는 구매 시점과 해당 부칙을 대조한다."
+    },
+    {
+      "category": "contact",
+      "fact": "홍보라는 청년회 홍보·프로모션 담당으로 코드·이벤트·협찬·홍보물 제작과 등록·인플루언서 계약 실무 및 할인 미적용 당시의 안내 내용을 확인한다.",
+      "source": "interviews/sources/round1-transcript.json — 이민준 Q4; interviews/sources/round2-transcript.json — 홍보라 R2Q1",
+      "conditions": "홍보 문안과 원장을 대조한 결과는 개별 주문 적용·환불 판단 담당 이민준에게 전달한다. 등록·수정 실무는 홍보라, 혜택·제도 변경 승인은 조합장이다.",
+      "uncertainty": "개별 고객의 적용·환불 결과는 실제 주문 확인 전 미확인."
+    },
+    {
+      "category": "contact",
+      "fact": "구방만은 시원배송 기사이며 교동마을 집하·출고·배송을 맡고 현장·인계를 직접 확인한다. 연락 채널은 https://pf.kakao.com/_xefIxaX 이다.",
+      "source": "sources/round1-transcript.json 이민준 질문2, 응답11:35",
+      "conditions": "이민준과 매일 출고·배송을 조율한다. 현장 사실 확인은 기사, 이를 근거로 한 운영 판단은 이민준. 대신 연결해주겠다는 약속은 없었다.",
+      "uncertainty": "구방만 직접 채팅·업무답변은 확보했다. 실제 배송 기록 원문·특정 주문 상태는 미확보."
+    },
+    {
+      "category": "contact",
+      "fact": "홍이장은 갯마을 이장 겸 조합장이며 조합 간 위탁 공급 협의·갯마을 현장 사정 확인 상대다. 연락 채널은 https://pf.kakao.com/_xgfIxaX 이다.",
+      "source": "sources/round1-transcript.json 고길동 질문2, 응답11:33",
+      "conditions": "고길동 대신 메시지 전달·자리 주선 약속은 없으며 직접 채널에서 대화한다. 공급 조건과 교동 조합의 판매·승인 책임을 구분한다.",
+      "uncertainty": "직접 업무답변·위탁 계약 PDF를 확보했다. 개별 온도·계량·인계 기록은 미확보."
+    },
+    {
+      "category": "product",
+      "fact": "교동마을 상품은 직판, 갯마을 상품은 위탁이다. 상품의 소유와 품질 책임은 판매 방식에 따라 나뉘지만 고객 창구는 하나이며 위탁을 이유로 응대를 거절하지 않는다.",
+      "source": "sources/round1-transcript.json 고길동 질문2, 응답11:33",
+      "conditions": "공급 사정·위탁 조건은 홍이장에게, 조합몰 판매·승인 책임은 교동 조합 경로로 확인한다.",
+      "uncertainty": "위탁 계약 원문은 이후 홍이장 제공으로 확보·판독했다. 개별 상품의 인도·온도·중량 사실은 미확보."
+    },
+    {
+      "category": "policy",
+      "fact": "한 주문에 직판 상품과 위탁 상품이 섞이면 환불과 정산을 상품별로 나누어 처리한다.",
+      "source": "sources/round1-transcript.json 고길동 질문2, 응답11:33",
+      "conditions": "상품별로 소유·품질 책임 및 판매 방식 확인. 고객 창구는 단일하다.",
+      "uncertainty": "위탁 계약 제12조와 판매·환불 규정 제22조로 상품별 처리 원칙을 확인했다. 개별 처리 내역은 조회 전이다."
+    },
+    {
+      "category": "contact",
+      "fact": "고길동은 교동 조합장이고 연락 채널은 https://pf.kakao.com/_ifIxaX 이다. 이민준은 온라인 운영의 1차 판단 담당자다.",
+      "source": "이민준 기존11:00 대화 및 위임표 제10조; 양쪽 채팅 UI 확인",
+      "conditions": "인터뷰 연락과 실제 업무 승인 요청을 구분하며 운영자 경유 규칙을 지킨다.",
+      "uncertainty": "이민준 본인 채널 URL은 미수집이나 기존 채팅방 접근은 확인했다."
+    },
+    {
+      "category": "action_api",
+      "fact": "이민준은 주문 조회 API 공식 명세 원문 요청에 이 채널에서 건네줄 수 있는 자료가 아니라 제공할 수 없다고 답했다. 실제 상담의 답변 범위·이관 상황을 좁혀 물어보도록 안내했다.",
+      "source": "sources/round1-transcript.json 이민준 질문3, 응답2026-10-31 11:40",
+      "conditions": "출고·배송 현장 사실 확인은 구방만에게 문의하라고 했다. 제공 불가 발언은 이 채널의 자료 제공 범위에 관한 것이다.",
+      "uncertainty": "실제 API의 존재·위치·접근 방식은 이 답변으로 확인되지 않았다. 실제 API는 호출하지 않았다."
+    },
+    {
+      "category": "policy",
+      "fact": "위탁 계약의 갑은 교동마을 산지직송 조합, 을은 갯마을 조합이다. 고객 대상 규정과 이 계약이 충돌하면 고객에게 유리한 쪽을 적용한다.",
+      "source": "sources/VPaqTY6ACayEeUct0aT6aw.pdf p1 제1~3조 (5쪽 전체 렌더·추출 대조)",
+      "conditions": "내부 판단용: 양 문서 적용 조건을 대조한다. 고객 안내: 위탁 판매 사실과 교동 단일 응대 창구는 설명 가능.",
+      "uncertainty": "판매·환불 규정 제19조는 실제 충돌 시 안전·고객 보호 우선 및 가능한 대안 제시·고객 선택을 정한다. 개별 적용 판·사실관계는 대조해야 한다."
+    },
+    {
+      "category": "shipping",
+      "fact": "계약상 인도는 을의 지정 출하장에서 갑이 지정한 배송수단에 적재를 완료한 시점이다. 집하·운송·간선 인계 등 다른 문서의 구간 명칭이 이 시점을 변경하지 않는다.",
+      "source": "sources/VPaqTY6ACayEeUct0aT6aw.pdf p1 제2조② 및 말미; p2 제7조⑤ (5쪽 전체 렌더·추출 대조)",
+      "conditions": "내부 판단용: 적재 완료 이후 집하·운송·간선 인계는 모두 갑 구간으로 본다. 고객 안내: 품질 책임 경계는 원인 설명에 한해서 쓰며 책임 회피·처리 지연 근거로 쓰지 않는다.",
+      "uncertainty": "개별 주문의 적재 완료 시각·인계 기록은 미확보."
+    },
+    {
+      "category": "product",
+      "fact": "을은 인도 시 검정 저울로 계량하고 품목·로트·계량치·시각을 갑에게 인계한다. 냉동 위탁 상품의 인도 시 심부온도가 -18℃ 이하임을 을이 확인·기록하고 온도와 계량 기록을 같은 인계 문서에 남긴다.",
+      "source": "sources/VPaqTY6ACayEeUct0aT6aw.pdf p2 제4조·제5조 (5쪽 전체 렌더·추출 대조)",
+      "conditions": "내부 판단용: 인도 이후 보관·운송 온도 기록은 갑이 관리한다. 상품 상세·라벨 중량 표기와 고객 응대도 갑 담당. 고객 안내: 개별 기록으로 확인된 상품 사실만 안내한다.",
+      "uncertainty": "수산물 중량·자연감량 세칙과 로트 출고 검사 기록은 확보했다. 특정 주문에 해당하는 실제 계량·온도 기록 및 구간 시계열은 별도 대조한다."
+    },
+    {
+      "category": "approval",
+      "fact": "품질 책임은 인도 이전 을·이후 갑이다. 냉동 상품은 인도 시 심부온도 -18℃ 이하로 확인된 이후의 해동·재냉동 등 이탈을 갑 구간으로 본다.",
+      "source": "sources/VPaqTY6ACayEeUct0aT6aw.pdf p2 제7조①·②·⑤ (5쪽 전체 렌더·추출 대조)",
+      "conditions": "내부 판단용: 적재 완료 시점과 해당 온도 기록을 함께 확인한다. 고객 안내: 원인 설명에 한하여 경계를 사용하며 공급자에게 책임을 돌려 고객 처리를 거절·보류하지 않는다.",
+      "uncertainty": "인도 시 -18℃ 이하 확인이 없는 사례는 기록 부재/구간 특정불가 분기를 검토한다. 6월24일 주문100400001은 박민아 제공 온도 로그·기존 인계 자료를 확보했으며 다른 주문에 일반화하지 않는다."
+    },
+    {
+      "category": "approval",
+      "fact": "온도·인계 기록이 없거나 이탈 구간을 특정할 수 없으면 갑과 을이 부담을 균분한다. 기록 부재는 어떤 경우에도 고객 구제를 늦추거나 줄이는 사유가 아니다.",
+      "source": "sources/VPaqTY6ACayEeUct0aT6aw.pdf p2 제7조③·④; p3 제8조; p4 제17조 (5쪽 전체 렌더·추출 대조)",
+      "conditions": "내부 판단용: 균분 비율과 산정은 조합 사이 부담 판단용이다. 고객 안내 금지: 내부분담 비율·산정·분담 구조를 설명하지 않는다. 고객에게 원인 규명·책임 소재 확인을 요구하지 않고 갑이 단일 창구로 처리한다.",
+      "uncertainty": null
+    },
+    {
+      "category": "policy",
+      "fact": "위탁 상품 문의·하자 접수·환불·재배송은 교동 조합이 단독으로 응대하고 즉시 처리한다. 위탁·공급자 확인 필요·내부분담 미확정을 처리 거절·보류 사유로 삼지 않는다.",
+      "source": "sources/VPaqTY6ACayEeUct0aT6aw.pdf p3 제8조①~④ (5쪽 전체 렌더·추출 대조)",
+      "conditions": "고객 안내 가능: 위탁 판매라는 사실과 교동 단일 고객 창구. 고객에게 조합 간 분담 구조를 설명하거나 원인 규명·책임 소재 확인을 요구하지 않는다. 즉시 응대 원칙과 개별 환불 정책 요건은 함께 준수한다.",
+      "uncertainty": "판매·환불 규정과 증빙 기준은 확보해 반영했다. 부분환불 산식은 원문 확보·대조 완료. 실제 주문·상태와 산식의 적용 시점은 별도로 확인해야 한다."
+    },
+    {
+      "category": "approval",
+      "fact": "을은 요청받은 계량·인도 온도·조업 입고 기록을 지체 없이, 늦어도 영업일3일 이내 제공한다. 기한 내 미제공은 기록 부재로 본다. 을은 갑의 고객 응대 결론·환불·보상 정책을 대신 결정하지 않는다.",
+      "source": "sources/VPaqTY6ACayEeUct0aT6aw.pdf p3 제9조①~③ (5쪽 전체 렌더·추출 대조)",
+      "conditions": "내부 판단용: 자료 미제공 시 제7조③ 기록 부재 분기를 적용한다. 고객 안내: 공급자 자료 대기나 내부분담이 고객 구제를 지연·축소하게 해서는 안 된다.",
+      "uncertainty": "실제 자료 요청·회신 이력은 미확보."
+    },
+    {
+      "category": "product",
+      "fact": "기상특보·조업 중단·어획 부진 등 공급 사유는 을이 인지 즉시, 늦어도 당일 안에 갑에게 알리고 해당 품목 품절은 을의 통보로 확정한다.",
+      "source": "sources/VPaqTY6ACayEeUct0aT6aw.pdf p2 제6조①~④ (5쪽 전체 렌더·추출 대조)",
+      "conditions": "내부 판단용: 조업 재개 예상은 확정 표현으로 통보하지 않는다. 고객 안내: 예상 재개일을 확정일로 약속하지 않는다. 품절 확정 주문의 안내·대체 제안·예약·환불은 갑이 단독 수행.",
+      "uncertainty": "개별 품목의 현재 조업·입고·품절 통보는 미확보."
+    },
+    {
+      "category": "policy",
+      "fact": "농산물 직판·수산물 위탁 혼합 주문의 환불·정산은 상품별로 분리하고, 보관 조건이 달라 합배송이 제한되는 품목은 배송비 정산도 분리한다.",
+      "source": "sources/VPaqTY6ACayEeUct0aT6aw.pdf p3 제12조 (5쪽 전체 렌더·추출 대조)",
+      "conditions": "내부 판단용: 갑·을 정산도 고객 환불과 같은 상품 단위. 고객 안내: 고객의 상품별 처리 범위는 설명할 수 있으나 조합 간 정산 구조·내부분담은 공개하지 않는다.",
+      "uncertainty": "환불은 판매·환불 규정 제22조를 확인했다. 합배송 세부와 배송비의 택배사 계약서 제6조는 미확보다."
+    },
+    {
+      "category": "policy",
+      "fact": "판매 수수료는 실결제액 기준20%이며 취소·환불 건은 대금과 수수료 모두에서 제외한다. 정산월 판매 확정분을 품목·로트별 집계해 갑이 익월10일까지 정산서와 대금을 제공한다.",
+      "source": "sources/VPaqTY6ACayEeUct0aT6aw.pdf p3 제10·11조 (5쪽 전체 렌더·추출 대조)",
+      "conditions": "내부 판단용 사실이다. 고객 안내 금지: 수수료율·정산 구조를 설명하지 않으며 고객 처리 거절·지연 근거로도 쓰지 않는다. 고객이 물으면 모른다가 아니라 안내하는 항목이 아니라고 구분한다.",
+      "uncertainty": null
+    },
+    {
+      "category": "policy",
+      "fact": "갑이 먼저 지급한 환불·보상 중 을 부담분은 정산 수수료 라인에서 차감한다. 확인된 중량 미달 부족분 환불도 갑이 즉시 처리하고 을 부담분은 차감한다. 을은 정산서 수령 후 영업일5일 이내 이의 가능하다.",
+      "source": "sources/VPaqTY6ACayEeUct0aT6aw.pdf p3~4 제13조 (5쪽 전체 렌더·추출 대조)",
+      "conditions": "내부 판단용 사실이다. 이의 절차는 고객 처리와 무관하게 진행. 고객 안내 금지: 선지급분 차감·수수료·정산구조·분담 비율을 설명하거나 거절 이유로 쓰지 않는다.",
+      "uncertainty": "중량 판정 세칙은 확보했다. 개별 주문 적용 판·실측값·실결제액·실제 정산 내역과 구체 산식은 추가 확인이 필요하다."
+    },
+    {
+      "category": "policy",
+      "fact": "계약 이행을 위해 생산자·배송담당자·수령인의 연락처·주소·주민등록번호를 갑·을 사이에 제공하거나 요구하지 않는다. 조회·대조에는 로트·주문·인계 문서 번호를 쓴다.",
+      "source": "sources/VPaqTY6ACayEeUct0aT6aw.pdf p4 제14조 (5쪽 전체 렌더·추출 대조)",
+      "conditions": "내부 협업·고객 안내 모두 제3자 개인정보를 전달하지 않는다. 제3자 정보 보호 조항을 함께 적용한다.",
+      "uncertainty": "별도 제3자 정보 보호 조항 전체·개인정보 처리방침 원문 미확보."
+    },
+    {
+      "category": "policy",
+      "fact": "고객에게는 위탁 판매 사실과 단일 고객 창구를 설명한다. 품질 책임의 1차 소재·경계는 원인 설명에만 사용한다. 수수료율·정산 구조·선지급 차감·내부분담비율과 산정은 안내 대상이 아니다.",
+      "source": "sources/VPaqTY6ACayEeUct0aT6aw.pdf p4 제17조 전체; p3 제8조 (5쪽 전체 렌더·추출 대조)",
+      "conditions": "내부 판단용 정보와 고객 안내 가능 범위를 분리한다. 안내 금지 항목을 책임 회피·거절·지연의 이유로도 쓰지 않는다. 정보가 없다고 거짓 안내하지 않고 “안내하는 항목이 아니다”라고 구분한다.",
+      "uncertainty": "개인정보 처리방침 제17조의 판매자 정보 제공 범위 전체는 미확보."
+    },
+    {
+      "category": "history",
+      "fact": "수산물 위탁 판매 계약의 시행일은2037-03-02, 문서 기준일은2037-06-30이다. 기간1년이며 만료30일 전 서면 종료 의사표시가 없으면 동일 조건1년 연장된다.",
+      "source": "sources/VPaqTY6ACayEeUct0aT6aw.pdf p4 제15조; p5 부칙; p1 기준일 (5쪽 전체 렌더·추출 대조)",
+      "conditions": "가상 업무 날짜이며 현실 인터뷰 시각과 구분한다. 이 사본은 주소·연락처를 생략했다.",
+      "uncertainty": "계약 갱신·종료·변경 통지의 실제 이력은 미확보."
+    },
+    {
+      "category": "shipping",
+      "fact": "배송 예정일이 지났는데 미수령이면 구방만은 자신이 집하·인계한 물건인지 기록부터 보고 자신이 넘긴 건이면 인수 시점과 상태를 확인한다. 과거 운행 기억으로 현재 위치를 확정하지 않고 위치·완료는 기록으로 확인된 것만 말한다.",
+      "source": "sources/round1-transcript.json 구방만 질문1, 응답11:48",
+      "conditions": "기사는 출고·배송 사실 확인까지 담당하며 고객에게 조치를 약속하거나 환불·보상을 결정하지 않는다. 고객 상담·주문·응대는 이민준 운영자 경로로 넘긴다.",
+      "uncertainty": "실제 집하·인계 기록 원문과 해당 주문 현황, 구체적 통보 방식은 미확보."
+    },
+    {
+      "category": "product",
+      "fact": "홍이장은 위탁 물건은 갯마을 조합 소유지만 판매·고객 응대는 교동 조합 단일 창구이며 환불액과 주문 처리 결정은 교동 소관이라고 설명했다.",
+      "source": "sources/round1-transcript.json 홍이장 질문1, 응답11:43",
+      "conditions": "홍이장 발언의 인도 후 책임 설명은 계약 제7조의 기록 부재·구간특정불가 예외 및 제8·17조 고객 안내 범위와 함께 읽는다. 내부 책임 논쟁으로 고객 구제를 지연·축소하지 않는다.",
+      "uncertainty": "개별 주문의 온도·인계 사실은 아직 확인하지 않았다."
+    },
+    {
+      "id": "contact-kim-cheongnyeon",
+      "category": "contact",
+      "fact": "김청년은 청년회 농촌 체험·견학·단체 행사 접수와 운영을 조율하며 행사 일정과 운영 조건을 확인·판단하는 담당자다.",
+      "source": "interviews/sources/round1-transcript.json — 이민준 Q5; interviews/sources/round2-transcript.json — 김청년 R2Q1",
+      "conditions": "행사 일정·조건을 담당하지만 김청년 본인은 기상 확인과 책임자 보고까지만 직접 결정할 수 있다고 답했다. 진행·취소 최종 확정에는 담당 확인과 조합장 승인이 필요하다.",
+      "uncertainty": "보고받는 책임자 개인과 구체적인 보고·승인 수단은 미확인."
+    },
+    {
+      "id": "contact-park-subok",
+      "category": "contact",
+      "fact": "박수복은 교동 농산물 공급자 대표로 생산 상태와 현장 기록을 확인하는 창구이며 다른 생산자에게 확인할 내용도 물어볼 수 있다. 환불이나 보상을 승인하는 사람은 아니다.",
+      "source": "interviews/sources/round2-transcript.json — 고길동 R2Q1",
+      "conditions": "생산 사실 확인과 고객 처리 판단을 분리한다. 고객 응대 책임을 생산자에게 넘기지 않는다.",
+      "uncertainty": "박수복 본인이 확인하는 세부 기록·생산자 목록은 직접 인터뷰 전 미확인."
+    },
+    {
+      "id": "contact-park-mina",
+      "category": "contact",
+      "fact": "구방만은 부재·인계일에 대신 집하·배송을 맡은 쪽 기록은 박민아가 알고 있으며, 6월 24일 운행과 문자 메모는 박민아 개인 수첩 사진에 있다고 설명했다.",
+      "source": "interviews/sources/round1-transcript.json — 구방만 Q2",
+      "conditions": "대체 집하·배송의 사실 확인자에 관한 발언이다. 운영자 대신 환불·보상을 승인하는 사람이라고 추론하지 않는다.",
+      "uncertainty": "박민아 본인의 전체 업무·소속·권한은 직접 확인 전 미확인."
+    },
+    {
+      "id": "shipping-handover-record-route",
+      "category": "shipping",
+      "fact": "부재·인계일의 실제 집하·배송 대행자는 조합 사무실 종이 인계 대장에서 날짜별로 확인하며 이 대장은 온라인으로 조회되지 않는다. 구방만 본인이 아는 범위는 본인 담당분인 교동 출하장의 농산과 갯마을 냉동분의 등록·간선 인계다.",
+      "source": "interviews/sources/round1-transcript.json — 구방만 Q2",
+      "conditions": "현재 위치·배송 완료·환불 처리 결과를 대장이나 과거 기억만으로 확정하지 않는다. 고객 상담과 주문은 이민준 담당이다.",
+      "uncertainty": "개별 주문의 현재 상태는 해당 기록·조회가 별도로 필요하다."
+    },
+    {
+      "id": "seafood-weighing-route",
+      "category": "contact",
+      "fact": "고길동은 수산물 계량과 얼음·물 빠짐을 포함한 갯마을 현장 사정은 홍이장을 통해 확인하도록 안내했고, 실제 계량 담당 개인은 따로 모른다고 답했다.",
+      "source": "interviews/sources/round2-transcript.json — 고길동 R2Q2",
+      "conditions": "확인 경로만 확보한 상태다. 중량·자연감량 기준이나 허용치를 이 답변에서 확정하지 않는다.",
+      "uncertainty": "계량 담당 개인과 중량·자연감량 세칙은 미확인."
+    },
+    {
+      "id": "handover-regular-days",
+      "category": "shipping",
+      "fact": "출하장 업무 인계 대장(2037년)의 인쇄 주석에는 정기 출고일이 월·수·금이며 부재·대행이 발생한 출고일마다 한 행을 적는다고 되어 있다.",
+      "source": "대화자료/Q4owkAQyT-xhxfMKTJ2wUw/C31_handover-ledger.png — 머리말·인쇄 주석",
+      "conditions": "대장에 적힌 정기 일정이다. 개별 주문 출고·도착을 확약하는 근거로 쓰지 않는다.",
+      "uncertainty": "휴일·품목별 예외·현재 출고 가능 여부는 별도 확인 필요."
+    },
+    {
+      "id": "handover-2037-0415",
+      "category": "history",
+      "fact": "2037년 4월 15일 인계 대장 행에는 구방만 반일 부재, 대행자 없음, 다음 출고일 4월 17일로 순연, 공식 배송 기록에 출고일 변경 반영이라고 적혀 있다.",
+      "source": "대화자료/Q4owkAQyT-xhxfMKTJ2wUw/C31_handover-ledger.png — 4/15 행",
+      "conditions": "당시 내부 기록이다. 개인 부재 사유는 고객에게 공개하지 않는다. 해당 주문의 실제 출고·배송 완료를 뜻하지 않는다.",
+      "uncertainty": "어떤 주문과 연결되는지, 실제 순연 출고가 완료됐는지는 미확인."
+    },
+    {
+      "id": "handover-2037-0520",
+      "category": "history",
+      "fact": "2037년 5월 20일 인계 대장 행에는 박민아 부재, 구방만 대행, 갯마을 냉동 집하 2건, 서면 인계서 1부, 5월 18일 17:40 사전 기재, 공식 기록 반영이라고 적혀 있다.",
+      "source": "대화자료/Q4owkAQyT-xhxfMKTJ2wUw/C31_handover-ledger.png — 5/20 행",
+      "conditions": "해당 날짜의 내부 업무 대행 기록이다. 환불·보상 승인 대행을 뜻하지 않는다. 개인 부재 사유는 고객에게 공개하지 않는다.",
+      "uncertainty": "서면 인계서 원본·해당 주문·온도 기록은 미확보."
+    },
+    {
+      "id": "handover-2037-0624",
+      "category": "history",
+      "fact": "2037년 6월 24일 인계 대장 행에는 구방만 부재, 박민아 대행, 교동 농산 집하분과 갯마을 냉동 1건 통합 운송, 구두(전화) 인계·서면 없음, 박민아가 당일 21:15 사후 기재, 공식 배송 기록 미반영이라고 적혀 있다.",
+      "source": "대화자료/Q4owkAQyT-xhxfMKTJ2wUw/C31_handover-ledger.png — 6/24 행",
+      "conditions": "사진 시점에 대장에 적힌 상태다. 모든 온라인 기록에 관련 정보가 없다고 확대하지 않는다. 사건과 주문의 연결을 먼저 확인하며 개인 사유·내부 수첩 원문을 고객에게 노출하지 않는다.",
+      "uncertainty": "실제 통화의 시각·당사자 원문, 이후 공식 기록 반영 여부, 주문과 실제 상품 상태는 미확인."
+    },
+    {
+      "id": "notebook-2037-0624-temperature",
+      "category": "history",
+      "fact": "구방만이 박민아 개인 수첩이라고 제공한 2037년 6월 24일 사진에는 06:30 출발, 집하장 인계 생략·간선 직행, 집하 등록 밀림, 냉동장치 경고음·온도 상승, 15시쯤 다시 내려옴, 18:00 간선 인계·온도 정상이라는 메모가 있다.",
+      "source": "대화자료/Q4owkAQyT-xhxfMKTJ2wUw/C31_driver-notebook.png; interviews/sources/round1-transcript.json — 구방만 Q2",
+      "conditions": "내부 사건 확인용 메모다. 나열된 항목 사이의 인과관계나 실제 상품 하자·책임 소재를 단정하지 않는다. 온도 계측 로그나 현재 주문 조회를 대신하지 않는다.",
+      "uncertainty": "온도 수치·지속시간·인도 시점 온도·정확한 주문·고객·상품 결과는 미확인. GM-OKD-370624-01 및 TR-GM-02는 적힌 식별 문자열이며 의미는 미확인."
+    },
+    {
+      "id": "notebook-2037-0624-message",
+      "category": "history",
+      "fact": "6월 24일 수첩에는 19:52 구방만에게 문자를 보냈으며 온도가 오른 것 같으니 옥돔을 확인해 달라고 했다는 발신 메모가 있다.",
+      "source": "대화자료/Q4owkAQyT-xhxfMKTJ2wUw/C31_driver-notebook.png — 19:52 메모",
+      "conditions": "문자 원문이 아니라 수첩 기록이다. 실제 전송 성공·수신·열람·처리 완료 증거로 바꾸지 않으며 수첩 원문·개인 사정은 고객에게 공개하지 않는다.",
+      "uncertainty": "문자 원문, 수신·열람 여부, 이후 확인·보고·처리 내용은 미확인."
+    },
+    {
+      "id": "event-weather-cancellation",
+      "category": "policy",
+      "fact": "교동마을 체험 프로그램에는 비가 올 때 쓸 실내 대체 시설이 없다. 비가 오면 일정을 한 번 옮기고 옮길 수 없으면 취소·전액 환불한다. 진행 여부는 행사 전날 17:00에 기상을 확인해 책임자에게 알리는 순서로 정한다.",
+      "source": "interviews/sources/round2-transcript.json — 김청년 R2Q1; research/events/extracted/B55-02.png §5 우천 대안 행",
+      "conditions": "김청년이 직접 결정하는 범위는 기상 확인·책임자 보고까지다. 진행·취소 확정은 담당 확인과 조합장 승인을 거쳐야 하며 승인 전에 취소 확정·승인 완료라고 안내하지 않는다. 문서 기준: 우천 시 일정 연기는 대체 일자 1회 조정이고, 연기가 어려우면 취소·전액환불이다. 17:00 기상 확인 결과는 인솔 책임자(고객 측)에게 통보한다. 조합 내부에서 진행·취소를 누가 정하는지는 문서에 없다.",
+      "uncertainty": "실제 행사일·관측 기상·일정 변경 가능 여부·승인 결과는 개별 확인 필요. 홍보용 상품 체험단과 동일한 프로그램으로 보지 않는다."
+    },
+    {
+      "id": "promo-canonical",
+      "category": "promotion",
+      "fact": "홍보 혜택 주장은 실제 게시물·라이브 기록과 대조한다. 코드의 기간·대상·중복·할인율 정본은 프로모션 마스터이며 배너와 다르면 원장을 따른다. 등록·수정은 홍보라의 실무이고 조합장 승인 사항이며 이민준은 조회·적용만 한다.",
+      "source": "research/promo-posters/extracted/A07_promotion-rules.docx 제1조①④; research/promo-master/extracted/할인중복_보상쿠폰_기준.pdf p1 §2②",
+      "conditions": "원장 등록·개정 권한을 상담사가 대신 행사하지 않는다. 홍보걸의 발언만으로 새 혜택이 생기지 않는다. 고객에게 권한 없는 새 코드·혜택을 약속하지 않는다.",
+      "uncertainty": "라이브 발언 원문·인플루언서 계약서 원문은 미확보."
+    },
+    {
+      "id": "promo-time",
+      "category": "promotion",
+      "fact": "코드 기간은 결제 완료 시각으로 판정하며 상담·문의 시각으로 바꾸지 않는다. 유효기간 밖 결제에 만료 코드를 소급 적용하지 않고 현행 유효 혜택을 안내한다.",
+      "source": "research/promo-master/extracted/할인중복_보상쿠폰_기준.pdf p1 §2③④·p2 §7②; research/promo-posters/extracted/A07_post-status.docx",
+      "conditions": "자료 기준일은 2037-06-30이다. 기준일이 지난 사본으로 현재 유효하다고 단정하지 않는다. 과거 결제가 기간 안이었는지는 해당 결제 시각으로 따로 판정한다.",
+      "uncertainty": "개별 결제 완료 시각 및 기준일 이후 변경은 조회 필요."
+    },
+    {
+      "id": "promo-code-dangol5",
+      "category": "promotion",
+      "fact": "DANGOL5는 원장에 등록돼 있다. 단골 5%: 조합원 재구매, 전 품목, 상시, 재구매마다 발급.",
+      "source": "research/promo-master/extracted/프로모션원장.html §4·§9; research/promo-master/extracted/할인중복_보상쿠폰_기준.pdf §5·§7",
+      "conditions": "2037-06-30 보관본 기준. 결제 완료 시각·대상·1인 한도·중복을 확인한다. 할인 코드는 주문당 1개이며 보상 쿠폰·적립금과는 병용 가능하다. ",
+      "uncertainty": "개별 고객 자격·사용 이력은 별도 확인 필요."
+    },
+    {
+      "id": "promo-code-welcome3000",
+      "category": "promotion",
+      "fact": "WELCOME3000는 원장에 등록돼 있다. 신규가입 3,000원: 신규 최초구매, 전 품목, 상시, 1인 1회.",
+      "source": "research/promo-master/extracted/프로모션원장.html §4·§9; research/promo-master/extracted/할인중복_보상쿠폰_기준.pdf §5·§7",
+      "conditions": "2037-06-30 보관본 기준. 결제 완료 시각·대상·1인 한도·중복을 확인한다. 할인 코드는 주문당 1개이며 보상 쿠폰·적립금과는 병용 가능하다. ",
+      "uncertainty": "개별 고객 자격·사용 이력은 별도 확인 필요."
+    },
+    {
+      "id": "promo-code-refer5000",
+      "category": "promotion",
+      "fact": "REFER5000는 원장에 등록돼 있다. 추천 리워드 5,000원: 조합원 추천인, 전 품목, 상시, 피추천인 1인당 1회.",
+      "source": "research/promo-master/extracted/프로모션원장.html §4·§9; research/promo-master/extracted/할인중복_보상쿠폰_기준.pdf §5·§7",
+      "conditions": "2037-06-30 보관본 기준. 결제 완료 시각·대상·1인 한도·중복을 확인한다. 할인 코드는 주문당 1개이며 보상 쿠폰·적립금과는 병용 가능하다. 지급 요건은 피추천인의 가입과 첫 구매의 구매확정 이후 성립한다. 가입만으로 선지급하지 않고 요건 확인 없이 미지급으로 종결하지 않는다.",
+      "uncertainty": "개별 고객 자격·사용 이력은 별도 확인 필요."
+    },
+    {
+      "id": "promo-code-gamja10",
+      "category": "promotion",
+      "fact": "GAMJA10는 원장에 등록돼 있다. 감자공구 10%: 전체 회원, 봄감자 한정, 2037-05-02~05-09, 1인 1회. 기준일 2037-06-30에는 기간 종료.",
+      "source": "research/promo-master/extracted/프로모션원장.html §4·§9; research/promo-master/extracted/할인중복_보상쿠폰_기준.pdf §5·§7",
+      "conditions": "2037-06-30 보관본 기준. 결제 완료 시각·대상·1인 한도·중복을 확인한다. 할인 코드는 주문당 1개이며 보상 쿠폰·적립금과는 병용 가능하다. ",
+      "uncertainty": "개별 고객 자격·사용 이력은 별도 확인 필요."
+    },
+    {
+      "id": "promo-code-mango10",
+      "category": "promotion",
+      "fact": "MANGO10는 원장에 등록돼 있다. 망고공구 10%: 전체 회원, 애플망고 한정, 2037-06-05~06-12, 1인 1회. 기준일 2037-06-30에는 기간 종료.",
+      "source": "research/promo-master/extracted/프로모션원장.html §4·§9; research/promo-master/extracted/할인중복_보상쿠폰_기준.pdf §5·§7",
+      "conditions": "2037-06-30 보관본 기준. 결제 완료 시각·대상·1인 한도·중복을 확인한다. 할인 코드는 주문당 1개이며 보상 쿠폰·적립금과는 병용 가능하다. ",
+      "uncertainty": "개별 고객 자격·사용 이력은 별도 확인 필요."
+    },
+    {
+      "id": "promo-code-subak15",
+      "category": "promotion",
+      "fact": "SUBAK15는 원장에 등록돼 있다. 수박공구 15%: 전체 회원, 수박 한정, 2037-06-26~07-03 24:00, 1인 1회. 07-04부터 만료.",
+      "source": "research/promo-master/extracted/프로모션원장.html §4·§9; research/promo-master/extracted/할인중복_보상쿠폰_기준.pdf §5·§7",
+      "conditions": "2037-06-30 보관본 기준. 결제 완료 시각·대상·1인 한도·중복을 확인한다. 할인 코드는 주문당 1개이며 보상 쿠폰·적립금과는 병용 가능하다. ",
+      "uncertainty": "개별 고객 자격·사용 이력은 별도 확인 필요."
+    },
+    {
+      "id": "promo-negative-results",
+      "category": "promotion",
+      "fact": "원장 보관본에는 MELON99(99%·무제한), 20% 할인 코드, 겨울 가격 적용·단골 특별가 명칭의 원장 행이 없다고 조회 결과가 명시돼 있다. 이는 미조회와 다르다. 임의 생성·무제한 발급은 불가하다.",
+      "source": "research/promo-master/extracted/프로모션원장.html §4-1; interviews/sources/round2-transcript.json — 홍보라 R2Q1",
+      "conditions": "해당 명칭의 행이 없다는 것과 정식 단골 혜택 DANGOL5가 없다는 것을 혼동하지 않는다. 보관본에 명시된 조회 결과로 설명하며 새로 실시간 조회했다고 말하지 않는다.",
+      "uncertainty": "나열되지 않은 임의 명칭의 개별 조회를 수행했다고 말하지 않는다."
+    },
+    {
+      "id": "promo-stacking",
+      "category": "promotion",
+      "fact": "할인 코드는 주문당 1개만 적용한다. 공구 코드·단골 5%·신규 3,000원·추천 REFER5000은 함께 쌓지 못하며 자격이 되는 더 유리한 할인 하나를 적용한다. 보상 쿠폰과 적립금은 할인 코드와 함께 사용할 수 있고 보상 쿠폰은 주문당 1장이다.",
+      "source": "research/promo-master/extracted/할인중복_보상쿠폰_기준.pdf p1 §5",
+      "conditions": "REFER5000은 정액 판촉이며 보상 쿠폰이 아니다. SUBAK15의 조합원 할인 중복 불가 문구가 다른 할인 코드 중복 허용을 뜻하지 않는다. 발급 가능한 보상 여러 장과 한 주문에서 사용할 수 있는 장수를 구분한다.",
+      "uncertainty": "각 주문의 실제 할인액·자격·보유 보상 쿠폰은 확인 필요."
+    },
+    {
+      "id": "promo-nonapplication-sequence",
+      "category": "promotion",
+      "fact": "쿠폰 미적용은 ①원장 등록 ②결제 완료 시각의 유효기간 ③대상 품목 ④회원 자격 ⑤1인 한도 ⑥동시 할인 중복 순으로 확인한다. 미등록이면 생성·적용 불가와 현행 대안, 기간 밖이면 소급 불가, 품목 불일치면 대상 품목 한정, 조합원 미등록이면 등록 안내, 한도 초과면 발급 보류, 중복 불가면 허용 할인 하나로 처리한다.",
+      "source": "research/promo-master/extracted/할인중복_보상쿠폰_기준.pdf p2 §7",
+      "conditions": "순서를 바꾸지 않는다. 자격·등록 주장은 캡처나 구두 대신 시스템 등록 기록으로만 확인한다. 확인 또는 조치를 실행하지 않았으면 완료라고 말하지 않는다.",
+      "uncertainty": "실제 주문 조회·발급 이력은 별도 도구 또는 담당자 확인 필요."
+    },
+    {
+      "id": "promo-vendor-omission",
+      "category": "promotion",
+      "fact": "등록·기간·품목·회원 자격·한도·중복의 여섯 요건을 모두 충족했는데도 적용되지 않았다면 업체 귀책으로 취소·재결제 없이 차액 부분환불한다.",
+      "source": "research/promo-master/extracted/할인중복_보상쿠폰_기준.pdf p2 §7 마지막 행",
+      "conditions": "여섯 요건과 미적용 사실을 확인한 경우에만 적용한다. 기간 판정은 결제 완료 시각 기준이다.",
+      "uncertainty": "판매 환불 규정집 원문 및 개별 주문 사실·처리 결과는 별도 확인 필요."
+    },
+    {
+      "id": "promo-care-coupons",
+      "category": "promotion",
+      "fact": "보상 수단은 CARE3000(경미한 불편·안내 지연, 3,000원), CARE5000(파손·오염·재배송 등 2차 불편, 5,000원), CARE10000(장기 대기·중대 불편, 10,000원)이며 유효기간은 발급일+90일이다.",
+      "source": "research/promo-master/extracted/할인중복_보상쿠폰_기준.pdf p2 §6",
+      "conditions": "상담 재량이되 사실·사유·정책 요건 및 권한 위임표의 합산 한도와 승인 경계를 적용한다. 보상은 환불·재배송을 대신하지 않고 추가된다. 가격 인하 차액 보상만 쿠폰 자체가 처리다. 적립금 보상은 다른 수단이며 유효기간 12개월이다.",
+      "uncertainty": "고객의 실제 불편·이력과 해당 처리 정책은 확인 필요."
+    },
+    {
+      "id": "promo-price-cut-coupon",
+      "category": "promotion",
+      "fact": "가격 인하 차액 보상 요건에 해당하면 차액 3,000원 이하는 CARE3000, 3,001~5,000원은 CARE5000, 5,001~10,000원은 CARE10000을 발급한다. 10,000원 초과면 남은 차액이 10,000원 이하가 될 때까지 CARE10000을 더하고 남은 차액에 같은 규칙을 적용한다. 차액을 초과한 쿠폰 금액은 별도 정산하지 않는다.",
+      "source": "research/promo-master/extracted/할인중복_보상쿠폰_기준.pdf p2 §6",
+      "conditions": "조합 규정집 제6조②·개정 이력 제9조②의 기간·조건 확인이 먼저다. 유효기간은 발급일+90일. 여러 장 발급과 한 주문당 보상 쿠폰 1장 사용 제한을 구분한다.",
+      "uncertainty": "가격 인하 차액 보상 적용 기간·경과 규정은 research/revision-notes.md에 판독했다. 개별 주문의 결제 시점·SKU·정상가 인하 이력·기보상 여부는 별도 조회가 필요하다."
+    },
+    {
+      "id": "promo-person-limit",
+      "category": "promotion",
+      "fact": "1인 한도는 계정이 아닌 사람 단위이며 새 계정을 만들었다고 자격이 새로 생기지 않는다. 발급 이력은 계정·코드·발급 시각·사용 주문·사용 여부·동일인 일치 신호를 확인한다.",
+      "source": "research/promo-master/extracted/프로모션원장.html §3·§8; research/privacy/raw/pysSXW5mY9eWWv6tMsrihA.pdf 「조합 운영 규정」(기준일 2037-06-30, 시행 2037-03-02) 제4조",
+      "conditions": "결제수단·배송지·연락처의 일치 여부만 참/거짓으로 다루며 값이나 다른 계정 정보는 고객에게 공개하지 않는다. 다계정·반복 정황이면 발급 보류와 정책 안내까지만 하며 계정 제재·어뷰징 단정은 하지 않는다. 신규가입 등 1인 1회 쿠폰을 다계정·반복 수령하려는 정황이 있으면 발급을 보류하고 정책을 안내한다.",
+      "uncertainty": "개별 고객의 이력·동일인 여부는 실제 조회 전 미확인."
+    },
+    {
+      "id": "promo-watermelon-review",
+      "category": "promotion",
+      "fact": "수박 체험단 원장에는 20명 모집, 2037-06-08 게시, 06-15 수령, 수령 후 7일 안에 후기 작성, 06-22 기한, 기준일 06-30 기한 경과·조건 미이행 상태로 기록돼 있다. 선정·수령·후기 이행은 조합 시스템 등록으로만 확인하며 개인 메시지·캡처는 증빙으로 인정하지 않는다.",
+      "source": "research/promo-master/extracted/프로모션원장.html §4-2; research/promo-posters/extracted/A07_post_03.png",
+      "conditions": "무상 협찬이므로 할인 중복 매트릭스 대상이 아니다. 기한을 소급해 열지 않는다. 해당 원장 행과 고객의 연결·등록 사실을 확인하고 농촌 체험 행사와 혼동하지 않는다. 협찬품은 조합이 발송한다.",
+      "uncertainty": "미이행 반환·정산 처리 규범은 인플루언서 계약서·조합 규정집 원문 확인 필요. 모든 참가자 개인의 상태를 조회했다고 말하지 않는다."
+    },
+    {
+      "id": "promo-posted-negative",
+      "category": "promotion",
+      "fact": "홍보 게시물 상태 기록에는 2037-06-17 라이브가 추첨 이벤트를 진행했으나 쿠폰코드 배너·코드 발행이 없고, 20% 할인 코드와 무료배송이 포함된 코드·게시물도 발행 사실이 없다고 확인돼 있다.",
+      "source": "research/promo-posters/extracted/A07_post-status.docx 발행 기록 확인·기준일 상태; research/promo-posters/extracted/A07_promotion-rules.docx 제1조③",
+      "conditions": "게시물 측 부정 확인과 별도 상담원의 과거 약속을 구분한다. 과거 상담 약속 주장은 상담 이력과 권한 기준을 별도로 확인한다. 조회 결과는 상담 기록에 남기며 새 실시간 조회를 했다고 꾸미지 않는다.",
+      "uncertainty": "06-17 추첨 경품·당첨자·지급 내용과 라이브 발언 원문은 미확인."
+    },
+    {
+      "id": "sales-rule-2",
+      "category": "policy",
+      "fact": "판매·환불 규정 2: 박스 훼손만으로 상품 하자가 되지는 않는다. 내용물 하자가 확인되면 하자 처리, 포장만의 손상은 배송 파손 클레임 절차",
+      "source": "research/sales-evidence/YpevY-GWzxt65De9PFNL4w.html — 2",
+      "conditions": "실제 주문·결제·상품 상태와 적용 판을 확인하고, 실행 전에는 조회·환불·이관 완료라고 말하지 않는다.",
+      "uncertainty": null
+    },
+    {
+      "id": "sales-rule-4",
+      "category": "policy",
+      "fact": "판매·환불 규정 4: 사진으로 하자 확인 시 배송비 없이 재배송 또는 전액환불, 고객 선택. 다수 개체 중 일부 하자는 별도 부분환불 산식 적용",
+      "source": "research/sales-evidence/YpevY-GWzxt65De9PFNL4w.html — 4",
+      "conditions": "실제 주문·결제·상품 상태와 적용 판을 확인하고, 실행 전에는 조회·환불·이관 완료라고 말하지 않는다.",
+      "uncertainty": "다수 개체 일부 하자의 구체적 산식·임계표는 확보하여 partial-refund 사실로 반영했다. 해당 원문의 적용 조건·고객 선택권·시행 시점을 함께 확인한다."
+    },
+    {
+      "id": "sales-rule-5",
+      "category": "policy",
+      "fact": "판매·환불 규정 5: 곰팡이·부패는 섭취 중단·폐기, 반송 요구 안 함. 이물·섭취 후 이상 등 원인규명·배상 소지면 보관·촬영. 둘 다 해당하면 보관·촬영 우선",
+      "source": "research/sales-evidence/YpevY-GWzxt65De9PFNL4w.html — 5",
+      "conditions": "실제 주문·결제·상품 상태와 적용 판을 확인하고, 실행 전에는 조회·환불·이관 완료라고 말하지 않는다.",
+      "uncertainty": null
+    },
+    {
+      "id": "sales-rule-6",
+      "category": "policy",
+      "fact": "판매·환불 규정 6: 표기 중량 허용오차 ±5%. 초과 미달은 저울 확인 후 부족분 부분환불 또는 재배송. 규격 미달도 준용. 수산물의 배송 중 자연감량 특칙은 별도 자료와 함께 적용",
+      "source": "research/sales-evidence/YpevY-GWzxt65De9PFNL4w.html — 6; 같은 HTML 제19조②·부칙; research/seafood-weight-notes.md 제7~8조(원본 B13-01~03 PNG)",
+      "conditions": "실제 주문·결제·상품 상태와 적용 판을 확인하고, 실행 전에는 조회·환불·이관 완료라고 말하지 않는다. 수산물 세칙과 실제로 결론이 상충하면 제19조②에 따라 가능한 대안을 모두 제시해 고객이 선택하게 한다. 5% 초과~8% 이내라는 이유만으로 구제 대안을 배제하지 않는다.",
+      "uncertainty": "제6조 개정은 06-28 시행. 개정 이력 표에는 제20조만 기재돼 차이가 있으며 구판 제6조 수치는 미확인. 제20조 신고 시점 부칙을 제6조까지 확대하지 않는다."
+    },
+    {
+      "id": "sales-rule-7",
+      "category": "policy",
+      "fact": "판매·환불 규정 7: 보장 표기 대상에만 적용. 일반 출고 당도 기준 11브릭스 이상. 미달 확인 시 재배송, 재배송도 미달이면 전액환불+쿠폰/적립금. 조건부 주문 미달은 재배송 또는 환불. 품목·라인별 보장 표기·기준은 카탈로그와 대조한다",
+      "source": "research/sales-evidence/YpevY-GWzxt65De9PFNL4w.html — 7",
+      "conditions": "실제 주문·결제·상품 상태와 적용 판을 확인하고, 실행 전에는 조회·환불·이관 완료라고 말하지 않는다. 쿠폰·적립금 보상은 상담사 재량 한도 내에서 하며 한도 초과 시 승인 절차를 따른다. 카탈로그 대조 결과 보장 표기 라인은 WTM-SEL-8(11)과 HGL-SEL-5(12) 두 개다.",
+      "uncertainty": "개별 SKU의 당도보장 표기·표기값·해당 로트 결과는 카탈로그·로트 기록 대조가 필요하다."
+    },
+    {
+      "id": "sales-rule-8",
+      "category": "policy",
+      "fact": "판매·환불 규정 8: 오배송은 판매자 비용 회수+정품 재발송. 고객에게 반송 부담을 지우지 않음",
+      "source": "research/sales-evidence/YpevY-GWzxt65De9PFNL4w.html — 8",
+      "conditions": "실제 주문·결제·상품 상태와 적용 판을 확인하고, 실행 전에는 조회·환불·이관 완료라고 말하지 않는다.",
+      "uncertainty": null
+    },
+    {
+      "id": "sales-rule-9",
+      "category": "policy",
+      "fact": "판매·환불 규정 9: 속까지 하자이면 전액환불, 겉면 손상만 있고 섭취에 지장 없으면 할인 쿠폰 보상",
+      "source": "research/sales-evidence/YpevY-GWzxt65De9PFNL4w.html — 9",
+      "conditions": "실제 주문·결제·상품 상태와 적용 판을 확인하고, 실행 전에는 조회·환불·이관 완료라고 말하지 않는다.",
+      "uncertainty": null
+    },
+    {
+      "id": "sales-rule-10",
+      "category": "policy",
+      "fact": "판매·환불 규정 10: 출고 하자/보관 과실 구분이 어려우면 상품가50% 부분환불. 여름철 상온 방치 등 보관 과실 유력 시 전액환불 대상 아님. 위탁 조합 간 내부50% 분담과 다른 규칙",
+      "source": "research/sales-evidence/YpevY-GWzxt65De9PFNL4w.html — 10",
+      "conditions": "실제 주문·결제·상품 상태와 적용 판을 확인하고, 실행 전에는 조회·환불·이관 완료라고 말하지 않는다.",
+      "uncertainty": null
+    },
+    {
+      "id": "sales-rule-11",
+      "category": "policy",
+      "fact": "판매·환불 규정 11: 개봉·절반 이상 섭취한 단순 기호/변심은 전액환불 안 함. 명백한 하자는 별도 보상. 미개봉 단순변심은 수령7일 이내 반품, 왕복 배송비 고객 부담",
+      "source": "research/sales-evidence/YpevY-GWzxt65De9PFNL4w.html — 11",
+      "conditions": "실제 주문·결제·상품 상태와 적용 판을 확인하고, 실행 전에는 조회·환불·이관 완료라고 말하지 않는다.",
+      "uncertainty": null
+    },
+    {
+      "id": "sales-rule-12",
+      "category": "policy",
+      "fact": "판매·환불 규정 12: 사유 확인 후 원결제수단 환불. 카드 해지해도 승인취소 정상. 임의·타인 계좌 불가, 이름/전화 아는 것은 본인인증 아님. 계좌이체면 조합 결제 기록으로 결제자 명의와 원계좌 대조",
+      "source": "research/sales-evidence/YpevY-GWzxt65De9PFNL4w.html — 12; research/privacy/raw/LpLUt34eYoT64SKCMlBpvg.html 「개인정보 처리방침」(시행 2037-06-01) 제14조·제8조②",
+      "conditions": "실제 주문·결제·상품 상태와 적용 판을 확인하고, 실행 전에는 조회·환불·이관 완료라고 말하지 않는다. 개인정보 처리방침 제14조: 예금주가 원결제자와 다르면 지급하지 않고 본인 명의 계좌를 다시 요청하며, 계좌이체라는 이유로 환불 방법이 없다고 하지 않는다. 지급 뒤 계좌 정보는 파기하고 재사용하지 않는다.",
+      "uncertainty": null
+    },
+    {
+      "id": "sales-rule-13",
+      "category": "policy",
+      "fact": "판매·환불 규정 13: 출고 전 수량 축소 차액·업체 귀책 쿠폰 미적용액은 취소/재결제 없이 원결제수단 부분환불",
+      "source": "research/sales-evidence/YpevY-GWzxt65De9PFNL4w.html — 13",
+      "conditions": "실제 주문·결제·상품 상태와 적용 판을 확인하고, 실행 전에는 조회·환불·이관 완료라고 말하지 않는다.",
+      "uncertainty": null
+    },
+    {
+      "id": "sales-rule-14",
+      "category": "policy",
+      "fact": "판매·환불 규정 14: 출고 지연 취소는 전액환불+장기 대기 보상(쿠폰/적립금)",
+      "source": "research/sales-evidence/YpevY-GWzxt65De9PFNL4w.html — 14",
+      "conditions": "실제 주문·결제·상품 상태와 적용 판을 확인하고, 실행 전에는 조회·환불·이관 완료라고 말하지 않는다.",
+      "uncertainty": null
+    },
+    {
+      "id": "sales-rule-15-23",
+      "category": "policy",
+      "fact": "판매·환불 규정 15·23: 정기배송 언제든 해지, 잔여 회차 전액환불·위약금 없음·이용 회차 할인 소급회수 없음. 품목/수량/주기 변경은 회차 마감일 전",
+      "source": "research/sales-evidence/YpevY-GWzxt65De9PFNL4w.html — 15·23; research/subscriptions/m1SLEboPRfEAY8Y90ZFzMQ.html 제7·9·11조; research/subscriptions/m1SLEboPRfEAY8Y90ZFzMQ.html 제7조②③(잔여 전액·위약금 없음·할인 미회수)",
+      "conditions": "실제 주문·결제·상품 상태와 적용 판을 확인하고, 실행 전에는 조회·환불·이관 완료라고 말하지 않는다. 해지 요청이 컷오프 전이면 이번 회차부터, 이후이면 다음 회차부터 반영하고 이번 회차는 제6조의 조건별 대안을 안내한다. 회차 마감일은 결제일 3영업일 전 24시 컷오프와 같으며 품목·수량·주기 변경도 그 뒤에는 다음 회차부터다.",
+      "uncertainty": null
+    },
+    {
+      "id": "sales-rule-16",
+      "category": "policy",
+      "fact": "판매·환불 규정 16: 반송 신선식품은 신선도 양호하면 재발송, 저하하면 새 상품 발송",
+      "source": "research/sales-evidence/YpevY-GWzxt65De9PFNL4w.html — 16",
+      "conditions": "실제 주문·결제·상품 상태와 적용 판을 확인하고, 실행 전에는 조회·환불·이관 완료라고 말하지 않는다.",
+      "uncertainty": null
+    },
+    {
+      "id": "sales-rule-17",
+      "category": "policy",
+      "fact": "판매·환불 규정 17: 해동·재냉동 등 냉동 수산물 콜드체인 이상 확인 시 재배송 또는 환불",
+      "source": "research/sales-evidence/YpevY-GWzxt65De9PFNL4w.html — 17",
+      "conditions": "실제 주문·결제·상품 상태와 적용 판을 확인하고, 실행 전에는 조회·환불·이관 완료라고 말하지 않는다.",
+      "uncertainty": null
+    },
+    {
+      "id": "sales-rule-18-19",
+      "category": "policy",
+      "fact": "판매·환불 규정 18·19: 원칙은 구매 시점 규정, 고객에게 유리한 개정이 부칙 범위에 들면 개정 적용. 안전/고객 보호 상위. 일반·품목 특칙 결론 충돌 시 좁은 쪽만 강요하지 않고 가능한 대안 전부 제시·고객 선택",
+      "source": "research/sales-evidence/YpevY-GWzxt65De9PFNL4w.html — 18·19",
+      "conditions": "실제 주문·결제·상품 상태와 적용 판을 확인하고, 실행 전에는 조회·환불·이관 완료라고 말하지 않는다.",
+      "uncertainty": null
+    },
+    {
+      "id": "sales-rule-20-부칙",
+      "category": "policy",
+      "fact": "판매·환불 규정 20·부칙: 신선식품 하자 접수 수령7일 이내. 6조·20조 개정은06-28 시행. 20조는 신고 시점 기준으로 시행일 전 수령에도 시행일 이후 접수면 개정 적용. 기간 경과 시 사유 설명",
+      "source": "research/sales-evidence/YpevY-GWzxt65De9PFNL4w.html — 20·부칙; research/revisions/revision-history-text.txt 제6~8조",
+      "conditions": "실제 주문·결제·상품 상태와 적용 판을 확인하고, 실행 전에는 조회·환불·이관 완료라고 말하지 않는다. 개정 이력 제6~8조에 따라 7일 경과도 권리 소멸·접수 거절이 아니며 확인 절차 트랙으로 접수한다.",
+      "uncertainty": null
+    },
+    {
+      "id": "sales-rule-21",
+      "category": "policy",
+      "fact": "판매·환불 규정 21: 결제 승인 있으나 주문 없음이면 결제 대사로 주문 복구 또는 미배송분 환불",
+      "source": "research/sales-evidence/YpevY-GWzxt65De9PFNL4w.html — 21",
+      "conditions": "실제 주문·결제·상품 상태와 적용 판을 확인하고, 실행 전에는 조회·환불·이관 완료라고 말하지 않는다.",
+      "uncertainty": null
+    },
+    {
+      "id": "sales-rule-22",
+      "category": "policy",
+      "fact": "판매·환불 규정 22: 복수 품목 주문의 하자·환불은 해당 품목만 분리 처리",
+      "source": "research/sales-evidence/YpevY-GWzxt65De9PFNL4w.html — 22",
+      "conditions": "실제 주문·결제·상품 상태와 적용 판을 확인하고, 실행 전에는 조회·환불·이관 완료라고 말하지 않는다.",
+      "uncertainty": null
+    },
+    {
+      "id": "sales-rule-24",
+      "category": "policy",
+      "fact": "판매·환불 규정 24: 하자 아닌 변심·기호 무상교환 반복은 제한하되 해당 고객 과거 상담·처리 이력 확인 없이 반복으로 단정하지 않음",
+      "source": "research/sales-evidence/YpevY-GWzxt65De9PFNL4w.html — 24",
+      "conditions": "실제 주문·결제·상품 상태와 적용 판을 확인하고, 실행 전에는 조회·환불·이관 완료라고 말하지 않는다.",
+      "uncertainty": null
+    },
+    {
+      "id": "sales-rule-25",
+      "category": "policy",
+      "fact": "판매·환불 규정 25: 섭취 후 이상 병원비 등 배상은 하자와 증상 간 인과 확인 후 정식 절차. 미확인 인과·여론 압박만으로 임의 배상 안 함",
+      "source": "research/sales-evidence/YpevY-GWzxt65De9PFNL4w.html — 25",
+      "conditions": "실제 주문·결제·상품 상태와 적용 판을 확인하고, 실행 전에는 조회·환불·이관 완료라고 말하지 않는다.",
+      "uncertainty": null
+    },
+    {
+      "id": "evidence-rule-p1-2-3조",
+      "category": "evidence",
+      "fact": "증빙 기준 p1 2·3조: 같은 사실이 충돌하면 자사 기록·제3자 발행물이 당사자 제출물보다 우선. 발행 주체 기준이므로 제3자 시험성적서는 사진/팩스 사본이어도 권위 유지. 이미지라는 형식만으로 낮춰 보지 않음",
+      "source": "research/sales-evidence/p3fMCqFSsgGXunwjQpwUJg.pdf — p1 2·3조",
+      "conditions": "접수·판정·자격 확인의 서로 다른 기준을 구분한다. 접수 자체에 대조 완료를 선행조건으로 붙이지 않으며, 판정·자격 확정에는 필요한 객관적 기록 대조를 적용한다.",
+      "uncertainty": null
+    },
+    {
+      "id": "evidence-rule-p2-4조",
+      "category": "evidence",
+      "fact": "증빙 기준 p2 4조: 품목/SKU·포장·라벨·주문결제·로트측정·배송·등록선정을 자사 시스템/기록으로 대조. 조합이 가진 자료 대조를 이유로 고객에게 추가증빙 요구 안 함. 정합 확인 시 통상 처리, 추가확인 안 붙임",
+      "source": "research/sales-evidence/p3fMCqFSsgGXunwjQpwUJg.pdf — p2 4조",
+      "conditions": "접수·판정·자격 확인의 서로 다른 기준을 구분한다. 접수 자체에 대조 완료를 선행조건으로 붙이지 않으며, 판정·자격 확정에는 필요한 객관적 기록 대조를 적용한다.",
+      "uncertainty": null
+    },
+    {
+      "id": "evidence-rule-p2-5조",
+      "category": "evidence",
+      "fact": "증빙 기준 p2 5조: 사칭·가짜행사 제보 접수는 캡처로 충분. 확정은 자사 주문/행사/등록 대조. 접수와 자격 확정 기준을 섞지 않음",
+      "source": "research/sales-evidence/p3fMCqFSsgGXunwjQpwUJg.pdf — p2 5조",
+      "conditions": "접수·판정·자격 확인의 서로 다른 기준을 구분한다. 접수 자체에 대조 완료를 선행조건으로 붙이지 않으며, 판정·자격 확정에는 필요한 객관적 기록 대조를 적용한다.",
+      "uncertainty": null
+    },
+    {
+      "id": "evidence-rule-p2~3-6-7조",
+      "category": "evidence",
+      "fact": "증빙 기준 p2~3 6·7조: 이미지 자체 진위 감정·AI 생성/조작 의심 표현 금지. 하자 명백·기록 정합이면 추가사진/영수증/개봉영상 관성적 요구 금지",
+      "source": "research/sales-evidence/p3fMCqFSsgGXunwjQpwUJg.pdf — p2~3 6·7조",
+      "conditions": "접수·판정·자격 확인의 서로 다른 기준을 구분한다. 접수 자체에 대조 완료를 선행조건으로 붙이지 않으며, 판정·자격 확정에는 필요한 객관적 기록 대조를 적용한다.",
+      "uncertainty": null
+    },
+    {
+      "id": "evidence-rule-p3-8조",
+      "category": "evidence",
+      "fact": "증빙 기준 p3 8조: 기록 대조에서 불일치 확인된 경우에만 정중히 재검증 요청. 근거는 감정 아닌 객관적 대조. 원물 보관과 로트/라벨 함께 촬영 등",
+      "source": "research/sales-evidence/p3fMCqFSsgGXunwjQpwUJg.pdf — p3 8조",
+      "conditions": "접수·판정·자격 확인의 서로 다른 기준을 구분한다. 접수 자체에 대조 완료를 선행조건으로 붙이지 않으며, 판정·자격 확정에는 필요한 객관적 기록 대조를 적용한다.",
+      "uncertainty": null
+    },
+    {
+      "id": "evidence-rule-p3-9조",
+      "category": "evidence",
+      "fact": "증빙 기준 p3 9조: 리뷰단/협찬/조합원 등 신원·자격은 시스템 등록 기록으로만 확인. 채팅·캡처·구두 주장으로 자격 확정 안 함",
+      "source": "research/sales-evidence/p3fMCqFSsgGXunwjQpwUJg.pdf — p3 9조",
+      "conditions": "접수·판정·자격 확인의 서로 다른 기준을 구분한다. 접수 자체에 대조 완료를 선행조건으로 붙이지 않으며, 판정·자격 확정에는 필요한 객관적 기록 대조를 적용한다.",
+      "uncertainty": null
+    },
+    {
+      "id": "evidence-rule-p3-10조",
+      "category": "evidence",
+      "fact": "증빙 기준 p3 10조: 구술·과거 경험담은 가장 낮은 서열이지만 접수 자체를 배척하지 않음. 겪은 사실과 수치를 구분, 수치는 자사 기록 대조",
+      "source": "research/sales-evidence/p3fMCqFSsgGXunwjQpwUJg.pdf — p3 10조",
+      "conditions": "접수·판정·자격 확인의 서로 다른 기준을 구분한다. 접수 자체에 대조 완료를 선행조건으로 붙이지 않으며, 판정·자격 확정에는 필요한 객관적 기록 대조를 적용한다.",
+      "uncertainty": null
+    },
+    {
+      "id": "evidence-rule-p3~4-11-12조",
+      "category": "evidence",
+      "fact": "증빙 기준 p3~4 11·12조: 대조 전이라는 이유로 하자 접수 거절·문의 종결 안 함. 낮은 서열로 구제 범위 축소 안 함. 자사 자료 부재/미확인의 불이익 고객에게 전가 안 함. 반대로 정합 대조 없이 당사자 주장만으로 처리 확정도 금지",
+      "source": "research/sales-evidence/p3fMCqFSsgGXunwjQpwUJg.pdf — p3~4 11·12조",
+      "conditions": "접수·판정·자격 확인의 서로 다른 기준을 구분한다. 접수 자체에 대조 완료를 선행조건으로 붙이지 않으며, 판정·자격 확정에는 필요한 객관적 기록 대조를 적용한다.",
+      "uncertainty": null
+    },
+    {
+      "id": "evidence-rule-p4-13-14조",
+      "category": "evidence",
+      "fact": "증빙 기준 p4 13·14조: 불일치 예시는 비한정. 계측이 판정에 걸리는 필요한 재검증은 원물·측정 표시값·주문 정보가 한 화면에 있는 1장 요청. 표시값 단독사진으로 판정 안 함. 수산물은 중량 세칙10조 함께 적용",
+      "source": "research/sales-evidence/p3fMCqFSsgGXunwjQpwUJg.pdf — p4 13·14조",
+      "conditions": "접수·판정·자격 확인의 서로 다른 기준을 구분한다. 접수 자체에 대조 완료를 선행조건으로 붙이지 않으며, 판정·자격 확정에는 필요한 객관적 기록 대조를 적용한다.",
+      "uncertainty": null
+    },
+    {
+      "id": "revision-time-basis",
+      "category": "policy",
+      "fact": "개정 규정의 적용 판은 상담 날짜가 아니라 개정별 적용 기준 시점으로 정한다. 원칙은 구매 시점이며 고객에게 유리하고 부칙 범위에 해당할 때 개정판을 적용한다.",
+      "source": "research/revisions/revision-history-text.txt 제2~4조; 판매·환불 규정 제18조",
+      "conditions": "가격 보상은 주문 시점, 하자 접수기한은 신고 시점이라는 서로 다른 기준을 혼동하지 않는다.",
+      "uncertainty": "구판 중량 제6조는 미확인. 제20조의 신고 시점 부칙을 제6조에 확대하지 않는다."
+    },
+    {
+      "id": "revision-defect-seven-days",
+      "category": "policy",
+      "fact": "2037-06-28 이후 하자 신고는 수령일부터 7일 기준을 적용한다. 시행 전 수령도 포함하고 상온·냉장·냉동 모든 품목에 같은 기간이다. 7일이 지나도 접수를 거절하지 않고 확인 절차로 처리한다.",
+      "source": "research/revisions/revision-history-text.txt 제6~8조; 판매·환불 규정 제20조·부칙",
+      "conditions": "7일은 즉시처리 내부 기준이며 청구권 소멸기한이 아니다. 사진 없다는 이유만으로 거절하지 않는다. 폐기는 판매규정 제5조의 보관·촬영 우선 예외도 함께 적용한다.",
+      "uncertainty": "개별 수령일·접수일과 귀책은 실제 기록 대조가 필요하다."
+    },
+    {
+      "id": "revision-price-cut-current",
+      "category": "policy",
+      "fact": "2037-06-15 이후 결제 주문은 구매 후 7일 이내 동일 SKU 정상가 인하에 한해 실결제액과 인하 후 정상가의 양수 차액을 보상 쿠폰으로 보상한다. 동일 주문·동일 SKU 1회이고 차액 이상의 최소 쿠폰 금액을 적용하며 초과분은 정산하지 않는다.",
+      "source": "research/revisions/revision-history-text.txt 제9~10조; research/promo-master-notes.md §6",
+      "conditions": "일반 재량 한도를 지킨다. 한정 기간·수량 프로모션가 인하는 제외하되 정상가 인하가 동시에 있으면 정상가 인하분까지 배제하지 않는다.",
+      "uncertainty": "정상가 인하 이력과 실제 주문·기보상 여부는 조회 전이다."
+    },
+    {
+      "id": "revision-price-cut-ledgers",
+      "category": "policy",
+      "fact": "가격 인하 보상 대상 여부는 가격 정책 시트의 동일 SKU 정상가 인하 이력과 프로모션 마스터를 대조한다. 정상가 인하 행이 없고 한정 프로모션만 있으면 대상 밖이며 두 원장 모두 없으면 인하 사실 자체가 미확인이다.",
+      "source": "research/revisions/revision-history-text.txt 제9조④~⑥",
+      "conditions": "시즌 요인 같은 인하 사유나 인상으로 대상 여부를 정하지 않는다. 조회 없이 거절하지 않고 확인 사실·사유를 안내한다. 카탈로그의 정상가 열은 대조용이며 값의 정본은 가격 정책 시트다. 카탈로그는 인하 이력을 갖지 않는다.",
+      "uncertainty": "가격 정책 시트 원문은 미확보다. 조회하지 않은 상태를 발행·인하 기록 없음으로 표현하지 않는다."
+    },
+    {
+      "id": "revision-price-cut-legacy",
+      "category": "policy",
+      "fact": "2037-06-15 전에 결제한 주문은 가격 인하 차액 보상 구판을 적용한다. 구판은 기간·대상 제한이 따로 없고 상담 재량 안에 현금 차액 부분환불도 포함됐으나 과거 처리 사례가 동일 처리의 자동 보장은 아니다.",
+      "source": "research/revisions/revision-history-text.txt 제9~10조",
+      "conditions": "시행일 이후 주문에 구판 재량을 되살리지 않는다. 실제 결제시점과 권한 한도를 확인한다.",
+      "uncertainty": "구판을 적용할 개별 주문 이력과 금액은 조회 전이다."
+    },
+    {
+      "id": "revision-old-print-memory",
+      "category": "policy",
+      "fact": "구판 3일 인쇄물과 종이 규정, 과거 상담 사례가 남아 있어도 해당 시점에 적용되는 판·부칙으로 판단한다. 과거 경험을 인정하고 수치는 상담 기록과 대조하며 개정일과 현재 기준을 설명한다.",
+      "source": "research/revisions/revision-history-text.txt 제11~12조",
+      "conditions": "고객이나 과거 발화자를 탓하지 않는다. 과거 무조건 선약속은 위임표 제8조의 기록 확인·이행 가능 판단을 별도로 따른다.",
+      "uncertainty": "고객별 원장과 실제 약속 이력은 조회 전이다."
+    },
+    {
+      "id": "sea-weight-intake-basis",
+      "category": "policy",
+      "fact": "수산물 중량 미달 주장은 증빙이 부족해도 접수한다. 표기 중량을 확인하고 출고 중량 기록을 대조해 판정한다. 출고 기록이 없거나 확인되지 않으면 표기 중량을 기준으로 판단하며 고객에게 원인 규명 부담을 지우지 않는다.",
+      "source": "research/seafood-weight/extracted/B13-01.png, B13-02.png, B13-03.png 제3~5조·제9조",
+      "conditions": "표기 중량은 원물만이며 얼음·빙장수·드립·글레이징·보냉재·포장재를 제외한다. 수령 중량이나 고객 사진 하나만으로 판정하지 않는다.",
+      "uncertainty": "특정 주문의 출고 중량과 적용 규정 판은 조회 전이다."
+    },
+    {
+      "id": "sea-weight-natural-loss",
+      "category": "policy",
+      "fact": "수산물 자연감량은 표기 중량의 3%까지이며 출고부터 수령까지 통상 배송 중 발생한 감량만 해당한다. 수령 후 보관·해동 감량은 제외한다. 현재 냉동 갈치·옥돔과 빙장 포장을 포함해 단일 값을 적용한다.",
+      "source": "research/seafood-weight/extracted/B13-01.png, B13-02.png, B13-03.png 제2·6조",
+      "conditions": "기한 경과나 온도 이탈에 따른 품질 하자는 중량 자연감량과 별개로 검토한다.",
+      "uncertainty": "택배사 계약서의 통상 배송기간 원문은 미확보."
+    },
+    {
+      "id": "sea-weight-threshold-choice",
+      "category": "policy",
+      "fact": "수산물 세칙은 표기오차와 자연감량을 합친 미달 8% 이내를 정상 범위로 적고 있다. 8%를 넘으면 초과분만이 아니라 표기 중량에 대한 부족분 전체의 부분환불 또는 재배송 중 고객이 선택한다.",
+      "source": "research/seafood-weight/extracted/B13-01.png, B13-02.png, B13-03.png 제7~8·11조; 판매·환불 규정 제6·18·19조와 부칙",
+      "conditions": "정상 범위도 계량 근거와 감량을 설명한다. 같은 사실·적용 판에서 일반규정 5% 초과 처리와 세칙 결론이 실제 충돌하면 가능한 대안을 모두 제시해 고객이 선택하게 한다. 5% 초과~8% 이내만으로 대안을 자동 배제하지도 모든 건 환불을 미리 확정하지도 않는다.",
+      "uncertainty": "일반규정 제6조는 06-28 개정 시행, 구판 수치 미확인. 제20조 신고 시점 부칙을 확대하거나 현행 5%/8%를 이전 구매에 소급 확정하지 않는다. 세칙 제7조③ 실결제액 문구는 중량 비율과 차원이 달라 구체 환불 산식을 새로 만들지 않는다."
+    },
+    {
+      "id": "sea-weight-reverification",
+      "category": "policy",
+      "fact": "출고 기록과 고객 계량치가 대조 후에도 어긋나면 원물·저울 표시값·주문번호가 한 화면에 보이는 1장을 정중히 요청한다. 얼음·빙장수를 버리고 물기를 뺀 원물만 올리고 포장·보냉재를 제거한다.",
+      "source": "research/seafood-weight/extracted/B13-01.png, B13-02.png, B13-03.png 제9~10조; 증빙 권위 서열 조항 제8·14조",
+      "conditions": "재촬영은 실제 대조 불일치가 근거이며 조작 의심을 근거로 요구하지 않는다. 이미 조리·폐기해 불가능하면 출고 기록만으로 판정하고 촬영 불가 자체를 거절 사유로 쓰지 않는다.",
+      "uncertainty": "개별 불일치와 실제 출고 기록은 확인해야 한다."
+    },
+    {
+      "id": "sea-weight-prohibitions",
+      "category": "policy",
+      "fact": "수산물 중량 문제를 자연감량이라는 이유로 접수 없이 거절하거나 근거 없이 조작·연출을 단정하지 않는다. 출고 기록 확인 없이 사진만으로 환불을 확정하지 않고 계량값을 지어내지 않는다.",
+      "source": "research/seafood-weight/extracted/B13-01.png, B13-02.png, B13-03.png 제12조",
+      "conditions": "실제 조회·처리 전 완료라고 말하지 않는다. 고객 구제와 조합 간 내부 정산을 분리한다.",
+      "uncertainty": null
+    },
+    {
+      "id": "lot-number-format",
+      "category": "product",
+      "fact": "교동 조합 로트번호는 <마을코드 2>-<품목코드 3>-<출고일 YYMMDD>-<순번 2> 형식이다(예: KD-WTM-370624-02). 마을코드 KD는 교동(직판), GM은 갯마을(위탁)이며, 날짜는 수확일이 아니라 출고일이고, 순번은 같은 마을·품목·출고일 안의 포장 회차다. 로트번호는 박스 라벨과 동봉 안내문에 같은 표기로 인쇄된다.",
+      "source": "research/lot-crop/extracted/로트원장.html §3 로트번호 체계(기준일 2037-06-30)",
+      "conditions": "고객 재촬영을 요청할 때 로트번호가 함께 보이게 요청한다. 품목코드는 원장 §3 코드표 13종이 정본이며 표에 없는 코드를 만들지 않는다.",
+      "uncertainty": "품목코드는 원장 §3 코드표(13종)가 정본이라고 원장에 명시돼 있다. 원장이 「품목별 SKU 카탈로그」 §2.1과 같게 쓴다고 한 것은 품목명 표기이며, 그 카탈로그의 품목명 표기 원문은 미확보."
+    },
+    {
+      "id": "sweetness-judgement-line",
+      "category": "policy",
+      "fact": "당도 11브릭스 이상이 전 SKU 공통 출고 배제선이다. 당도보장 표기 라인은 표기값이 판정선이며(수박 선별 WTM-SEL-8 = 11브릭스, 하우스감귤 선별 HGL-SEL-5 = 12브릭스), 당도 표기가 없는 라인은 로트 기록의 당도가 낮게 나와도 하자 판정 근거로 쓰지 않는다.",
+      "source": "research/lot-crop/extracted/로트원장.html §4 측정 기준·§8 조회 규약; 박수복 R2Q1 12:23 응답(interviews/sources/round2-transcript.json); research/catalog/Yku9ZG2eH3PsliWC0108RA.html 상품 원장(품목별 SKU 카탈로그, 기준일 2037-06-30) §4.1·§6",
+      "conditions": "덜 달다는 문의는 먼저 주문한 라인에 당도보장 표기가 있었는지 확인한다. 당도는 사진으로 판정하지 않고 표기 확인과 로트 기록 조회로만 읽는다. 감자·수산물은 당도 측정 대상이 아니다. 카탈로그 기준: 일반 라인에는 브릭스 수치·'당도선별'·'달지 않으면' 류 표현을 어디에도 쓰지 않는다. 표기 라인에 '기호 문제'로 일괄 거절하지 않는다. 수박 선별·일반 라인은 같은 27,900원이라 가격이 아니라 표기 유무가 판정 축이다.",
+      "uncertainty": "「품목별 SKU 카탈로그」 §3.1과 「상품 상세페이지」의 당도 표기 원문은 미확보. 판매·환불 규정 제7조 당도 보장 조문과의 관계는 감독 판독본과 대조 필요."
+    },
+    {
+      "id": "lot-sorting-misses-0624",
+      "category": "history",
+      "fact": "로트 원장에는 기준 미달인데 출고된 선별 누락 로트 2개가 기록돼 있다. KD-WTM-370624-02(수박 8kg 단과, 평균 11.2·표본 최저 10.1, 미숙과 신고 접수)와 KD-HGL-370624-03(하우스감귤 5kg HGL-SEL-5 당도보장 12브릭스 표기, 평균 11.3·최저 10.8, 같은 로트로 두 주문에서 당도 불만 접수)이다.",
+      "source": "research/lot-crop/extracted/로트원장.html §5 출고 검사 기록·§6 주문 연결(기준일 2037-06-30)",
+      "conditions": "로트 기록 대조 결과이며 개별 고객 처리 결과가 아니다. 처리 기준은 판매·환불 규정과 당도 보장 조항을 함께 확인한다. 주문번호·측정자 실명은 내부 대조용으로 고객에게 옮기지 않는다.",
+      "uncertainty": "두 로트의 실제 고객 처리 결과·신고 티켓 원문은 미확보."
+    },
+    {
+      "id": "lot-investigation-ticket-count",
+      "category": "policy",
+      "fact": "로트 단위 조사 기록에는 조합이 조사를 연 로트만 행이 있고, 행이 없으면 조사가 열리지 않았다는 뜻이다. 같은 로트의 신고 건수는 조사표가 아니라 신고 원문(티켓)을 세어 읽으며, 같은 증상 신고가 쌓여 귀책이 이미 확정된 로트는 개별 사진 없이도 처리가 성립한다.",
+      "source": "research/lot-crop/extracted/로트원장.html §7 로트 단위 조사 기록",
+      "conditions": "사진이 없다는 것만으로 거절하지 않는다. 조사 결론 칸이 비어 있으면 원인을 추정해 안내하지 않고, 원인 단정·공식 입장·로트 안전조치는 상담 재량 밖이라 신원 확인 후 이관한다.",
+      "uncertainty": "티켓 원문과 로트별 실제 신고 건수는 미확보."
+    },
+    {
+      "id": "lot-investigation-potato-blackheart",
+      "category": "history",
+      "fact": "봄감자 흑색심부 조사 기록은 두 로트다. KD-PTT-370622-01은 유통 귀책 확정·조사 종결(결론: 저장·유통 구간 저온장해)이라 추가 접수분을 개별 증빙 없이 처리한다. KD-PTT-370619-02는 귀책 미확정·조사 진행 중이며 결론 칸이 공란이고 대외 답변은 조합장 승인 사안이다.",
+      "source": "research/lot-crop/extracted/로트원장.html §7(기준일 2037-06-30)",
+      "conditions": "진행 중 로트는 조사 중이라는 사실만 안내하고 원인·결론을 추정하지 않는다. 흑색심부는 절단 전 판별이 불가하다는 원장 비고를 함께 본다.",
+      "uncertainty": "기준일 이후 조사 결론과 조합장 승인 여부는 알 수 없다."
+    },
+    {
+      "id": "lot-lookup-protocol",
+      "category": "policy",
+      "fact": "로트 기록 대조 결과 주문·배송·로트 정합이 맞으면 통상 하자는 추가 증빙 없이 처리하고 관성적인 재촬영·영수증 요구를 하지 않는다. 정합이 어긋나면 감정이 아니라 대조 결과를 근거로 제시하고, 재촬영은 로트번호가 보이게 요청한다. 기록에 없는 항목(상온 농산 출고 품온, 하단 표본, 조사 결론)은 추정으로 보완하지 않는다.",
+      "source": "research/lot-crop/extracted/로트원장.html §8 조회 규약",
+      "conditions": "한 로트를 두 건의 대조에 겹쳐 쓰지 않는다. 기준미달 배제 로트는 고객에게 나가지 않았으므로 고객 문의의 대조 대상이 아니다. 원장 §8의 '한 로트를 두 건의 대조에 겹쳐 쓰지 않는다'와, 원장 §6에 같은 로트 KD-HGL-370624-03이 두 주문(100300009·100300010)에 연결된 기재를 원문 그대로 함께 보존한다.",
+      "uncertainty": "인용된 「증빙 권위 서열 조항」 제7·8조 원문은 감독 판독본(research/sales-evidence-notes.md)과 대조 필요. §8 규약과 §6의 같은 로트·두 주문 기재는 원문 안의 차이이며, 이를 '한 로트에는 주문이 하나뿐'이라거나 '같은 로트의 신고를 세지 않아도 된다'는 규칙으로 확대하지 않는다. 두 주문의 실제 신고 건수·고객 처리 결과는 티켓·주문 기록 확인 전 미확인."
+    },
+    {
+      "id": "weight-judgement-lines",
+      "category": "policy",
+      "fact": "로트 원장의 중량 판정선은 표기 방식별이다. 정량표기는 허용오차 ±5퍼센트, 이상표기는 표기값이 절대 하한이라 오차를 적용하지 않는다. 수산물은 자연감량 -3%, 표기오차 합산 -8% 이내를 정상으로 기재한다. 중량 문의는 고객 저울 사진 하나로 판정하지 않고 출고 실측 중량·허용오차·자연감량을 함께 본다.",
+      "source": "research/lot-crop/extracted/로트원장.html §4 기재 항목·측정 기준, §8 조회 규약; research/sales-evidence/sales-text.txt 판매·환불 규정 제19조②; research/catalog/Yku9ZG2eH3PsliWC0108RA.html 상품 원장(품목별 SKU 카탈로그, 기준일 2037-06-30) §4.2·§5.2",
+      "conditions": "판매·환불 규정 제6조(2037-06-28 개정 시행)와 수산물 중량 세칙을 함께 적용한다. 06-28 전 구매 건에 현행 ±5%를 소급 확정하지 않는다(구판 제6조 미확인). 같은 사실·같은 적용 판에서 일반 규정과 품목별 특칙(수산물 중량 세칙 등)의 결론이 실제로 상충하면 좁은 쪽만 적용하지 않고 가능한 대안을 모두 제시해 고객이 선택하게 한다(판매·환불 규정 제19조②). 표기 대비 5% 초과~8% 이내라는 사실만으로 구제 대안을 자동 배제하지 않는다. 미표기(개수·통 단위) 상품은 중량 클레임 기준선이 없다. 수산물 표기 중량은 원물 순중량이며 포장째 계량값과 직접 비교하지 않는다.",
+      "uncertainty": "이상표기·정량표기 구분의 정본인 「품목별 SKU 카탈로그」 §3.2 원문은 미확보. 수산 중량 세칙 세부는 research/seafood-weight-notes.md 기준."
+    },
+    {
+      "id": "invoice-tracking-delay",
+      "category": "shipping",
+      "fact": "송장 등록 시각과 고객 배송 조회 반영 사이에는 3~5시간 지연이 있다. 등록 직후 조회가 안 된다는 문의는 이 시차일 수 있다. 배송 상태와 수령일은 로트 원장이 아니라 배송 원장 소관이다.",
+      "source": "research/lot-crop/extracted/로트원장.html §6 주문·포장·배송 연결(「택배사 계약서」 제3조 인용)",
+      "conditions": "로트 원장으로 배송 위치·수령 여부를 확정하지 않는다. 신선도 문의의 경과일은 배송 원장 수령일과 접수 시각으로 센다.",
+      "uncertainty": "「택배사 계약서」 제3조와 배송 원장 원문은 미확보."
+    },
+    {
+      "id": "crop-record-dash-vs-no-impact",
+      "category": "product",
+      "fact": "교동마을 작황·재해 기록에서 작황 칸의 —는 그 시점에 관측·확정된 사실이 없다는 뜻으로 피해 없음도 피해 발생도 아니며, 영향 없음은 확인 결과 피해가 없다는 판정이다. 기록에 없는 날짜도 피해 없음으로 단정하지 않고, 예보 행을 뒤에 확인된 결과로 소급해 덮어 읽지 않는다.",
+      "source": "research/lot-crop/ZvkCmo83NoMZZ9jC-261Xg.xlsx 시트 '3. 기록 확인 기준' ②③④, 시트 '4. 작황·재해 이력' 하단 주석(관리 박수복, 기준일 2037-06-30)",
+      "conditions": "작황과 물류는 별개 확인 대상이다. 배송 여부는 「시원배송 결항·집하 기록」, 갯마을 조업은 「갯마을 조업·입고 기록」에서 해당 날짜를 따로 확인한다.",
+      "uncertainty": "「시원배송 결항·집하 기록」과 「갯마을 조업·입고 기록」 원문은 미확보."
+    },
+    {
+      "id": "crop-alert-lift-not-shipping-normal",
+      "category": "shipping",
+      "fact": "특보 해제가 곧 출고 정상화는 아니다. 숙도·수확 회복과 집하 재개를 따로 확인하며, 출고 재개 시점이 미확정이면 날짜를 만들어 약속하지 않는다. 기상이나 지체 기록이 있다는 것만으로 하자·배상 사유를 확정하지 않는다.",
+      "source": "research/lot-crop/ZvkCmo83NoMZZ9jC-261Xg.xlsx 시트 '3. 기록 확인 기준' ⑥⑦",
+      "conditions": "실제 작황·상품 상태와 적용 규정을 함께 확인한다.",
+      "uncertainty": "없음(원문 규칙). 개별 품목의 재개 시점은 해당 행 기준으로만 판단."
+    },
+    {
+      "id": "crop-2037-06-mango-delay",
+      "category": "history",
+      "fact": "2037-06-25~06-27 정체전선 호우(누적 310mm, 일조 부족)로 애플망고 숙도·당도 진행이 지연돼 예약 출고가 지연됐다(06-27 산지 확인). 06-29 호우주의보 해제 시점에도 애플망고는 숙도 회복 진행 중이며 출고 재개 시점이 미확정으로 기록돼 있다. 같은 기간 하우스감귤은 영향 없음으로 기록됐다.",
+      "source": "research/lot-crop/ZvkCmo83NoMZZ9jC-261Xg.xlsx 시트 '4. 작황·재해 이력' 2037-06-27·06-29 행",
+      "conditions": "출고 재개 날짜를 약속하지 않는다. 06-25 행의 작황 칸은 —(그 시점 미확정)이다.",
+      "uncertainty": "06-30 기준일 이후 애플망고 출고 재개 시점은 기록에 없다."
+    },
+    {
+      "id": "crop-2037-06-watermelon-crack",
+      "category": "history",
+      "fact": "2037-06-28 호우 사후 점검에서 노지 수박 열과가 다발해 06-18 결제 예약분 10통 중 정상 규격 6통, 열과 4통은 출하 불가로 확인됐다(06-28 산지 확인). 예약분은 일반 판매 재고 수치에 잡히지 않으며, 원문은 07-01 이후 다음 수확분 보충 가능이라고 적었다.",
+      "source": "research/lot-crop/ZvkCmo83NoMZZ9jC-261Xg.xlsx 시트 '4. 작황·재해 이력' 2037-06-28 행",
+      "conditions": "07-01 이후 보충은 가능성 기재이며 확정 일정으로 안내하지 않는다. 처리(대체·환불 등)는 판매·환불 규정과 함께 판단한다. 카탈로그 기준: 열과 등 규격 외 개체는 판매하지 않으며 예약 수량 산정에서 정상 규격 수량에 세지 않는다.",
+      "uncertainty": "해당 예약 고객·주문번호와 실제 처리 결과는 미확인."
+    },
+    {
+      "id": "crop-2037-06-typhoon",
+      "category": "history",
+      "fact": "2037-06-02 태풍 예보·06-04 예비특보 행은 작황이 —(예보 시점 미확정)로 기록돼 있다. 06-05 강풍·풍랑경보 때 하우스 시설 이상 없음·노지 일부 도복·낙과(수확량 영향 경미), 06-07 특보 해제 시 하우스감귤·애플망고 작황 피해 없음(06-07 산지 확인), 06-08 노지 도복분 폐기·하우스 정상으로 기록됐다.",
+      "source": "research/lot-crop/ZvkCmo83NoMZZ9jC-261Xg.xlsx 시트 '4. 작황·재해 이력' 06-02~06-08 행",
+      "conditions": "06-05 태풍 구간의 송장 등록·인수 보류·집하 재개 시각은 작황 기록이 아니라 「시원배송 결항·집하 기록」에서 확인한다.",
+      "uncertainty": "「시원배송 결항·집하 기록」 원문은 미확보."
+    },
+    {
+      "id": "membership-definition",
+      "category": "policy",
+      "fact": "교동마을 산지직송의 조합원은 온라인 채널에 회원으로 등록한 고객이다. 가입비·연회비가 없고 회원 등록 완료 즉시 자격이 생기며, 필요한 정보는 이름·연락처·배송지다. 밭을 가진 생산자 조합원과는 다른 자격이고 총회 의결권·출자금과 무관하다.",
+      "source": "research/membership/extracted/D37_leaflet.pdf(3쪽 인쇄본)·D37_leaflet.docx·D37_membership.html, 고길동 R3Q1 12:35 제공(interviews/sources/round3-transcript.json) '조합원이란'·'가입 조건'(「외부 조합원 규정집」 제2조 인용)",
+      "conditions": "2037년 3월 인쇄 리플렛 기준이다. 혜택은 조합원 이용약관(「외부 조합원 규정집」)을 따르며 약관이 개정되면 약관이 우선한다. 기준일 2037-06-30 현행 여부는 약관 원문으로 확인이 필요하다. 생산자 조합원은 '별도 절차'로만 적혀 있어 그 가입·출자·탈퇴 조건을 이 자료로 안내하지 않는다.",
+      "uncertainty": "「외부 조합원 규정집」 제2조 원문과 생산자 조합원 절차는 미확보. 고길동도 출자 세부는 말할 수 없다고 했다."
+    },
+    {
+      "id": "membership-benefits",
+      "category": "promotion",
+      "fact": "조합원 혜택은 ① 재구매 5% 쿠폰(조합원 기본, 상시 발급) ② 신규가입 3,000원 쿠폰(1인 1회) ③ 구매확정 1% 적립(적립일부터 12개월 유효, 소멸 30일 전 안내, 기간 연장 불가) ④ 추천 리워드 5,000원 쿠폰(소개받은 사람이 가입하고 첫 구매를 확정한 뒤 지급)이다.",
+      "source": "research/membership/extracted/D37_leaflet.pdf(3쪽 인쇄본)·D37_leaflet.docx·D37_membership.html, 고길동 R3Q1 12:35 제공(interviews/sources/round3-transcript.json) '조합원 혜택' ①~④(「조합 규정집」 제3조②, 「외부 조합원 규정집」 제5조 인용); research/privacy/raw/pysSXW5mY9eWWv6tMsrihA.pdf 「조합 운영 규정」(기준일 2037-06-30, 시행 2037-03-02) 제7조①~④",
+      "conditions": "2037년 3월 인쇄 리플렛 기준이다. 혜택은 조합원 이용약관(「외부 조합원 규정집」)을 따르며 약관이 개정되면 약관이 우선한다. 기준일 2037-06-30 현행 여부는 약관 원문으로 확인이 필요하다. 쿠폰 코드·중복 규칙·유효 상태는 프로모션 마스터(기준일 2037-06-30)의 DANGOL5·WELCOME3000·REFER5000 행과 함께 확인한다. 적립금·포인트의 유효기간은 적립일부터 12개월이다. 소멸 예정은 소멸 예정일 30일 전에 앱 알림과 이메일로 미리 안내하며, 소멸한 뒤에는 소급 복원하지 않는다. 유효기간을 연장하는 수단은 없어서 소멸 예정을 이유로 한 기간 연장·재적립 요청은 처리하지 않고 소멸 전 사용 방법을 안내한다.",
+      "uncertainty": "구매확정 1% 적립은 프로모션 마스터(쿠폰·코드 원장)에 행이 없어 리플렛 외 근거는 미확보."
+    },
+    {
+      "id": "membership-regular-tier",
+      "category": "promotion",
+      "fact": "단골 등급은 최근 12개월 구매확정 누적 구매 30만원 이상이며 단골가가 적용된다. 12개월이 지난 구매와 취소·환불 금액은 누적에서 빠지고, 일부만 환불된 주문은 환불된 금액만 빠진다. 단골가는 재구매 5% 쿠폰과 별개의 상위 혜택이다.",
+      "source": "research/membership/extracted/D37_leaflet.pdf(3쪽 인쇄본)·D37_leaflet.docx·D37_membership.html, 고길동 R3Q1 12:35 제공(interviews/sources/round3-transcript.json) '조합원 혜택' ⑤·'등급'(「외부 조합원 규정집」 제4조 인용)",
+      "conditions": "2037년 3월 인쇄 리플렛 기준이다. 혜택은 조합원 이용약관(「외부 조합원 규정집」)을 따르며 약관이 개정되면 약관이 우선한다. 기준일 2037-06-30 현행 여부는 약관 원문으로 확인이 필요하다. 단골가의 할인율·가격 수준은 리플렛에 없으므로 수치를 안내하지 않는다. 프로모션 마스터의 '단골 특별가' 코드 미등록은 코드가 없다는 뜻이며 등급 혜택 부재를 뜻하지 않는다. 현재 등급·남은 조건은 조합 상담 창구 확인 사항이다.",
+      "uncertainty": "단골가 할인율·적용 방식, 「외부 조합원 규정집」 제4조 원문, 고객이 말하는 '단골 특별가'가 이 등급 혜택을 가리키는지는 미확인."
+    },
+    {
+      "id": "membership-withdrawal",
+      "category": "policy",
+      "fact": "조합원 탈퇴는 언제든 자유롭다. 탈퇴하면 아직 쓰지 않은 회원 전용 쿠폰과 적립금은 소멸하고 복구되지 않는다. 회원 자격과 무관한 일반 고객 혜택(하자 보상·기획전 할인 등)은 탈퇴 후에도 받는다. 탈퇴 전에 남은 쿠폰·적립금을 쓰겠다고 하면 사용 방법을 안내한다.",
+      "source": "research/membership/extracted/D37_leaflet.pdf(3쪽 인쇄본)·D37_leaflet.docx·D37_membership.html, 고길동 R3Q1 12:35 제공(interviews/sources/round3-transcript.json) '탈퇴'(「외부 조합원 규정집」 제6조 인용)",
+      "conditions": "2037년 3월 인쇄 리플렛 기준이다. 혜택은 조합원 이용약관(「외부 조합원 규정집」)을 따르며 약관이 개정되면 약관이 우선한다. 기준일 2037-06-30 현행 여부는 약관 원문으로 확인이 필요하다. 탈퇴 처리 자체를 상담에서 실행했다고 말하지 않는다(실행 경로 미확보).",
+      "uncertainty": "「외부 조합원 규정집」 제6조 원문과 탈퇴 실행 경로·담당은 미확보."
+    },
+    {
+      "id": "membership-leaflet-authority",
+      "category": "policy",
+      "fact": "조합원 가입 안내 리플렛은 2037년 3월 인쇄본(웹 안내는 2037년 3월 발행)이며, 혜택 내용은 조합원 이용약관(「외부 조합원 규정집」)에 따르고 약관이 개정되면 약관을 따른다고 적혀 있다.",
+      "source": "research/membership/extracted/D37_leaflet.pdf(3쪽 인쇄본)·D37_leaflet.docx·D37_membership.html, 고길동 R3Q1 12:35 제공(interviews/sources/round3-transcript.json) 하단 발행 문구",
+      "conditions": "2037년 3월 인쇄 리플렛 기준이다. 혜택은 조합원 이용약관(「외부 조합원 규정집」)을 따르며 약관이 개정되면 약관이 우선한다. 기준일 2037-06-30 현행 여부는 약관 원문으로 확인이 필요하다. 기준일 개정 이력 연혁에 「외부 조합원 규정집」 개정 행은 없지만 약관 원문을 확보하기 전에는 리플렛을 현행 확정 근거로 단정하지 않는다. 웹 안내 하단의 전화·이메일·사업자번호는 자리표시 값이라 고객에게 안내하지 않는다.",
+      "uncertainty": "약관 원문과 리플렛 인쇄 이후 변경 여부는 미확인. 조합원 가입 실무 담당과 연락 채널은 고길동도 확정하지 않았다."
+    },
+    {
+      "id": "fishing-resume-not-delivery-date",
+      "category": "shipping",
+      "fact": "갯마을은 2037-06-21 남해 기상특보로 조업을 중단했고, 06-24 특보 해제로 조업을 부분 재개해 갈치가 소량 입고됐으며 품절 여파로 예약 순 발송이 이어졌다(06-26에도 지속). 조업 재개·입고·예약 순 발송은 특정 고객 주문의 배송 예정일이나 수령일을 확정하는 기록이 아니다.",
+      "source": "research/fishing-intake/MatemuULfW2nG1dnufufsA.xlsx(갯마을 조업·입고 기록, 관리 홍이장, 기준일 2037-06-30), 홍이장 R3Q1 12:42 응답(interviews/sources/round3-transcript.json) 시트 '3. 조업 이력' 06-21·06-24 행, 시트 '2. 기록 확인 기준' ③",
+      "conditions": "재개일은 정상화일이 아니므로 특보 해제만 보고 즉시 정상 발송을 약속하지 않는다. 개별 주문의 발송·도착 날짜는 교동 쪽 결정이며(홍이장 답변), 집하·간선 재개는 「시원배송 결항·집하 기록」, 수령일은 배송 원장에서 확인한다. 확인 전에는 날짜를 만들어 안내하지 않는다.",
+      "uncertainty": "개별 예약 주문의 순번·발송일·수령일과 「시원배송 결항·집하 기록」 원문은 미확보."
+    },
+    {
+      "id": "fishing-gal-status-2037-06",
+      "category": "product",
+      "fact": "갈치(GAL) 판매 상태는 2037-06-21 품절(조업 중단), 06-24 소량 입고·예약 순 발송, 06-26 예약 순 발송 지속, 06-30 일시 품절(비성어기라 조업 소량·재고 소진)로 기록돼 있다. 06-21 품절은 기상(조업 중단), 06-30 품절은 비성어기 소량 조업과 재고 소진이며 06-30에는 특보도 결항도 없다.",
+      "source": "research/fishing-intake/MatemuULfW2nG1dnufufsA.xlsx(갯마을 조업·입고 기록, 관리 홍이장, 기준일 2037-06-30), 홍이장 R3Q1 12:42 응답(interviews/sources/round3-transcript.json) 시트 '4. 어종별 입고·판매 상태 이력' 및 A11 주석, 시트 '2' ⑤; research/catalog/Yku9ZG2eH3PsliWC0108RA.html 상품 원장(품목별 SKU 카탈로그, 기준일 2037-06-30) §5.3 GAL-STD-1(일시 품절)·§9 아래 문단",
+      "conditions": "같은 품목의 품절이라도 날짜별 원인을 구별한다. 06-30 품절을 기상 탓으로 설명하지 않는다. 표에 없는 날짜의 상태를 채우지 않으며, 06-30 이후 입고 재개 시점은 기록에 없으므로 날짜를 약속하지 않는다.",
+      "uncertainty": "06-30 기상·운송 상태의 교차 확인 기록(「시원배송 결항·집하 기록」 06-30)과 06-30 이후 입고 계획은 미확보."
+    },
+    {
+      "id": "fishing-okd-normal-with-stock",
+      "category": "product",
+      "fact": "옥돔(OKD)은 갯마을 조업 중단 구간에도 냉동 재고가 남아 정상 판매 상태였다(2037-06-21 '정상(재고 보유)', 06-24·06-26·06-30 '정상'). 조업 중단이 곧 수산물 전량 품절은 아니며, 품절 품목과 정상 품목이 같은 날 공존한다.",
+      "source": "research/fishing-intake/MatemuULfW2nG1dnufufsA.xlsx(갯마을 조업·입고 기록, 관리 홍이장, 기준일 2037-06-30), 홍이장 R3Q1 12:42 응답(interviews/sources/round3-transcript.json) 시트 '4' 옥돔 열, 시트 '1. 개요' B11·시트 '4' A9 주석, 시트 '2' ②; research/catalog/Yku9ZG2eH3PsliWC0108RA.html 상품 원장(품목별 SKU 카탈로그, 기준일 2037-06-30) §5.3 OKD-STD-1·OKD-GIFT-2(판매중)",
+      "conditions": "재고 보유에 따른 판매 상태이며 개별 로트·출고·도착을 확인하는 기록이 아니다.",
+      "uncertainty": "이 기록에는 옥돔 로트번호·출고가 없어 C31 수첩의 GM-OKD-370624-01 로트의 실재·상태를 확인하지 않는다."
+    },
+    {
+      "id": "fishing-vs-transport",
+      "category": "shipping",
+      "fact": "갯마을 조업·입고 기록의 조업 중단은 어획·입고 사정이고, 택배 인수와 배편 운항은 별개다. 운송 사정은 「시원배송 결항·집하 기록」에서 따로 확인한다. 기록에 없는 상태를 정상으로 채우지 않으며, 뒤 날짜의 조업·입고 결과를 앞 날짜에 소급해 덮어쓰지 않는다.",
+      "source": "research/fishing-intake/MatemuULfW2nG1dnufufsA.xlsx(갯마을 조업·입고 기록, 관리 홍이장, 기준일 2037-06-30), 홍이장 R3Q1 12:42 응답(interviews/sources/round3-transcript.json) 시트 '2. 기록 확인 기준' ①④⑥",
+      "conditions": "작황 기록(박수복)과 같은 원칙으로 —는 그 시점 미확정을 뜻한다. 운송 결항·재개 사실을 이 기록으로 대신하지 않는다.",
+      "uncertainty": "「시원배송 결항·집하 기록」 원문은 미확보."
+    },
+    {
+      "category": "policy",
+      "fact": "단체 체험 예약은 접수 → 가예약 → 최종 확정의 3단계로 나뉜다. 문의를 받은 자리에서 가능 여부를 단정해 답하지 않는다.",
+      "source": "interviews/sources/round4-transcript.json 김청년 R4Q2(round_question 2), 응답 2026-10-31 12:57; research/events/extracted/B55-02.png §4; interviews/sources/round6-transcript.json 김청년 Q1",
+      "conditions": "권한: 김청년은 조건에 맞춘 가예약 접수까지 맡는다. 최종 확정은 안전·보험·시설 판단으로 담당 확인과 조합장(고길동) 승인을 거친다. 고객 안내: 가예약을 확정으로 안내하지 않는다. 문서 기준: 최종 확정은 안전·보험·시설 확인이 끝난 뒤에만 한다. 가예약은 시설·활동·안전 확인 후 같은 채팅으로 회신 → 고객 선택 → 예약 일정 확보 순이다(event-provisional-reply-flow). 김청년 R6Q1은 담당 확인 뒤 조합장 승인이 있어야 최종 확정한다고 했다.",
+      "uncertainty": "확인 항목(안전·보험·시설)은 문서로 확인됐으나 각 확인의 세부 기준과 '담당'이 누구인지는 미확인. 문서에 담당자 이름이 없다.",
+      "id": "event-reservation-stages"
+    },
+    {
+      "category": "policy",
+      "fact": "단체 체험 접수 때는 책임자 성명·연락처, 총 인원, 연령대, 희망 일정을 받는다. 참가자 나이는 한 명씩 묻지 않고 연령대 구간으로 받으며, 병력·알레르기 같은 건강 정보는 접수 단계에서 받지 않는다.",
+      "source": "interviews/sources/round4-transcript.json 김청년 R4Q2, 응답 12:57; research/events/extracted/B55-01.png §3; research/events/extracted/B55-02.png §4·§5; research/privacy/raw/LpLUt34eYoT64SKCMlBpvg.html 「개인정보 처리방침」(시행 2037-06-01) 제4조·제15조",
+      "conditions": "범위: 접수 단계의 수집 항목이다. 가예약 단계에서는 추가 수집이 없다. 최종 확정 단계에서는 인솔 책임자에 관한 정보와 동의 취합 완료 사실까지만 추가로 받고 참가자 개별 신원은 받지 않는다. 참가자 개별 명단(성명·나이·성별)은 어느 단계에서도 받지 않는다. 단체·체험 접수 정보의 보유기간은 행사 종료 후 6개월이다(개인정보 처리방침 제4조 표).",
+      "uncertainty": "상한은 단체 1회 30명·개방일 약 40명으로 확인됐다(event-capacity-duration). 인원 하한과 가예약 회신 채팅 외의 접수 경로는 미확인. '인솔 책임자에 관한 정보'의 구체 항목도 미확인.",
+      "id": "event-intake-data"
+    },
+    {
+      "category": "policy",
+      "fact": "미성년 참가자가 있는 단체는 성인 1명당 미성년 10명 이하로 와야 하고 인솔 책임자가 상시 동행해야 한다. 법정대리인 동의는 인솔 단체가 취합·보관하고, 체험 운영 쪽은 취합이 끝났다는 사실만 확인한다.",
+      "source": "interviews/sources/round4-transcript.json 김청년 R4Q2, 응답 12:57; research/events/extracted/B55-02.png §5 미성년 단체 추가 요건 행; research/events/extracted/B55-01.png §2",
+      "conditions": "범위: 운영 쪽은 동의서 원본을 받지 않고 취합 완료만 확인한다. 조건을 충족하더라도 최종 확정을 뜻하지 않으며, 최종 확정은 담당 확인과 조합장 승인을 거쳐 별도로 정한다. 문서 기준: 동의서 원본과 참가자 개별 명단은 받지 않는다(§2·§5).",
+      "uncertainty": "조건 미충족 시 처리(거절·조정)는 미확인.",
+      "id": "event-minor-supervision-consent"
+    },
+    {
+      "category": "policy",
+      "fact": "미성년 참가자가 있는 단체의 예약 안내에서, 단체 상해보험은 인솔 단체가 가입하고 조합(체험 운영 쪽)이 대신 가입하거나 중개하지 않는다고 했다.",
+      "source": "interviews/sources/round4-transcript.json 김청년 R4Q2, 응답 12:57; research/events/extracted/B55-02.png §5 미성년 행; research/events/extracted/B55-01.png §2",
+      "conditions": "적용 문맥은 미성년 참가자가 있는 단체다. 모든 성인 단체에도 같은 가입 의무가 있는지는 이 원문으로 확정하지 않는다. 조합 쪽 다른 보험의 가입 여부·보장 범위도 이 원문으로 말할 수 없다.",
+      "uncertainty": "조합 측 영업배상 등 다른 보험의 존재는 미확인(일반 점검 후보). 운영 기준 문서 §5는 단체 상해보험을 '미성년 단체 추가 요건' 행에 둔다. §2에는 미성년 언급 없이 '인솔 단체가 보험 가입…을 맡고'라는 일반 문장이 있으나, 이것만으로 성인 단체까지 같은 가입 의무로 넓히지 않는다.",
+      "id": "event-minor-group-insurance"
+    },
+    {
+      "category": "policy",
+      "fact": "단체 체험 예약 마감 시점은 김청년이 아는 기준이 없다고 했다.",
+      "source": "interviews/sources/round4-transcript.json 김청년 R4Q2, 응답 12:57; research/events/extracted/B55-02.png §4 표 아래 문단",
+      "conditions": "고객 안내: 마감 시점을 지어내지 않고 확인이 필요하다고 안내한다.",
+      "uncertainty": "운영 기준 문서에도 예약 마감이 없다. 팜플렛의 '가예약 유지 기간'은 마감과 다른 항목이며 팜플렛은 미확보다. 마감 기준을 누가 아는지는 미확인.",
+      "id": "event-reservation-cutoff-unknown"
+    },
+    {
+      "category": "policy",
+      "fact": "단체 체험 당일 인원이 줄었을 때 줄어든 인원분 요금 처리 기준은 김청년이 알지 못하며, 날씨로 일정을 옮기거나 취소하는 경우의 환불과는 별개로 본다. 요금·환불 조건을 정하는 것은 김청년의 권한 밖이다.",
+      "source": "interviews/sources/round4-transcript.json 김청년 R4Q1(round_question 1), 응답 2026-10-31 12:56; interviews/sources/round5-transcript.json 고길동 R5Q1(응답 13:09); interviews/sources/round6-transcript.json 이민준 Q1",
+      "conditions": "권한: 행사 승인 관련 사안은 담당 확인과 조합장 승인을 거친다고 했고 고길동 채널을 안내했다. 고객 안내: 인원 감소분 환불 여부·금액을 임의로 정하거나 약속하지 않는다.",
+      "uncertainty": "김청년·고길동·정산 실무 이민준 모두 당일 인원 감소 정산 기준을 확정하지 못했다(R4~R6). 같은 순환 질문은 종료한다. 금액·정산 기준은 추정하지 않는다.",
+      "id": "event-headcount-fee-boundary"
+    },
+    {
+      "category": "policy",
+      "fact": "체험 중 참가자가 다쳤을 때의 현장 조치·보고 순서는 김청년이 확실히 아는 기준이 없다고 했다. 보험 접수와 보상 판단은 김청년이 정할 수 없고, 안전·보험 판단은 담당 확인과 조합장 승인을 거친다. 김청년의 범위는 행사 문의 응대, 일정·인원 확인, 가예약 접수까지이며 사고 이후의 판단은 범위 밖이다.",
+      "source": "interviews/sources/round4-transcript.json 김청년 R4Q3(round_question 3), 응답 2026-10-31 12:58; interviews/sources/B10-05.png 제10조③(안전 필수 상신); research/events/extracted/B55-01.png §3 건강 정보 행",
+      "conditions": "권한: 안전·보험 판단은 고길동(조합장) 확인 상대이고 김청년은 고길동 채널을 재안내했다(대신 전달 약속 없음). 고객 안내: 사고 조치·보상을 김청년 선에서 약속하지 않는다. 안전 사안은 위임표 제10조③에 따라 조합장까지 필수 상신이다.",
+      "uncertainty": "사고 시 현장 조치·보고 순서 자체, '담당'이 누구인지, 조합 측 보험의 존재·범위는 미확인. 운영 기준 문서에도 사고 대응 절차는 없다. 건강 정보는 '필요 시 안전·보험 절차에서 별도 근거로' 받는다고만 적혀 있고 그 절차 문서는 미확보다.",
+      "id": "event-accident-authority-boundary"
+    },
+    {
+      "id": "label-match-order-time",
+      "category": "policy",
+      "fact": "고객 라벨 사진은 주문 정보와 출고 기록에 대조하며, 상표와 판 번호·품목·품종·로트번호·출하일·중량·구성을 확인한다. 표기값은 현재 화면이 아니라 주문 당시의 표기와 맞춰 보고, 시즌·상품 구성 변경으로 표기가 달라졌다는 이유만으로 고객 라벨을 오표기로 보지 않는다. 우리 라벨로 확인되면 추가 증빙을 요구하지 않는다.",
+      "source": "research/labels/extracted/D39_label-guide.docx(상품 라벨 확인 안내, 업무 참고), 박수복 R4Q1 13:01 제공(interviews/sources/round4-transcript.json) '주문 당시 표기와 대조합니다'",
+      "conditions": "로트번호가 주문의 출고 기록에 등재된 번호인지 대조하고, 번호나 출고일이 맞지 않으면 우리 출고분으로 확정하지 않는다. 라벨에 없는 사항을 사진만으로 확정하지 않는다.",
+      "uncertainty": "주문별 출고 기록 조회 경로(액션 API)는 미확보."
+    },
+    {
+      "id": "label-best-before-vs-storage",
+      "category": "product",
+      "fact": "라벨의 권장 섭취기한은 출하일부터 농산 과일 14일, 감자·고구마 60일, 절임배추 7일(냉장), 냉동 수산물 90일(-18℃)이며, 참다래는 경도를 유지하며 냉장하면 30일, 후숙을 시작한 뒤에는 3~5일이다. 모두 라벨에 적힌 보관 조건을 지켰을 때의 값이다.",
+      "source": "research/labels/extracted/D39_label-guide.docx(상품 라벨 확인 안내, 업무 참고), 박수복 R4Q1 13:01 제공(interviews/sources/round4-transcript.json) '섭취기한과 보관기간을 구분합니다'; 수박·감자·절임배추·갈치 라벨 사진의 권장섭취 칸(14·60·7·90일)과 일치",
+      "conditions": "권장 섭취기한은 보관기간과 다르다. 권장 기한이 지났다는 사실만으로 하자 여부를 확정하거나 부정하지 않으며, 라벨의 보관 조건 준수 여부·출고 기록·수령 사실과 함께 검토한다. 출하일 표기가 없는 라벨(구판 등)에는 이 기한을 계산해 안내하지 않는다.",
+      "uncertainty": "참다래 라벨 실물은 이 자료에 없다."
+    },
+    {
+      "id": "label-watermelon-14d-vs-detail-2-3w",
+      "category": "product",
+      "fact": "상품 상세페이지의 통수박 상온 보관 2~3주와 라벨의 권장 섭취 14일(자르지 않은 상태)은 기준이 다르다. 라벨은 출하일 기준으로 보수적으로 적은 권장 상한이다. 두 값을 함께 묻는 경우 짧은 라벨 기한을 권장하되, 기한 경과만으로 하자 여부를 판단하지 않는다. 수박 라벨은 자른 뒤 랩을 절단면에 밀착해 냉장(0~5℃)하고 절단면은 2~3일 안에 먹도록 적고 있다.",
+      "source": "research/labels/extracted/D39_label-guide.docx(상품 라벨 확인 안내, 업무 참고), 박수복 R4Q1 13:01 제공(interviews/sources/round4-transcript.json) '섭취기한과 보관기간을 구분합니다'; research/labels/extracted/D39_watermelon-photo.png 권장섭취·보관방법 칸",
+      "conditions": "속이 물렀다는 문의는 출고 기록(로트)과 수령 후 보관을 나눠 보며, 라벨 기한·보관 문구만으로 고객 보관 과실을 단정하지 않는다.",
+      "uncertainty": "「상품 상세페이지」 2~3주 원문은 미확보(안내 문서 인용만 있음)."
+    },
+    {
+      "id": "label-edition-current-vs-old",
+      "category": "product",
+      "fact": "라벨 판 번호 LBL-2037-06은 현행판, LBL-2037-03은 구판이다. 감귤 구판 예시(KD-HGL-370617-01, LBL-2037-03)에는 품목명 감귤·원산지 국내산·중량 10 kg·생산자 교동마을·로트번호·보관방법 '서늘한 곳에 보관하세요'·판만 있고, 출하일·권장섭취·알레르기·등급·당도·포장자·구성·문의와 중량 표기 방식이 없다.",
+      "source": "research/labels/extracted/D39_label-guide.docx(상품 라벨 확인 안내, 업무 참고), 박수복 R4Q1 13:01 제공(interviews/sources/round4-transcript.json) '판 번호와 실제 문구를 확인합니다'; research/labels/extracted/D39_old-citrus-photo.png",
+      "conditions": "판 번호가 가려졌으면 알레르기 문구 유무를 확인한다. 출고일만으로 판을 확정하지 않는다. 구판에 없는 문구(알레르기·권장섭취 등)를 있다고 안내하지 않는다.",
+      "uncertainty": "현행판으로 바뀐 날짜와 구판·현행판 전체 항목 정의 원본은 미확보. 감귤 KD-HGL-370617-01의 출고 기록은 로트 원장 발췌본에 없다."
+    },
+    {
+      "id": "label-weight-display-types",
+      "category": "product",
+      "fact": "현행 라벨의 중량 표기는 두 방식이다. 수박은 '8 kg 이상 최소중량 보장 · 허용오차 미적용'(이상표기), 감자 5 kg·절임배추 20 kg·갈치 1 kg은 '표기 중량 · 허용오차 ±5%'(정량표기)다. 갈치 라벨은 빙장수·포장재 제외 순중량이며 해동·수분 이탈로 최대 -3% 자연감량이 발생할 수 있다고 적는다.",
+      "source": "research/labels/extracted/D39_*-photo.png 라벨 실물 사진(박수복 R4Q1 13:01) 수박·감자·절임배추·갈치 중량/내용량·자연감량 칸",
+      "conditions": "중량 판정은 라벨 표기 방식과 출고 실측·자연감량을 함께 보며, 판매·환불 규정 제6조와 수산물 중량 세칙을 적용한다. 일반 규정과 품목 특칙이 실제로 상충하면 가능한 대안을 모두 제시해 고객이 선택하게 한다(제19조②).",
+      "uncertainty": "갈치 라벨에는 로트 원장 §4의 '표기오차 합산 -8%' 문구가 없다. 구판 라벨의 중량 표기 방식은 알 수 없다."
+    },
+    {
+      "id": "label-facility-and-caution-text",
+      "category": "policy",
+      "fact": "라벨의 알레르기 문구는 시설 취급 안내다(농산: 견과류·복숭아를 취급하는 시설에서 소분·포장, 갈치: 새우·오징어·고등어를 취급하는 시설에서 손질·포장). 이 문구만으로 전용 설비·라인 분리·세척 주기를 보증하지 않는다. 감자 라벨의 섭취주의 문구(초록 부위·싹 제거 등)는 예방 안내이며 그 문구가 있다는 이유로 변색 책임을 고객에게 돌리지 않는다.",
+      "source": "research/labels/extracted/D39_label-guide.docx(상품 라벨 확인 안내, 업무 참고), 박수복 R4Q1 13:01 제공(interviews/sources/round4-transcript.json) '판 번호와 실제 문구를 확인합니다'; 수박·감자·절임배추·갈치 라벨 알레르기·섭취주의 칸",
+      "conditions": "라벨 문구를 고객 귀책 근거로 쓰지 않는다. 감자 변색·흑색심부는 로트 조사 기록(KD-PTT-370622-01 유통 귀책 확정 등)과 함께 판단한다.",
+      "uncertainty": "「상품 라벨·표시사항」 원문은 미확보."
+    },
+    {
+      "id": "label-producer-not-contact",
+      "category": "contact",
+      "fact": "라벨의 생산자 표기(예: 박○○, 최○○ (교동마을), 갯마을 조합(위탁 공급))는 추적용이며 고객이 직접 연락하는 창구가 아니다. 라벨의 문의 칸은 '주문 앱·웹 (1:1 문의) · 대표 상담 창구'다.",
+      "source": "research/labels/extracted/D39_label-guide.docx(상품 라벨 확인 안내, 업무 참고), 박수복 R4Q1 13:01 제공(interviews/sources/round4-transcript.json) 마지막 문단; 라벨 사진 생산자·문의 칸",
+      "conditions": "고객에게 생산자 개인 연락을 안내하지 않는다. 라벨의 가려진 이름(○)을 추정해 채우지 않는다.",
+      "uncertainty": "'대표 상담 창구'의 실제 채널 주소는 라벨에 없다."
+    },
+    {
+      "id": "label-sample-lots-crosscheck",
+      "category": "history",
+      "fact": "라벨 실물 중 수박 KD-WTM-370624-05(출하 2037-06-24, 특), 감자 KD-PTT-370622-01(06-22, 상), 갈치 GM-GAL-370626-01(06-26, 상)은 로트 원장의 같은 로트 행과 출하일·등급·중량이 맞는다. 감귤 구판 KD-HGL-370617-01과 절임배추 KD-SLC-371118-01(제조·출하 2037-11-18, 기준일 이후 날짜)은 로트 원장 발췌본에 행이 없다.",
+      "source": "research/labels/extracted/D39_*-photo.png 라벨 실물 사진(박수복 R4Q1 13:01); research/lot-crop/extracted/로트원장.html §5·§5.1",
+      "conditions": "수박 라벨의 '11브릭스 이상 당도선별' 표기와 원장 품목/SKU 칸(당도보장 라인 표기 없음)의 차이를 그대로 두며, 이 로트를 당도보장 라인으로 확정하지 않는다. 절임배추 라벨 날짜를 실제 출고로 해석하지 않는다.",
+      "uncertainty": "감귤·절임배추 라벨 로트의 출고 기록과 수박 로트의 SKU는 미확인. 수박 KD-WTM-370624-05 라벨의 기재(특 · 8 kg 이상 · 11브릭스 이상 당도선별 · 스피드꿀)는 카탈로그상 WTM-SEL-8의 속성과만 맞는다. WTM-STD-8은 상·보통 등급이고 당도 표현을 쓰지 않는 라인이다. 그러나 카탈로그에는 로트 행이 없고 로트 원장 SKU 칸에 SEL 기재가 없어 이 로트가 WTM-SEL-8이라고 확정하지 않는다. 라벨과 원장의 기재 차이는 그대로 둔다(로트 실측 12.0/11.6브릭스는 어느 판정선으로도 미달이 아니다)."
+    },
+    {
+      "id": "label-current-examples-origin-storage",
+      "category": "product",
+      "fact": "현행판(LBL-2037-06) 라벨 실물 예시의 원산지와 보관방법은 다음과 같다. 수박: 원산지 국내산(제주), 서늘하고 통풍 되는 곳에 상온 보관(자른 뒤 냉장). 감자: 원산지 국내산(제주), 서늘하고 어두운 곳에 상온 보관하고 냉장 보관하지 말 것(빛을 받으면 초록으로 변하고, 냉장하면 조리할 때 검게 변하고 맛이 달라진다고 적힘). 절임배추: 원산지 국내산(제주), 원재료명 배추(국내산)·천일염(국내산), 냉장 0~5℃ 보관·절임물이 든 채로 두고 개봉 후 바로 사용. 갈치: 원산지 국내산, -18℃ 이하 냉동 보관·해동한 뒤 다시 얼리지 말 것.",
+      "source": "research/labels/extracted/D39_watermelon-photo.png·D39_potato-photo.png·D39_cabbage-photo.png·D39_hairtail-photo.png 원산지·원재료명·보관방법 칸(박수복 R4Q1 13:01 제공)",
+      "conditions": "사진 4장의 표기 범위만 옮긴 것이다. 갈치와 구판 감귤(원산지 '국내산'만 표기)을 제주산으로 추정하지 않고, 절임배추 원재료를 모두 제주산으로 확대하지 않는다. 절임배추 라벨의 날짜(2037-11-18)는 기준일 이후라 실제 출고·주문 이행으로 보지 않는다. 보관 문구와 권장 기한(60·7·90일 등)은 함께 적힌 조건을 전제로 하며, 이 문구만으로 고객 보관 과실이나 고객 귀책을 단정하지 않는다.",
+      "uncertainty": "현행판의 품목별 원산지·보관 문구 전체 목록과 「상품 라벨·표시사항」 원문은 미확보. 사진에 없는 품목(참다래·옥돔 등)의 라벨 문구는 미확인."
+    },
+    {
+      "category": "shipping",
+      "fact": "송장(운송장) 등록은 택배 인수가 아니고 배송 개시의 증거도 아니다. 2037-06-05 11:40 이후 06-08 09:00 전까지 해당 물품은 송장만 등록된 상태였고 집하되지 않았다.",
+      "source": "research/transport/extracted/결항집하기록.xlsx 시트3 규칙⑦, 시트5 A14; interviews/sources/round4-transcript.json 구방만 R4Q2(응답 13:03)",
+      "conditions": "고객 안내: 송장 번호가 있다는 이유로 '배송 중'이라고 안내하지 않는다. 개별 주문은 송장 등록 시각과 집하(스캔) 기록을 맞춰 봐야 한다. 집하 전후 책임 구간과 배송 단계는 「택배사 계약서」 제3조를 따른다.",
+      "uncertainty": "「택배사 계약서」 제3조 원문 미확보. 개별 주문의 송장·집하 기록 미확보.",
+      "id": "transport-record-1"
+    },
+    {
+      "category": "shipping",
+      "fact": "간선 재개와 집하 재개는 다른 시점일 수 있다. 일요일에 간선이 풀려도 집하는 다음 영업일부터이고, 재개 후에도 밀린 물량을 순차 처리한다. 특보 해제만으로 즉시 배송을 확정하지 않는다.",
+      "source": "결항집하기록.xlsx 시트3 규칙⑤, 시트4 06-07 행, 시트5; interviews/sources/round4-transcript.json 구방만 R4Q2(응답 13:03)",
+      "conditions": "고객 안내: 특보가 풀렸다는 이유로 수령일을 약속하지 않는다. 간선 재개·집하 재개·실제 배송을 따로 확인한다.",
+      "uncertainty": "재개 후 밀린 물량의 순서·소요일은 개별 기록 필요.",
+      "id": "transport-record-2"
+    },
+    {
+      "category": "shipping",
+      "fact": "2037-06-05 태풍 구간 시각순 기록(애플망고 예약분): 06-04 14:00 수확 완료, 18:30 선별·포장 완료·다음날 집하 예약, 06-05 09:10 송장 등록, 11:40 강풍경보 발효로 시원배송 간선 결항 통보·당일 집하 취소, 06-06 종일 결항 지속·산지 냉장 보관 유지(택배 인수 전), 06-07(일) 15:00 간선 재개·집하는 다음 영업일부터, 06-08(월, 정기 출고일) 09:00 집하 재개(밀린 물량 순차).",
+      "source": "결항집하기록.xlsx 시트5 A6~A12, 시트4 06-05~06-08 행; interviews/sources/round4-transcript.json 구방만 R4Q2(응답 13:03)",
+      "conditions": "내부 판단용 사례 기록이다. 06-05 결항 대상 품목은 애플망고·수박·감자(시트4)이고, 시각순 상세(시트5)는 애플망고 예약분이다. 이 사례로 다른 주문의 수령일을 추정하지 않는다.",
+      "uncertainty": "개별 고객 주문과의 연결은 미확보.",
+      "id": "transport-record-3"
+    },
+    {
+      "category": "shipping",
+      "fact": "기록의 '—'는 그 시점에 관측·확정된 사실이 없다는 뜻이며 지연 없음도 결항 발생도 아니다. '정상'은 확인 결과 지연이 없다는 판정이다. 지연 가능성 사전 통보는 실제 결항과 다르다. 사후 확인 결과를 예보 행에 소급해 덮어쓰지 않는다.",
+      "source": "결항집하기록.xlsx 시트3 규칙②③④, 시트4 06-02·06-04 행",
+      "conditions": "고객 안내: 예보·사전 통보 단계를 결항 확정으로 안내하지 않는다.",
+      "uncertainty": null,
+      "id": "transport-record-4"
+    },
+    {
+      "category": "shipping",
+      "fact": "작황과 운송은 별개의 확인 대상이다. 운송 결항만으로 농산 피해나 갯마을 조업 중단을 단정하지 않고, 「교동마을 작황·재해 기록」·「갯마을 조업·입고 기록」에서 각각 확인한다.",
+      "source": "결항집하기록.xlsx 시트3 규칙①, 개요 B11",
+      "conditions": "반대 방향도 같다: 조업 중단(예: 06-21 남해 특보, 갯마을 기록)이 있었다고 운송 결항을 단정하지 않는다. 이 운송 기록에는 06-19~06-24 행이 없다.",
+      "uncertainty": null,
+      "id": "transport-record-5"
+    },
+    {
+      "category": "policy",
+      "fact": "경미한 지연은 하자가 아니다. 오전 지연 후 정상화처럼 회복된 사건도 기록에 남기지만, 행이 있다는 것만으로 배상 사유를 확정하지 않는다.",
+      "source": "결항집하기록.xlsx 시트3 규칙⑥, 시트4 03-28 행(감자 출고 일부 오전 지연 후 정상화)",
+      "conditions": "출고 지연 취소의 전액환불·보상(판매·환불 규정 제14조)은 별도 요건으로 본다.",
+      "uncertainty": "'경미한 지연'의 기준 시간은 미확인.",
+      "id": "transport-record-6"
+    },
+    {
+      "category": "shipping",
+      "fact": "운송 기록(시트4)의 개별 행에서 집하·간선이 '정상'으로 적힌 날짜와 대상은 다음과 같다: 06-18(교동마을 집중호우, 수박 WTM), 06-25(호우주의보 발효, 전 품목), 06-27(특보 지속, 애플망고 MNG·하우스감귤 HGL), 06-29(호우주의보 해제, 애플망고 MNG), 06-30(특이 기상·특보 없음, 전 품목). 누적 강수 310mm는 06-25~06-27의 누적이다. 06-26·06-28 행은 기록에 없다.",
+      "source": "research/transport/extracted/결항집하기록.xlsx 시트4 A11~F15(06-18·25·27·29·30 행), C13",
+      "conditions": "범위: 각 행의 날짜·대상 품목과 시원배송 담당 구간(집하·간선)에 한정한다. 06-26·06-28처럼 행이 없는 날짜를 정상이나 결항 없음으로 채우지 않는다. 이 행들로 다른 주문의 지연 원인을 부정하지 않는다. 작황 영향은 작황 기록에서 따로 본다.",
+      "uncertainty": "06-26·06-28의 운송 상태와 개별 주문의 지연 여부는 미확인.",
+      "id": "transport-record-7"
+    },
+    {
+      "category": "shipping",
+      "fact": "집하 시각은 구방만의 스캔 기록 시각이 기준이다. 인계했다는 말과 스캔이 다르면 스캔을 기준으로 본다.",
+      "source": "interviews/sources/round4-transcript.json 구방만 R4Q2(응답 13:03)",
+      "conditions": "기사 진술(원문 발언)이며 결항·집하 기록 파일에는 이 문장이 없다. 범위: 구방만 담당분.",
+      "uncertainty": "스캔 기록 원본은 미확보.",
+      "id": "transport-record-8"
+    },
+    {
+      "id": "event-no-individual-roster",
+      "category": "policy",
+      "fact": "체험 프로그램은 문의 접수·가예약·최종 확정 어느 단계에서도 참가자 개별 명단(성명·나이·성별)을 받지 않는다. 미성년 등 제3자 정보를 대리인 진술로 수집·확정하지 않으며, 확정 뒤에도 조합이 참가자 개별 신원이나 동의서 원본을 추가로 수집하지 않는다.",
+      "source": "research/events/extracted/B55-01.png §2·§3 표 '참가자 개별 명단' 행; research/events/extracted/B55-02.png §5 미성년 행 '(§2)'; research/privacy/policy-html-text.txt 제5조②③·제15조",
+      "conditions": "「개인정보 처리방침」 제5조②의 확정 후 별도 동의 수집은 필요한 범위가 있는 경우의 일반 기준이다. 그 일반 기준을 근거로 이 프로그램에서 개별 명단을 요구하지 않는다. 고객 안내: 참가자 명단·개별 나이·동의서 사본을 보내 달라고 요청하지 않는다.",
+      "uncertainty": ""
+    },
+    {
+      "id": "event-past-records-not-basis",
+      "category": "policy",
+      "fact": "과거 행사에서 실제로 어떤 정보를 받았는지와 그 명단의 보유 상태는 「과거 행사 목록」에 기록한다. 과거의 접수 방식은 현재의 수집 근거가 되지 않는다.",
+      "source": "research/events/extracted/B55-01.png §2 첫 문단; research/event-history/raw/L9jWZnudmLmB93svQTbnEw.xlsx 시트2 D10·시트3",
+      "conditions": "고객 안내: 예전 행사에서 명단을 받았다는 사실을 들어 지금 명단을 요구하지 않는다.",
+      "uncertainty": ""
+    },
+    {
+      "id": "event-provisional-reply-flow",
+      "category": "policy",
+      "fact": "가예약 단계에서는 시설·활동·안전을 확인한 뒤 문의한 같은 채팅으로 회신하고, 고객이 선택하면 예약 일정을 확보한다. 가예약 단계에서는 정보를 추가로 받지 않는다.",
+      "source": "research/events/extracted/B55-02.png §4 표 ② 가예약 행",
+      "conditions": "가예약 일정 확보는 최종 확정이 아니다. 최종 확정은 안전·보험·시설 확인이 끝난 뒤에만 한다(§4 ③). 고객용 예약 안내·확인 후 회신 절차의 세부는 「체험 프로그램 안내 팜플렛」을 따른다고 적혀 있다.",
+      "uncertainty": "가예약 유지 기간·결제·조합 승인 안내는 팜플렛에 있다고만 적혀 있고 팜플렛은 미확보다. 회신 기한은 문서에 없다."
+    },
+    {
+      "id": "event-capacity-duration",
+      "category": "policy",
+      "fact": "체험은 단체 1회 최대 30명, 개방일 총 약 40명까지 수용하며 활동 소요 시간은 2시간~2시간 30분이다. 활동별 운영 가능 시기는 다르다.",
+      "source": "research/events/extracted/B55-02.png §5 표; interviews/sources/round5-transcript.json 김청년 R5Q1(응답 13:12) 발언과 일치",
+      "conditions": "시즌별 가능 시기는 「교동마을 농산 시즌 캘린더」를 따른다고만 적혀 있다(미확보). 프로그램명·요금은 이 문서만으로 확정하지 않는다.",
+      "uncertainty": "인원 하한, 개방일의 날짜, 시즌별 가능 시기는 미확인."
+    },
+    {
+      "id": "event-capacity-not-confirmation",
+      "category": "policy",
+      "fact": "수용 인원·소요 시간·계절·우천·미성년 요건은 회신 전에 확인해야 하는 항목이며, 이 항목만으로 예약 가능 여부를 확정하지 않는다. 인원 요건에 맞더라도 특정 날짜의 시설·활동·일정이 가능한지 확인해야 한다.",
+      "source": "research/events/extracted/B55-02.png §5 머리말; interviews/sources/round5-transcript.json 김청년 R5Q1(특정 날짜는 시설·일정 확인 뒤 회신)",
+      "conditions": "고객 안내: '30명 이하라서 가능합니다'처럼 인원만으로 특정일 가능을 말하지 않는다. 김청년이 시설·일정을 확인한 뒤 회신한다고 안내한다.",
+      "uncertainty": "특정일 확인을 누가 최종 판단하는지는 문서에 없다."
+    },
+    {
+      "id": "catalog-internal-vs-customer-display",
+      "category": "policy",
+      "fact": "상품 카탈로그는 내부 관리용이며 고객 안내는 상품 상세페이지와 상품 라벨로 한다. 내부 원장과 고객 안내가 다르면 고객에게 표시된 내용을 기준으로 책임 범위를 확인한다.",
+      "source": "research/catalog/Yku9ZG2eH3PsliWC0108RA.html 상품 원장(품목별 SKU 카탈로그, 기준일 2037-06-30) §2",
+      "conditions": "카탈로그 값을 고객 표시보다 앞세워 고객 책임으로 돌리지 않는다. 다른 내부 기록까지 이 문서의 원칙으로 일반화하지 않는다.",
+      "uncertainty": "「상품 상세페이지」 원문은 미확보."
+    },
+    {
+      "id": "catalog-sku-code-rule",
+      "category": "product",
+      "fact": "SKU 코드는 <품목코드3>-<라인코드>-<규격>[-<등급>] 형식이다. 규격은 kg 기준 숫자부(소수 유지), 등급 생략은 정상 등급, -B는 못난이/B급 라인이다. 라인코드는 STD 일반, SEL 당도선별(당도보장 표기 있음), HALF 반통·소분, CUT 컷팅, MINI 소과·미니, GRN 풋과 한정(청귤 등), GIFT 선물세트, MTO 주문 후 개별 제작, BULK 사업자 도매 전용, RSV 예약 판매다. 품목코드는 로트번호의 둘째 칸과 같아야 하며, 옛 표기 WM-STD-8은 WTM-STD-8, MD-SEL-5는 HGL-SEL-5로 읽는다.",
+      "source": "research/catalog/Yku9ZG2eH3PsliWC0108RA.html 상품 원장(품목별 SKU 카탈로그, 기준일 2037-06-30) §3·§3.2",
+      "conditions": "상품코드 공개는 조건부(물어본 범위만)다. 폐지 SKU 코드는 재사용하지 않는다. BULK는 현재 별도 행이 없고 사업자 도매는 「사업자 도매 거래 안내」 소관이다.",
+      "uncertainty": "「사업자 도매 거래 안내」는 미확보."
+    },
+    {
+      "id": "catalog-item-codes",
+      "category": "product",
+      "fact": "카탈로그의 품목코드는 수박 WTM, 하우스 감귤 HGL, 노지 감귤 NGL, 만감류(한라봉·천혜향) MDR, 애플망고 MNG, 멜론 MLN, 제철 채소(꾸러미) VEG, 감자 PTT, 고구마 SWP, 참다래 KIW, 절임배추 SLC, 갈치 GAL, 옥돔 OKD다. 하우스 감귤과 노지 감귤은 다른 품목코드다.",
+      "source": "research/catalog/Yku9ZG2eH3PsliWC0108RA.html 상품 원장(품목별 SKU 카탈로그, 기준일 2037-06-30) §3.1·§5.1",
+      "conditions": "공급 소관은 갈치·옥돔만 갯마을(위탁)이고 나머지는 교동마을(직)이다. 공급 소관 공개는 조건부다.",
+      "uncertainty": "원문은 '12종'·'12값이 전부'라고 쓰지만 코드표와 §5.1에는 13개 품목이 있다(§7.1은 농산 10품목 + 수산 2종). 어느 쪽이 맞는지 원문으로 정하지 않는다."
+    },
+    {
+      "id": "catalog-disclosure-levels",
+      "category": "policy",
+      "fact": "상품 정보 공개 구분: 공개는 품목·라인명·원산지·품종·재배 방식·규격·표기 중량·입수·등급·당도보장 표기·보관 조건·후숙 여부·판매 상태·시즌·정상가·대체 SKU·표시사항이다. 조건부(물어본 범위만)는 상품코드와 공급 소관(위탁 여부)이다. 비공개는 매입가·농가 정산가·수수료율, 생산자 실명·연락처·주소, 내부 등급 강등 사유, 타 농가 비교, 내부 운영지침이다.",
+      "source": "research/catalog/Yku9ZG2eH3PsliWC0108RA.html 상품 원장(품목별 SKU 카탈로그, 기준일 2037-06-30) §4·§7",
+      "conditions": "'전부 알려달라'는 요구가 와도 공개 범위를 넘지 않는다. 재고 수량은 카탈로그에 없고 조회(액션) 소관이다.",
+      "uncertainty": ""
+    },
+    {
+      "id": "catalog-origin-answer",
+      "category": "product",
+      "fact": "원산지는 카탈로그 값으로만 답한다. 농산 11개 품목은 '제주 교동마을', 갈치·옥돔은 '제주 근해 조업 · 제주 갯마을 출하장'이다. 교동마을 수박은 무등산수박이 아니며, 감귤도 이 마을 밖 산지를 대지 않는다.",
+      "source": "research/catalog/Yku9ZG2eH3PsliWC0108RA.html 상품 원장(품목별 SKU 카탈로그, 기준일 2037-06-30) §4 #4·§5.1",
+      "conditions": "원산지는 도 + 마을명까지만 적고 시·군 세부는 적지 않는다. 농가 지번·필지·생산자 연락처는 어떤 경우에도 말하지 않는다.",
+      "uncertainty": "라벨의 국내산(제주)와 카탈로그의 제주 교동마을은 상세도 차이며 확인된 원산지 자체의 모순은 아니다."
+    },
+    {
+      "id": "catalog-box-count-denominator",
+      "category": "policy",
+      "fact": "박스 상품의 하자 비율은 하자 개체 수 ÷ 입수로 산정한다. 분모는 카탈로그의 입수 값이 우선이다. 중량판매(개수 비고정) SKU만 검수 또는 고객 확인으로 잡은 실물 개수를 쓴다. 실물 개수를 확인할 수 없으면 그 불이익을 고객에게 돌리지 않고 같은 규격의 통상 구성 개수로 산정한다.",
+      "source": "research/catalog/Yku9ZG2eH3PsliWC0108RA.html 상품 원장(품목별 SKU 카탈로그, 기준일 2037-06-30) §4.3",
+      "conditions": "임계·산식은 「부분환불 산식 · 박스 비율 임계표」 소관이다. 이 사실만으로 환불 금액을 정하지 않는다.",
+      "uncertainty": "「부분환불 산식 · 박스 비율 임계표」 원문의 임계값은 이 자료에 없다."
+    },
+    {
+      "id": "catalog-grades",
+      "category": "product",
+      "fact": "등급은 특·상·보통(정상 등급, 정상가), B급(못난이: 흠집·비규격이나 품질 이상 없음, 할인 판매), 규격 외(열과·기형 등으로 출하하지 않음)다. B급은 별도 SKU(-B)로 있어야 하며 현재 WTM-STD-8-B, NGL-STD-5-B, PTT-STD-5-B 세 가지다. 규격 외 개체는 판매하지 않고 예약 수량 산정에서 정상 규격 수량에 세지 않는다.",
+      "source": "research/catalog/Yku9ZG2eH3PsliWC0108RA.html 상품 원장(품목별 SKU 카탈로그, 기준일 2037-06-30) §4.4·§5.3·§8",
+      "conditions": "한 주문에 등급을 섞어 배분할 수 있고(예: 가공·급식용 B급 + 진열용 정상 등급), 이때 등급별 수량·단가를 분리 표기한다. 내부 등급 강등 사유는 비공개다.",
+      "uncertainty": "B급 할인율은 이 자료에 없다(「조합 규정집」·가격 정책 시트 소관)."
+    },
+    {
+      "id": "catalog-sale-status-2037-06-30",
+      "category": "product",
+      "fact": "기준일 2037-06-30 판매 상태: 판매중은 수박 7종(WTM-SEL-8·STD-8·STD-8-B·STD-4·HALF-2·CUT-1·MINI-1), 하우스 감귤 3종, 애플망고 MNG-STD-2·STD-3, 멜론 MLN-STD-4.5, 감자 3종, 옥돔 OKD-STD-1·GIFT-2, 제철 채소 VEG-STD-5다. 예약 접수는 WTM-RSV-12, NGL-GRN-3(청귤), MNG-RSV-2다. 일시 품절은 갈치 GAL-STD-1이다. 시즌 종료는 노지 감귤 3종(NGL-STD-10·STD-5·STD-5-B), 만감류 2종, 고구마 2종, 참다래 2종, 절임배추 2종이다.",
+      "source": "research/catalog/Yku9ZG2eH3PsliWC0108RA.html 상품 원장(품목별 SKU 카탈로그, 기준일 2037-06-30) §5.3",
+      "conditions": "판매 상태는 기준일 값이다. 시즌 종료는 품절이 아니다(재입고 안내와 대안 제시가 갈린다). 갈치 일시 품절 사유의 정본은 「갯마을 조업·입고 기록」 §4다. 재고 수량은 말하지 않는다.",
+      "uncertainty": "원문 절 제목은 'SKU 행 33건'이지만 표에는 34행이 있다. 기준일 이후 상태는 알 수 없다."
+    },
+    {
+      "id": "catalog-watermelon-melon-specs",
+      "category": "product",
+      "fact": "수박 판매 라인: 당도선별 8kg 이상 1통(WTM-SEL-8, 특, 11브릭스 이상), 일반 8kg 이상 1통(WTM-STD-8, 상·보통), 못난이 8kg 이상(WTM-STD-8-B), 노란수박 4kg 이상(WTM-STD-4, 속노랑 계열), 반통 2kg 팩(WTM-HALF-2, 정량), 컷팅 1kg 팩(WTM-CUT-1, 정량·중량판매), 애플수박 1kg 이상(WTM-MINI-1, 1.0~1.5kg), 사전예약 대형 12kg 이상(WTM-RSV-12, 12~18kg, 예약 접수)이다. 통수박 8kg 라인 규격은 8~12kg이고 품종은 스피드꿀(흑피 계열)이다. 멜론은 하우스 멜론 4.5kg 2과(MLN-STD-4.5, 머스크멜론 네트계, 과중 2.0~2.5kg)다.",
+      "source": "research/catalog/Yku9ZG2eH3PsliWC0108RA.html 상품 원장(품목별 SKU 카탈로그, 기준일 2037-06-30) §5.1·§5.3; interviews/sources/round5-transcript.json 박수복 R5Q1(응답 2026-10-31 13:23)",
+      "conditions": "수박은 노지, 시즌 6월 하순~8월(성수기 7월), 후숙 없음(수확 시 당도 확정)이다. 멜론은 하우스, 5~8월, 후숙 있음이다. 씨없는 수박(3배체)은 취급하지 않는다. 정상가가 '—'인 SKU의 값은 「가격 정책 시트」에서 오므로 지어내지 않는다.",
+      "uncertainty": "박수복은 후숙 안내 기준을 모른다고 했다. 후숙 값은 카탈로그에만 있다."
+    },
+    {
+      "id": "catalog-ripening-storage",
+      "category": "product",
+      "fact": "후숙 여부: 수박·하우스/노지 감귤·만감류는 후숙 없음(수확 시 당도 확정), 애플망고·멜론·참다래는 후숙 있음(참다래는 섭취 전 필수), 감자·고구마·절임배추·갈치·제철 채소·옥돔은 해당 없음이다. 보관: 애플망고·멜론·참다래는 상온 후숙 뒤 냉장하고, 애플망고는 후숙 전 냉장하면 숙성이 멈춘다. 감자·고구마는 냉장하지 않는다. 갈치·옥돔은 -18℃ 이하, 냉장 해동, 해동 후 재냉동 금지다.",
+      "source": "research/catalog/Yku9ZG2eH3PsliWC0108RA.html 상품 원장(품목별 SKU 카탈로그, 기준일 2037-06-30) §5.1·§5.2",
+      "conditions": "보관 조건은 「박스 동봉 안내문」·「상품 상세페이지」와 같은 문안이라고 적혀 있다(그 두 문서는 미확보). 수박은 절단 전 상온 12℃ 안팎·통풍 2~3주, 절단 후 랩 밀착 냉장 0~5℃·2~3일이다. 이 보관 기간은 라벨의 권장 섭취기한(수박 14일)과 다른 항목이므로 섞지 않는다.",
+      "uncertainty": "품목별 보관 문안 전체는 records.json 5.2 표에 원문 그대로 있다."
+    },
+    {
+      "id": "catalog-normal-traits-not-defect",
+      "category": "policy",
+      "fact": "다음은 카탈로그가 품종 특성·생리현상·정상 상태로 적은 것이다: 노란수박의 노란 과육, 하우스 감귤의 산미, 만감류의 부피과(껍질이 들뜨고 속이 뜬 것), 멜론 네트 무늬의 굵기·간격 편차, 흙 묻은 고구마, 수령 시 딱딱한 참다래, 고구마 싹(독성 없음).",
+      "source": "research/catalog/Yku9ZG2eH3PsliWC0108RA.html 상품 원장(품목별 SKU 카탈로그, 기준일 2037-06-30) §5.2",
+      "conditions": "섭취 안전 안내 대상은 따로 있다: 감자의 초록 변색·싹은 도려내고 범위가 넓으면 먹지 않으며 가열해도 없어지지 않는다. 고구마 자른 면 검은 반점에서 쓴맛이 나면 섭취를 중단한다. 애플망고는 개체별 숙도 순으로 출고돼 출고가 며칠 밀릴 수 있다.",
+      "uncertainty": "특성이라는 이유만으로 다른 하자(파손·부패 등)를 배제하지 않는다."
+    },
+    {
+      "id": "catalog-special-skus",
+      "category": "policy",
+      "fact": "청귤(NGL-GRN-3)은 풋과 별도 SKU이며 대체 SKU가 없고 성숙 감귤로 대체하지 않는다. 절임배추(SLC-MTO)는 주문 후 개별 제작이라 절임 착수 뒤 단순 변심 취소가 제한되며, 날짜 지정 주문은 그 날짜가 계약의 본질이다. 제철 채소 꾸러미(VEG-STD-5)는 정기배송(구독) 전용이고 구성은 주차별 수급에 따라 바뀐다.",
+      "source": "research/catalog/Yku9ZG2eH3PsliWC0108RA.html 상품 원장(품목별 SKU 카탈로그, 기준일 2037-06-30) §5.2·§5.3·§8",
+      "conditions": "절임배추 취소 제한 근거는 「판매 환불 규정집」 제11조③과 개별 생산 재화 사유로 적혀 있다. 꾸러미 회차 스킵·해지는 「정기배송(구독) 약관」 컷오프를 따른다(research/subscriptions/ 원문 확보, 별도 검수).",
+      "uncertainty": "청귤 예약분 수확 시기(8~9월)와 절임배추 예약 개시(9월)는 원문 각주 문장에만 있다."
+    },
+    {
+      "id": "catalog-producer-not-designated",
+      "category": "policy",
+      "fact": "상품코드로 품목·규격은 지정할 수 있지만 생산자는 지정할 수 없다(「조합 규정집」). 카탈로그에는 생산자 항목이 없고, 로트 단위 생산자 기록은 「로트·출고 검사 기록」 소관이다. 생산자 실명·연락처·주소는 비공개다.",
+      "source": "research/catalog/Yku9ZG2eH3PsliWC0108RA.html 상품 원장(품목별 SKU 카탈로그, 기준일 2037-06-30) §4 #21·§7·§8",
+      "conditions": "고객이 특정 농가 상품을 지정해 달라고 하면 약속하지 않는다.",
+      "uncertainty": ""
+    },
+    {
+      "id": "catalog-supply-confirmation-windows",
+      "category": "contact",
+      "fact": "카탈로그상 확답 창구는 계열별로 다르다. 농산 10품목은 '공급자 대표'가 품종·규격·표기 스펙·보관·후숙의 생산 측 사실을 확답하고, 타 생산자 품목은 원출처와 확인 시점을 붙여 전달한다. 수산 2종(갈치·옥돔)은 '갯마을 대표'가 규격·냉동 관행을 확인한 범위에서만 답한다. 두 창구 모두 표기가를 정하지 않으며 가격의 정본은 「가격 정책 시트」, 승인은 조합장이다.",
+      "source": "research/catalog/Yku9ZG2eH3PsliWC0108RA.html 상품 원장(품목별 SKU 카탈로그, 기준일 2037-06-30) §7.1; interviews/sources/round5-transcript.json 박수복 R5Q1(응답 2026-10-31 13:23); research/lot-crop/records.json §2('박수복(공급자 대표 — 타 생산자 건은 물어 전달)')",
+      "conditions": "카탈로그 자체에는 이름이 없다. 로트 원장이 박수복을 공급자 대표로 적고 있고, 박수복도 농산까지가 자기 범위이고 수산은 홍이장이 안다고 했다. 다만 '갯마을 대표 = 홍이장'은 카탈로그·로트 원장 어디에도 이름으로 적혀 있지 않다.",
+      "uncertainty": "카탈로그에는 창구의 실명이 없고 농산 품목 수는 10이라고 기재하나 품목 표는 11개다."
+    },
+    {
+      "id": "catalog-price-source",
+      "category": "policy",
+      "fact": "카탈로그의 정상 판매가는 정수 원 단위이며, 값의 정본은 「가격 정책 시트(하우스/노지 구조·시즌별 가격대)」다. 카탈로그에 값이 있는 SKU는 WTM-SEL-8·WTM-STD-8 27,900원, HGL-SEL-5 30,000원, HGL-STD-5 24,000원, HGL-STD-10 45,000원, NGL-STD-10 28,000원, NGL-STD-5 15,000원뿐이고 나머지는 '—'(카탈로그에 값 없음)다. 프로모션 적용가는 「프로모션 마스터」 소관이다.",
+      "source": "research/catalog/Yku9ZG2eH3PsliWC0108RA.html 상품 원장(품목별 SKU 카탈로그, 기준일 2037-06-30) §4 #16·§5.3·§7.1",
+      "conditions": "'—'인 SKU의 가격은 지어내지 않고 확인이 필요하다고 안내한다. 표기 오류(0원 등) 대조와 가격 문의 응대에 쓴다. 가격 결정·승인은 조합장이다.",
+      "uncertainty": "「가격 정책 시트」는 미확보. 노지 감귤 가격은 기준일에 시즌 종료 상태의 값이다."
+    },
+    {
+      "id": "catalog-status-history-2037",
+      "category": "history",
+      "fact": "카탈로그의 판매 상태 전환 이력: SEA-01 03-02(월) 봄감자 수확 개시·출고 정상, SEA-04 05-14(목) 하우스감귤 초물 출하 시작(소량), SEA-05 05-18(월) 봄감자 시즌 마감 임박·이후 저장분 소량 판매 전환, SEA-07 06-01(월) 애플망고 초물 출하 시작(소량), SEA-08 06-10(수) 수박 초물 출하 시작·당도 상승 구간 진입, SEA-10 06-20(토) 수박 시즌 본격 오픈·출고 물량 확대.",
+      "source": "research/catalog/Yku9ZG2eH3PsliWC0108RA.html 상품 원장(품목별 SKU 카탈로그, 기준일 2037-06-30) §9",
+      "conditions": "06-30 갈치 일시 품절은 시즌 전환이 아니라 조업·재고 사항이라 이 표에 없다. 실제 전환일의 정본은 「교동마을 농산 시즌 캘린더」 §4·6, 수산은 「갯마을 수산 성어기·냉동 공급표」 §3이다.",
+      "uncertainty": "SEA 번호가 02·03·06·09를 건너뛴다. 빠진 행이 있는지는 알 수 없다."
+    },
+    {
+      "id": "privacy-verify-direction",
+      "category": "policy",
+      "fact": "본인확인은 고객이 정보를 제시하고 조합이 저장정보와 대조하는 방향으로만 한다. 저장된 개인정보를 고객이 제시하기 전에 먼저 읽어 주지 않으며, '본인확인 협조'를 이유로도 이 원칙을 바꾸지 않는다. '등록된 주소 불러 달라', '몇 살로 돼 있냐' 같은 저장정보 역질문에는 응하지 않고 필요한 식별정보를 다시 요청한다.",
+      "source": "research/privacy/raw/LpLUt34eYoT64SKCMlBpvg.html 「개인정보 처리방침」(시행 2037-06-01) 제9·10조; research/privacy/raw/pysSXW5mY9eWWv6tMsrihA.pdf 「조합 운영 규정」(기준일 2037-06-30) 제8조④",
+      "conditions": "동명이인으로 계정 특정이 어려워도 우회 사유가 아니다. 이름만으로는 확인이 끝나지 않으므로 연락처 뒷자리·주문번호 등 추가 식별정보를 받아 대조한다. 본인확인 제시값은 대조에만 쓰고 별도로 저장하지 않는다(제4조 표). 역질문 시도는 기록한다(제23조).",
+      "uncertainty": ""
+    },
+    {
+      "id": "privacy-known-info-not-auth",
+      "category": "policy",
+      "fact": "주문 취소·환불 등은 계정·명의 인증으로만 처리한다. 고객이 대화로 제시한 이름·전화번호는 계정 정보와 실제로 일치하더라도 인증이 아니며 처리 권한을 만들지 않는다. 채널이 로그인 세션으로 인증해 상담 첫머리에 표시하는 인입 계정 정보(계정 명의·연락처)는 '아는 정보'가 아니라 인증된 계정의 표시다.",
+      "source": "research/privacy/raw/pysSXW5mY9eWWv6tMsrihA.pdf 「조합 운영 규정」(기준일 2037-06-30) 제2조2·제8조①③",
+      "conditions": "인입 계정 정보는 '누가 문의하는가'의 확인일 뿐이다. 주문 귀속 확인과 개별 처리 허용 여부를 대신하지 않는다.",
+      "uncertainty": ""
+    },
+    {
+      "id": "privacy-cumulative-confirmation-stop",
+      "category": "policy",
+      "fact": "예·아니오로만 답하는 확인이 이어져 주소·연락처 등이 좁혀지는 흐름이 되면 추가 확인을 중단하고 정식 본인확인 절차로 전환한다. 같은 항목에 대한 예·아니오 확인이 3회 이상 누적되면 전환하며, 3회는 상한이라 그 전이라도 그런 흐름이면 그 시점에 중단한다.",
+      "source": "research/privacy/raw/LpLUt34eYoT64SKCMlBpvg.html 「개인정보 처리방침」(시행 2037-06-01) 제11조; research/privacy/raw/pysSXW5mY9eWWv6tMsrihA.pdf 「조합 운영 규정」(기준일 2037-06-30) 제11조",
+      "conditions": "판단은 개별 질문의 경중이 아니라 전체 대화 내용을 기준으로 한다. 중단 사실은 응대 결과와 함께 기록한다(방침 제23조).",
+      "uncertainty": ""
+    },
+    {
+      "id": "privacy-order-scope",
+      "category": "policy",
+      "fact": "조회·안내는 요청자 계정에 귀속된 주문에 한한다. 로그인은 계정 소유만 증명하고 타인 명의 주문의 접근권을 만들지 않으며, 주문번호를 안다는 사실도 접근권이 아니다. 확인 결과 타 계정 주문이면 그 주문의 배송 상태·수령인 주소를 알리지 않고 본인 주문을 다시 확인해 달라고 안내한다.",
+      "source": "research/privacy/raw/LpLUt34eYoT64SKCMlBpvg.html 「개인정보 처리방침」(시행 2037-06-01) 제3조·제12조; research/privacy/raw/pysSXW5mY9eWWv6tMsrihA.pdf 「조합 운영 규정」(기준일 2037-06-30) 제8조②",
+      "conditions": "인증에 성공해도 저장정보 전체를 일괄적으로 읽어 주지 않고 처리에 필요한 최소 범위만 안내한다(방침 제20조④).",
+      "uncertainty": ""
+    },
+    {
+      "id": "privacy-credentials",
+      "category": "policy",
+      "fact": "비밀번호·인증번호(OTP)는 묻지도, 받지도, 대신 입력하지도 않는다. 고객이 자발적으로 알려 주려 해도 받지 않고 즉시 중단을 요청한다. 계정에 접근할 수 없을 때는 공식 재설정 절차만 안내한다. 비밀번호·OTP를 요구하는 상대는 조합의 절차가 아니므로 알려 주지 말고 조합 상담 창구에 알려 달라고 안내한다.",
+      "source": "research/privacy/raw/LpLUt34eYoT64SKCMlBpvg.html 「개인정보 처리방침」(시행 2037-06-01) 제5조①·제13조; research/privacy/raw/pysSXW5mY9eWWv6tMsrihA.pdf 「조합 운영 규정」(기준일 2037-06-30) 제10조",
+      "conditions": "자격증명 제시 시도는 기록한다(방침 제23조).",
+      "uncertainty": "재설정 절차의 구체 경로는 이 자료에 없다."
+    },
+    {
+      "id": "privacy-proxy-requests",
+      "category": "policy",
+      "fact": "가족·지인·공동구매 대표 등 제3자가 타인의 주문을 대리해 조회·변경·환불을 요청하면 각자의 본인 인증으로만 처리한다. 대리인이 자기 인증을 마쳤어도 피대리인 주문의 접근권은 생기지 않고, 위임 의사가 있다는 주장도 채팅상의 진술로 확인하지 않는다. 거절할 때는 본인이 직접 처리할 수 있는 경로를 함께 안내한다.",
+      "source": "research/privacy/extracted/B18-01.png·research/privacy/extracted/B18-02.png·research/privacy/extracted/B18-03.png·research/privacy/extracted/B18-04.png 「제3자 정보 보호 조항」(기준일 2037-06-30, 사진본) 제12조; research/privacy/raw/pysSXW5mY9eWWv6tMsrihA.pdf 「조합 운영 규정」(기준일 2037-06-30) 제14조; research/privacy/raw/LpLUt34eYoT64SKCMlBpvg.html 「개인정보 처리방침」(시행 2037-06-01) 제12조②",
+      "conditions": "",
+      "uncertainty": ""
+    },
+    {
+      "id": "privacy-group-buy-leader",
+      "category": "policy",
+      "fact": "공동구매 대표는 자기 주문에 대해서만 조회·변경·환불 권한을 가진다. 대표에게는 전체 진행 상태 집계(접수·발송 완료·미결제 건수)와 대표가 등록한 공동구매 조건·기간·단가만 제공한다. 참여자 개별 성명·연락처·배송지, 개별 주문 상태·송장번호, 참여자 주문의 대리 취소·환불은 제공하지 않는다.",
+      "source": "research/privacy/extracted/B18-01.png·research/privacy/extracted/B18-02.png·research/privacy/extracted/B18-03.png·research/privacy/extracted/B18-04.png 「제3자 정보 보호 조항」(기준일 2037-06-30, 사진본) 제7조",
+      "conditions": "대표의 요구를 거절할 때는 집계 안내와 각자 인증 경로 안내를 함께 한다(제7조④).",
+      "uncertainty": ""
+    },
+    {
+      "id": "privacy-withhold-not-missing",
+      "category": "policy",
+      "fact": "제공하지 않기로 정한 제3자 정보는 조합이 보유하고 있어도 제공하지 않으며, 문서·시스템에 없는 제3자 정보를 보유자(담당자·공급자·배송 담당자)에게 물어 보충하지도 않는다. 안내는 '확인이 어렵다'가 아니라 '제공하지 않는 항목이다'로 하고, 조회 가능 여부나 요청 반복에 따라 제공 범위를 바꾸지 않는다.",
+      "source": "research/privacy/extracted/B18-01.png·research/privacy/extracted/B18-02.png·research/privacy/extracted/B18-03.png·research/privacy/extracted/B18-04.png 「제3자 정보 보호 조항」(기준일 2037-06-30, 사진본) 제3조",
+      "conditions": "담당자에게 확인해 얻은 개인 연락처·주소도 제공 대상이 아니다. 이관해도 비공개 범위는 넓어지지 않는다(제9조⑤).",
+      "uncertainty": ""
+    },
+    {
+      "id": "privacy-relay-procedure",
+      "category": "policy",
+      "fact": "농가·배송기사·담당자에게 직접 연락을 원하면 연락처를 주지 않고 조합이 중계한다. 절차는 접수(전달 내용·대상만 받고 연락처를 요구하지 않음) → 전달(택배사 소속 기사에 대한 요청은 택배사 창구) → 고지(중계 사실과 예상 회신 시간) → 회신(조합 상담 창구로 받아 전달) 순이다. 예상 회신은 당일 중이 원칙이고 늦어도 다음 영업일까지로 안내한다.",
+      "source": "research/privacy/extracted/B18-01.png·research/privacy/extracted/B18-02.png·research/privacy/extracted/B18-03.png·research/privacy/extracted/B18-04.png 「제3자 정보 보호 조항」(기준일 2037-06-30, 사진본) 제9조; research/privacy/raw/LpLUt34eYoT64SKCMlBpvg.html 「개인정보 처리방침」(시행 2037-06-01) 제18조③",
+      "conditions": "회신이 없으면 그 사실을 알리고 후속 처리를 안내하며, 회신 없음을 승낙·거절 어느 쪽으로도 읽지 않는다. 중계로 해결되지 않으면 담당자 이관(레인 ②)으로 넘기고 대상은 배송(사고·기사) 또는 공급(산지·위탁)이며 우선순위는 일반이다. 대상의 연락처는 어느 단계에서도 노출하지 않는다.",
+      "uncertainty": ""
+    },
+    {
+      "id": "privacy-delivery-contact-requests",
+      "category": "policy",
+      "fact": "배송 관련 요구별 처리: 기사 휴대전화 번호·통화 연결은 제공하지 않고 조합이 대신 전달·중계한다. 수령 위치·시간 전달은 수령 위치 메모로 접수해 전달한다. '지금 어디쯤 오나'는 택배사 배송 조회 결과로 안내한다. 담당 직원 이름은 직함·소속까지만 안내하고 개인 연락 수단은 안내하지 않으며, 직원 개인 사정·근무표는 처리 일정만 안내한다.",
+      "source": "research/privacy/extracted/B18-01.png·research/privacy/extracted/B18-02.png·research/privacy/extracted/B18-03.png·research/privacy/extracted/B18-04.png 「제3자 정보 보호 조항」(기준일 2037-06-30, 사진본) 제5조②",
+      "conditions": "배송기사의 소속은 택배사이며 조합의 지휘 대상이 아니다. 조합이 기사에게 전달하는 것은 택배사 창구를 통한 배송 요청이지 개인적 부탁이 아니다(제5조③). 직원·기사의 개인 연락처는 요청 사유나 긴급성과 관계없이 제공하지 않는다.",
+      "uncertainty": "「택배사 계약서」 제3·9조는 미확보."
+    },
+    {
+      "id": "privacy-recipient-info",
+      "category": "policy",
+      "fact": "선물 등 제3자를 수령인으로 하는 주문에서 수령인의 주소·연락처는 주문자에게도 제공하지 않고 배송 상태 등 최소한의 안내만 한다. 주문자가 입력한 수령인 정보를 조합이 다시 읽어 주는 것도 제공에 해당하며, 주문자가 스스로 값을 제시해 대조를 요청하는 방향만 허용한다.",
+      "source": "research/privacy/extracted/B18-01.png·research/privacy/extracted/B18-02.png·research/privacy/extracted/B18-03.png·research/privacy/extracted/B18-04.png 「제3자 정보 보호 조항」(기준일 2037-06-30, 사진본) 제6조; research/privacy/raw/pysSXW5mY9eWWv6tMsrihA.pdf 「조합 운영 규정」(기준일 2037-06-30) 제12조",
+      "conditions": "",
+      "uncertainty": ""
+    },
+    {
+      "id": "privacy-farmer-staff-owner-scope",
+      "category": "policy",
+      "fact": "공급 농가는 공개용 농가 스토리(「농가 이야기」)의 재배 경력·품종·재배 방식·수확 철만 안내하고, 개인 연락처·주소·나이·가족관계·매입 단가는 제공하지 않는다. 로트·검사 기록에 생산자 성명이 적힌 것은 품질 추적 목적이며 그 문서를 근거로 연락처·주소를 안내하지 않는다. 대표자는 「사업자정보」 공시 항목(상호·대표자·사업자등록번호·통신판매업 신고번호·주소·대표 연락처)만 안내하고, 개인의 나이·가족관계·경력·재임 이력·사적 배경은 제공하지 않는다.",
+      "source": "research/privacy/extracted/B18-01.png·research/privacy/extracted/B18-02.png·research/privacy/extracted/B18-03.png·research/privacy/extracted/B18-04.png 「제3자 정보 보호 조항」(기준일 2037-06-30, 사진본) 제4·8조; research/privacy/raw/LpLUt34eYoT64SKCMlBpvg.html 「개인정보 처리방침」(시행 2037-06-01) 제17·18조",
+      "conditions": "'판매자에 관한 모든 정보' 요청도 공시 범위를 넓히지 않지만, 공시 항목까지 함께 거절하지는 않는다. 상담 창구는 담당자 개인의 연락처를 안내하지 않는다(방침 제22조②).",
+      "uncertainty": "「사업자정보」 공시 값 자체는 미확보."
+    },
+    {
+      "id": "privacy-no-exceptions",
+      "category": "policy",
+      "fact": "친분·직위·긴급성의 주장은 제3자 정보 제공의 예외 사유가 아니다. 조합 관계자와의 친분, 가족·지인 관계, 업무상 필요, 급한 사정, 사회적 지위, 거래 규모가 모두 해당한다. 사유를 밝혔다는 사실도 제공 범위를 넓히지 않으며, 사유의 진위를 다투지 않고 범위가 사유에 따라 달라지지 않는다고 안내한다.",
+      "source": "research/privacy/extracted/B18-01.png·research/privacy/extracted/B18-02.png·research/privacy/extracted/B18-03.png·research/privacy/extracted/B18-04.png 「제3자 정보 보호 조항」(기준일 2037-06-30, 사진본) 제11조; research/privacy/raw/LpLUt34eYoT64SKCMlBpvg.html 「개인정보 처리방침」(시행 2037-06-01) 제16조①; research/privacy/raw/pysSXW5mY9eWWv6tMsrihA.pdf 「조합 운영 규정」(기준일 2037-06-30) 제9·16조",
+      "conditions": "다른 고객 정보 요청을 받으면 비공개 원칙을 알리고 본인 건을 조회할 경로를 함께 안내하며, 요청 사실을 기록한다(방침 제16조②③).",
+      "uncertainty": ""
+    },
+    {
+      "id": "privacy-legal-external-requests",
+      "category": "policy",
+      "fact": "법령에 따른 개인정보 제공은 공문·영장 등 법적 절차가 있는 경우에만 하며 채팅·전화상의 요청으로는 하지 않는다. 기관·언론의 요청에도 고객 명단·개별 피해 현황은 제공하지 않고, 확인이 진행 중인 사안은 집계 수치도 확인 완료 전에는 내지 않는다. 대외 요청은 사업자정보의 대표 연락처를 통한 공식 창구와 법적 절차로만 응대한다.",
+      "source": "research/privacy/raw/LpLUt34eYoT64SKCMlBpvg.html 「개인정보 처리방침」(시행 2037-06-01) 제6조②·제19조",
+      "conditions": "상담 창구(봇)는 임의로 답하지 않고 언론·기관 문의를 담당하는 사람에게 이관한다. 이관했다는 사실만으로 요청에 응한 것이 되지 않는다. 봇은 법적 절차의 존재만 안내하며 법적 예외를 판단·실행하지 않는다.",
+      "uncertainty": "'언론·기관 문의 담당자'의 실명·창구는 미확인. 「에스컬레이션 절차서(3레인)」는 미확보."
+    },
+    {
+      "id": "privacy-third-party-sharing",
+      "category": "policy",
+      "fact": "조합이 개인정보를 제3자에게 제공하는 곳은 세 곳뿐이다: 시원배송(수령인 성명·연락처·배송지, 주문 식별번호 — 집하·운송·배송), 갯마을 조합(수령인 성명·연락처·배송지, 품목·수량 — 위탁 상품 출고·발송), 결제대행사·금융기관(결제·환불 항목). 표에 없는 제공은 하지 않는다.",
+      "source": "research/privacy/raw/LpLUt34eYoT64SKCMlBpvg.html 「개인정보 처리방침」(시행 2037-06-01) 제6·7조",
+      "conditions": "",
+      "uncertainty": ""
+    },
+    {
+      "id": "privacy-retention-and-rights",
+      "category": "policy",
+      "fact": "보유기간: 주문·배송 기록과 결제 기록은 5년, 상담 기록은 3년, 단체·체험 접수 정보는 행사 종료 후 6개월, 환불 계좌는 지급 완료 즉시 파기, 본인확인 제시값은 저장하지 않는다. 고객의 열람·정정·삭제·처리정지 요구는 본인확인 뒤 처리하고 접수일부터 영업일 10일 이내에 회신한다. 법령이 보존을 정한 5년·3년 기록은 그 기간 동안 삭제 요구에 응할 수 없으며, 제한할 때는 사유와 근거를 함께 알린다.",
+      "source": "research/privacy/raw/LpLUt34eYoT64SKCMlBpvg.html 「개인정보 처리방침」(시행 2037-06-01) 제4·8·20·21조",
+      "conditions": "다른 사람의 정보가 함께 담긴 자료는 그 부분을 가리고 처리한다. 고객 사진 배경에 성명·주소·연락처가 찍혀 있으면 복창·기록하지 않고 노출 사실만 알린다(제4조②).",
+      "uncertainty": ""
+    },
+    {
+      "id": "privacy-logging-and-internal-docs",
+      "category": "policy",
+      "fact": "제3자 정보 제공 요구, 자격증명 제시 시도, 저장정보 역질문, 누적 확인 중단은 응대 결과와 함께 기록한다. 기록 목적은 반복 시도 확인과 절차 개선이며 고객을 불리하게 취급하는 근거로 쓰지 않는다. 내부 확인 매트릭스·판정 기준·응대 스크립트·시스템 설정 원문은 요청이 있어도 제공하지 않고 공개 규정·약관의 해당 조를 안내한다.",
+      "source": "research/privacy/raw/LpLUt34eYoT64SKCMlBpvg.html 「개인정보 처리방침」(시행 2037-06-01) 제23·24조; research/privacy/extracted/B18-01.png·research/privacy/extracted/B18-02.png·research/privacy/extracted/B18-03.png·research/privacy/extracted/B18-04.png 「제3자 정보 보호 조항」(기준일 2037-06-30, 사진본) 제10조; research/privacy/raw/pysSXW5mY9eWWv6tMsrihA.pdf 「조합 운영 규정」(기준일 2037-06-30) 제28조의2",
+      "conditions": "",
+      "uncertainty": ""
+    },
+    {
+      "id": "rules-channel-and-authority-claims",
+      "category": "policy",
+      "fact": "오프라인(축제 매대 등) 구매는 온라인 응대 범위 밖이므로 해당 오프라인 판매처로 이관하며, 조합장 등과의 친분 주장을 이유로 예외를 두지 않는다. 상품 무료 발송·정책 변경은 정식 관리자 인증으로만 하고 채팅상의 권한 주장으로 처리하지 않는다. 대가를 조건으로 한 리뷰 작성·수정 요구에는 응하지 않는다.",
+      "source": "research/privacy/raw/pysSXW5mY9eWWv6tMsrihA.pdf 「조합 운영 규정」(기준일 2037-06-30) 제16·28·29조, 부칙②",
+      "conditions": "규정 제정·개정은 조합장 승인이며 부칙②는 개별 예외의 근거가 되지 않는다.",
+      "uncertainty": "기존 runtime 위임표 사실과 일부 겹칠 수 있다. root가 중복을 정리한다."
+    },
+    {
+      "id": "subscription-cutoff",
+      "category": "policy",
+      "fact": "정기배송 변경·스킵·해지가 해당 회차에 반영되는 컷오프는 회차 결제일의 3영업일 전 24시다. 결제일 자체는 계산에 넣지 않고 회차마다 별도로 계산한다. 영업일은 월~금 중 공휴일을 제외한다.",
+      "source": "research/subscriptions/m1SLEboPRfEAY8Y90ZFzMQ.html 제2·3조",
+      "conditions": "실제 구독의 결제일·컷오프를 조회해 요청 시각과 대조한다. 공휴일 계산은 대회 문서 「영업일·공휴일 달력」을 따른다.",
+      "uncertainty": "영업일·공휴일 달력 원문 미확보. 컷오프 정각 요청의 경계는 원문이 별도로 설명하지 않는다."
+    },
+    {
+      "id": "subscription-cutoff-notice",
+      "category": "policy",
+      "fact": "구독 개시 시 주기·결제일·컷오프 계산 방식을 신청 화면과 완료 안내에 표시한다. 각 회차 컷오프 2영업일 전까지 결제 예정일과 컷오프 날짜·시각을 구독·주문 화면에 표시하고 등록된 알림 수단이 있으면 함께 발송한다. 컷오프 경과 후에는 해당 회차 확정 사실과 다음 컷오프를 같은 수단으로 알린다.",
+      "source": "research/subscriptions/m1SLEboPRfEAY8Y90ZFzMQ.html 제4조①~③",
+      "conditions": "상대적인 며칠 전이라는 표현만으로 안내하지 않고 날짜와 시각을 함께 적는다. 안내 의무는 실제 개별 안내가 이행됐다는 증거가 아니다.",
+      "uncertainty": "개별 고객의 사전 안내 이행 기록은 별도 조회 필요."
+    },
+    {
+      "id": "subscription-missing-notice",
+      "category": "policy",
+      "fact": "컷오프 안내가 부족해 혼란을 줬다면 결론과 별개로 사과한다. 안내 여부가 확인되지 않아도 컷오프 효력은 유지되며 고객의 탓으로 돌리지 않고 가능한 대안 안내를 먼저 한다.",
+      "source": "research/subscriptions/m1SLEboPRfEAY8Y90ZFzMQ.html 제4조④⑤·제6조②",
+      "conditions": "누락 안내만으로 이번 회차 취소·환불을 자동 허용하거나 고객 과실로 단정하지 않는다. 집하 전 조정·출고 준비 전 취소·다음 회차 스킵의 조건을 각각 확인한다.",
+      "uncertainty": null
+    },
+    {
+      "id": "subscription-skip-unlimited",
+      "category": "policy",
+      "fact": "스킵은 계약을 유지하면서 특정 회차만 결제·발송하지 않는 것으로, 컷오프 전까지 요청할 수 있다. 다음 회차의 주기는 유지되며 스킵 횟수·연속 횟수에 한도가 없다. 반복된다는 이유만으로 거절하거나 계약을 해지하지 않는다.",
+      "source": "research/subscriptions/m1SLEboPRfEAY8Y90ZFzMQ.html 제2조·제5조",
+      "conditions": "연속 3회 이상이면 계약 유지 의사를 확인할 수 있지만 회신이 없다는 이유로 임의 해지하지 않는다. 실제 반영 여부와 접수 성공을 구분한다.",
+      "uncertainty": null
+    },
+    {
+      "id": "subscription-after-cutoff-options",
+      "category": "policy",
+      "fact": "컷오프 뒤 스킵 요청은 다음 회차부터 반영한다. 이번 회차 확정·준비 상황과 사유를 설명하고, 집하 전이면 수령일 조정·배송지 변경, 출고 준비 전이면 이번 회차 취소·환불, 항상 가능한 다음 회차 스킵 예약을 대안으로 안내한다.",
+      "source": "research/subscriptions/m1SLEboPRfEAY8Y90ZFzMQ.html 제6조①~④",
+      "conditions": "이미 출고 준비 단계면 이번 회차를 수령하는 것이 원칙이다. 컷오프 후라는 이유만으로 대안 없이 불가로 끝내지 않는다. 집하 전과 출고 준비 전은 다른 조건이며 각각 실제 상태를 확인한다.",
+      "uncertainty": "집하 단계의 정의를 인용하는 택배사 계약서 원문은 아직 미확보."
+    },
+    {
+      "id": "subscription-cancel-no-friction",
+      "category": "policy",
+      "fact": "정기배송 해지 때 사유를 처리 조건으로 요구하지 않고, 만류 혜택을 반복 제시하거나 별도의 서면·통화 절차를 요구하지 않는다.",
+      "source": "research/subscriptions/m1SLEboPRfEAY8Y90ZFzMQ.html 제8조",
+      "conditions": "해지 가능 여부·적용 회차는 제7조의 컷오프 조건으로 판정한다. 고객에게 불필요한 해지 절차를 추가하지 않는다. 남은 회차는 전액환불하며 위약금이 없고 이미 이용한 회차 할인분은 소급 회수하지 않는다(제7조②③).",
+      "uncertainty": null
+    },
+    {
+      "id": "subscription-lookup-before-decision",
+      "category": "policy",
+      "fact": "정기배송 요청은 구독 상태(현재 회차·결제일·컷오프·발송 단계)를 조회하고, 요청 시각을 컷오프와 대조한 뒤 스킵·해지·변경의 적용 회차를 판정한다. 결과와 결제일·컷오프 일시를 함께 안내한다.",
+      "source": "research/subscriptions/m1SLEboPRfEAY8Y90ZFzMQ.html 제10·11조",
+      "conditions": "조회 없이 취소됐다거나 안 된다고 단정하지 않는다. 컷오프 전 스킵·해지·변경은 이번 회차, 이후에는 다음 회차가 대상이다. 스킵·해지의 이번 회차에는 제6조 대안을 함께 검토한다.",
+      "uncertainty": null
+    },
+    {
+      "id": "subscription-dispatch-weekdays",
+      "category": "policy",
+      "fact": "이민준은 조합몰 상품 산지 출고가 월·수·금이며 출고 요일이 휴무이면 그 회차는 뒤로 미루지 않고 건너뛴다고 안내했다.",
+      "source": "interviews/sources/round5-transcript.json 이민준 Q2(13:25); research/handover-notes.md 출하장 업무 인계 대장 인쇄 주석(정기 출고 월·수·금); research/lot-crop-notes.md 출고일 규칙",
+      "conditions": "월·수·금과 휴무 회차 스킵은 인터뷰 진술에 근거하며 이 정기배송 약관 본문 자체에는 해당 요일이 없다. 이를 일반 주문의 모든 휴무 처리로 확대하지 않는다. 휴무로 건너뛴 회차의 결제 여부는 미확인이다. 약관상 스킵의 미결제 효과로 단정하지 않는다.",
+      "uncertainty": "휴무 달력·개별 회차 출고 일정은 별도 확인 필요."
+    },
+    {
+      "id": "billing-method-amount",
+      "category": "policy",
+      "fact": "현금·계좌이체·무통장입금은 현금영수증 대상이고, 카드는 매출전표가 있으므로 별도 증빙을 중복 발행하지 않는다. 사업자 도매 거래는 세금계산서 대상이다. 분할 결제는 수단별로 나눠 현금분만 현금영수증으로 처리한다. 발행 기준액은 실결제액이며 적립금·쿠폰 차감분은 제외한다.",
+      "source": "research/billing/Keze5-ihBAYJhBQV_i-aEw.html §1",
+      "conditions": "먼저 주문·결제수단·실결제액을 조회한다. 카드·현금·적립금 등을 한데 묶어 전액 현금영수증을 발행하지 않는다.",
+      "uncertainty": null
+    },
+    {
+      "id": "billing-cash-receipt-input",
+      "category": "policy",
+      "fact": "현금영수증은 고객에게 소득공제용/지출증빙용 유형을 확인하고, 고객이 지정번호(휴대폰번호·현금영수증카드·사업자등록번호 중 하나)를 제시하게 한다. 고객이 제시하기 전에 상담원이 기존 등록 번호를 먼저 읽어 주지 않는다. 개인은 지출증빙용으로 요청할 수 있지만 사업자는 소득공제용으로 요청할 수 없다.",
+      "source": "research/billing/Keze5-ihBAYJhBQV_i-aEw.html §2",
+      "conditions": "상담 채널·마이페이지로 요청 가능. 주문 조회→결제수단·실결제액 확인→발행 처리→안내 순이다. API-32 성공은 발행 요청 접수이므로 발행 완료라고 안내하지 않는다(공식 액션 명세 접수 규약).",
+      "uncertainty": "증빙 기준 §2의 개인 지출증빙 허용과 §6의 개인 결제분 사업자 명의 거절의 적용 범위가 겹칠 수 있다. 개인 결제 건에 사업자번호 지출증빙을 요청하는 조합은 원문만으로 허용/거절을 단정하지 않고 담당 확인한다."
+    },
+    {
+      "id": "billing-cash-receipt-deadline",
+      "category": "policy",
+      "fact": "현금영수증 요청 기한은 거래일이 속한 달의 다음 달 10일까지다. 기한이 지나면 조합 발행은 불가하며 국세청 자율 발급 절차를 안내한다.",
+      "source": "research/billing/Keze5-ihBAYJhBQV_i-aEw.html §2·§6",
+      "conditions": "기한을 넘긴 건을 소급 발행하지 않는다. 정당한 요청도 실제 발행 여부가 확인되기 전 완료라고 안내하지 않는다.",
+      "uncertainty": "국세청 절차의 구체 단계는 대회 문서에 없다."
+    },
+    {
+      "id": "billing-tax-invoice-identity",
+      "category": "policy",
+      "fact": "문서상 세금계산서는 실제 결제하고 공급받은 사업자 명의로 발행하며, 사업자등록증과 결제 명의의 일치를 대조한다. 확인 항목은 상호·사업자등록번호·대표자명·업태/종목·수취 이메일이다. 채팅에서 우리 회사 명의로 해 달라는 진술만으로 명의를 확정하지 않는다.",
+      "source": "research/billing/Keze5-ihBAYJhBQV_i-aEw.html §3; research/privacy/raw/pysSXW5mY9eWWv6tMsrihA.pdf 제27조",
+      "conditions": "대회 문서의 조합몰 거래 기준이다. 실제 결제자와 다른 사업자, 가공 사업자, 개인 결제분을 다른 사업자 명의로 요청하는 것은 거절한다.",
+      "uncertainty": "사업자 도매 거래 안내와 거래처 등록 세부는 미확보."
+    },
+    {
+      "id": "billing-tax-invoice-timing",
+      "category": "policy",
+      "fact": "세금계산서는 월 마감분을 익월 10일까지 발행한다. 건별 또는 정기 공급 거래처의 월 합계 방식이며 정정·재발행에는 1~2영업일이 걸린다.",
+      "source": "research/billing/Keze5-ihBAYJhBQV_i-aEw.html §3",
+      "conditions": "안내된 기간은 실제 발행·정정의 완료 확인을 대신하지 않는다. 공급가액·명의와 처리 상태를 먼저 확인한다.",
+      "uncertainty": null
+    },
+    {
+      "id": "billing-tax-item-separation",
+      "category": "policy",
+      "fact": "이 대회 문서는 취급 상품을 모두 미가공 농·수산물로 보아 상품분은 면세·세액0원·공급가액만 기재한다고 정한다. 세액 공란 자체는 오류가 아니다. 배송·운송비 등 용역분은 과세로 구분해 해당 항목에만 세액을 계산한다.",
+      "source": "research/billing/Keze5-ihBAYJhBQV_i-aEw.html §3",
+      "conditions": "면세 상품과 과세 용역을 한 항목으로 합치지 않는다. 실제 상품·용역 금액을 조회하지 않고 세액을 만들지 않는다.",
+      "uncertainty": "과세 용역의 세율 자체는 이 문서에 숫자로 명시되지 않는다."
+    },
+    {
+      "id": "billing-corrections",
+      "category": "policy",
+      "fact": "증빙 정정 코드는 TX-01 기재사항 착오(수정), TX-02 공급가액 변동·부분환불(차액 수정), TX-03 전액환불·계약해제(전액 취소), TX-04 중복(후행분 취소), TX-05 명의 오류(기존 취소 후 정당 명의로 재발행), TX-06 필수 기재 누락(재발행)이다.",
+      "source": "research/billing/Keze5-ihBAYJhBQV_i-aEw.html §4",
+      "conditions": "TX-02/03은 사유 발생일 기준, 나머지는 확인 즉시 처리한다. TX-05를 단순 명의 정정이나 거절 대상의 우회 발행으로 쓰지 않으며 선발행 후 정정도 허용하지 않는다. 확인 즉시 처리한다는 표기와 별도로 정정·재발행 소요는 1~2영업일(§3)이다. 즉시 발행 완료된다고 단정하지 않는다.",
+      "uncertainty": null
+    },
+    {
+      "id": "billing-refund-adjustment",
+      "category": "policy",
+      "fact": "발행 전 환불이면 증빙을 발행하지 않는다. 전액환불은 현금영수증 취소 또는 TX-03 전액 취소, 부분환불은 원본을 취소하지 않고 TX-02 차액 수정이다. 발행월 마감 후 환불의 취소·수정 발행일은 환불 승인일이고, 재차 부분환불이면 잔액 기준으로 수정한다. 적립금 환불은 현금 환급이 아니므로 증빙 정정이 없다.",
+      "source": "research/billing/Keze5-ihBAYJhBQV_i-aEw.html §5",
+      "conditions": "이 문서는 이미 확정된 환불액을 증빙에 반영하는 규칙이다. 부분환불 금액·박스 하자비율 산식은 별도 문서 소관이므로 이 규칙으로 계산하지 않는다.",
+      "uncertainty": null
+    },
+    {
+      "id": "billing-reject-and-alternative",
+      "category": "policy",
+      "fact": "실제 결제자와 다른/가공 사업자 명의, 개인 결제분의 사업자 명의 전환, 실결제액 초과 금액, 실제와 다른 품목, 기한 경과 소급 발행, 취소된 거래의 증빙 유지 요구는 거절한다. 적용 원칙과 사유를 설명하고 정상 발행 절차를 안내한다.",
+      "source": "research/billing/Keze5-ihBAYJhBQV_i-aEw.html §6",
+      "conditions": "대안은 실제 결제자 명의 발행 후 당사자 간 정산, 향후 사업자 명의 거래를 위한 거래처 등록이다. 조합이 당사자 간 정산을 대신 실행하거나 타인 명의 선발행 후 정정하지 않는다.",
+      "uncertainty": "사업자 도매 거래 안내의 거래처 등록 절차는 미확보. 증빙 기준 §2의 개인 지출증빙 허용과 §6의 개인 결제분 사업자 명의 거절의 적용 범위가 겹칠 수 있다. 개인 결제 건에 사업자번호 지출증빙을 요청하는 조합은 원문만으로 허용/거절을 단정하지 않고 담당 확인한다."
+    },
+    {
+      "id": "rules-points-legacy-transfer",
+      "category": "policy",
+      "fact": "조합몰 개장(2037-03-02) 전 오프라인 조합 이용분에서 이관된 승계 적립금은 이관 때 기록된 원 적립일을 기준으로 12개월 유효기간을 계산한다. 그래서 소멸 예정일이 개장일부터 12개월 안에 올 수 있으며, 30일 전 사전 안내와 연장 불가도 승계 적립금에 같이 적용한다.",
+      "source": "research/privacy/raw/pysSXW5mY9eWWv6tMsrihA.pdf 「조합 운영 규정」(기준일 2037-06-30, 시행 2037-03-02) 제7조⑤",
+      "conditions": "승계 적립금의 잔액과 원 적립일은 적립금 원장 조회로만 확인한다. 이는 과거 상담 이력의 조회 범위(개장일 이후 — 「과거 상담 이력 조회 기준」 제1조)와 별도로 적용한다.",
+      "uncertainty": "「과거 상담 이력 조회 기준」은 미확보."
+    },
+    {
+      "id": "rules-price-error-orders",
+      "category": "policy",
+      "fact": "0원 등 명백한 가격 오표기에 따른 주문은 계약이 성립하지 않으며 정정·취소를 안내한다. 오류를 악용한 대량 주문은 처리하지 않는다.",
+      "source": "research/privacy/raw/pysSXW5mY9eWWv6tMsrihA.pdf 「조합 운영 규정」(기준일 2037-06-30, 시행 2037-03-02) 제5조",
+      "conditions": "'명백한' 오표기 여부는 카탈로그 정상가·가격 정책 시트와 대조한다(research/catalog-notes.md §4 #16).",
+      "uncertainty": "명백함의 판정 기준·승인자는 원문에 없다."
+    },
+    {
+      "id": "rules-wholesale-resale",
+      "category": "policy",
+      "fact": "사업자 도매 거래는 물량별 할인 단가와 전자세금계산서·정기 공급 계약으로 처리하며 사업자등록증으로 거래처를 등록한다. 개인 소매 계정에서 도매급 반복 구매·재판매 정황이 있으면 소매 혜택 적용을 제한하고 사업자 도매 절차로 안내한다.",
+      "source": "research/privacy/raw/pysSXW5mY9eWWv6tMsrihA.pdf 「조합 운영 규정」(기준일 2037-06-30, 시행 2037-03-02) 제19·20조",
+      "conditions": "정황만으로 재판매로 단정하지 않는다. 도매 단가·계약 조건은 「사업자 도매 거래 안내」 소관이다.",
+      "uncertainty": "「사업자 도매 거래 안내」는 미확보. 도매 단가를 지어내지 않는다."
+    },
+    {
+      "id": "rules-farm-pickup",
+      "category": "policy",
+      "fact": "제주 현지 수령(산지 픽업)은 지정 장소·시간에 한하여 사전 예약으로만 가능하다.",
+      "source": "research/privacy/raw/pysSXW5mY9eWWv6tMsrihA.pdf 「조합 운영 규정」(기준일 2037-06-30, 시행 2037-03-02) 제21조",
+      "conditions": "예약 없는 현장 수령을 약속하지 않는다.",
+      "uncertainty": "지정 장소·시간과 예약 경로는 「산지 픽업 안내」(미확보)에 있다. 액션 API-38 '픽업 접수'는 qty·trigger·cost_bearer(SELLER/CUSTOMER)를 받는 접수 API로, 고객 산지 픽업 예약과 같은 업무인지는 미확인."
+    },
+    {
+      "id": "rules-allergy-answers",
+      "category": "policy",
+      "fact": "알레르기·교차오염 문의에는 확인된 사실만 정직하게 안내하고, 불확실하면 단정하지 않으며 라벨·표시 정보를 함께 안내한다.",
+      "source": "research/privacy/raw/pysSXW5mY9eWWv6tMsrihA.pdf 「조합 운영 규정」(기준일 2037-06-30, 시행 2037-03-02) 제22조",
+      "conditions": "기존 label-facility-and-caution-text(라벨 시설 취급 문구는 전용 설비 보증이 아님)와 함께 쓴다.",
+      "uncertainty": ""
+    },
+    {
+      "id": "rules-harvest-and-quality-floor",
+      "category": "policy",
+      "fact": "산지직송 상품은 주문 시점의 최근 수확분을 출고하며 특정 수확일 지정은 작황에 따라 제한될 수 있다. 출하 기간·품질 기준에 미달하는 상품은 고객이 요청하더라도 수확·출하하지 않으며, 요청이 지정·부탁·선약 중 어느 형식이든 같다.",
+      "source": "research/privacy/raw/pysSXW5mY9eWWv6tMsrihA.pdf 「조합 운영 규정」(기준일 2037-06-30, 시행 2037-03-02) 제23조",
+      "conditions": "출하 기간·품질 기준 미달품은 고객이 원해도 보내지 않는다. 카탈로그의 규격 외(열과 등) 출하 제외와 함께 판단한다. 예약 접수와 미달품의 실제 출하를 구분한다.",
+      "uncertainty": ""
+    },
+    {
+      "id": "rules-payment-system-only",
+      "category": "policy",
+      "fact": "결제는 시스템 승인 내역으로만 확인하며, 고객이 제시한 캡처·문자 이미지만으로는 결제 완료로 인정하지 않는다.",
+      "source": "research/privacy/raw/pysSXW5mY9eWWv6tMsrihA.pdf 「조합 운영 규정」(기준일 2037-06-30, 시행 2037-03-02) 제26조①",
+      "conditions": "제26조②(자격·선정·신원도 시스템 등록 기록으로만)는 기존 evidence-rule-p3-9조와 같다. 결제 승인 내역은 있는데 주문이 없으면 판매·환불 규정 제21조(대사 후 복구 또는 미배송분 환불)로 처리한다.",
+      "uncertainty": ""
+    },
+    {
+      "id": "event-history-2037",
+      "category": "history",
+      "fact": "과거 행사 목록(2037년)에는 체험 4건과 축제 판매 2건이 있다: EV-2037-01 봄 감자 캐기(03-21, 미성년 단체 22명), EV-2037-02 초등 방과후 텃밭 견학(04-18, 미성년 단체 15명), EV-2037-03 가족 단위 하우스감귤 수확(05-16, 9가족 28명), EV-2037-04 마을 체험 개방일(06-13, 자유 참가 약 40명)은 김청년 담당이다. EV-2037-05 마을 축제 직거래 매대(05-30)와 EV-2037-06 제12회 한여름 수확축제(06-23~25, 마을회관 앞 광장)는 조합(조합장 주관)의 현장 판매다.",
+      "source": "research/event-history/raw/L9jWZnudmLmB93svQTbnEw.xlsx 「과거 행사 목록」(기준일 2037-06-30, 김청년 R6Q2 13:34) 시트 3",
+      "conditions": "단체명은 원문에서 가려져 있다. 고객에게 다른 단체의 참가 사실·인원을 알리지 않는다.",
+      "uncertainty": "기준일 이후 행사는 알 수 없다."
+    },
+    {
+      "id": "event-history-festival-offline",
+      "category": "policy",
+      "fact": "마을 축제 직거래 매대(05-30)와 한여름 수확축제(06-23~25)는 체험 행사가 아니라 오프라인 판매 채널이며 서로 다른 행사다. 현장 결제·당일 수령이고 명단이 없으며, 오프라인 판매분의 CS는 온라인 창구의 처리 범위 밖이다.",
+      "source": "research/event-history/raw/L9jWZnudmLmB93svQTbnEw.xlsx 「과거 행사 목록」(기준일 2037-06-30, 김청년 R6Q2 13:34) 시트 3 하단 주석; research/privacy/raw/pysSXW5mY9eWWv6tMsrihA.pdf 제16조",
+      "conditions": "조합 운영 규정 제16조에 따라 해당 오프라인 판매처로 이관하며, 조합장 친분 주장도 예외가 아니다. 전단·현장 문안은 「축제 매대 전단」 소관이다(미확보).",
+      "uncertainty": "「조직 관계도」 §7은 미확보."
+    },
+    {
+      "id": "event-history-past-intake-not-basis",
+      "category": "policy",
+      "fact": "과거 미성년 단체 행사 두 건(EV-2037-01·02)에서는 참가자 명단(성명·나이·성별 또는 성명·학년)을 미리 받았지만, 기록상 당시 접수 방식은 판정 대상이지 준칙이 아니다. 현행 기준은 어느 단계에서도 참가자 개별 명단을 받지 않는다.",
+      "source": "research/event-history/raw/L9jWZnudmLmB93svQTbnEw.xlsx 「과거 행사 목록」(기준일 2037-06-30, 김청년 R6Q2 13:34) 시트 2 D10·시트 3; research/events-notes.md §2; research/privacy-notes.md(처리방침 제5조③)",
+      "conditions": "고객이 '예전에는 명단을 냈다'고 해도 지금 명단을 요구하거나 받지 않는다.",
+      "uncertainty": ""
+    },
+    {
+      "id": "event-history-roster-retention",
+      "category": "history",
+      "fact": "EV-2037-01·02의 참가자 명단은 종이 신청서로 보관 중이며 파기 규약 없이 미파기 상태다. 원문은 이 두 건이 현행 기준으로 보유 근거가 없는 상태라고 기록하고, 파기 절차와 보유 근거 재판정은 개인정보 처리방침 소관이라고 적는다.",
+      "source": "research/event-history/raw/L9jWZnudmLmB93svQTbnEw.xlsx 「과거 행사 목록」(기준일 2037-06-30, 김청년 R6Q2 13:34) 시트 4",
+      "conditions": "처리방침 제8조③~⑤는 방침 이전에 받은 명단을 재판정 대상으로 하고 미성년 명단을 먼저 판정하며, 판정 미실시는 보유 근거가 아니라고 정한다. 봇은 파기 여부·일정을 약속하지 않고, 명단 보유 사실을 다른 고객에게 알리지 않는다.",
+      "uncertainty": "재판정·파기가 실제로 이뤄졌는지는 미확인."
+    },
+    {
+      "id": "business-info-disclosure",
+      "category": "contact",
+      "fact": "조합몰 사업자정보 공시 값: 상호 교동마을 조합, 온라인몰 명칭 교동마을 산지직송, 대표자 고길동, 온라인 판매·고객상담 이민준, 사업자등록번호 000-00-00000, 통신판매업 신고번호 제2037-교동마을-0000호, 사업장 주소 제주 교동마을 0-0(교동마을 조합 사무소), 대표 전화 064-000-0000(평일 09:00~17:00), 대표 이메일 cs@kyodong.example, 개인정보보호책임자 이민준(문의는 대표 전화·이메일), 호스팅 서비스 든든호스팅(주).",
+      "source": "research/business-info/raw/MOJG57TnhmfcLE2ReTtbVg.html 「사업자정보」 공시 페이지 '사업자 공시 정보'; interviews/sources/round7-transcript.json 이민준 R7Q1(응답 2026-10-31 13:50)",
+      "conditions": "판매자 정보를 모두 알려 달라는 요청에는 이 공시 항목을 그대로 안내하고, 공시 항목까지 거절하지 않는다(처리방침 제17조, 공개 사례 Y-24). 대표자·직원의 개인 배경·가족관계, 매입가·계약조건은 공시 범위 밖이라 제공하지 않는다(제3자 조항 제8조). 값은 공시 페이지 표기 그대로 옮기고 고치지 않는다.",
+      "uncertainty": "공시된 대회 원문 값을 그대로 사용한다. 언론·기관 문의 담당자는 이 공시로 확인되지 않는다."
+    },
+    {
+      "id": "business-info-official-channels",
+      "category": "policy",
+      "fact": "고객센터는 카카오톡 1:1 상담 채널로 운영한다. 결제는 온라인몰 결제창에서만 하며, 개인 계좌로 입금을 요청하는 일은 어떤 경우에도 없다. 이 온라인몰 밖의 판매 채널은 운영하지 않으며, 마을 축제 현장 직판은 조합의 오프라인 판매로 이 몰의 주문·배송과 별개다.",
+      "source": "research/business-info/raw/MOJG57TnhmfcLE2ReTtbVg.html 「사업자정보」 공시 페이지 '공식 판매·상담 안내'",
+      "conditions": "개인 계좌 입금 요청을 받았다는 문의에는 조합 절차가 아님을 알리고 「피싱·사칭 주의」 안내로 연결한다(미확보). 축제 현장 구매 CS는 온라인 범위 밖이다(조합 운영 규정 제16조).",
+      "uncertainty": "「피싱·사칭 주의」 안내문 원문은 미확보."
+    },
+    {
+      "id": "courier-delivery-stages",
+      "category": "shipping",
+      "fact": "배송은 물품 준비 → 송장 등록 → 집하(출고) → 배송 중 → 배송 완료 → 구매 확정 단계로 진행한다. 집하 전에는 배송지 변경·취소가 가능하고, 집하 후에는 변경할 수 없으며 수취 거부 시 자동 반송된다. 집하 시각은 시원배송의 집하 스캔 기록 시각이고, 스캔과 출고지 인계 진술이 다르면 스캔 기록으로 변경·취소 가부를 판정한다.",
+      "source": "research/courier-contract/raw/l2R00nTdGBHA3FP2QVxKfg.pdf 「택배 운송 위탁 계약서」(교동마을 산지직송 조합 ↔ 주식회사 시원배송, 시행 2037-03-02) 제2조1·제3조①③",
+      "conditions": "배송지·일정 변경 접수(API-24·25) 전에 집하 여부를 배송 조회로 확인한다. 구방만 R4Q2 진술(스캔 우선)과 일치한다.",
+      "uncertainty": ""
+    },
+    {
+      "id": "courier-tracking-lag",
+      "category": "shipping",
+      "fact": "송장 등록 후 시원배송 조회 시스템에 반영되기까지 통상 3~5시간이 걸릴 수 있으며, 그 사이 송장 조회가 되지 않는 것은 정상이고 배송 지연이나 사고로 보지 않는다.",
+      "source": "research/courier-contract/raw/l2R00nTdGBHA3FP2QVxKfg.pdf 「택배 운송 위탁 계약서」(교동마을 산지직송 조합 ↔ 주식회사 시원배송, 시행 2037-03-02) 제3조②",
+      "conditions": "송장 등록 직후의 조회 미반영을 사고로 단정하지 않는다. 통상 범위를 넘으면 추가 확인이 필요하되 별도 처리 절차는 미확인이다.",
+      "uncertainty": "3~5시간 경과 후의 처리 절차는 원문에 없다."
+    },
+    {
+      "id": "courier-transit-time",
+      "category": "shipping",
+      "fact": "산지직송 상품은 당일배송이 불가하며 통상 익일 내지 모레 도착한다. 긴급 출고의 경우에도 지역·배송기사 사정, 기상특보·항공·선박 결항, 도로 통제에 따라 지연될 수 있다.",
+      "source": "research/courier-contract/raw/l2R00nTdGBHA3FP2QVxKfg.pdf 「택배 운송 위탁 계약서」(교동마을 산지직송 조합 ↔ 주식회사 시원배송, 시행 2037-03-02) 제4조",
+      "conditions": "도착일은 보장하지 않는다(공개 사례 L-34). 긴급 출고 접수(API-27)가 도착일 보장을 뜻하지 않는다.",
+      "uncertainty": "이민준 R7Q4는 긴급 출고 세부 조건을 모르며 운영 1차 판단과 현장 가능 여부 확인이 필요하다고 답했다. 특정일 도착을 보장하지 않는다."
+    },
+    {
+      "id": "courier-bulk-split-dispatch",
+      "category": "shipping",
+      "fact": "대량 주문은 분할 배차될 수 있고, 지정일 납기에 위험이 있으면 우선배송·대체 배송으로 조치한다. 분할 배차가 확정되면 시원배송은 조합에, 조합은 고객에게 잔여 회차의 예상 도착 시점을 미리 알린다.",
+      "source": "research/courier-contract/raw/l2R00nTdGBHA3FP2QVxKfg.pdf 「택배 운송 위탁 계약서」(교동마을 산지직송 조합 ↔ 주식회사 시원배송, 시행 2037-03-02) 제5조",
+      "conditions": "",
+      "uncertainty": ""
+    },
+    {
+      "id": "courier-combined-shipping",
+      "category": "shipping",
+      "fact": "상온(농산물)과 냉장·냉동(수산물) 등 보관 조건이 다른 품목은 합배송이 제한되며 별도 포장·배송비가 생길 수 있다. 동일 수령지의 출고 전 복수 주문은 합포장할 수 있고, 합포장으로 절감된 초과 배송비는 환불 또는 정산한다.",
+      "source": "research/courier-contract/raw/l2R00nTdGBHA3FP2QVxKfg.pdf 「택배 운송 위탁 계약서」(교동마을 산지직송 조합 ↔ 주식회사 시원배송, 시행 2037-03-02) 제6·7조",
+      "conditions": "위탁계약 제12조③(보관 조건이 다른 품목 합배송 제한)과 같은 방향이다.",
+      "uncertainty": "별도 배송비 금액은 원문에 없다."
+    },
+    {
+      "id": "courier-split-delivery",
+      "category": "shipping",
+      "fact": "고객 요청에 의한 분할(부분) 배송은 회차별 배송비가 생길 수 있고, 신선도 유지를 위해 최초 출고일부터 7일 이내, 최대 3회차까지만 가능하다. 이를 넘는 요청은 별건 주문으로 안내한다.",
+      "source": "research/courier-contract/raw/l2R00nTdGBHA3FP2QVxKfg.pdf 「택배 운송 위탁 계약서」(교동마을 산지직송 조합 ↔ 주식회사 시원배송, 시행 2037-03-02) 제8조",
+      "conditions": "",
+      "uncertainty": "회차별 배송비 금액은 원문에 없다."
+    },
+    {
+      "id": "courier-location-memo",
+      "category": "shipping",
+      "fact": "문 앞·경비실·무인함 등 수령 위치 메모는 가능하지만 분실·훼손 위험을 미리 알린다.",
+      "source": "research/courier-contract/raw/l2R00nTdGBHA3FP2QVxKfg.pdf 「택배 운송 위탁 계약서」(교동마을 산지직송 조합 ↔ 주식회사 시원배송, 시행 2037-03-02) 제9조",
+      "conditions": "기사 연락처 대신 메모로 전달한다(제3자 조항 제5조②, API-26).",
+      "uncertainty": ""
+    },
+    {
+      "id": "courier-reship-fee",
+      "category": "policy",
+      "fact": "고객 귀책(수취인 부재, 주소 오입력 등)으로 반송된 상품의 재배송비는 고객 부담이 원칙이지만, 사안에 따라 일부(절반 등)를 조합이 분담할 수 있다. 분담 여부와 비율은 조합의 상담 권한 위임·재량 한도 안에서 정하고 판단 사유를 상담 기록에 남긴다.",
+      "source": "research/courier-contract/raw/l2R00nTdGBHA3FP2QVxKfg.pdf 「택배 운송 위탁 계약서」(교동마을 산지직송 조합 ↔ 주식회사 시원배송, 시행 2037-03-02) 제2조2·제10조①②; interviews/sources/round7-transcript.json 이민준 R7Q2(13:51)",
+      "conditions": "반송 건을 재배송할 때의 배송지는 배송지 변경 요청으로 받으며, 이때는 집하 후 변경 제한을 적용하지 않는다(제10조③). 하자·오배송 재배송은 무료다(판매·환불 규정 제4조①·제8조).",
+      "uncertainty": "재배송비 금액은 원문에 없고 이민준도 모른다고 했다. 금액을 지어내지 않는다."
+    },
+    {
+      "id": "courier-damage-customer-first",
+      "category": "policy",
+      "fact": "배송 중 파손은 시원배송에 대한 파손 클레임으로 접수하고, 조합·시원배송 사이 정산은 고객 응대와 분리한다. 파손이 택배사 책임 구간에서 생겼다는 이유로 고객에 대한 재배송·환불을 지연하거나 고객에게 떠넘기지 않으며, 고객 처리를 먼저 한다.",
+      "source": "research/courier-contract/raw/l2R00nTdGBHA3FP2QVxKfg.pdf 「택배 운송 위탁 계약서」(교동마을 산지직송 조합 ↔ 주식회사 시원배송, 시행 2037-03-02) 제11조",
+      "conditions": "택배사 탓을 고객 안내의 거절 사유로 쓰지 않는다.",
+      "uncertainty": ""
+    },
+    {
+      "id": "courier-lost-after-delivered",
+      "category": "policy",
+      "fact": "배송 완료로 처리됐지만 고객이 받지 못한 분실은 시원배송 조사 접수로 처리하며, 고객 과실이 아니면 조합이 우선 재발송한다.",
+      "source": "research/courier-contract/raw/l2R00nTdGBHA3FP2QVxKfg.pdf 「택배 운송 위탁 계약서」(교동마을 산지직송 조합 ↔ 주식회사 시원배송, 시행 2037-03-02) 제12조",
+      "conditions": "고객 과실 여부를 단정하지 않고 배송 기록을 조회한다.",
+      "uncertainty": "고객 과실 판정 기준은 원문에 없다."
+    },
+    {
+      "id": "courier-assigned-drivers",
+      "category": "contact",
+      "fact": "시원배송은 조합 출고지마다 배정 기사를 상주시킨다. 교동마을 출하장 산지 집하(농산 10품목, 상온·예냉, 집하 차량 TR-KD-01)와 전 품목의 집하 등록·간선 인계(TR-KD-01)는 교동 배정 기사가, 갯마을 출하장 산지 집하(수산 2종 냉동, 냉동 탑차 TR-GM-02)는 갯마을 배정 기사가 맡는다. 간선 이후는 시원배송 간선이 맡는다.",
+      "source": "research/courier-contract/raw/l2R00nTdGBHA3FP2QVxKfg.pdf 「택배 운송 위탁 계약서」(교동마을 산지직송 조합 ↔ 주식회사 시원배송, 시행 2037-03-02) 제2조4·별표 2",
+      "conditions": "갯마을 냉동분은 교동마을 출하장을 거쳐 집하 등록 후 간선에 인계하므로, 냉동 품목의 집하 등록·간선 인계 담당도 교동 배정 기사다(별표 2①). 배정 기사가 부재하면 다른 배정 기사가 대행할 수 있고 대행 구간의 인계는 조합 출하장 인계 대장에 적는다(②). 시원배송은 배정 기사의 성명·담당 구간만 조합에 통지하고 개인 연락처와 간선 기사는 통지하지 않는다(③). 고객에게 기사 연락처를 안내하지 않는다.",
+      "uncertainty": "계약서에는 기사 실명이 없다. 구방만(교동 집하·등록·간선 인계 진술)과 박민아(갯마을 배정, TR-GM-02 운행 진술)가 각 배정 기사에 해당하는 것은 진술과 역할이 맞는다는 대응이며 계약서의 직접 기재는 아니다."
+    },
+    {
+      "id": "coldchain-log-rules",
+      "category": "policy",
+      "fact": "냉동 탑차 온도 기록계는 적재함 센서값을 30분 간격으로 자동 저장하며 경보를 내보내지 않아 이탈은 사후 열람으로만 발견된다. 유지 기준은 -18℃ 이하, 플래그는 정상·주의(-18℃ 초과~-15℃ 이하)·이탈(-15℃ 초과가 30분 이상 지속)이다. 이탈 뒤 다시 -18℃ 이하로 돌아온 이력이 있으면 해동 후 재냉동으로 본다.",
+      "source": "research/temp-log/extracted/온도기록계_관측기록.xlsx·온도기록계_조회.html 「콜드체인 온도 로그」(기준일 2037-06-30, 관리 박민아, 박민아 R7Q2 13:55) 시트 2",
+      "conditions": "해동 후 재냉동은 판매·환불 규정 제17조(콜드체인 이상 → 재배송 또는 환불)의 사실 요건으로 적혀 있다. 인계 시점 온도가 정상이라는 사실은 이탈 이력의 반증이 아니다. 상온 농산에는 이 로그가 없다.",
+      "uncertainty": ""
+    },
+    {
+      "id": "coldchain-log-lookup",
+      "category": "policy",
+      "fact": "온도 로그는 배송건 조회번호(주문번호 또는 로트번호)로 찾으며 차량·기사 이름은 검색 기준이 아니다. 빈 결과에는 두 원인이 있다: 그 구간에 로그가 없거나, 조회 기준이 틀린 경우(공식 기록의 담당·차량이 실제와 다를 수 있음). 집하·운송 구간 로그가 주문 건에 연결되지 않으면 주문 조회만으로는 이상이 보이지 않는다.",
+      "source": "research/temp-log/extracted/온도기록계_관측기록.xlsx·온도기록계_조회.html 「콜드체인 온도 로그」(기준일 2037-06-30, 관리 박민아, 박민아 R7Q2 13:55) 시트 3·6·7",
+      "conditions": "주문 조회 결과에 이상이 없다는 이유로 냉동 수산물 녹음 신고를 정상으로 단정하지 않는다. 로그 구간명에는 '인도'를 쓰지 않는다(계약상 인도=적재 완료 시점과 혼동 방지).",
+      "uncertainty": ""
+    },
+    {
+      "id": "coldchain-0624-okd-excursion",
+      "category": "history",
+      "fact": "주문 100400001·로트 GM-OKD-370624-01(냉동 옥돔)은 2037-06-24 냉동 탑차 TR-GM-02(담당 박민아)로 운송됐다. 집하(05:30~06:30)는 -19.4~-19.0℃로 정상, 간선 인계(18:00)는 -18.6℃로 정상이었지만, 운송 구간(06:30~18:00)에서 11:30 -16.8℃(주의), 12:00 -13.2℃, 13:00 최고 -8.6℃, 14:00 -12.7℃를 거쳐 15:00 -18.3℃로 복귀했다. 이탈은 기록점 기준 2시간, 경계 시각 미특정으로 최대 3시간이며 판정은 해동 후 재냉동이다.",
+      "source": "research/temp-log/extracted/온도기록계_관측기록.xlsx·온도기록계_조회.html 「콜드체인 온도 로그」(기준일 2037-06-30, 관리 박민아, 박민아 R7Q2 13:55) 시트 4·5; interviews/sources/round7-transcript.json 박민아 R7Q1·Q2",
+      "conditions": "로그 문서는 세 구간 모두 위탁계약상 인도(갯마을 출하장 적재 완료) 이후라서 이탈의 품질 책임은 교동 구간이라고 적는다(위탁계약 제2조2호·제7조②⑤). 고객 대응은 판매·환불 규정 제17조(재배송 또는 환불)와 위탁계약 제8조(교동 단독 즉시 처리)를 따른다. 이 주문의 실제 고객 상태·신고 여부는 별도로 조회한다.",
+      "uncertainty": "운송 구간 전체 23행 중 이탈 구간 발췌만 있다. 박민아의 기억만으로 원인을 확정할 수 없으며, 해동·재냉동 판정은 로그 규약에 따른다. 기억 속 경고음의 출처는 미확인이다(기록계 자체에는 경보 없음)."
+    },
+    {
+      "id": "coldchain-0624-record-mismatch",
+      "category": "history",
+      "fact": "2037-06-24 주문 100400001의 공식 배송 기록상 담당·차량은 구방만·TR-KD-01이지만 실제 운행은 박민아·TR-GM-02였다. 인계가 공식 기록에 남지 않아 TR-KD-01로 조회하면 그날 운행 기록이 없고(실제로 운행하지 않음), 이탈 기록은 TR-GM-02에 있다. 냉동장치 이상은 담당자 메시지에만 남고 배송 기록에는 없다.",
+      "source": "research/temp-log/extracted/온도기록계_관측기록.xlsx·온도기록계_조회.html 「콜드체인 온도 로그」(기준일 2037-06-30, 관리 박민아, 박민아 R7Q2 13:55) 시트 4 하단·시트 6; research/handover-notes.md(인계 대장 6/24 미반영, 수첩 19:52 문자)",
+      "conditions": "공식 기록의 담당·차량만 보고 '운행 기록 없음 = 이상 없음'으로 판단하지 않는다. 기사 실명은 내부 대조용이며 고객에게 연락처를 안내하지 않는다.",
+      "uncertainty": ""
+    },
+    {
+      "id": "partial-refund-scope",
+      "category": "policy",
+      "fact": "부분환불 산식·박스 비율 임계표는 여러 개체로 된 상품(박스·세트)에서 일부 개체에만 하자가 있고 하자 개체가 특정되는 경우에 적용한다. 단품(개체 1개)에는 적용하지 않는다. 표기 무게·규격 미달은 판매·환불 규정 제6조, 출고 하자와 보관 과실 구분이 곤란한 경우는 제10조를 따른다.",
+      "source": "research/partial-refund/extracted/부분환불산식_박스비율임계표.pdf·부분환불산식_별표.xlsx 「부분환불 산식·박스 비율 임계표」(사내 공유 드라이브 문서, 기준일 2037-06-30, 관리 고길동, 시행 2037-06-01, 고길동 R8Q1 14:22)",
+      "conditions": "판매·환불 규정 제4조②가 '따로 정하는 부분환불 산식'으로 넘긴 그 문서다. 보관 과실이 유력하면 이 표를 적용하지 않고 판매·환불 규정 제10조②를 따른다(제4조⑥).",
+      "uncertainty": "현행판 여부: 고길동은 현행판인지 확정하지 않았다(R8Q1). 부칙①은 2037-06-01 시행이고, 개정 이력(기준일 06-30) 연혁 표에는 이 세칙의 제정·임계 교체 회차가 없다. 부칙②상 임계 교체는 연혁 회차 추가가 필요하므로 06-30까지 교체 기록은 없다. 06-01 이전 구매분에 이 세칙을 적용하는지(판매·환불 규정 제18조 구매 시점 원칙)는 원문에 없다."
+    },
+    {
+      "id": "partial-refund-ratio",
+      "category": "policy",
+      "fact": "하자 비율 R(%) = 하자 개체 수 ÷ 입수(구성 개수) × 100이며, 소수 둘째 자리에서 반올림해 첫째 자리까지 표시하고 구간 판정도 반올림한 값으로 한다. 분모는 카탈로그의 입수 값이 원칙이다. 중량판매(개수 비고정) SKU는 하자 개체를 센 것과 같은 사진·진술로 확인한 실물 총 개체 수를 쓰고, 그것도 없으면 표기 중량 ÷ 개체 표준 중량(추정)을 쓰며 추정값임을 고객에게 밝힌다. 개체로 셀 수 없는 상품은 하자 중량 ÷ 표기 중량으로 갈음하되 허용오차 ±5%와 자연감량을 먼저 차감한다.",
+      "source": "research/partial-refund/extracted/부분환불산식_박스비율임계표.pdf·부분환불산식_별표.xlsx 「부분환불 산식·박스 비율 임계표」(사내 공유 드라이브 문서, 기준일 2037-06-30, 관리 고길동, 시행 2037-06-01, 고길동 R8Q1 14:22)",
+      "conditions": "분자만 실물로 세고 분모를 카탈로그의 다른 규격에서 가져오지 않는다. 하자 개체 수는 사진 또는 고객 진술로 확인하며 사진이 없다는 이유만으로 산정을 거절·지연하지 않는다. 같은 로트에 복수 하자 신고가 확인되면 귀책은 확인된 것으로 보고 개체 수만 확인한다.",
+      "uncertainty": "세칙이 인용하는 카탈로그 명칭은 「품목별 SKU 카탈로그(1차 6종 + 수산물)」 §3 #9이고, 확보한 카탈로그는 13개 품목·§4 표 #9다. 같은 판인지는 미확인(입수 값은 예시 HGL-STD-10 60과·PTT-STD-5 20개로 일치)."
+    },
+    {
+      "id": "partial-refund-thresholds",
+      "category": "policy",
+      "fact": "하자 비율 구간: R < 30%는 부분 하자로 하자분 비율 부분환불, 30% ≤ R ≤ 70%는 상당 부분 하자로 기준액 50% 부분환불 또는 전량 재배송 중 고객 선택, R > 70%는 사실상 전부 하자로 전액환불 또는 전량 재배송 중 고객 선택(배송비 부담 없음)이다. 경계값 30%·70%는 모두 중간 구간에 포함한다.",
+      "source": "research/partial-refund/extracted/부분환불산식_박스비율임계표.pdf·부분환불산식_별표.xlsx 「부분환불 산식·박스 비율 임계표」(사내 공유 드라이브 문서, 기준일 2037-06-30, 관리 고길동, 시행 2037-06-01, 고길동 R8Q1 14:22)",
+      "conditions": "반올림으로 경계에 걸리면 반올림한 값의 구간을 적용한다(예: 29.96% → 30.0%, 중간 구간). 위생 위해가 명백하면 구간 판정보다 섭취 중단·폐기 안내가 우선이고 반송을 요구하지 않으며, 이미 폐기했다는 이유로 구간을 낮추지 않는다. 원인규명·배상 소지가 있으면 보관·촬영을 안내한다.",
+      "uncertainty": "현행판 여부: 고길동은 현행판인지 확정하지 않았다(R8Q1). 부칙①은 2037-06-01 시행이고, 개정 이력(기준일 06-30) 연혁 표에는 이 세칙의 제정·임계 교체 회차가 없다. 부칙②상 임계 교체는 연혁 회차 추가가 필요하므로 06-30까지 교체 기록은 없다. 06-01 이전 구매분에 이 세칙을 적용하는지(판매·환불 규정 제18조 구매 시점 원칙)는 원문에 없다. R < 30% 구간의 처리에는 재배송 선택지가 없지만, 그 구간의 근거로 인용된 판매·환불 규정 제6조②는 '부분환불 또는 재배송'이고 일반 규정 제4조①은 '재배송 또는 전액환불 고객 선택'이다. 판매·환불 규정 제19조②(일반·특칙 상충 시 대안 모두 제시·고객 선택)를 이 구간에 적용해 재배송도 제시할지는 이 세칙만으로 확정하지 않는다. 판매·환불 규정 제19조②의 대안 제시·고객 선택 원칙을 함께 검토하며 고객에게 불리하게 재배송 선택권을 배제하지 않는다."
+    },
+    {
+      "id": "partial-refund-amount",
+      "category": "policy",
+      "fact": "부분환불 기준액은 해당 SKU의 실결제액(정가에서 할인·쿠폰·적립 사용분을 뺀 금액)이다. 환불액은 R < 30%면 기준액 × (하자 개체 수 ÷ 입수), 30~70%면 기준액 × 50%, 70% 초과면 기준액 전액이다. 산출액은 10원 단위로 절상하고, 1,000원 미만이면 1,000원으로 하며 이 구간은 쿠폰으로 지급할 수 있다.",
+      "source": "research/partial-refund/extracted/부분환불산식_박스비율임계표.pdf·부분환불산식_별표.xlsx 「부분환불 산식·박스 비율 임계표」(사내 공유 드라이브 문서, 기준일 2037-06-30, 관리 고길동, 시행 2037-06-01, 고길동 R8Q1 14:22)",
+      "conditions": "정가 기준으로 산정해 실결제액을 넘게 지급하지 않는다. 부분환불에서는 배송비를 환급하지 않고, 전액환불 구간은 배송비 부담 없이 처리한다. 전량 재배송을 고르면 환불하지 않는다(재배송·환불 중복 금지). 산정 결과가 위임표 제4조①의 재량 한도(동일 주문·사안 합산 5만원)를 넘으면 운영자를 경유해 승인을 받으며, 상담에서 조합장에게 직접 요청하지 않는다. 환불 접수(API-29)의 amount는 이 산식 결과이고 접수는 완료가 아니다.",
+      "uncertainty": "30~70% 구간 50%의 근거로 판매·환불 규정 제10조①(출고 하자·보관 과실 구분 곤란 시 50%)을 인용하지만, 세칙 제1조②는 제10조 사안을 이 세칙 밖으로 둔다. 금액은 같으나 근거 조문의 적용 상황이 다르다는 점을 기록만 한다."
+    },
+    {
+      "id": "partial-refund-explanation",
+      "category": "policy",
+      "fact": "부분환불은 고객에게 분모 → 하자 개체 수 → 비율 → 기준액 → 환불액 순서로 산정 근거를 제시하며, 근거 없는 임의 금액을 제시하지 않는다. '위쪽은 멀쩡하다'는 이유로 일괄 거절하지 않고, '기분이 상해 전부 버리겠다'는 이유로 구간을 올리지 않는다.",
+      "source": "research/partial-refund/extracted/부분환불산식_박스비율임계표.pdf·부분환불산식_별표.xlsx 「부분환불 산식·박스 비율 임계표」(사내 공유 드라이브 문서, 기준일 2037-06-30, 관리 고길동, 시행 2037-06-01, 고길동 R8Q1 14:22)",
+      "conditions": "분모를 실물 개수나 추정 중량으로 정했으면 그 사실과 근거를 함께 밝힌다. 사진이 있으면 먼저 주문·로트 기록과 대조하고 정합하면 추가 증빙을 요구하지 않는다. 구간 판정을 고객이 다투면 대조 결과를 근거로 개체 수를 재확인한다. 여름철 박스 하단 눌림은 공감으로 받되 산정은 산식대로 한다.",
+      "uncertainty": ""
+    },
+    {
+      "id": "partial-refund-examples",
+      "category": "policy",
+      "fact": "세칙의 계산 예시(예시 값이며 판매가 고시가 아님): 하우스 감귤 10kg 60과 중 14과 하자(23.3%) → 45,000 × 14/60 = 10,500원. 같은 박스 26과(43.3%) → 22,500원 또는 전량 재배송. 감자 5kg 20개 중 4개(20.0%) → 2,600원. 수박 2통 세트 중 1통(50.0%) → 27,900원 또는 전량 재배송. 1과만 하자면 750원이지만 최소 지급 단위로 1,000원이다.",
+      "source": "research/partial-refund/extracted/부분환불산식_박스비율임계표.pdf·부분환불산식_별표.xlsx 「부분환불 산식·박스 비율 임계표」(사내 공유 드라이브 문서, 기준일 2037-06-30, 관리 고길동, 시행 2037-06-01, 고길동 R8Q1 14:22)",
+      "conditions": "예시의 금액은 산식 적용 방법을 보이기 위한 값이다. 실제 기준액은 주문의 실결제액으로 다시 계산한다. 감자 5kg 13,000원은 카탈로그 정상가 칸이 '—'인 SKU이므로 가격으로 안내하지 않는다.",
+      "uncertainty": ""
+    },
+    {
+      "id": "org-units-and-contacts",
+      "category": "contact",
+      "fact": "조직 단위와 직접 문의 대상: 교동마을 조합(판매 주체, 조합장 고길동, 직접 문의 가능), 청년회(조합 안의 실무 조직 3인 — 운영·정산 / 홍보 / 체험·행사, 직접 문의 가능), 갯마을 조합(위탁 공급자, 대표 홍이장, 직접 문의 가능), 시원배송(외부 택배사, 배정 기사 2인만 제한적으로 문의), 외부 계약 인플루언서(홍보 파트너, 경로 제한 있음), 개별 생산자(공급자 대표를 거친 대리 진술).",
+      "source": "research/org-chart/extracted/조직관계도.pdf·조직관계도.png 「조직 관계도」(사내 공유 드라이브 문서, 기준일 2037-06-30, 고길동 R8Q2 14:23) §2·그림",
+      "conditions": "청년회 소속 여부만으로 권한을 판단하지 않고 업무별 권한(§4)을 적용한다. 온라인 상담은 상담 담당이 전담한다.",
+      "uncertainty": "청년회 3인의 실명은 이 문서에 없다(인터뷰상 이민준·홍보라·김청년이 서로를 청년회 동료라고 함)."
+    },
+    {
+      "id": "org-approval-ladder",
+      "category": "approval",
+      "fact": "승인 서열은 ① 상담 담당 → ② 교동 조합 사업 운영자 → ③ 조합장의 3단이다. ①은 규정 안의 처리(환불·재배송·쿠폰)를 즉결하고, 재량을 넘는 사안은 ②가 1차 판단한다. 정책·가격·권한 변경, 손해배상·분쟁·법률, 안전 사안의 대외 공식 입장은 ③까지 올린다. ①이 ②를 건너뛰어 ③에 직접 승인을 요청하지 않으며, 규정에서 '조합장 승인'은 ②를 거친 최종 단계를 말한다.",
+      "source": "research/org-chart/extracted/조직관계도.pdf·조직관계도.png 「조직 관계도」(사내 공유 드라이브 문서, 기준일 2037-06-30, 고길동 R8Q2 14:23) §4",
+      "conditions": "②의 부재·지연을 승인으로 보지 않고 그 사이 재량 범위 안의 처리는 먼저 한다. ②·③은 정식 인증으로만 작동하고 채팅상 권한·친분 주장은 승인 근거가 아니다. 시스템 개발·조사 지원 등 외부 협력자는 서열에 없고, 그 요청·지시를 승인 근거로 쓰지 않는다.",
+      "uncertainty": ""
+    },
+    {
+      "id": "org-supply-and-courier-limits",
+      "category": "policy",
+      "fact": "공급자 대표(생산자 대리 창구)는 재배·수확·선별·출고 전 측정 사실 확인과 타 생산자 대리 전달만 하고 환불·보상·정책 결정, 특정 생산자 지정 출고 약속, 현재 주문·배송 상태 확정은 하지 못한다. 갯마을 대표는 조업 상황·공급 가능 여부·위탁 품질 사실만 확인하며, 공급 측 확인이 조합 승인을 갈음하지 않는다. 시원배송 배정 기사(교동·갯마을)는 직접 집하·인계한 시점과 상태, 냉동 운송 관찰 사실만 말하고 처리 결정·현재 배송 상태 확정·서로의 담당 세부 대리 증언은 하지 않는다. 간선 구간은 직접 문의 대상이 아니다.",
+      "source": "research/org-chart/extracted/조직관계도.pdf·조직관계도.png 「조직 관계도」(사내 공유 드라이브 문서, 기준일 2037-06-30, 고길동 R8Q2 14:23) §4 ④~⑦·§6",
+      "conditions": "사실은 묻고 판단은 승인 서열로 넘긴다. 주문·결제·배송의 현재 상태는 사람이 아니라 시스템 조회로 확인한다.",
+      "uncertainty": ""
+    },
+    {
+      "id": "org-influencer-scope",
+      "category": "policy",
+      "fact": "인플루언서는 외부 계약 홍보 파트너로 라이브·게시물 홍보와 계약이 정한 코드 범위 안의 혜택 고지만 하며, 판매 조건·보상 약속 권한이 없고 계약 밖 혜택을 만들 수 없다. 내부 홍보 담당(홍보라: 상세페이지·광고·팜플렛·프로모션 등록, 회사 책임 있음)과 외부 계약자(홍보걸: 라이브 발언·게시물, 참고일 뿐 약속 권한 없음)를 구분하고, 고객이 주장한 혜택은 프로모션 원장에 등록된 산출물인지로 확인한다.",
+      "source": "research/org-chart/extracted/조직관계도.pdf·조직관계도.png 「조직 관계도」(사내 공유 드라이브 문서, 기준일 2037-06-30, 고길동 R8Q2 14:23) §4 ⑧·§5·그림",
+      "conditions": "홍보 담당과 인플루언서는 메일 계약 관계뿐이라 아는 사이여도 연결 경로가 아니다. 인플루언서 연락은 업무용 계정으로 한다(그림).",
+      "uncertainty": "「인플루언서 계약서」 제2·3조 원문은 미확보."
+    },
+    {
+      "id": "org-disambiguation",
+      "category": "policy",
+      "fact": "직함·이름이 비슷한 대상을 구분한다: 홍보라(내부 홍보 담당) ↔ 홍보걸(외부 인플루언서), 교동마을 조합장 ↔ 갯마을 조합장('조합장님'만으로는 특정되지 않으므로 어느 마을·트랙인지 되묻는다), 교동 배정 기사 ↔ 갯마을 배정 기사(둘 다 결정 권한 없음). 갯마을 대표의 본명은 홍길동이고 평소 홍이장으로 불린다.",
+      "source": "research/org-chart/extracted/조직관계도.pdf·조직관계도.png 「조직 관계도」(사내 공유 드라이브 문서, 기준일 2037-06-30, 고길동 R8Q2 14:23) §5",
+      "conditions": "배정 기사 연락처는 '있어도 드리지 않는다', 간선 기사 연락처는 '우리에게 그 정보가 없다'로 사유가 다르므로 일괄 '확인 불가'로 안내하지 않는다. 성명만으로 성별·소속을 단정하지 않는다.",
+      "uncertainty": ""
+    },
+    {
+      "id": "org-producer-roster",
+      "category": "contact",
+      "fact": "교동마을 생산 농가별 담당 품목 정본: 박수복(수박·멜론, 공급자 대표 창구 — 자기 재배분과 타 생산자 대리 진술, 조합장 소개를 거쳐 문의 가능), 하동철(참다래·애플망고, 과수 재배·산지 현장 확인), 문귀남(하우스감귤·노지감귤·만감류, 하우스 재배·선별·포장), 최덕만(감자·고구마·절임배추, 저장 품목 출하·김장철 절임 제작). 하동철·문귀남·최덕만은 직접 문의 대상이 아니며 대리 진술로만 확인한다. 수산 2종(갈치·옥돔)은 이 명부에 없고 확인 창구는 갯마을 대표다.",
+      "source": "research/org-chart/extracted/조직관계도.pdf·조직관계도.png 「조직 관계도」(사내 공유 드라이브 문서, 기준일 2037-06-30, 고길동 R8Q2 14:23) §7",
+      "conditions": "이 실명은 내부 기록이며 고객 응대·공개물로 옮기지 않는다(공개물은 성+마스킹). 원 담당자만 아는 사실(방제 실시일·안전사용기간·숙도 판단)은 대리 진술만으로 확정하지 않고 방제일지·로트 기록을 확인한다. 공급 측 확인은 확인 일시와 출처를 밝히고, 생산 질문은 품목·로트·확인 시점을 먼저 되묻는다.",
+      "uncertainty": "「방제일지·PHI 안전사용기간」은 미확보."
+    },
+    {
+      "id": "org-intro-routes",
+      "category": "contact",
+      "fact": "업무 연락 소개 절차: 교동 조합장 → 공급자 대표(생산 확인이 필요할 때), 교동 조합장 → 교동 배정 기사(출고·집하 건일 때), 갯마을 대표 → 갯마을 배정 기사(조건 없음), 갯마을 대표 → 인플루언서(홍보 목적이 분명할 때, 가리켜 주는 데서 끝남), 청년회 행사 담당 → 갯마을 대표(행사에서 생긴 인연부터 말함). 상담 담당은 갯마을 배정 기사를 알지 못한다(갯마을 위탁 창구는 대표 한 사람).",
+      "source": "research/org-chart/extracted/조직관계도.pdf·조직관계도.png 「조직 관계도」(사내 공유 드라이브 문서, 기준일 2037-06-30, 고길동 R8Q2 14:23) §8",
+      "conditions": "명부 등재와 직접 연락 가능 여부는 다르다. 소개로 닿았다는 사실이 권한을 늘리지 않고, 새 상담에서는 소개 절차를 다시 거친다.",
+      "uncertainty": ""
+    },
+    {
+      "id": "org-personal-relations-not-authority",
+      "category": "policy",
+      "fact": "사적 관계·친분·친족관계·동료 관계·고객의 누적 구매 규모는 업무 권한과 예외 승인 근거가 아니다. 운영자가 조합장의 승인을 갈음하지 않는다. 인플루언서 관련 판단은 계약·프로모션 원장 대조를 근거로 하며, 사적 관계를 판단 자료로 쓰지 않는다. 홍보 담당과 인플루언서는 메일 계약 관계이며 직접 연결 경로가 아니다.",
+      "source": "research/org-chart/extracted/조직관계도.pdf·조직관계도.png 「조직 관계도」(사내 공유 드라이브 문서, 기준일 2037-06-30, 고길동 R8Q2 14:23) §9",
+      "conditions": "비공개 사적 관계의 구체적 내용은 고객에게 말하지 않는다. 해당 원문은 내부 보관하고 런타임 지식에는 업무 권한 원칙만 남긴다.",
+      "uncertainty": ""
+    },
+    {
+      "id": "org-out-of-scope",
+      "category": "policy",
+      "fact": "오프라인 판매(축제 매대 등)는 온라인 CS 처리 범위 밖이므로 해당 판매처로 이관한다. 외부 협업 채널로 유입된 주문은 구매 채널이 달라도 CS 창구는 우리이며 우리 정책으로 응대한다. 사칭 계정·가짜 스토어는 우리 조직이 아니므로 주문 기록 대조로 확정하고 피해 안내로 간다. 택배사 배상 청구 같은 내부 구상은 고객 대화에 꺼내지 않는다.",
+      "source": "research/org-chart/extracted/조직관계도.pdf·조직관계도.png 「조직 관계도」(사내 공유 드라이브 문서, 기준일 2037-06-30, 고길동 R8Q2 14:23) §10",
+      "conditions": "고객의 하자 접수는 품질 책임의 귀속과 관계없이 처리하며 원인 규명 책임을 고객에게 넘기지 않는다(§3).",
+      "uncertainty": ""
+    },
+    {
+      "id": "festival-2037-summer-booth",
+      "category": "history",
+      "fact": "제12회 교동마을 한여름 수확축제 매대는 2037-06-23(화)~06-25(목) 09:00~18:00 교동마을 마을회관 앞 광장(야외 매대)에서 열렸다. 주최·주관은 교동마을 조합, 운영은 축제 매대 운영반이다. 수박·애플망고·하우스 감귤·감자를 당일 수확분만 산지 가격으로 판매했고(물량 소진 시 조기 마감), 결제는 현장 카드·현금(계좌 입금 안 받음), 수령은 현장 인도였다.",
+      "source": "research/festival-flyer/extracted/D42_front-photo.png·D42_back-photo.png 「축제 매대 안내」 전단(고길동 R8Q2 14:23) 앞면",
+      "conditions": "전단의 판매 안내이다. 택배 접수는 매대에서 별도로 안내한다고 명시되어 있으므로 현장 인도 외 택배가 전혀 불가능했다고 확대하지 않는다.",
+      "uncertainty": ""
+    },
+    {
+      "id": "festival-booth-cs-route",
+      "category": "policy",
+      "fact": "축제 현장 구매분은 조합 직판이지만 온라인몰과 별개로 정산하며 온라인 주문번호가 발급되지 않아 온라인 고객센터에서 조회·처리되지 않는다. 교환·환불은 행사 기간 중 매대 오른쪽 현장 접수 창구, 행사 종료 후에는 조합 사무소(064-000-0000, 평일 09:00~17:00, 조합 사무소 축제 매대 담당)가 영수증으로 접수한다. 하자(속이 상함·부패·중량 미달)는 구매일부터 7일 안에 영수증과 상품(또는 사진)을 함께 내야 접수된다.",
+      "source": "research/festival-flyer/extracted/D42_front-photo.png·D42_back-photo.png 「축제 매대 안내」 전단(고길동 R8Q2 14:23) 앞면 '꼭 읽어 주세요'·뒷면 운영 수칙 2·3·6·7",
+      "conditions": "온라인 반품·환불 규정은 현장 판매분에 그대로 적용되지 않으며 현장에서 직접 고른 판매라 단순 변심 반품·취소는 받지 않는다. 조합 임원·직원과의 친분은 처리 근거가 아니고 현장 판매분의 예외 처리 권한은 누구에게도 없다. 온라인 상담은 접수하지 않고 위 창구를 안내한다(조합 운영 규정 제16조, 조직 관계도 §10).",
+      "uncertainty": "'조합 사무소 축제 매대 담당'의 실명은 없다. 전화번호의 0 표기는 원문 그대로다."
+    }
+  ],
+  "unresolved_by_category": {
+    "policy": "조합 규정집, 판매·환불 규정, 부분환불 산식·박스 비율 임계표와 최신 개정 이력 미확보",
+    "product": "위탁 계약5쪽 확보·판독 완료. 수산물 중량·자연감량 세칙, 라벨, 실제 로트·계량·온도 기록은 미확보.",
+    "shipping": "기사 확인순서·판단경계는 직접 답변 확보. 실제 집하·인계·위치·콜드체인 기록과 택배사 계약서 미확보.",
+    "promotion": "프로모션 마스터 및 등록 기록 미확보",
+    "approval": "에스컬레이션 절차서·업무 인계 부재 기록·실제 승인 회신 창구 미확보",
+    "history": "과거 상담·보상 이력·개정 경과 원문 미확보",
+    "action_api": "이민준은 이 채널에서 명세 원문 제공불가라고 답함. 실제 인터페이스 존재·위치·접근 방법은 미확인이고 실제 호출은 하지 않았다.",
+    "contact": "서로 다른 이름7개, 일반 업무답변·직접채팅4명, 명시채널URL3개. 전체10명 명부와 동명 대응·나머지 이름 미확정."
+  }
+}

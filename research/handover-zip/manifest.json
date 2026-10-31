@@ -1,0 +1,33 @@
+{
+  "title": "출하장 업무 인계 대장 + 박민아 개인 수첩 사진",
+  "source_url": "https://t1.kakaocdn.net/aitop100/aitop100/dist/Q4owkAQyT-xhxfMKTJ2wUw.zip",
+  "provided_by": "구방만 질문2, 응답 2026-10-31 12:03 KST (interviews/sources/round1-transcript.json)",
+  "downloaded_at": "2026-10-31 12:05 KST",
+  "zip": {
+    "path": "research/handover-zip/Q4owkAQyT-xhxfMKTJ2wUw.zip",
+    "bytes": 3039669,
+    "sha256": "b4e413fee7b8ed12ebc9d694fa146d4a1862fc09ef69e238678d97723e8d46be"
+  },
+  "entries": [
+    {
+      "name": "C31_handover-ledger.png",
+      "bytes": 1677200,
+      "pixels": "1476x1066",
+      "sha256": "ed7a66a5edebc10743cf680baeee9ff107bcfcb85ff61d9518e37bca00e5e566",
+      "copies": [
+        "대화자료/Q4owkAQyT-xhxfMKTJ2wUw/C31_handover-ledger.png"
+      ]
+    },
+    {
+      "name": "C31_driver-notebook.png",
+      "bytes": 1386891,
+      "pixels": "1076x1462",
+      "sha256": "56179414a5d30d1d02e01008baf66f98d61c697372e5453a0c9f064ccc7e373b",
+      "copies": [
+        "대화자료/Q4owkAQyT-xhxfMKTJ2wUw/C31_driver-notebook.png"
+      ]
+    }
+  ],
+  "safety": "ZIP 항목 2개만 존재. 절대경로·상위경로·심볼릭 링크·암호화·주석 없음, 압축비 정상. 파일명을 [A-Za-z0-9_-]+.png로 검증하고 PNG 시그니처를 확인한 뒤 Python zipfile로 두 항목을 검증했다. 추출본은 사용자가 저장한 대화자료/ 사본과 SHA-256이 같아 12:09 KST에 research 추출본을 지우고 사용자 사본을 연결했다(중복 최소화). 실행 파일 없음, 아무것도 실행하지 않음.",
+  "review": "원본 해상도 이미지를 직접 시각 판독(OCR 도구 미사용)."
+}

@@ -1,0 +1,21 @@
+{
+  "title": "상품 라벨 실물 사진 5장(수박·감자·절임배추·갈치·감귤 구판) + 라벨 확인 안내(DOCX)",
+  "source_url": "https://t1.kakaocdn.net/aitop100/aitop100/dist/MJUWHYnwsJsywd-tLNkhSA.zip",
+  "provided_by": "박수복 R4Q1, 응답 2026-10-31 13:01 KST (interviews/sources/round4-transcript.json)",
+  "question": "고객이 받은 수박을 며칠 두었다가 잘랐더니 속이 물렀다고 하면, 생산 쪽에서는 출고 때 상태와 받은 뒤 보관 문제를 어떻게 구분해 보시나요?",
+  "same_answer_duplicate_url": "https://t1.kakaocdn.net/aitop100/aitop100/dist/5qStcfJN45yTNkUI8SYD0w.zip (기존 LOT-LEDGER, 다시 받지 않음)",
+  "downloaded_at": "2026-10-31 13:03 KST",
+  "zip": {"path": "research/labels/MJUWHYnwsJsywd-tLNkhSA.zip", "bytes": 11983024, "sha256": "cb45da1a00476980ca8aafca4cd21b0de8bf69e1d272c3bf828a447f759f466f"},
+  "entries": [
+    {"name": "D39_label-guide.docx", "bytes": 37733, "sha256": "62b64118c8e2b86fda5e62fa285b0e438a7804cb7ceee6351049943cb1413d19", "path": "research/labels/extracted/D39_label-guide.docx"},
+    {"name": "D39_watermelon-photo.png", "bytes": 2650025, "sha256": "4fae5823f34a44b11cd8b86789a96bb32f8124126d024853f5681256a6ece98d", "path": "research/labels/extracted/D39_watermelon-photo.png", "pixels": "1448x1086"},
+    {"name": "D39_potato-photo.png", "bytes": 2297730, "sha256": "da6fe89351f95f11c2872a8189d340fd165b33405a937be28226e8886bbcfb29", "path": "research/labels/extracted/D39_potato-photo.png", "pixels": "1456x1080"},
+    {"name": "D39_cabbage-photo.png", "bytes": 2183533, "sha256": "8de91f55772a991a41627d1dab72268d4e132777475a8e390323f3c4eddeed86", "path": "research/labels/extracted/D39_cabbage-photo.png", "pixels": "1525x1031"},
+    {"name": "D39_hairtail-photo.png", "bytes": 2517610, "sha256": "e39988968490c014f3eb9a422e58d251523908acfca5d72e62d686e8502bdaf4", "path": "research/labels/extracted/D39_hairtail-photo.png", "pixels": "1448x1086"},
+    {"name": "D39_old-citrus-photo.png", "bytes": 2368464, "sha256": "facb91709f8366ad685978ac1d846ded43db03225114e67d0425e029b2f34a1f", "path": "research/labels/extracted/D39_old-citrus-photo.png", "pixels": "1954x805"}
+  ],
+  "derivatives": [
+    {"path": "research/labels/label-guide-text.txt", "kind": "DOCX 본문 텍스트(파트·매크로 점검 결과 포함)", "sha256": "239800cf9f39a86c44d81037cb92b257a438b5e18be3115685b3925ade6b71a8"}
+  ],
+  "safety": "ZIP 항목 6개, 주석·암호화·심볼릭 링크 없음. 파일명 [A-Za-z0-9_-]+.(png|docx) 검증, PNG/PK 시그니처 확인 후 추출(xb). DOCX 17개 파트에 매크로·외부 링크·hyperlink·OLE 관계 없음, XML 텍스트만 읽음. PNG 5장은 원본을 축소 사본으로 직접 시각 판독(OCR 미사용). 아무것도 실행하지 않음."
+}

@@ -1,0 +1,62 @@
+[
+  {
+    "recipient": "고길동",
+    "characters": 111,
+    "question": "감귤·감자·망고의 품질 문의를 각 생산자에게 직접 확인하려고 합니다. 박수복님이 문귀남·최덕만·하동철님을 지목하며 연락처는 조합장님께 여쭤보라고 했습니다. 알고 계신 분의 카카오톡 채널을 알려주세요.",
+    "authorization": "coordination/contact-expansion.md 4차 정확문구 승인"
+  },
+  {
+    "recipient": "이민준",
+    "characters": 75,
+    "question": "귤 한 박스 중 몇 개만 곰팡이가 폈다고 하면, 상담 창구에서는 전량 처리와 부분 처리를 무엇으로 나누고 부분환불액은 어떻게 셈하나요?",
+    "authorization": "coordination/contact-expansion.md 4차 정확문구 승인"
+  },
+  {
+    "recipient": "구방만",
+    "characters": 91,
+    "question": "박민아님 수첩에는 6월 24일 옥돔 온도 확인을 부탁하는 문자를 기사님께 보냈다고 적혀 있습니다. 실제로 받으셨나요? 받았다면 무엇을 확인하고 누구에게 알리셨나요?",
+    "authorization": "coordination/contact-expansion.md 4차 정확문구 승인"
+  },
+  {
+    "recipient": "고길동",
+    "characters": 67,
+    "question": "고객이 수산물을 먹고 탈이 났다고 하면, 조합장님은 어떤 사실을 먼저 보고받으시고 고객에게는 어디까지 안내하게 하시나요?",
+    "authorization": "coordination/contact-expansion.md 4차 정확문구 승인"
+  },
+  {
+    "recipient": "박수복",
+    "characters": 78,
+    "question": "고객이 받은 수박을 며칠 두었다가 잘랐더니 속이 물렀다고 하면, 생산 쪽에서는 출고 때 상태와 받은 뒤 보관 문제를 어떻게 구분해 보시나요?",
+    "authorization": "coordination/contact-expansion.md 4차 정확문구 승인"
+  },
+  {
+    "recipient": "김청년",
+    "characters": 63,
+    "question": "단체 체험을 예약한 단체가 당일 인원이 줄었다고 하면, 줄어든 인원분 요금은 어떻게 처리하고 그건 누가 정하나요?",
+    "authorization": "coordination/contact-expansion.md 4차 정확문구 승인"
+  },
+  {
+    "recipient": "김청년",
+    "characters": 78,
+    "question": "어린이를 포함한 단체가 농촌 체험을 처음 예약하려고 합니다. 참여 가능한 연령과 인원, 예약 마감 시점은 어떻게 확인하고 신청을 확정하나요?",
+    "authorization": "coordination/contact-expansion.md 4차 정확문구 승인"
+  },
+  {
+    "recipient": "김청년",
+    "characters": 78,
+    "question": "체험 도중 참가자가 다치면 현장에서 어떤 순서로 조치하고 누구에게 보고하나요? 보험 접수나 보상 판단 중 김청년님이 맡는 범위도 알려주세요.",
+    "authorization": "coordination/contact-expansion.md 4차 정확문구 승인"
+  },
+  {
+    "recipient": "구방만",
+    "characters": 83,
+    "question": "결항 때문에 배송이 늦어졌는데 특보가 풀렸으니 바로 받을 수 있느냐고 묻습니다. 집하·간선 재개와 실제 배송 가능 시점은 어떤 기록으로 확인하시나요?",
+    "authorization": "coordination/contact-expansion.md 4차 정확문구 승인"
+  },
+  {
+    "recipient": "홍보라",
+    "characters": 75,
+    "question": "협찬 상품을 받은 리뷰단이 약속한 후기를 올리지 않거나 활동을 중단하면, 무엇을 확인하고 상품 반환이나 비용 정산을 어떻게 처리하나요?",
+    "authorization": "coordination/contact-expansion.md 4차 정확문구 승인"
+  }
+]

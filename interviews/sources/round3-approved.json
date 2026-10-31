@@ -1,0 +1,62 @@
+[
+  {
+    "recipient": "김청년",
+    "characters": 83,
+    "question": "체험 전날 17:00에 기상을 보고 알리시는 책임자와, 진행·취소를 확인하는 담당은 각각 누구인가요? 직접 여쭐 수 있는 카카오톡 채널도 알려주세요.",
+    "authorization": "coordination/contact-expansion.md 3차 정확문구 승인"
+  },
+  {
+    "recipient": "이민준",
+    "characters": 85,
+    "question": "고객이 단골 5% 할인이 왜 적용되지 않느냐고 하면, 조합원 가입·등록 여부를 확인해 주는 담당은 누구인가요? 그분께 문의할 카카오톡 채널을 알려주세요.",
+    "authorization": "coordination/contact-expansion.md 3차 정확문구 승인"
+  },
+  {
+    "recipient": "박수복",
+    "characters": 71,
+    "question": "고객이 받은 냉동 상품의 출고 검사와 로트 기록을 박민아님께 확인하려고 합니다. 직접 여쭐 수 있는 카카오톡 채널을 알려주세요.",
+    "authorization": "coordination/contact-expansion.md 3차 정확문구 승인"
+  },
+  {
+    "recipient": "구방만",
+    "characters": 74,
+    "question": "6월 24일 기사님 대신 운행한 박민아님께 당시 운행 내용을 직접 여쭤보려 합니다. 연락할 수 있는 카카오톡 채널을 알려주시겠습니까?",
+    "authorization": "coordination/contact-expansion.md 3차 정확문구 승인"
+  },
+  {
+    "recipient": "이민준",
+    "characters": 78,
+    "question": "고객이 예전 상담에서 앞으로 배송비를 계속 빼주겠다는 약속을 받았다고 하면, 당시 약속과 처리 이력을 어떻게 확인하고 어디까지 이행하시나요?",
+    "authorization": "coordination/contact-expansion.md 3차 정확문구 승인"
+  },
+  {
+    "recipient": "고길동",
+    "characters": 86,
+    "question": "고객이 조합원으로 가입해 단골 혜택을 받고 싶다고 하면, 가입·출자·탈퇴 조건은 누구에게 확인해야 하나요? 그분께 직접 문의할 카카오톡 채널도 알려주세요.",
+    "authorization": "coordination/contact-expansion.md 3차 정확문구 승인"
+  },
+  {
+    "recipient": "박수복",
+    "characters": 82,
+    "question": "하우스감귤 검사 기록의 측정자 문귀남님께 고객이 받은 감귤의 당도와 검사 범위를 확인하려고 합니다. 직접 여쭐 수 있는 카카오톡 채널을 알려주세요.",
+    "authorization": "coordination/contact-expansion.md 3차 정확문구 승인"
+  },
+  {
+    "recipient": "박수복",
+    "characters": 79,
+    "question": "봄감자 검사 기록의 측정자 최덕만님께 감자 속이 검다는 고객 문의와 당시 생산·검사 상황을 확인하려고 합니다. 카카오톡 연락창구를 알려주세요.",
+    "authorization": "coordination/contact-expansion.md 3차 정확문구 승인"
+  },
+  {
+    "recipient": "박수복",
+    "characters": 76,
+    "question": "애플망고 검사 기록의 측정자 하동철님께 예약 상품의 숙도와 출고 지연 사정을 확인하려고 합니다. 직접 문의할 카카오톡 채널을 알려주세요.",
+    "authorization": "coordination/contact-expansion.md 3차 정확문구 승인"
+  },
+  {
+    "recipient": "홍이장",
+    "characters": 95,
+    "question": "고객이 결항 뒤 예약한 갈치를 언제 받을 수 있느냐고 묻습니다. 갯마을의 조업 재개와 실제 입고를 확인할 분이 따로 있나요? 있다면 이름과 카카오톡 연락창구를 알려주세요.",
+    "authorization": "coordination/contact-expansion.md 3차 정확문구 승인"
+  }
+]

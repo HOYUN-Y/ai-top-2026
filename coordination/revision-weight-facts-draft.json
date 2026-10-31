@@ -1,0 +1,93 @@
+{
+  "status": "독립 검수 통합 가능 판정 후 런타임 11건 반영 완료.",
+  "facts": [
+    {
+      "id": "revision-time-basis",
+      "category": "policy",
+      "fact": "개정 규정의 적용 판은 상담 날짜가 아니라 개정별 적용 기준 시점으로 정한다. 원칙은 구매 시점이며 고객에게 유리하고 부칙 범위에 해당할 때 개정판을 적용한다.",
+      "source": "research/revisions/revision-history-text.txt 제2~4조; 판매·환불 규정 제18조",
+      "conditions": "가격 보상은 주문 시점, 하자 접수기한은 신고 시점이라는 서로 다른 기준을 혼동하지 않는다.",
+      "uncertainty": "구판 중량 제6조는 미확인. 제20조의 신고 시점 부칙을 제6조에 확대하지 않는다."
+    },
+    {
+      "id": "revision-defect-seven-days",
+      "category": "policy",
+      "fact": "2037-06-28 이후 하자 신고는 수령일부터 7일 기준을 적용한다. 시행 전 수령도 포함하고 상온·냉장·냉동 모든 품목에 같은 기간이다. 7일이 지나도 접수를 거절하지 않고 확인 절차로 처리한다.",
+      "source": "research/revisions/revision-history-text.txt 제6~8조; 판매·환불 규정 제20조·부칙",
+      "conditions": "7일은 즉시처리 내부 기준이며 청구권 소멸기한이 아니다. 사진 없다는 이유만으로 거절하지 않는다. 폐기는 판매규정 제5조의 보관·촬영 우선 예외도 함께 적용한다.",
+      "uncertainty": "개별 수령일·접수일과 귀책은 실제 기록 대조가 필요하다."
+    },
+    {
+      "id": "revision-price-cut-current",
+      "category": "policy",
+      "fact": "2037-06-15 이후 결제 주문은 구매 후 7일 이내 동일 SKU 정상가 인하에 한해 실결제액과 인하 후 정상가의 양수 차액을 보상 쿠폰으로 보상한다. 동일 주문·동일 SKU 1회이고 차액 이상의 최소 쿠폰 금액을 적용하며 초과분은 정산하지 않는다.",
+      "source": "research/revisions/revision-history-text.txt 제9~10조; research/promo-master-notes.md §6",
+      "conditions": "일반 재량 한도를 지킨다. 한정 기간·수량 프로모션가 인하는 제외하되 정상가 인하가 동시에 있으면 정상가 인하분까지 배제하지 않는다.",
+      "uncertainty": "정상가 인하 이력과 실제 주문·기보상 여부는 조회 전이다."
+    },
+    {
+      "id": "revision-price-cut-ledgers",
+      "category": "policy",
+      "fact": "가격 인하 보상 대상 여부는 가격 정책 시트의 동일 SKU 정상가 인하 이력과 프로모션 마스터를 대조한다. 정상가 인하 행이 없고 한정 프로모션만 있으면 대상 밖이며 두 원장 모두 없으면 인하 사실 자체가 미확인이다.",
+      "source": "research/revisions/revision-history-text.txt 제9조④~⑥",
+      "conditions": "시즌 요인 같은 인하 사유나 인상으로 대상 여부를 정하지 않는다. 조회 없이 거절하지 않고 확인 사실·사유를 안내한다.",
+      "uncertainty": "가격 정책 시트 원문은 미확보다. 조회하지 않은 상태를 발행·인하 기록 없음으로 표현하지 않는다."
+    },
+    {
+      "id": "revision-price-cut-legacy",
+      "category": "policy",
+      "fact": "2037-06-15 전에 결제한 주문은 가격 인하 차액 보상 구판을 적용한다. 구판은 기간·대상 제한이 따로 없고 상담 재량 안에 현금 차액 부분환불도 포함됐으나 과거 처리 사례가 동일 처리의 자동 보장은 아니다.",
+      "source": "research/revisions/revision-history-text.txt 제9~10조",
+      "conditions": "시행일 이후 주문에 구판 재량을 되살리지 않는다. 실제 결제시점과 권한 한도를 확인한다.",
+      "uncertainty": "구판을 적용할 개별 주문 이력과 금액은 조회 전이다."
+    },
+    {
+      "id": "revision-old-print-memory",
+      "category": "policy",
+      "fact": "구판 3일 인쇄물과 종이 규정, 과거 상담 사례가 남아 있어도 해당 시점에 적용되는 판·부칙으로 판단한다. 과거 경험을 인정하고 수치는 상담 기록과 대조하며 개정일과 현재 기준을 설명한다.",
+      "source": "research/revisions/revision-history-text.txt 제11~12조",
+      "conditions": "고객이나 과거 발화자를 탓하지 않는다. 과거 무조건 선약속은 위임표 제8조의 기록 확인·이행 가능 판단을 별도로 따른다.",
+      "uncertainty": "고객별 원장과 실제 약속 이력은 조회 전이다."
+    },
+    {
+      "id": "sea-weight-intake-basis",
+      "category": "policy",
+      "fact": "수산물 중량 미달 주장은 증빙이 부족해도 접수한다. 표기 중량을 확인하고 출고 중량 기록을 대조해 판정한다. 출고 기록이 없거나 확인되지 않으면 표기 중량을 기준으로 판단하며 고객에게 원인 규명 부담을 지우지 않는다.",
+      "source": "research/seafood-weight/extracted/B13-01.png, B13-02.png, B13-03.png 제3~5조·제9조",
+      "conditions": "표기 중량은 원물만이며 얼음·빙장수·드립·글레이징·보냉재·포장재를 제외한다. 수령 중량이나 고객 사진 하나만으로 판정하지 않는다.",
+      "uncertainty": "특정 주문의 출고 중량과 적용 규정 판은 조회 전이다."
+    },
+    {
+      "id": "sea-weight-natural-loss",
+      "category": "policy",
+      "fact": "수산물 자연감량은 표기 중량의 3%까지이며 출고부터 수령까지 통상 배송 중 발생한 감량만 해당한다. 수령 후 보관·해동 감량은 제외한다. 현재 냉동 갈치·옥돔과 빙장 포장을 포함해 단일 값을 적용한다.",
+      "source": "research/seafood-weight/extracted/B13-01.png, B13-02.png, B13-03.png 제2·6조",
+      "conditions": "기한 경과나 온도 이탈에 따른 품질 하자는 중량 자연감량과 별개로 검토한다.",
+      "uncertainty": "택배사 계약서의 통상 배송기간 원문은 미확보."
+    },
+    {
+      "id": "sea-weight-threshold-choice",
+      "category": "policy",
+      "fact": "수산물 세칙은 표기오차와 자연감량을 합친 미달 8% 이내를 정상 범위로 적고 있다. 8%를 넘으면 초과분만이 아니라 표기 중량에 대한 부족분 전체의 부분환불 또는 재배송 중 고객이 선택한다.",
+      "source": "research/seafood-weight/extracted/B13-01.png, B13-02.png, B13-03.png 제7~8·11조; 판매·환불 규정 제6·18·19조와 부칙",
+      "conditions": "정상 범위도 계량 근거와 감량을 설명한다. 같은 사실·적용 판에서 일반규정 5% 초과 처리와 세칙 결론이 실제 충돌하면 가능한 대안을 모두 제시해 고객이 선택하게 한다. 5% 초과~8% 이내만으로 대안을 자동 배제하지도 모든 건 환불을 미리 확정하지도 않는다.",
+      "uncertainty": "일반규정 제6조는 06-28 개정 시행, 구판 수치 미확인. 제20조 신고 시점 부칙을 확대하거나 현행 5%/8%를 이전 구매에 소급 확정하지 않는다. 세칙 제7조③ 실결제액 문구는 중량 비율과 차원이 달라 구체 환불 산식을 새로 만들지 않는다."
+    },
+    {
+      "id": "sea-weight-reverification",
+      "category": "policy",
+      "fact": "출고 기록과 고객 계량치가 대조 후에도 어긋나면 원물·저울 표시값·주문번호가 한 화면에 보이는 1장을 정중히 요청한다. 얼음·빙장수를 버리고 물기를 뺀 원물만 올리고 포장·보냉재를 제거한다.",
+      "source": "research/seafood-weight/extracted/B13-01.png, B13-02.png, B13-03.png 제9~10조; 증빙 권위 서열 조항 제8·14조",
+      "conditions": "재촬영은 실제 대조 불일치가 근거이며 조작 의심을 근거로 요구하지 않는다. 이미 조리·폐기해 불가능하면 출고 기록만으로 판정하고 촬영 불가 자체를 거절 사유로 쓰지 않는다.",
+      "uncertainty": "개별 불일치와 실제 출고 기록은 확인해야 한다."
+    },
+    {
+      "id": "sea-weight-prohibitions",
+      "category": "policy",
+      "fact": "수산물 중량 문제를 자연감량이라는 이유로 접수 없이 거절하거나 근거 없이 조작·연출을 단정하지 않는다. 출고 기록 확인 없이 사진만으로 환불을 확정하지 않고 계량값을 지어내지 않는다.",
+      "source": "research/seafood-weight/extracted/B13-01.png, B13-02.png, B13-03.png 제12조",
+      "conditions": "실제 조회·처리 전 완료라고 말하지 않는다. 고객 구제와 조합 간 내부 정산을 분리한다.",
+      "uncertainty": null
+    }
+  ]
+}

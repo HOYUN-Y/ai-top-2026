@@ -1,0 +1,24 @@
+{
+  "before": 221,
+  "after": 238,
+  "added": [
+    "business-info-disclosure",
+    "business-info-official-channels",
+    "courier-delivery-stages",
+    "courier-tracking-lag",
+    "courier-transit-time",
+    "courier-bulk-split-dispatch",
+    "courier-combined-shipping",
+    "courier-split-delivery",
+    "courier-location-memo",
+    "courier-reship-fee",
+    "courier-damage-customer-first",
+    "courier-lost-after-delivered",
+    "courier-assigned-drivers",
+    "coldchain-log-rules",
+    "coldchain-log-lookup",
+    "coldchain-0624-okd-excursion",
+    "coldchain-0624-record-mismatch"
+  ],
+  "review": "coordination/r7-sources-review.md"
+}

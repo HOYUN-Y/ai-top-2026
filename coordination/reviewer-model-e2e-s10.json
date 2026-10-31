@@ -1,0 +1,352 @@
+{
+  "run_at": "2026-10-31T14:32:59.521542+09:00",
+  "model": "google/gemini-2.5-flash",
+  "code_manifest": {
+    "bot.py": {
+      "mtime": "2026-10-31T14:25:33.881510+09:00",
+      "sha256": "e0dce620ce45ed9cb31149bd10c1294f59b5c4257e656ef4c4047e974e43f22a"
+    },
+    "test_bot.py": {
+      "mtime": "2026-10-31T14:25:33.882101+09:00",
+      "sha256": "0491897ee31c02f897a495cdebba07e0ae5b9da492080d26708365f43728816a"
+    },
+    "media.py": {
+      "mtime": "2026-10-31T13:56:24.056831+09:00",
+      "sha256": "b4af7ac17f1889e73dd5a1f786d168bb6a9ab2ab85527c4c79ba199bae370af0"
+    },
+    "test_media.py": {
+      "mtime": "2026-10-31T13:56:24.082022+09:00",
+      "sha256": "56bedc586058160de1e0a1acfa52c3e5513949531d5c1fde8271f15761bbd862"
+    },
+    "README.md": {
+      "mtime": "2026-10-31T14:26:21.758776+09:00",
+      "sha256": "253c05a20afaf9672616cabcd892ded5ca0a2e88f782f99f1a99d248f416d394"
+    },
+    "docs/action-api/openapi.json": {
+      "mtime": "2026-10-31T13:20:11.238882+09:00",
+      "sha256": "20082b8f76e41f5d6f8e2a66be927f80e12540883e36198587ff93f64278911e"
+    },
+    "interviews/knowledge.json": {
+      "mtime": "2026-10-31T14:29:18.333098+09:00",
+      "sha256": "f536347b9f0f9d06a6a3e238058de900daade7033eb4a7233d7c5b37e7797dc5"
+    },
+    "knowledge/interview-progress.json": {
+      "mtime": "2026-10-31T11:19:33.145534+09:00",
+      "sha256": "734af7702f0b9e016372f1210e25889951b5057233581df9c99a17d4bae5243d"
+    },
+    "coordination/action-readonly-check.json": {
+      "mtime": "2026-10-31T14:07:25.887146+09:00",
+      "sha256": "32c8f6bd6dbf9db635a9c9b9efc698b727428b1dc97d4bbbfc75aef5ccb7c9f0"
+    },
+    "coordination/reviewer-model-check-s9.json": {
+      "mtime": "2026-10-31T14:23:09.401410+09:00",
+      "sha256": "ad32cddbfe736333d4d323eae3c0fa96fc68707ab5c20f9606ca52ee6e242417"
+    },
+    "coordination/reviewer-model-fixture-s9.json": {
+      "mtime": "2026-10-31T14:24:28.216550+09:00",
+      "sha256": "ec76cd3aa1e006a50b0fd1df03870da0cb58e1f09776bd394fe6aa431b5ddbfb"
+    },
+    "captured": "2026-10-31T14:29:31.143435+09:00"
+  },
+  "scope": "Only actual OpenRouter/Gemini; action and callback are mocks; Selected flat B L03 E2E only; no CDN/audio fetch",
+  "selection": "B_all40_flat_current, A malformed/B valid; no C/D/E executed",
+  "cases": [
+    {
+      "id": "L03",
+      "action": "mock only",
+      "turns": [
+        {
+          "turn": 1,
+          "customer": "case metadata\n- id: L-03\n- 상담 인입 일시: 2037-06-30(화) 15:16\n- 인입창구: 조합몰 1:1 채팅\n- 인입 계정: 회원 로그인 · 서지호 · 019-****-5231\n\n주소 잘못 넣었어요. 경기 성남시로 바꿔주세요.",
+          "llm_meta": [
+            {
+              "http": 200,
+              "latency_ms": 2083,
+              "finish_reason": "stop",
+              "native_finish_reason": "STOP",
+              "usage": {
+                "prompt_tokens": 60529,
+                "completion_tokens": 19,
+                "total_tokens": 60548,
+                "cost": 0.01738243,
+                "is_byok": false,
+                "prompt_tokens_details": {
+                  "cached_tokens": 3051,
+                  "cache_write_tokens": 0,
+                  "audio_tokens": 0,
+                  "video_tokens": 0
+                },
+                "cost_details": {
+                  "upstream_inference_cost": 0.01738243,
+                  "upstream_inference_prompt_cost": 0.01733493,
+                  "upstream_inference_completions_cost": 4.75e-05
+                },
+                "completion_tokens_details": {
+                  "reasoning_tokens": 0,
+                  "image_tokens": 0,
+                  "audio_tokens": 0
+                }
+              },
+              "tool_calls": [],
+              "raw_text": "주문번호를 알려주시면 배송지 변경 가능 여부를 확인해 드리겠습니다.",
+              "provider_error_code": null,
+              "max_tokens": 512,
+              "tools_exposed": 40,
+              "repair_note_count": 0
+            }
+          ],
+          "mock_action_requests": [],
+          "reply": "주문번호를 알려주시면 배송지 변경 가능 여부를 확인해 드리겠습니다.",
+          "latency_ms": 2088,
+          "old_address_leaked": false
+        },
+        {
+          "turn": 2,
+          "customer": "100100003번 주문이에요. 이 주문 맞아요.",
+          "llm_meta": [
+            {
+              "http": 200,
+              "latency_ms": 1453,
+              "finish_reason": "tool_calls",
+              "native_finish_reason": "STOP",
+              "usage": {
+                "prompt_tokens": 60568,
+                "completion_tokens": 26,
+                "total_tokens": 60594,
+                "cost": 0.00203513,
+                "is_byok": false,
+                "prompt_tokens_details": {
+                  "cached_tokens": 60001,
+                  "cache_write_tokens": 0,
+                  "audio_tokens": 0,
+                  "video_tokens": 0
+                },
+                "cost_details": {
+                  "upstream_inference_cost": 0.00203513,
+                  "upstream_inference_prompt_cost": 0.00197013,
+                  "upstream_inference_completions_cost": 6.5e-05
+                },
+                "completion_tokens_details": {
+                  "reasoning_tokens": 0,
+                  "image_tokens": 0,
+                  "audio_tokens": 0
+                }
+              },
+              "tool_calls": [
+                {
+                  "name": "API-07",
+                  "arguments": "{\"order_no\":\"100100003\"}"
+                }
+              ],
+              "raw_text": null,
+              "provider_error_code": null,
+              "max_tokens": 512,
+              "tools_exposed": 40,
+              "repair_note_count": 0
+            },
+            {
+              "http": 200,
+              "latency_ms": 1350,
+              "finish_reason": "tool_calls",
+              "native_finish_reason": "STOP",
+              "usage": {
+                "prompt_tokens": 60861,
+                "completion_tokens": 26,
+                "total_tokens": 60887,
+                "cost": 0.00212546,
+                "is_byok": false,
+                "prompt_tokens_details": {
+                  "cached_tokens": 59992,
+                  "cache_write_tokens": 0,
+                  "audio_tokens": 0,
+                  "video_tokens": 0
+                },
+                "cost_details": {
+                  "upstream_inference_cost": 0.00212546,
+                  "upstream_inference_prompt_cost": 0.00206046,
+                  "upstream_inference_completions_cost": 6.5e-05
+                },
+                "completion_tokens_details": {
+                  "reasoning_tokens": 0,
+                  "image_tokens": 0,
+                  "audio_tokens": 0
+                }
+              },
+              "tool_calls": [
+                {
+                  "name": "API-11",
+                  "arguments": "{\"order_no\":\"100100003\"}"
+                }
+              ],
+              "raw_text": null,
+              "provider_error_code": null,
+              "max_tokens": 512,
+              "tools_exposed": 40,
+              "repair_note_count": 0
+            },
+            {
+              "http": 200,
+              "latency_ms": 1866,
+              "finish_reason": "stop",
+              "native_finish_reason": "STOP",
+              "usage": {
+                "prompt_tokens": 60909,
+                "completion_tokens": 44,
+                "total_tokens": 60953,
+                "cost": 0.0183827,
+                "is_byok": false,
+                "prompt_tokens_details": {
+                  "cached_tokens": 0,
+                  "cache_write_tokens": 0,
+                  "audio_tokens": 0,
+                  "video_tokens": 0
+                },
+                "cost_details": {
+                  "upstream_inference_cost": 0.0183827,
+                  "upstream_inference_prompt_cost": 0.0182727,
+                  "upstream_inference_completions_cost": 0.00011
+                },
+                "completion_tokens_details": {
+                  "reasoning_tokens": 0,
+                  "image_tokens": 0,
+                  "audio_tokens": 0
+                }
+              },
+              "tool_calls": [],
+              "raw_text": "주문번호 100100003번은 현재 집하 전 상태로 배송지 변경이 가능합니다. 배송지를 '경기 성남시'로 변경 요청하시겠습니까?",
+              "provider_error_code": null,
+              "max_tokens": 512,
+              "tools_exposed": 40,
+              "repair_note_count": 0
+            }
+          ],
+          "mock_action_requests": [
+            {
+              "method": "GET",
+              "path": "/api/orders/100100003",
+              "query": "",
+              "body": null,
+              "tc": "L-03"
+            },
+            {
+              "method": "GET",
+              "path": "/api/members/MB-SYN-1",
+              "query": "",
+              "body": null,
+              "tc": "L-03"
+            },
+            {
+              "method": "GET",
+              "path": "/api/shipments",
+              "query": "order_no=100100003",
+              "body": null,
+              "tc": "L-03"
+            }
+          ],
+          "reply": "주문번호 100100003번은 현재 집하 전 상태로 배송지 변경이 가능합니다. 배송지를 '경기 성남시'로 변경 요청하시겠습니까?",
+          "latency_ms": 4680,
+          "old_address_leaked": false
+        },
+        {
+          "turn": 3,
+          "customer": "경기 성남시 분당구 정자일로 95, 101동 1203호예요.",
+          "llm_meta": [
+            {
+              "http": 200,
+              "latency_ms": 1944,
+              "finish_reason": "tool_calls",
+              "native_finish_reason": "STOP",
+              "usage": {
+                "prompt_tokens": 60934,
+                "completion_tokens": 58,
+                "total_tokens": 60992,
+                "cost": 0.0184252,
+                "is_byok": false,
+                "prompt_tokens_details": {
+                  "cached_tokens": 0,
+                  "cache_write_tokens": 0,
+                  "audio_tokens": 0,
+                  "video_tokens": 0
+                },
+                "cost_details": {
+                  "upstream_inference_cost": 0.0184252,
+                  "upstream_inference_prompt_cost": 0.0182802,
+                  "upstream_inference_completions_cost": 0.000145
+                },
+                "completion_tokens_details": {
+                  "reasoning_tokens": 0,
+                  "image_tokens": 0,
+                  "audio_tokens": 0
+                }
+              },
+              "tool_calls": [
+                {
+                  "name": "API-24",
+                  "arguments": "{\"order_no\":\"100100003\",\"new_address\":\"경기 성남시 분당구 정자일로 95, 101동 1203호\"}"
+                }
+              ],
+              "raw_text": null,
+              "provider_error_code": null,
+              "max_tokens": 512,
+              "tools_exposed": 40,
+              "repair_note_count": 0
+            },
+            {
+              "http": 200,
+              "latency_ms": 1174,
+              "finish_reason": "stop",
+              "native_finish_reason": "STOP",
+              "usage": {
+                "prompt_tokens": 61116,
+                "completion_tokens": 25,
+                "total_tokens": 61141,
+                "cost": 0.00220108,
+                "is_byok": false,
+                "prompt_tokens_details": {
+                  "cached_tokens": 59986,
+                  "cache_write_tokens": 0,
+                  "audio_tokens": 0,
+                  "video_tokens": 0
+                },
+                "cost_details": {
+                  "upstream_inference_cost": 0.00220108,
+                  "upstream_inference_prompt_cost": 0.00213858,
+                  "upstream_inference_completions_cost": 6.25e-05
+                },
+                "completion_tokens_details": {
+                  "reasoning_tokens": 0,
+                  "image_tokens": 0,
+                  "audio_tokens": 0
+                }
+              },
+              "tool_calls": [],
+              "raw_text": "주문번호 100100003번의 배송지 변경 요청이 접수되었습니다.",
+              "provider_error_code": null,
+              "max_tokens": 512,
+              "tools_exposed": 40,
+              "repair_note_count": 0
+            }
+          ],
+          "mock_action_requests": [
+            {
+              "method": "POST",
+              "path": "/api/orders/100100003/address-change-requests",
+              "query": "",
+              "body": {
+                "new_address": "경기 성남시 분당구 정자일로 95, 101동 1203호"
+              },
+              "tc": "L-03"
+            }
+          ],
+          "reply": "주문번호 100100003번의 배송지 변경 요청이 접수되었습니다.",
+          "latency_ms": 3124,
+          "old_address_leaked": false
+        }
+      ]
+    }
+  ],
+  "actual_action_requests": 0,
+  "actual_callback_requests": 0,
+  "actual_cdn_requests": 0,
+  "finished_at": "2026-10-31T14:33:09.442974+09:00"
+}

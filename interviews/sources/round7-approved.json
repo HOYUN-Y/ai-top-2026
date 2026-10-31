@@ -1,0 +1,72 @@
+[
+  {
+    "recipient": "이민준",
+    "question": "고객이 판매자에 대해 알 수 있는 정보를 모두 알려 달라고 합니다. 조합몰 사업자정보에 공시된 상호·대표자명·사업자등록번호·통신판매업 신고번호·주소·대표 전화·이메일을 그대로 안내하려 하니 각 값을 알려 주시겠어요?",
+    "characters": 120,
+    "authorization": "coordination/contact-expansion.md R7 추가 승인",
+    "status": "수신 완료"
+  },
+  {
+    "recipient": "이민준",
+    "question": "고객이 주소를 잘못 적었거나 부재로 반송된 상품을 다시 보내 달라고 하면 재배송비는 누가 부담하나요? 고객에게 청구한다면 금액과 청구 결정은 누가 하나요?",
+    "characters": 86,
+    "authorization": "coordination/contact-expansion.md R7 추가 승인",
+    "status": "수신 완료"
+  },
+  {
+    "recipient": "이민준",
+    "question": "오배송은 조합 비용으로 회수하고 미개봉 변심 반품은 고객이 왕복 배송비를 낸다고 알고 있습니다. 그 밖에 하자 상품을 회수하는 경우가 있나요? 회수 여부와 비용 부담은 누가 정하나요?",
+    "characters": 102,
+    "authorization": "coordination/contact-expansion.md R7 추가 승인",
+    "status": "수신 완료"
+  },
+  {
+    "recipient": "이민준",
+    "question": "출고가 늦어진 주문이나 날짜가 급한 선물을 정기 출고일(월·수·금) 외에 급히 보내 달라고 하면, 긴급 출고는 어떤 조건에서 누가 결정하나요?",
+    "characters": 79,
+    "authorization": "coordination/contact-expansion.md R7 추가 승인",
+    "status": "수신 완료"
+  },
+  {
+    "recipient": "고길동",
+    "question": "기자가 수산물 피해 사례와 고객 명단을 달라고 연락하면 상담에서는 공개하지 않고 담당자에게 넘기려 합니다. 언론·기관 문의를 맡는 분은 누구이고, 어떤 내용으로 인계하며 어디로 연락하면 되나요?",
+    "characters": 108,
+    "authorization": "coordination/contact-expansion.md R7 추가 승인",
+    "status": "수신 완료"
+  },
+  {
+    "recipient": "박민아",
+    "question": "6월 24일 갯마을 냉동 상품이 교동으로 넘어간 운송에서 직접 맡으신 구간과 인계 시각·상품 상태는 어땠나요? 기억으로 아시는 내용과 당시 남긴 기록을 구분해 알려주세요.",
+    "characters": 95,
+    "authorization": "coordination/contact-expansion.md R7 추가 승인·박민아 추가1건",
+    "status": "수신 완료"
+  },
+  {
+    "recipient": "박민아",
+    "characters": 103,
+    "question": "냉동 옥돔이 운송 중 녹았다는 고객 문의를 확인하려 합니다. 6월 24일 TR-GM-02 기록계의 시간대별 온도와 이상이 이어진 구간을 확인할 수 있는 당시 기록을 보여주실 수 있나요?",
+    "authorization": "coordination/contact-expansion.md R7 박민아 Q2 추가 승인",
+    "status": "수신 완료"
+  },
+  {
+    "recipient": "박민아",
+    "characters": 96,
+    "question": "냉동 옥돔이 녹아 왔다는 고객 문의로 출고 때 상태를 확인하려 합니다. 갯마을 출하장에서 옥돔을 실을 때 갯마을 쪽에서는 누가 물건을 넘겨주고 적재 완료를 함께 확인하나요?",
+    "authorization": "coordination/contact-expansion.md R7 추가 승인 14:06 모델 변경 후",
+    "status": "수신 완료"
+  },
+  {
+    "recipient": "이민준",
+    "characters": 102,
+    "question": "기자가 수산물 피해 사례와 고객 명단을 요구하면 상담에서는 공개하지 않고 넘기려 합니다. 조합장님이 민준님께 함께 물으라 하셨는데, 언론·기관 문의는 누가 받고 무엇을 적어 넘기나요?",
+    "authorization": "coordination/contact-expansion.md R7 추가 승인 14:06 모델 변경 후",
+    "status": "수신 완료"
+  },
+  {
+    "recipient": "김청년",
+    "characters": 96,
+    "question": "축제 매대에서 산 상품 문제로 온라인 상담에 연락한 고객을 현장 판매처로 안내하려 합니다. 행사 목록이 조직 관계도 §7을 따르라는데, 축제 현장 판매 문의는 누가 받나요?",
+    "authorization": "coordination/contact-expansion.md R7 마지막 추가 승인 14:10",
+    "status": "수신 완료"
+  }
+]

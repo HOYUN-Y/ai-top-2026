@@ -1,0 +1,50 @@
+{
+  "provider": "이민준",
+  "question": "R5Q4",
+  "response_ui_time": "2026-10-31 13:28 KST",
+  "retrieved_at": "2026-10-31T13:32:52",
+  "owner": "knowledge",
+  "status": "원본3개·추출4개 SHA-256 재확인 일치(13:33). 전체 판독 완료: HTML 정적, PDF 7쪽 텍스트+렌더 대조, ZIP 이미지 4장 직접 판독. notes: research/privacy-notes.md, 텍스트: research/privacy/policy-html-text.txt·rules-pdf-text.txt, 후보: research/privacy/facts-candidate.json",
+  "originals": [
+    {
+      "path": "research/privacy/raw/pysSXW5mY9eWWv6tMsrihA.pdf",
+      "url": "https://t1.kakaocdn.net/aitop100/aitop100/dist/pysSXW5mY9eWWv6tMsrihA.pdf",
+      "bytes": 161407,
+      "sha256": "c445015e740d17367a4bfa5775826d2c11b734c906122de27c87c7a1069b0584"
+    },
+    {
+      "path": "research/privacy/raw/LpLUt34eYoT64SKCMlBpvg.html",
+      "url": "https://t1.kakaocdn.net/aitop100/aitop100/dist/LpLUt34eYoT64SKCMlBpvg.html",
+      "bytes": 510472,
+      "sha256": "3594c55cedaef9fafa4e343d5f635884312e3370730dea39c6b6febde59fc221"
+    },
+    {
+      "path": "research/privacy/raw/tolZHL9uNi7cnWLeZ7F6ag.zip",
+      "url": "https://t1.kakaocdn.net/aitop100/aitop100/dist/tolZHL9uNi7cnWLeZ7F6ag.zip",
+      "bytes": 20347112,
+      "sha256": "e1f0aeb5ed85d4adeefd983e3abccbb42fcccd026e1126a1decb5b1297ab74bb"
+    }
+  ],
+  "extracted": [
+    {
+      "path": "research/privacy/extracted/B18-01.png",
+      "sha256": "533bd070a7c59a7ed79c0b76ae08498c650b45797732258b48bea139d806d08e",
+      "bytes": 5087382
+    },
+    {
+      "path": "research/privacy/extracted/B18-02.png",
+      "sha256": "d830a0e5e7e7f15912e66f6f63589040ad74cc7755160301fa20b07ee9da1912",
+      "bytes": 5188040
+    },
+    {
+      "path": "research/privacy/extracted/B18-03.png",
+      "sha256": "6a8de70e87f35e14855efee01c0d3cb4f8cb1dea125dc58756466ce4911f3558",
+      "bytes": 5325002
+    },
+    {
+      "path": "research/privacy/extracted/B18-04.png",
+      "sha256": "63aa652bf03af45f7faefb6e790dc139f663b5cce3d6aac54dd46e2be0a2524a",
+      "bytes": 4740291
+    }
+  ]
+}

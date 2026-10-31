@@ -1,0 +1,62 @@
+{
+  "status": "독립 검수 최종 적합 후 2026-10-31 13:09 KST root가 7건을 런타임 지식에 통합했다.",
+  "schema": "interviews/knowledge.json facts와 같은 필드. category는 기존 policy, 식별 id를 부여했다.",
+  "facts": [
+    {
+      "category": "policy",
+      "fact": "단체 체험 예약은 접수 → 가예약 → 최종 확정의 3단계로 나뉜다. 문의를 받은 자리에서 가능 여부를 단정해 답하지 않는다.",
+      "source": "interviews/sources/round4-transcript.json 김청년 R4Q2(round_question 2), 응답 2026-10-31 12:57",
+      "conditions": "권한: 김청년은 조건에 맞춘 가예약 접수까지 맡는다. 최종 확정은 안전·보험·시설 판단으로 담당 확인과 조합장(고길동) 승인을 거친다. 고객 안내: 가예약을 확정으로 안내하지 않는다.",
+      "uncertainty": "최종 확정의 구체 기준과 '담당'이 누구인지는 미확인.",
+      "id": "event-reservation-stages"
+    },
+    {
+      "category": "policy",
+      "fact": "단체 체험 접수 때는 책임자 성명·연락처, 총 인원, 연령대, 희망 일정을 받는다. 참가자 나이는 한 명씩 묻지 않고 연령대 구간으로 받으며, 병력·알레르기 같은 건강 정보는 접수 단계에서 받지 않는다.",
+      "source": "interviews/sources/round4-transcript.json 김청년 R4Q2, 응답 12:57",
+      "conditions": "범위: 접수 단계의 수집 항목이다. 이후 단계(가예약·확정)에서 추가로 받는 정보는 원문에 없다.",
+      "uncertainty": "인원 상·하한과 접수 경로는 미확인.",
+      "id": "event-intake-data"
+    },
+    {
+      "category": "policy",
+      "fact": "미성년 참가자가 있는 단체는 성인 1명당 미성년 10명 이하로 와야 하고 인솔 책임자가 상시 동행해야 한다. 법정대리인 동의는 인솔 단체가 취합·보관하고, 체험 운영 쪽은 취합이 끝났다는 사실만 확인한다.",
+      "source": "interviews/sources/round4-transcript.json 김청년 R4Q2, 응답 12:57",
+      "conditions": "범위: 운영 쪽은 동의서 원본을 받지 않고 취합 완료만 확인한다. 조건을 충족하더라도 최종 확정을 뜻하지 않으며, 최종 확정은 담당 확인과 조합장 승인을 거쳐 별도로 정한다.",
+      "uncertainty": "조건 미충족 시 처리(거절·조정)는 미확인.",
+      "id": "event-minor-supervision-consent"
+    },
+    {
+      "category": "policy",
+      "fact": "미성년 참가자가 있는 단체의 예약 안내에서, 단체 상해보험은 인솔 단체가 가입하고 조합(체험 운영 쪽)이 대신 가입하거나 중개하지 않는다고 했다.",
+      "source": "interviews/sources/round4-transcript.json 김청년 R4Q2, 응답 12:57",
+      "conditions": "적용 문맥은 미성년 참가자가 있는 단체다. 모든 성인 단체에도 같은 가입 의무가 있는지는 이 원문으로 확정하지 않는다. 조합 쪽 다른 보험의 가입 여부·보장 범위도 이 원문으로 말할 수 없다.",
+      "uncertainty": "조합 측 영업배상 등 다른 보험의 존재는 미확인(일반 점검 후보).",
+      "id": "event-minor-group-insurance"
+    },
+    {
+      "category": "policy",
+      "fact": "단체 체험 예약 마감 시점은 김청년이 아는 기준이 없다고 했다.",
+      "source": "interviews/sources/round4-transcript.json 김청년 R4Q2, 응답 12:57",
+      "conditions": "고객 안내: 마감 시점을 지어내지 않고 확인이 필요하다고 안내한다.",
+      "uncertainty": "마감 기준을 누가 아는지 미확인(고길동 경로는 미질문).",
+      "id": "event-reservation-cutoff-unknown"
+    },
+    {
+      "category": "policy",
+      "fact": "단체 체험 당일 인원이 줄었을 때 줄어든 인원분 요금 처리 기준은 김청년이 알지 못하며, 날씨로 일정을 옮기거나 취소하는 경우의 환불과는 별개로 본다. 요금·환불 조건을 정하는 것은 김청년의 권한 밖이다.",
+      "source": "interviews/sources/round4-transcript.json 김청년 R4Q1(round_question 1), 응답 2026-10-31 12:56",
+      "conditions": "권한: 행사 승인 관련 사안은 담당 확인과 조합장 승인을 거친다고 했고 고길동 채널을 안내했다. 고객 안내: 인원 감소분 환불 여부·금액을 임의로 정하거나 약속하지 않는다.",
+      "uncertainty": "인원 감소분 요금 기준 자체와 고길동이 그 기준을 아는지는 미확인.",
+      "id": "event-headcount-fee-boundary"
+    },
+    {
+      "category": "policy",
+      "fact": "체험 중 참가자가 다쳤을 때의 현장 조치·보고 순서는 김청년이 확실히 아는 기준이 없다고 했다. 보험 접수와 보상 판단은 김청년이 정할 수 없고, 안전·보험 판단은 담당 확인과 조합장 승인을 거친다. 김청년의 범위는 행사 문의 응대, 일정·인원 확인, 가예약 접수까지이며 사고 이후의 판단은 범위 밖이다.",
+      "source": "interviews/sources/round4-transcript.json 김청년 R4Q3(round_question 3), 응답 2026-10-31 12:58; interviews/sources/B10-05.png 제10조③(안전 필수 상신)",
+      "conditions": "권한: 안전·보험 판단은 고길동(조합장) 확인 상대이고 김청년은 고길동 채널을 재안내했다(대신 전달 약속 없음). 고객 안내: 사고 조치·보상을 김청년 선에서 약속하지 않는다. 안전 사안은 위임표 제10조③에 따라 조합장까지 필수 상신이다.",
+      "uncertainty": "사고 시 현장 조치·보고 순서 자체, '담당'이 누구인지, 조합 측 보험의 존재·범위는 미확인.",
+      "id": "event-accident-authority-boundary"
+    }
+  ]
+}

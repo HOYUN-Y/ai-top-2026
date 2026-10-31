@@ -1,0 +1,14 @@
+{
+  "source_url": "https://t1.kakaocdn.net/aitop100/aitop100/dist/l2R00nTdGBHA3FP2QVxKfg.pdf",
+  "provider": "이민준",
+  "question": "R7Q2",
+  "response_ui_time": "2026-10-31 13:51 KST",
+  "retrieved_at": "2026-10-31T13:54:08",
+  "path": "research/courier-contract/raw/l2R00nTdGBHA3FP2QVxKfg.pdf",
+  "bytes": 40569,
+  "sha256": "08a7719147be71b5031456c9565fc58f350e2152216274a04b1c4e585fe7dd6c",
+  "content_type": "application/pdf",
+  "safety": "HTTPS·크기 상한으로 받음. %PDF 서명 확인, 암호화 없음, 삽입 이미지 없음. 3쪽 텍스트 추출 후 렌더링 대조.",
+  "owner": "knowledge(R7 신규 자료 단독 수집)",
+  "status": "판독 완료. 텍스트: research/courier-contract/text.txt, 후보: research/courier-contract/facts-candidate.json, notes: research/courier-contract-notes.md"
+}

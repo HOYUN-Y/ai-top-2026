@@ -1,0 +1,14 @@
+{
+  "source_url": "https://t1.kakaocdn.net/aitop100/aitop100/dist/L9jWZnudmLmB93svQTbnEw.xlsx",
+  "provider": "김청년",
+  "question": "R6Q2",
+  "response_ui_time": "2026-10-31 13:34 KST",
+  "retrieved_at": "2026-10-31T13:40:12",
+  "path": "research/event-history/raw/L9jWZnudmLmB93svQTbnEw.xlsx",
+  "bytes": 11210,
+  "sha256": "c73daeaecc243664ad320f409e863836da60cd0b55d33eb32b890598e8427a6a",
+  "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+  "safety": "HTTPS만 허용·50MB 상한으로 받음. PK 서명 확인. ZIP 항목 12개, vbaProject·externalLink·comments·drawings 없음, 수식 0, 하이퍼링크 0, 숨김 시트·행 없음. 실행하지 않고 XML만 정적으로 읽음.",
+  "owner": "knowledge",
+  "status": "정적 판독 완료. notes: research/event-history-notes.md, 셀 원문: research/event-history/records.json"
+}

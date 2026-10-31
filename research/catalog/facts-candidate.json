@@ -1,0 +1,221 @@
+{
+  "status": "2026-10-31 13:29 KST 후보. runtime 미반영, root→review 검수 대기.",
+  "schema": "new_facts는 interviews/knowledge.json facts와 같은 필드(id, category, fact, source, conditions, uncertainty). updates는 기존 runtime id별 수정안이다.",
+  "source_document": "research/catalog/Yku9ZG2eH3PsliWC0108RA.html (sha256 e9783f5ec544dd498ebf77cf3709d63bfb871b0481e23e2b4e55b9abc22b8462), 박수복 R5Q1 첨부",
+  "raw_tables": "research/catalog/records.json",
+  "new_people_or_links": "없음. 카탈로그에 사람 이름·연락처·URL·링크가 없다. 다른 문서는 제목으로만 언급된다(notes 참조).",
+  "new_facts": [
+    {
+      "id": "catalog-internal-vs-customer-display",
+      "category": "policy",
+      "fact": "상품 카탈로그는 내부 관리용이며 고객 안내는 상품 상세페이지와 상품 라벨로 한다. 내부 원장과 고객 안내가 다르면 고객에게 표시된 내용을 기준으로 책임 범위를 확인한다.",
+      "source": "research/catalog/Yku9ZG2eH3PsliWC0108RA.html 상품 원장(품목별 SKU 카탈로그, 기준일 2037-06-30) §2",
+      "conditions": "카탈로그 값을 고객 표시보다 앞세워 고객 책임으로 돌리지 않는다. 이 원칙은 '이 카탈로그 ↔ 고객 안내' 사이에 대해 적혀 있다. 로트 원장 등 다른 내부 기록과 라벨의 차이에 그대로 넓힐지는 review 판단이다.",
+      "uncertainty": "「상품 상세페이지」 원문은 미확보."
+    },
+    {
+      "id": "catalog-sku-code-rule",
+      "category": "product",
+      "fact": "SKU 코드는 <품목코드3>-<라인코드>-<규격>[-<등급>] 형식이다. 규격은 kg 기준 숫자부(소수 유지), 등급 생략은 정상 등급, -B는 못난이/B급 라인이다. 라인코드는 STD 일반, SEL 당도선별(당도보장 표기 있음), HALF 반통·소분, CUT 컷팅, MINI 소과·미니, GRN 풋과 한정(청귤 등), GIFT 선물세트, MTO 주문 후 개별 제작, BULK 사업자 도매 전용, RSV 예약 판매다. 품목코드는 로트번호의 둘째 칸과 같아야 하며, 옛 표기 WM-STD-8은 WTM-STD-8, MD-SEL-5는 HGL-SEL-5로 읽는다.",
+      "source": "research/catalog/Yku9ZG2eH3PsliWC0108RA.html 상품 원장(품목별 SKU 카탈로그, 기준일 2037-06-30) §3·§3.2",
+      "conditions": "상품코드 공개는 조건부(물어본 범위만)다. 폐지 SKU 코드는 재사용하지 않는다. BULK는 현재 별도 행이 없고 사업자 도매는 「사업자 도매 거래 안내」 소관이다.",
+      "uncertainty": "「사업자 도매 거래 안내」는 미확보."
+    },
+    {
+      "id": "catalog-item-codes",
+      "category": "product",
+      "fact": "카탈로그의 품목코드는 수박 WTM, 하우스 감귤 HGL, 노지 감귤 NGL, 만감류(한라봉·천혜향) MDR, 애플망고 MNG, 멜론 MLN, 제철 채소(꾸러미) VEG, 감자 PTT, 고구마 SWP, 참다래 KIW, 절임배추 SLC, 갈치 GAL, 옥돔 OKD다. 하우스 감귤과 노지 감귤은 다른 품목코드다.",
+      "source": "research/catalog/Yku9ZG2eH3PsliWC0108RA.html 상품 원장(품목별 SKU 카탈로그, 기준일 2037-06-30) §3.1·§5.1",
+      "conditions": "공급 소관은 갈치·옥돔만 갯마을(위탁)이고 나머지는 교동마을(직)이다. 공급 소관 공개는 조건부다.",
+      "uncertainty": "원문은 '12종'·'12값이 전부'라고 쓰지만 코드표와 §5.1에는 13개 품목이 있다(§7.1은 농산 10품목 + 수산 2종). 어느 쪽이 맞는지 원문으로 정하지 않는다."
+    },
+    {
+      "id": "catalog-disclosure-levels",
+      "category": "policy",
+      "fact": "상품 정보 공개 구분: 공개는 품목·라인명·원산지·품종·재배 방식·규격·표기 중량·입수·등급·당도보장 표기·보관 조건·후숙 여부·판매 상태·시즌·정상가·대체 SKU·표시사항이다. 조건부(물어본 범위만)는 상품코드와 공급 소관(위탁 여부)이다. 비공개는 매입가·농가 정산가·수수료율, 생산자 실명·연락처·주소, 내부 등급 강등 사유, 타 농가 비교, 내부 운영지침이다.",
+      "source": "research/catalog/Yku9ZG2eH3PsliWC0108RA.html 상품 원장(품목별 SKU 카탈로그, 기준일 2037-06-30) §4·§7",
+      "conditions": "'전부 알려달라'는 요구가 와도 공개 범위를 넘지 않는다. 재고 수량은 카탈로그에 없고 조회(액션) 소관이다.",
+      "uncertainty": ""
+    },
+    {
+      "id": "catalog-origin-answer",
+      "category": "product",
+      "fact": "원산지는 카탈로그 값으로만 답한다. 농산 11개 품목은 '제주 교동마을', 갈치·옥돔은 '제주 근해 조업 · 제주 갯마을 출하장'이다. 교동마을 수박은 무등산수박이 아니며, 감귤도 이 마을 밖 산지를 대지 않는다.",
+      "source": "research/catalog/Yku9ZG2eH3PsliWC0108RA.html 상품 원장(품목별 SKU 카탈로그, 기준일 2037-06-30) §4 #4·§5.1",
+      "conditions": "원산지는 도 + 마을명까지만 적고 시·군 세부는 적지 않는다. 농가 지번·필지·생산자 연락처는 어떤 경우에도 말하지 않는다.",
+      "uncertainty": "현행 라벨 예시의 원산지는 '국내산 (제주)'로 카탈로그보다 짧다(research/labels-notes.md). 고객 표시 기준 원칙(catalog-internal-vs-customer-display)과의 관계는 review 판단."
+    },
+    {
+      "id": "catalog-sweetness-lines",
+      "category": "policy",
+      "fact": "당도보장 표기 라인은 수박 WTM-SEL-8(11브릭스 이상)과 하우스 감귤 HGL-SEL-5(12브릭스 이상) 두 개뿐이다. 표기 라인은 표기값이 미달 판정선이고, 표기가 없는 라인에는 당도 사유 환불을 하지 않는다. 표기 라인에 '당도는 기호 문제'라고 일괄 거절하지 않는다. 일반 라인(WTM-STD-8 등)은 브릭스 수치나 '당도선별'·'달지 않으면' 류 표현을 상단 카피·상품 정보·이벤트 배지 어디에도 쓰지 않는다.",
+      "source": "research/catalog/Yku9ZG2eH3PsliWC0108RA.html 상품 원장(품목별 SKU 카탈로그, 기준일 2037-06-30) §4.1·§6.1·§6.2; interviews/sources/round5-transcript.json 박수복 R5Q1(응답 2026-10-31 13:23)",
+      "conditions": "수박 두 라인은 정상가가 27,900원으로 같다. 그래서 '값을 더 냈으니 보장받는다'가 아니라 표기가 있었는지가 판정 축이다. 표기값은 11브릭스(출고 배제선) 이상에서만 정한다. 하우스 감귤 HGL-SEL-5는 30,000원, HGL-STD-5는 24,000원이다.",
+      "uncertainty": "기존 sweetness-judgement-line과 겹친다. updates의 수정안과 둘 중 하나만 반영해도 된다."
+    },
+    {
+      "id": "catalog-weight-display-tolerance",
+      "category": "policy",
+      "fact": "표기 중량 방식은 이상표기·정량표기·미표기 세 가지다. 이상표기('8kg 이상')는 표기값이 절대 하한이라 허용오차를 적용하지 않고, 하회는 그 자체로 표기 미달이다. 정량표기('10kg')만 ±5%가 적용된다. 미표기(개수·통 단위)는 중량 클레임 기준선이 없다. 수산물 자연감량은 표기오차와 합산해 판정한다.",
+      "source": "research/catalog/Yku9ZG2eH3PsliWC0108RA.html 상품 원장(품목별 SKU 카탈로그, 기준일 2037-06-30) §4.2",
+      "conditions": "갈치·옥돔의 표기 중량은 원물 순중량이며 얼음·빙장수·표면 빙의는 산입하지 않는다. 포장째 계량한 값과 표기 중량을 직접 비교하지 않는다(§5.2).",
+      "uncertainty": "기존 weight-judgement-lines와 겹친다. updates 참조."
+    },
+    {
+      "id": "catalog-box-count-denominator",
+      "category": "policy",
+      "fact": "박스 상품의 하자 비율은 하자 개체 수 ÷ 입수로 산정한다. 분모는 카탈로그의 입수 값이 우선이다. 중량판매(개수 비고정) SKU만 검수 또는 고객 확인으로 잡은 실물 개수를 쓴다. 실물 개수를 확인할 수 없으면 그 불이익을 고객에게 돌리지 않고 같은 규격의 통상 구성 개수로 산정한다.",
+      "source": "research/catalog/Yku9ZG2eH3PsliWC0108RA.html 상품 원장(품목별 SKU 카탈로그, 기준일 2037-06-30) §4.3",
+      "conditions": "임계·산식은 「부분환불 산식 · 박스 비율 임계표」 소관이다. 이 사실만으로 환불 금액을 정하지 않는다.",
+      "uncertainty": "「부분환불 산식 · 박스 비율 임계표」 원문의 임계값은 이 자료에 없다."
+    },
+    {
+      "id": "catalog-grades",
+      "category": "product",
+      "fact": "등급은 특·상·보통(정상 등급, 정상가), B급(못난이: 흠집·비규격이나 품질 이상 없음, 할인 판매), 규격 외(열과·기형 등으로 출하하지 않음)다. B급은 별도 SKU(-B)로 있어야 하며 현재 WTM-STD-8-B, NGL-STD-5-B, PTT-STD-5-B 세 가지다. 규격 외 개체는 판매하지 않고 예약 수량 산정에서 정상 규격 수량에 세지 않는다.",
+      "source": "research/catalog/Yku9ZG2eH3PsliWC0108RA.html 상품 원장(품목별 SKU 카탈로그, 기준일 2037-06-30) §4.4·§5.3·§8",
+      "conditions": "한 주문에 등급을 섞어 배분할 수 있고(예: 가공·급식용 B급 + 진열용 정상 등급), 이때 등급별 수량·단가를 분리 표기한다. 내부 등급 강등 사유는 비공개다.",
+      "uncertainty": "B급 할인율은 이 자료에 없다(「조합 규정집」·가격 정책 시트 소관)."
+    },
+    {
+      "id": "catalog-sale-status-2037-06-30",
+      "category": "product",
+      "fact": "기준일 2037-06-30 판매 상태: 판매중은 수박 7종(WTM-SEL-8·STD-8·STD-8-B·STD-4·HALF-2·CUT-1·MINI-1), 하우스 감귤 3종, 애플망고 MNG-STD-2·STD-3, 멜론 MLN-STD-4.5, 감자 3종, 옥돔 OKD-STD-1·GIFT-2, 제철 채소 VEG-STD-5다. 예약 접수는 WTM-RSV-12, NGL-GRN-3(청귤), MNG-RSV-2다. 일시 품절은 갈치 GAL-STD-1이다. 시즌 종료는 노지 감귤 3종(NGL-STD-10·STD-5·STD-5-B), 만감류 2종, 고구마 2종, 참다래 2종, 절임배추 2종이다.",
+      "source": "research/catalog/Yku9ZG2eH3PsliWC0108RA.html 상품 원장(품목별 SKU 카탈로그, 기준일 2037-06-30) §5.3",
+      "conditions": "판매 상태는 기준일 값이다. 시즌 종료는 품절이 아니다(재입고 안내와 대안 제시가 갈린다). 갈치 일시 품절 사유의 정본은 「갯마을 조업·입고 기록」 §4다. 재고 수량은 말하지 않는다.",
+      "uncertainty": "원문 절 제목은 'SKU 행 33건'이지만 표에는 34행이 있다. 기준일 이후 상태는 알 수 없다."
+    },
+    {
+      "id": "catalog-watermelon-melon-specs",
+      "category": "product",
+      "fact": "수박 판매 라인: 당도선별 8kg 이상 1통(WTM-SEL-8, 특, 11브릭스 이상), 일반 8kg 이상 1통(WTM-STD-8, 상·보통), 못난이 8kg 이상(WTM-STD-8-B), 노란수박 4kg 이상(WTM-STD-4, 속노랑 계열), 반통 2kg 팩(WTM-HALF-2, 정량), 컷팅 1kg 팩(WTM-CUT-1, 정량·중량판매), 애플수박 1kg 이상(WTM-MINI-1, 1.0~1.5kg), 사전예약 대형 12kg 이상(WTM-RSV-12, 12~18kg, 예약 접수)이다. 통수박 8kg 라인 규격은 8~12kg이고 품종은 스피드꿀(흑피 계열)이다. 멜론은 하우스 멜론 4.5kg 2과(MLN-STD-4.5, 머스크멜론 네트계, 과중 2.0~2.5kg)다.",
+      "source": "research/catalog/Yku9ZG2eH3PsliWC0108RA.html 상품 원장(품목별 SKU 카탈로그, 기준일 2037-06-30) §5.1·§5.3; interviews/sources/round5-transcript.json 박수복 R5Q1(응답 2026-10-31 13:23)",
+      "conditions": "수박은 노지, 시즌 6월 하순~8월(성수기 7월), 후숙 없음(수확 시 당도 확정)이다. 멜론은 하우스, 5~8월, 후숙 있음이다. 씨없는 수박(3배체)은 취급하지 않는다. 정상가가 '—'인 SKU의 값은 「가격 정책 시트」에서 오므로 지어내지 않는다.",
+      "uncertainty": "박수복은 후숙 안내 기준을 모른다고 했다. 후숙 값은 카탈로그에만 있다."
+    },
+    {
+      "id": "catalog-ripening-storage",
+      "category": "product",
+      "fact": "후숙 여부: 수박·하우스/노지 감귤·만감류는 후숙 없음(수확 시 당도 확정), 애플망고·멜론·참다래는 후숙 있음(참다래는 섭취 전 필수), 감자·고구마·절임배추·갈치·제철 채소·옥돔은 해당 없음이다. 보관: 애플망고·멜론·참다래는 상온 후숙 뒤 냉장하고, 애플망고는 후숙 전 냉장하면 숙성이 멈춘다. 감자·고구마는 냉장하지 않는다. 갈치·옥돔은 -18℃ 이하, 냉장 해동, 해동 후 재냉동 금지다.",
+      "source": "research/catalog/Yku9ZG2eH3PsliWC0108RA.html 상품 원장(품목별 SKU 카탈로그, 기준일 2037-06-30) §5.1·§5.2",
+      "conditions": "보관 조건은 「박스 동봉 안내문」·「상품 상세페이지」와 같은 문안이라고 적혀 있다(그 두 문서는 미확보). 수박은 절단 전 상온 12℃ 안팎·통풍 2~3주, 절단 후 랩 밀착 냉장 0~5℃·2~3일이다. 이 보관 기간은 라벨의 권장 섭취기한(수박 14일)과 다른 항목이므로 섞지 않는다.",
+      "uncertainty": "품목별 보관 문안 전체는 records.json 5.2 표에 원문 그대로 있다."
+    },
+    {
+      "id": "catalog-normal-traits-not-defect",
+      "category": "policy",
+      "fact": "다음은 카탈로그가 품종 특성·생리현상·정상 상태로 적은 것이다: 노란수박의 노란 과육, 하우스 감귤의 산미, 만감류의 부피과(껍질이 들뜨고 속이 뜬 것), 멜론 네트 무늬의 굵기·간격 편차, 흙 묻은 고구마, 수령 시 딱딱한 참다래, 고구마 싹(독성 없음).",
+      "source": "research/catalog/Yku9ZG2eH3PsliWC0108RA.html 상품 원장(품목별 SKU 카탈로그, 기준일 2037-06-30) §5.2",
+      "conditions": "섭취 안전 안내 대상은 따로 있다: 감자의 초록 변색·싹은 도려내고 범위가 넓으면 먹지 않으며 가열해도 없어지지 않는다. 고구마 자른 면 검은 반점에서 쓴맛이 나면 섭취를 중단한다. 애플망고는 개체별 숙도 순으로 출고돼 출고가 며칠 밀릴 수 있다.",
+      "uncertainty": "특성이라는 이유만으로 다른 하자(파손·부패 등)를 배제하지 않는다."
+    },
+    {
+      "id": "catalog-special-skus",
+      "category": "policy",
+      "fact": "청귤(NGL-GRN-3)은 풋과 별도 SKU이며 대체 SKU가 없고 성숙 감귤로 대체하지 않는다. 절임배추(SLC-MTO)는 주문 후 개별 제작이라 절임 착수 뒤 단순 변심 취소가 제한되며, 날짜 지정 주문은 그 날짜가 계약의 본질이다. 제철 채소 꾸러미(VEG-STD-5)는 정기배송(구독) 전용이고 구성은 주차별 수급에 따라 바뀐다.",
+      "source": "research/catalog/Yku9ZG2eH3PsliWC0108RA.html 상품 원장(품목별 SKU 카탈로그, 기준일 2037-06-30) §5.2·§5.3·§8",
+      "conditions": "절임배추 취소 제한 근거는 「판매 환불 규정집」 제11조③과 개별 생산 재화 사유로 적혀 있다. 꾸러미 회차 스킵·해지는 「정기배송(구독) 약관」 컷오프를 따른다(미확보).",
+      "uncertainty": "청귤 예약분 수확 시기(8~9월)와 절임배추 예약 개시(9월)는 원문 각주 문장에만 있다."
+    },
+    {
+      "id": "catalog-producer-not-designated",
+      "category": "policy",
+      "fact": "상품코드로 품목·규격은 지정할 수 있지만 생산자는 지정할 수 없다(「조합 규정집」). 카탈로그에는 생산자 항목이 없고, 로트 단위 생산자 기록은 「로트·출고 검사 기록」 소관이다. 생산자 실명·연락처·주소는 비공개다.",
+      "source": "research/catalog/Yku9ZG2eH3PsliWC0108RA.html 상품 원장(품목별 SKU 카탈로그, 기준일 2037-06-30) §4 #21·§7·§8",
+      "conditions": "고객이 특정 농가 상품을 지정해 달라고 하면 약속하지 않는다.",
+      "uncertainty": ""
+    },
+    {
+      "id": "catalog-supply-confirmation-windows",
+      "category": "contact",
+      "fact": "카탈로그상 확답 창구는 계열별로 다르다. 농산 10품목은 '공급자 대표'가 품종·규격·표기 스펙·보관·후숙의 생산 측 사실을 확답하고, 타 생산자 품목은 원출처와 확인 시점을 붙여 전달한다. 수산 2종(갈치·옥돔)은 '갯마을 대표'가 규격·냉동 관행을 확인한 범위에서만 답한다. 두 창구 모두 표기가를 정하지 않으며 가격의 정본은 「가격 정책 시트」, 승인은 조합장이다.",
+      "source": "research/catalog/Yku9ZG2eH3PsliWC0108RA.html 상품 원장(품목별 SKU 카탈로그, 기준일 2037-06-30) §7.1; interviews/sources/round5-transcript.json 박수복 R5Q1(응답 2026-10-31 13:23); research/lot-crop/records.json §2('박수복(공급자 대표 — 타 생산자 건은 물어 전달)')",
+      "conditions": "카탈로그 자체에는 이름이 없다. 로트 원장이 박수복을 공급자 대표로 적고 있고, 박수복도 농산까지가 자기 범위이고 수산은 홍이장이 안다고 했다. 다만 '갯마을 대표 = 홍이장'은 카탈로그·로트 원장 어디에도 이름으로 적혀 있지 않다.",
+      "uncertainty": "갯마을 대표의 실명 기재는 미확인. 기존 contact 사실과 겹치면 root가 하나로 합친다."
+    },
+    {
+      "id": "catalog-price-source",
+      "category": "policy",
+      "fact": "카탈로그의 정상 판매가는 정수 원 단위이며, 값의 정본은 「가격 정책 시트(하우스/노지 구조·시즌별 가격대)」다. 카탈로그에 값이 있는 SKU는 WTM-SEL-8·WTM-STD-8 27,900원, HGL-SEL-5 30,000원, HGL-STD-5 24,000원, HGL-STD-10 45,000원, NGL-STD-10 28,000원, NGL-STD-5 15,000원뿐이고 나머지는 '—'(카탈로그에 값 없음)다. 프로모션 적용가는 「프로모션 마스터」 소관이다.",
+      "source": "research/catalog/Yku9ZG2eH3PsliWC0108RA.html 상품 원장(품목별 SKU 카탈로그, 기준일 2037-06-30) §4 #16·§5.3·§7.1",
+      "conditions": "'—'인 SKU의 가격은 지어내지 않고 확인이 필요하다고 안내한다. 표기 오류(0원 등) 대조와 가격 문의 응대에 쓴다. 가격 결정·승인은 조합장이다.",
+      "uncertainty": "「가격 정책 시트」는 미확보. 노지 감귤 가격은 기준일에 시즌 종료 상태의 값이다."
+    },
+    {
+      "id": "catalog-status-history-2037",
+      "category": "history",
+      "fact": "카탈로그의 판매 상태 전환 이력: SEA-01 03-02(월) 봄감자 수확 개시·출고 정상, SEA-04 05-14(목) 하우스감귤 초물 출하 시작(소량), SEA-05 05-18(월) 봄감자 시즌 마감 임박·이후 저장분 소량 판매 전환, SEA-07 06-01(월) 애플망고 초물 출하 시작(소량), SEA-08 06-10(수) 수박 초물 출하 시작·당도 상승 구간 진입, SEA-10 06-20(토) 수박 시즌 본격 오픈·출고 물량 확대.",
+      "source": "research/catalog/Yku9ZG2eH3PsliWC0108RA.html 상품 원장(품목별 SKU 카탈로그, 기준일 2037-06-30) §9",
+      "conditions": "06-30 갈치 일시 품절은 시즌 전환이 아니라 조업·재고 사항이라 이 표에 없다. 실제 전환일의 정본은 「교동마을 농산 시즌 캘린더」 §4·6, 수산은 「갯마을 수산 성어기·냉동 공급표」 §3이다.",
+      "uncertainty": "SEA 번호가 02·03·06·09를 건너뛴다. 빠진 행이 있는지는 알 수 없다."
+    }
+  ],
+  "updates": [
+    {
+      "id": "sweetness-judgement-line",
+      "field": "source·conditions",
+      "proposed": {
+        "add_source": "research/catalog/Yku9ZG2eH3PsliWC0108RA.html 상품 원장(품목별 SKU 카탈로그, 기준일 2037-06-30) §4.1·§6",
+        "conditions_append": "카탈로그 기준: 일반 라인에는 브릭스 수치·'당도선별'·'달지 않으면' 류 표현을 어디에도 쓰지 않는다. 표기 라인에 '기호 문제'로 일괄 거절하지 않는다. 수박 선별·일반 라인은 같은 27,900원이라 가격이 아니라 표기 유무가 판정 축이다."
+      },
+      "reason": "카탈로그 원문으로 교차 확인. 새 fact catalog-sweetness-lines와 둘 중 하나만 반영."
+    },
+    {
+      "id": "sales-rule-7",
+      "field": "conditions",
+      "proposed": {
+        "conditions_append": "카탈로그 대조 결과 보장 표기 라인은 WTM-SEL-8(11)과 HGL-SEL-5(12) 두 개다."
+      },
+      "reason": "'카탈로그와 대조한다'의 대상이 확보됐다."
+    },
+    {
+      "id": "weight-judgement-lines",
+      "field": "source·conditions",
+      "proposed": {
+        "add_source": "research/catalog/Yku9ZG2eH3PsliWC0108RA.html 상품 원장(품목별 SKU 카탈로그, 기준일 2037-06-30) §4.2·§5.2",
+        "conditions_append": "미표기(개수·통 단위) 상품은 중량 클레임 기준선이 없다. 수산물 표기 중량은 원물 순중량이며 포장째 계량값과 직접 비교하지 않는다."
+      },
+      "reason": "카탈로그가 미표기 방식과 수산 순중량을 더한다."
+    },
+    {
+      "id": "label-sample-lots-crosscheck",
+      "field": "uncertainty",
+      "proposed": {
+        "uncertainty_append": "수박 KD-WTM-370624-05 라벨의 기재(특 · 8 kg 이상 · 11브릭스 이상 당도선별 · 스피드꿀)는 카탈로그상 WTM-SEL-8의 속성과만 맞는다. WTM-STD-8은 상·보통 등급이고 당도 표현을 쓰지 않는 라인이다. 그러나 카탈로그에는 로트 행이 없고 로트 원장 SKU 칸에 SEL 기재가 없어 이 로트가 WTM-SEL-8이라고 확정하지 않는다. 라벨과 원장의 기재 차이는 그대로 둔다(로트 실측 12.0/11.6브릭스는 어느 판정선으로도 미달이 아니다)."
+      },
+      "reason": "라벨·로트의 수박 당도보장 라인 미확인을 카탈로그와 대조했으나 원문 연결이 없어 미해결 보존."
+    },
+    {
+      "id": "crop-2037-06-watermelon-crack",
+      "field": "conditions",
+      "proposed": {
+        "conditions_append": "카탈로그 기준: 열과 등 규격 외 개체는 판매하지 않으며 예약 수량 산정에서 정상 규격 수량에 세지 않는다."
+      },
+      "reason": "열과 4통 출하 불가 처리의 카탈로그 근거."
+    },
+    {
+      "id": "fishing-gal-status-2037-06",
+      "field": "source",
+      "proposed": {
+        "add_source": "research/catalog/Yku9ZG2eH3PsliWC0108RA.html 상품 원장(품목별 SKU 카탈로그, 기준일 2037-06-30) §5.3 GAL-STD-1(일시 품절)·§9 아래 문단"
+      },
+      "reason": "06-30 일시 품절 상태가 카탈로그와 일치하고, 사유 정본을 조업·입고 기록 §4로 둔다."
+    },
+    {
+      "id": "fishing-okd-normal-with-stock",
+      "field": "source",
+      "proposed": {
+        "add_source": "research/catalog/Yku9ZG2eH3PsliWC0108RA.html 상품 원장(품목별 SKU 카탈로그, 기준일 2037-06-30) §5.3 OKD-STD-1·OKD-GIFT-2(판매중)"
+      },
+      "reason": "06-30 옥돔 판매중 상태와 일치."
+    },
+    {
+      "id": "revision-price-cut-ledgers",
+      "field": "conditions",
+      "proposed": {
+        "conditions_append": "카탈로그의 정상가 열은 대조용이며 값의 정본은 가격 정책 시트다. 카탈로그는 인하 이력을 갖지 않는다."
+      },
+      "reason": "카탈로그 가격을 인하 판정 근거로 오용하지 않게 한다."
+    }
+  ]
+}

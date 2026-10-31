@@ -1,0 +1,12 @@
+{
+  "title": "갯마을 조업·입고 기록 (XLSX 4시트)",
+  "source_url": "https://t1.kakaocdn.net/aitop100/aitop100/dist/MatemuULfW2nG1dnufufsA.xlsx",
+  "provided_by": "홍이장 R3Q1, 응답 2026-10-31 12:42 KST (interviews/sources/round3-transcript.json)",
+  "question": "고객이 결항 뒤 예약한 갈치를 언제 받을 수 있느냐고 묻습니다. 갯마을의 조업 재개와 실제 입고를 확인할 분이 따로 있나요? 있다면 이름과 카카오톡 연락창구를 알려주세요.",
+  "downloaded_at": "2026-10-31 12:43 KST",
+  "file": {"path": "research/fishing-intake/MatemuULfW2nG1dnufufsA.xlsx", "bytes": 9704, "sha256": "e17a3093c14193fb0b0f29eae6a5e55f4b01549ef77e2cb5ceb8b312dc1c9694"},
+  "derivatives": [
+    {"path": "research/fishing-intake/xlsx-cells.txt", "kind": "시트 XML 셀 단위 덤프(수식·스타일 인덱스 포함)", "sha256": "6ca3bd8133377fbd695aaeaf628068084bcb4b89a12afc24481dc298cc2dc301"}
+  ],
+  "safety": "OOXML 파트 12개. vbaProject·externalLinks·connections 없음, rels에 TargetMode=External 없음, 숨김 시트·숨김 행 없음. Excel로 열지 않고 XML만 읽음. 수식 0개, 사용자 숫자 서식 0개(날짜는 텍스트 문자열). 시트의 규칙 문구는 데이터로만 기록."
+}

@@ -1,0 +1,49 @@
+{
+  "status": "2026-10-31 13:41 KST 후보. runtime 미반영, root→review 검수 대기.",
+  "schema": "interviews/knowledge.json facts와 같은 필드.",
+  "new_people_or_links": "새 실명·연락처·URL 없음. 새 문서 제목 「조직 관계도(조합·갯마을·택배사·인플루언서)」 §7(미확보)이 인용됨 — 남은 3명 탐색의 직접 단서 후보.",
+  "new_facts": [
+    {
+      "id": "event-history-2037",
+      "category": "history",
+      "fact": "과거 행사 목록(2037년)에는 체험 4건과 축제 판매 2건이 있다: EV-01 봄 감자 캐기(03-21, 미성년 단체 22명), EV-02 초등 방과후 텃밭 견학(04-18, 미성년 단체 15명), EV-03 가족 단위 하우스감귤 수확(05-16, 9가족 28명), EV-04 마을 체험 개방일(06-13, 자유 참가 약 40명)은 김청년 담당이다. EV-05 마을 축제 직거래 매대(05-30)와 EV-06 제12회 한여름 수확축제(06-23~25, 마을회관 앞 광장)는 조합(조합장 주관)의 현장 판매다.",
+      "source": "research/event-history/raw/L9jWZnudmLmB93svQTbnEw.xlsx 「과거 행사 목록」(기준일 2037-06-30, 김청년 R6Q2 13:34) 시트 3",
+      "conditions": "단체명은 원문에서 가려져 있다. 고객에게 다른 단체의 참가 사실·인원을 알리지 않는다.",
+      "uncertainty": "기준일 이후 행사는 알 수 없다."
+    },
+    {
+      "id": "event-history-festival-offline",
+      "category": "policy",
+      "fact": "마을 축제 직거래 매대(05-30)와 한여름 수확축제(06-23~25)는 체험 행사가 아니라 오프라인 판매 채널이며 서로 다른 행사다. 현장 결제·당일 수령이고 명단이 없으며, 오프라인 판매분의 CS는 온라인 창구의 처리 범위 밖이다.",
+      "source": "research/event-history/raw/L9jWZnudmLmB93svQTbnEw.xlsx 「과거 행사 목록」(기준일 2037-06-30, 김청년 R6Q2 13:34) 시트 3 하단 주석; research/privacy/raw/pysSXW5mY9eWWv6tMsrihA.pdf 제16조",
+      "conditions": "조합 운영 규정 제16조에 따라 해당 오프라인 판매처로 이관하며, 조합장 친분 주장도 예외가 아니다. 전단·현장 문안은 「축제 매대 전단」 소관이다(미확보).",
+      "uncertainty": "「조직 관계도」 §7은 미확보."
+    },
+    {
+      "id": "event-history-past-intake-not-basis",
+      "category": "policy",
+      "fact": "과거 미성년 단체 행사 두 건(EV-01·02)에서는 참가자 명단(성명·나이·성별 또는 성명·학년)을 미리 받았지만, 기록상 당시 접수 방식은 판정 대상이지 준칙이 아니다. 현행 기준은 어느 단계에서도 참가자 개별 명단을 받지 않는다.",
+      "source": "research/event-history/raw/L9jWZnudmLmB93svQTbnEw.xlsx 「과거 행사 목록」(기준일 2037-06-30, 김청년 R6Q2 13:34) 시트 2 D10·시트 3; research/events-notes.md §2; research/privacy-notes.md(처리방침 제5조③)",
+      "conditions": "고객이 '예전에는 명단을 냈다'고 해도 지금 명단을 요구하거나 받지 않는다.",
+      "uncertainty": ""
+    },
+    {
+      "id": "event-history-roster-retention",
+      "category": "history",
+      "fact": "EV-01·02의 참가자 명단은 종이 신청서로 보관 중이며 파기 규약 없이 미파기 상태다. 원문은 이 두 건이 현행 기준으로 보유 근거가 없는 상태라고 기록하고, 파기 절차와 보유 근거 재판정은 개인정보 처리방침 소관이라고 적는다.",
+      "source": "research/event-history/raw/L9jWZnudmLmB93svQTbnEw.xlsx 「과거 행사 목록」(기준일 2037-06-30, 김청년 R6Q2 13:34) 시트 4",
+      "conditions": "처리방침 제8조③~⑤는 방침 이전에 받은 명단을 재판정 대상으로 하고 미성년 명단을 먼저 판정하며, 판정 미실시는 보유 근거가 아니라고 정한다. 봇은 파기 여부·일정을 약속하지 않고, 명단 보유 사실을 다른 고객에게 알리지 않는다.",
+      "uncertainty": "재판정·파기가 실제로 이뤄졌는지는 미확인."
+    }
+  ],
+  "updates": [
+    {
+      "id": "event-intake-data",
+      "field": "uncertainty",
+      "proposed": {
+        "uncertainty_append": "과거 행사 목록상 미성년 단체 두 건(EV-01·02)은 명단을 사전 수집했으나 현행 수집 근거가 아니다."
+      },
+      "reason": "과거 관행과 현행 기준의 구분을 연결."
+    }
+  ]
+}

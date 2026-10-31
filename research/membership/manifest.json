@@ -1,0 +1,23 @@
+{
+  "title": "교동마을 조합원 가입 안내 리플렛 (편집용 DOCX + 3쪽 인쇄 PDF + 웹 안내 HTML + 표지 사진)",
+  "source_url": "https://t1.kakaocdn.net/aitop100/aitop100/dist/AQ_znwGwujW6X3lemUNJxw.zip",
+  "provided_by": "고길동 R3Q1, 응답 2026-10-31 12:35 KST (interviews/sources/round3-transcript.json)",
+  "question": "고객이 조합원으로 가입해 단골 혜택을 받고 싶다고 하면, 가입·출자·탈퇴 조건은 누구에게 확인해야 하나요? 그분께 직접 문의할 카카오톡 채널도 알려주세요.",
+  "downloaded_at": "2026-10-31 12:37 KST",
+  "zip": {"path": "research/membership/AQ_znwGwujW6X3lemUNJxw.zip", "bytes": 18217817, "sha256": "9a342d571895ee6c7ff2100e0f40e4e1df5d92b22f381c7f5d20b5ea01770bcc"},
+  "entries": [
+    {"name": "D37_leaflet.docx", "bytes": 8563925, "sha256": "1af11867dd247380c39633b9095076bfa6db43c6ba7c649ac0fdd2d45ca45fa6", "path": "research/membership/extracted/D37_leaflet.docx"},
+    {"name": "D37_leaflet.pdf", "bytes": 1172534, "sha256": "94810663f432ffa92e0c349bfda7e767f4b87d409c3ae6c481788bc74da82122", "path": "research/membership/extracted/D37_leaflet.pdf", "pages": 3},
+    {"name": "D37_membership.html", "bytes": 9990, "sha256": "6d9bb77c5aa7fa047debfd14af8eb16755bffe51ebf61f8a5b370b96d350eaba", "path": "research/membership/extracted/D37_membership.html"},
+    {"name": "PH-D37-cover.jpg", "bytes": 8559609, "sha256": "0bfcf95a56c15c02586c36b852562261b41328d9695bcf655a8d0feb8cdce260", "path": "research/membership/extracted/PH-D37-cover.jpg", "pixels": "3600x2400", "note": "DOCX 내부 word/media/image1.jpg와 SHA-256 동일(따로 추출하지 않음)"}
+  ],
+  "derivatives": [
+    {"path": "research/membership/docx-text.txt", "kind": "DOCX 본문·바닥글 텍스트(표는 행 단위)", "sha256": "628ef66d549f8d9bf540ec42129718abee9baeb04af7fb067d196e0ad6d7c111"},
+    {"path": "research/membership/pdf-text.txt", "kind": "pdftotext -layout", "sha256": "29cf28e0ba3f1602d1d1621ebea4ec72f5c5169b1ddbfb4e88c59670e663a487"},
+    {"path": "research/membership/html-text.txt", "kind": "HTML 텍스트", "sha256": "3f9a90d34a7642419a5c3b4cc0a069b736dd086287997d3ea88fed49fbbc10ef"},
+    {"path": "research/membership/render/leaflet-1.png", "kind": "PDF 렌더 80dpi", "sha256": "f8b24bd7a7a34a14c76f7a92a35c44d07b18aa2c95b4ae3af637fd9df81867b3"},
+    {"path": "research/membership/render/leaflet-2.png", "kind": "PDF 렌더 80dpi", "sha256": "7f9224d400c34506393587a263182622f2ce6fb4874d661d36746b88dbf43c44"},
+    {"path": "research/membership/render/leaflet-3.png", "kind": "PDF 렌더 80dpi", "sha256": "3a01d8cdb8bfe46eb9b37c10b67d19f8050afd827881030dcb4624869b83c91a"}
+  ],
+  "safety": "ZIP 항목 4개, 주석·암호화·심볼릭 링크 없음. 파일명을 [A-Za-z0-9_-]+.(docx|pdf|html|jpg)로 검증하고 확장자별 시그니처 확인 후 추출(xb). DOCX 19개 파트에 매크로·외부 링크 없음, XML 텍스트만 읽음. HTML에 script·iframe·form·object·외부 URL·mailto·tel 링크 없음, 텍스트로만 판독. PDF JavaScript no, Form none, Encrypted no. JPG는 표지 풍경 사진(글자 없음). 아무것도 실행하지 않음."
+}
